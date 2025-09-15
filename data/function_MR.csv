@@ -1,0 +1,1181 @@
+﻿Index,Query(한글),LLM Output,Functions
+0ABOVW,월요일 자카르타 대기질을 화면에 보여줘 다음으로 자격증 준비하고 있니,"<function_IO>(timeframe=3, location=자카르타);<function_MR>()<end>","['function_IO', 'function_MR']"
+0AIWYM,저는 음악을 듣는 걸 좋아해요,<function_MR>()<end>,['function_MR']
+0AOMIK,이 책 정말 재밌어,<function_MR>()<end>,['function_MR']
+0AUZHX,유부이 살균 에릴디 실행해줘 그 후에 오늘 저녁은 샐러드로 가볍게 먹을까,<function_NN>(enable=True);<function_MR>()<end>,"['function_NN', 'function_MR']"
+0AWJDL,공기청정 소요시간이 얼마였어 그리고 내일은 조금 더 부지런하게 보내야겠어 할 일이 많아,<function_CE>();<function_MR>()<end>,"['function_CE', 'function_MR']"
+0AXBFG,다음 달에 있을 콘서트를 기대하고 있어 정말 재밌을 것 같아,<function_MR>()<end>,['function_MR']
+0BGMGY,제주도 여행 가봤어,<function_MR>()<end>,['function_MR']
+0BSLTV,새로 시작한 취미가 너무 재미있어서 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+0BTVBV,현재 판교 공기질 알려주세요 그리고 새로 시작한 운동이 뭐야,"<function_IO>(timeframe=0, location=판교);<function_MR>()<end>","['function_IO', 'function_MR']"
+0BYOOB,이번 달은 너무 바빠서 친구들 만날 시간이 없었어,<function_MR>()<end>,['function_MR']
+0CSFLE,오늘 저녁은 뭘 먹을지 고민 중이야 배는 고픈데 딱히 생각나는 게 없어,<function_MR>()<end>,['function_MR']
+0CSGIE,내일 중요한 발표가 있는데 너무 긴장 돼 잘해야 할 텐데 그리고 청정 결과 보고서 보여줘,<function_MR>();<function_CE>()<end>,"['function_MR', 'function_CE']"
+0CUUMZ,요즘 읽고 있는 책이 정말 흥미로워,<function_MR>()<end>,['function_MR']
+0CYSFB,새로운 가방을 사고 싶은데 어떤 게 좋을까 고민 중이야,<function_MR>()<end>,['function_MR']
+0DFGKQ,요즘 스트레스를 너무 많이 받아서 운동으로 풀려고 해,<function_MR>()<end>,['function_MR']
+0DRWCS,이번 주말에는 그냥 집에서 편하게 쉬고 싶어,<function_MR>()<end>,['function_MR']
+0DYSDC,이번 주말에는 그냥 집에서 푹 쉬려고 해,<function_MR>()<end>,['function_MR']
+0EKYLI,이 음악 들어봤어 그 후에 전체 공간 청정 해줘,<function_MR>();<function_EF>(action=1)<end>,"['function_MR', 'function_EF']"
+0EQLFH,좋아하는 책이 뭐야,<function_MR>()<end>,['function_MR']
+0ERBIY,오늘은 아무것도 하기 싫어서 그냥 집에 있을래,<function_MR>()<end>,['function_MR']
+0FAWUP,다음 주에 있을 모임 준비를 미리 해둬야겠어,<function_MR>()<end>,['function_MR']
+0FBNXU,새로 개봉한 영화 봐야겠어,<function_MR>()<end>,['function_MR']
+0FCFHC,일정을 잘못 짜서 오늘 하루 종일 바쁘게 움직였어,<function_MR>()<end>,['function_MR']
+0FEYIH,커피 한 잔 마시러 갈래,<function_MR>()<end>,['function_MR']
+0FQABR,새로 나온 영화 예고편 봤어 되게 재밌어 보이더라 이어서 수요일 나폴리 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=5, location=나폴리)<end>","['function_MR', 'function_IO']"
+0GEHXS,내일 중요한 미팅 있어 이어서 바람 강도 자동으로 맞춰줘,<function_MR>();<function_NK>(speed=0)<end>,"['function_MR', 'function_NK']"
+0GGEKN,오늘 하루가 너무 바빴어 이제 좀 쉬고 싶어 그 후에 제 방향으로 돌려주실래요,<function_MR>();<function_FR>()<end>,"['function_MR', 'function_FR']"
+0GGUSB,내일은 일찍 일어나서 하루를 길게 써볼 생각이야,<function_MR>()<end>,['function_MR']
+0GHJNO,이번 달은 정신없이 바빠서 친구들 만날 시간이 없었어,<function_MR>()<end>,['function_MR']
+0GKCAJ,다음 달에 있을 중요한 발표를 준비 중이야,<function_MR>()<end>,['function_MR']
+0GLNYO,오늘 할 일 많아,<function_MR>()<end>,['function_MR']
+0GQEZB,다음 달에 있을 시험 준비를 열심히 해야 할 것 같아,<function_MR>()<end>,['function_MR']
+0GXMKD,새로운 요리법 배웠어 그리고 공기질 상태 표시 켜져있어,<function_MR>();<function_SC>(get=True)<end>,"['function_MR', 'function_SC']"
+0HACJP,새로 나온 레스토랑 가봤어,<function_MR>()<end>,['function_MR']
+0HBBYT,넌 무슨 음식을 좋아해,<function_MR>()<end>,['function_MR']
+0HDQTQ,넌 어떻게 생각해,<function_MR>()<end>,['function_MR']
+0HIIWN,다음 주에 있을 약속이 취소돼서 좀 아쉽다 그 다음에 수요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=5, location=""0"")<end>","['function_MR', 'function_MO']"
+0HNNYI,요즘 들어 일찍 자고 일찍 일어나니까 기분이 상쾌해,<function_MR>()<end>,['function_MR']
+0HPWZU,새로 시작한 다이어트가 생각보다 힘드네,<function_MR>()<end>,['function_MR']
+0HTSOU,어떤 영화가 좋을까,<function_MR>()<end>,['function_MR']
+0HUTGI,주말에 계획 있어,<function_MR>()<end>,['function_MR']
+0IIONW,집에서 할 수 있는 운동 추천해 줄 수 있어,<function_MR>()<end>,['function_MR']
+0IZVJR,목요일 광진구 공기질 걱정해야 할까 그 후에 다음 달에 친구랑 여행 갈 계획 세우고 있어,"<function_IO>(timeframe=6, location=광진구);<function_MR>()<end>","['function_IO', 'function_MR']"
+0JEAEC,자기계발서 추천해줄래,<function_MR>()<end>,['function_MR']
+0JLKSG,요즘 뭐하고 있는지 말해봐,<function_MR>()<end>,['function_MR']
+0JOWSJ,오늘 저녁은 간단하게 파스타나 만들어 먹어야겠어,<function_MR>()<end>,['function_MR']
+0JUUOY,오늘 하루가 너무 길어서 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+0JWHPV,새로 산 자전거를 타고 근처 공원을 돌면 좋을 것 같아,<function_MR>()<end>,['function_MR']
+0JWPYK,이번에 여행 가서 사진 많이 찍자,<function_MR>()<end>,['function_MR']
+0JXTDC,이번 주말에 뭐 할 계획 있어 그러고 나서 엘이디 밝기를 40프로로 설정해줘,<function_MR>();<function_WN>(brightness=2)<end>,"['function_MR', 'function_WN']"
+0JXUWS,내일은 뭐 할 계획이야,<function_MR>()<end>,['function_MR']
+0KFMBG,오늘 저녁으로 뭐 먹을지 아직도 고민 중이야,<function_MR>()<end>,['function_MR']
+0KOGIY,소리 볼륨을 사로 맞춰줘 그리고 이번 주에 할 일이 많아서 큰일이야,<function_ZV>(volume=4);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+0KXCWL,오늘은 하루 종일 비가 와서 기분이 축 처지네,<function_MR>()<end>,['function_MR']
+0LCDVR,이 영화 예고편 봤어 다음으로 풍량을 터보로 바꿔줘,<function_MR>();<function_NK>(speed=4)<end>,"['function_MR', 'function_NK']"
+0LCPQT,오늘 일정은 어떻게 돼 그리고 화면 밝기를 3단계로 조정해줄래,<function_MR>();<function_WN>(brightness=3)<end>,"['function_MR', 'function_WN']"
+0LDFUB,오랜만에 부모님과 시간을 보내려고 계획 중이야 그리고 에이아이 모드에서 공간별 누적 공기질 정보 연동 꺼주세요,"<function_MR>();<function_BP>(enable=1, type=1)<end>","['function_MR', 'function_BP']"
+0LVBFV,미디음 오로 맞춰 또 아 맛있는 거 먹고 싶은걸,<function_ZV>(volume=5);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+0LYBKB,등산할 때 필요한 장비가 뭐가 있을까,<function_MR>()<end>,['function_MR']
+0MABYU,다음 달에 있을 중요한 발표 준비로 바빠,<function_MR>()<end>,['function_MR']
+0MCJLT,내일 날씨 추울까 그 다음에 내일은 조금 일찍 일어나서 할 일 좀 미리 해둬야겠어,"<function_MO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+0MKSYV,새로 산 가방이 마음에 드는데 무슨 옷이랑 잘 어울릴지 고민이야,<function_MR>()<end>,['function_MR']
+0MKYDH,하루 종일 앉아있었더니 허리가 너무 아프다 스트레칭을 좀 해야겠어,<function_MR>()<end>,['function_MR']
+0MLUAO,이 영화 추천할 만해,<function_MR>()<end>,['function_MR']
+0MRFDI,지금 뭐 하고 있어 이어서 효과음 볼륨이 현재 몇 퍼인지 알고 싶어요,<function_MR>();<function_ZV>(get=True)<end>,"['function_MR', 'function_ZV']"
+0MRTNE,금요일 해운대 날씨 비 와 이어서 오늘은 하루 종일 바쁘게 보냈는데도 아직 해야 할 일이 남아있어,"<function_MO>(timeframe=7, location=해운대);<function_MR>()<end>","['function_MO', 'function_MR']"
+0MZAUP,오늘 하루는 너무 길어서 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+0NJUFS,무슨 취미 있어,<function_MR>()<end>,['function_MR']
+0NNDIW,새로운 레시피로 요리를 해볼까 하는데 뭐가 좋을지 고민 중이야,<function_MR>()<end>,['function_MR']
+0NQAMP,요즘 드라마 뭐 재밌어,<function_MR>()<end>,['function_MR']
+0NRWAZ,오늘 하루는 너무 바빴어 이제야 좀 여유가 생겼어,<function_MR>()<end>,['function_MR']
+0NSZAC,팬 풍냥 터보 세기로 해줘 다음으로 오늘 뭔가 할 게 많아,<function_NK>(speed=4);<function_MR>()<end>,"['function_NK', 'function_MR']"
+0OQSQC,새로 산 자켓이 정말 마음에 들어 매일 입고 다니고 있어,<function_MR>()<end>,['function_MR']
+0OUBPS,좋아하는 운동 선수가 누구야,<function_MR>()<end>,['function_MR']
+0OXLOY,오늘 아침부터 정신없었어,<function_MR>()<end>,['function_MR']
+0OYVXZ,풍속 중풍으로 조정해줘 그 후에 오늘 하루 어땠어,<function_NK>(speed=2);<function_MR>()<end>,"['function_NK', 'function_MR']"
+0OZVPY,영어로 설정해 그러고 나서 새 앨범 들어봤어,<function_HS>(type=2);<function_MR>()<end>,"['function_HS', 'function_MR']"
+0PDRVS,요즘 잠이 잘 안 와,<function_MR>()<end>,['function_MR']
+0PKQWT,오늘 저녁에는 가볍게 산책을 하면서 기분을 전환해야겠어,<function_MR>()<end>,['function_MR']
+0POJLT,오늘 진짜 힘들었어 다음으로 엘이디 밝기를 이십퍼로 설정해줘,<function_MR>();<function_WN>(brightness=1)<end>,"['function_MR', 'function_WN']"
+0PQMKL,커피 마실래,<function_MR>()<end>,['function_MR']
+0PTHFO,현재 온도 표시는 화씨입니까 그리고 주말에 뭘 할지 아직 못 정했는데 그냥 영화나 볼까 생각 중이야,<function_EW>(get=True);<function_MR>()<end>,"['function_EW', 'function_MR']"
+0PVWXP,다음 주에는 꼭 가족들이랑 외식하기로 했어,<function_MR>()<end>,['function_MR']
+0QEABU,산책하러 나가자,<function_MR>()<end>,['function_MR']
+0QKUJV,오늘은 그냥 집에서 푹 쉬면서 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+0QLMYP,드럼 배우고 싶은데 어디서 시작하지 그러고 나서 기기 언어 영어로 바꿔줄래,<function_MR>();<function_HS>(type=2)<end>,"['function_MR', 'function_HS']"
+0QWCES,화요일 뉴델리 대기질을 화면에 보여줘 그리고 요즘 공부하는 게 힘들어,"<function_IO>(timeframe=4, location=뉴델리);<function_MR>()<end>","['function_IO', 'function_MR']"
+0RCAOI,이번 주말에는 그냥 쉬면서 영화나 몰아서 볼까 고민 중이야,<function_MR>()<end>,['function_MR']
+0RQJAF,친구랑 약속이 있었는데 갑자기 취소됐어,<function_MR>()<end>,['function_MR']
+0RTVFT,다음 휴가는 해외로 가고 싶어,<function_MR>()<end>,['function_MR']
+0RYLDI,오늘은 무슨 일을 해야 할지 모르겠어 그냥 쉬고 싶어 그 다음에 에이아이 모드의 공간별 공기질 데이터 연동 상태로 바꿔줘,"<function_MR>();<function_BP>(enable=0, type=1)<end>","['function_MR', 'function_BP']"
+0TJRGN,수요일 날씨 전망을 표시해줄 수 있어 그 다음에 새로운 옷을 사고 싶은데 어떤 스타일이 좋을지 고민이야,"<function_MO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+0TQURA,오늘 진짜 일 많았어,<function_MR>()<end>,['function_MR']
+0TQXYH,이번 주에는 할 일이 많아서 시간을 잘 계획해야겠어,<function_MR>()<end>,['function_MR']
+0TVOMU,내일은 일찍 일어나서 하루를 길게 써야겠어,<function_MR>()<end>,['function_MR']
+0TWZNZ,이 영화 결말 예상했어,<function_MR>()<end>,['function_MR']
+0UBAFW,다음 주말에는 오랜만에 가족들이랑 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+0ULHFK,온라인 쇼핑 많이 해,<function_MR>()<end>,['function_MR']
+0UOSCJ,최근에 본 영화 중에 뭐가 제일 좋았어,<function_MR>()<end>,['function_MR']
+0VCXKB,새로 나온 신발이 예쁘더라,<function_MR>()<end>,['function_MR']
+0VGYDM,오늘은 뭘 입을까,<function_MR>()<end>,['function_MR']
+0VOVND,이번 주말에 뭐 할 계획 있어,<function_MR>()<end>,['function_MR']
+0VPLJC,터치음을 이십퍼로 설정해줘 그 다음에 주말에 만날래,<function_ZV>(volume=1);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+0VRWDW,고정 공청 기능 켜줘 그리고 요즘 드라마 뭐 재밌어,<function_PG>();<function_MR>()<end>,"['function_PG', 'function_MR']"
+0VSVOX,다음 주말에는 친구들과 등산을 가기로 했어,<function_MR>()<end>,['function_MR']
+0VUVBW,드럼 배우고 싶은데 어디서 시작하지,<function_MR>()<end>,['function_MR']
+0VVBXO,다음 주에 있을 발표 준비를 미리 해둬야 할 것 같아,<function_MR>()<end>,['function_MR']
+0WAHMX,이번 주에는 운동을 조금 더 열심히 해야겠어 이어서 실내 공기질 테마로 화면 설정해줘,<function_MR>();<function_HG>(theme=2)<end>,"['function_MR', 'function_HG']"
+0WCNOZ,이번 달은 정말 정신없이 지나간 것 같아,<function_MR>()<end>,['function_MR']
+0WWDSD,어디 가고 싶어 그리고 엘이디 불빛을 60퍼센트로 올려죠,<function_MR>();<function_WN>(brightness=3)<end>,"['function_MR', 'function_WN']"
+0WWDVR,내일 아침에는 조금 일찍 일어나서 산책이나 할까,<function_MR>()<end>,['function_MR']
+0XDPGG,다음 주에는 중요한 발표가 있어서 준비를 철저히 해야 해,<function_MR>()<end>,['function_MR']
+0XKLHS,빵집에서 맛있는 빵 사왔어 그 후에 유뷔 살균 엘이디 기능 시작,<function_MR>();<function_NN>(enable=True)<end>,"['function_MR', 'function_NN']"
+0XRHTD,다음 주에 친구들이랑 여행 가기로 했는데 기대 돼,<function_MR>()<end>,['function_MR']
+0XUYGL,커피 한 잔 할까,<function_MR>()<end>,['function_MR']
+0XXSAF,이번에 새로 시작한 취미가 너무 재미있어,<function_MR>()<end>,['function_MR']
+0YDGGZ,이 영화 어때 그리고 유아부실으로 가서 청정해 줘,<function_MR>();<function_FF>(position=유아부실)<end>,"['function_MR', 'function_FF']"
+0YGHOM,지금 음소거 모드 해제해줘 그 후에 이 영화 명장면이지,<function_MV>(mute=False);<function_MR>()<end>,"['function_MV', 'function_MR']"
+0YTDUK,오늘 저녁은 뭘 먹어야 할지 고민이네 배는 고픈데 딱히 땡기는 게 없어,<function_MR>()<end>,['function_MR']
+0ZGDMO,일요일 여기에 공기가 나쁠까 또 오늘 하루 종일 바빴는데도 아직 해야 할 일이 많아,"<function_IO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+0ZJXHW,금요일 날씨 전망을 표시해줄 수 있어 또 요즘 너무 바빠서 운동할 시간이 없어서 몸이 찌뿌둥해,"<function_MO>(timeframe=7, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+0ZMYRO,오늘 저녁에는 친구들이랑 만나서 저녁을 먹을 예정이야,<function_MR>()<end>,['function_MR']
+0ZPOYR,영화관에서 팝콘이랑 콜라 마시면서 영화 보고 싶다 다음으로 일요일 리우데자네이루 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=9, location=리우데자네이루)<end>","['function_MR', 'function_MO']"
+0ZWEWT,새로 나온 게임이 정말 재밌어 보이는데 해볼까,<function_MR>()<end>,['function_MR']
+0ZYKHD,뭐 좀 추천해줄래,<function_MR>()<end>,['function_MR']
+1AKZSH,저는 스페인어를 배우고 있어요,<function_MR>()<end>,['function_MR']
+1ALWIP,듣기 모드 시작해 그리고 새로 시작한 취미가 너무 재미있어서 시간 가는 줄 모르겠어,<function_QT>(enable=True);<function_MR>()<end>,"['function_QT', 'function_MR']"
+1APAFN,저를 향해 봐주세요 그 후에 이번 주에는 운동을 좀 더 열심히 해야겠어 체력이 필요해,<function_FR>();<function_MR>()<end>,"['function_FR', 'function_MR']"
+1BDOGN,오늘 무슨 계획 있어,<function_MR>()<end>,['function_MR']
+1BGLMS,내일 영화 보러 갈래,<function_MR>()<end>,['function_MR']
+1BLUDM,새로 오픈한 식당 가봤어,<function_MR>()<end>,['function_MR']
+1BWLES,이번에 새로 나온 카메라가 정말 좋아 보이는데 살까 말까 고민 중이야,<function_MR>()<end>,['function_MR']
+1CBJQM,요즘 좋아하는 음식 뭐야,<function_MR>()<end>,['function_MR']
+1CEGIL,새로 나온 드라마 봤어,<function_MR>()<end>,['function_MR']
+1CKGFF,이번 주말에는 뭐 하고 놀까 새로운 카페나 가볼까,<function_MR>()<end>,['function_MR']
+1DBPGO,영화관에서 어떤 자리 앉을래,<function_MR>()<end>,['function_MR']
+1DCDRH,배가 고파서 뭐라도 먹어야겠어 그 다음에 금요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_IO']"
+1DDELB,오늘 회사에서 회의가 있었는데 생각보다 길었어,<function_MR>()<end>,['function_MR']
+1DVYRI,내일 뭐할 계획 있어 그 다음에 음량을 20퍼센트로 올려줘,<function_MR>();<function_ZV>(volume=1)<end>,"['function_MR', 'function_ZV']"
+1DXZMA,새로 시작한 프로젝트가 생각보다 어렵네 스트레스 받아,<function_MR>()<end>,['function_MR']
+1ELSVY,요즘 여행지 중에 어디가 제일 좋아,<function_MR>()<end>,['function_MR']
+1ENDUQ,이거 어디서 본 것 같아,<function_MR>()<end>,['function_MR']
+1FCKOO,새로운 요리법을 배웠어,<function_MR>()<end>,['function_MR']
+1FRYMA,다음 주에는 더 열심히 일해야겠어 할 일이 많아,<function_MR>()<end>,['function_MR']
+1FZMQC,내일 아침에는 일찍 일어나서 독서를 할까 생각 중이야,<function_MR>()<end>,['function_MR']
+1GCWZJ,온라인 강의 들어봤어,<function_MR>()<end>,['function_MR']
+1GIWYM,책 다 읽었어,<function_MR>()<end>,['function_MR']
+1GNLWJ,밝기를 2로 조정해줘 그러고 나서 이 식당 어때,<function_WN>(brightness=2);<function_MR>()<end>,"['function_WN', 'function_MR']"
+1GVRFI,가성비 좋은 제품 추천해줄래,<function_MR>()<end>,['function_MR']
+1HDGWK,이번 주에는 운동을 좀 더 열심히 해야겠어 체력 기르기가 중요해,<function_MR>()<end>,['function_MR']
+1HHGCM,요즘 운동 뭐 하고 있어,<function_MR>()<end>,['function_MR']
+1HIIGK,엘이디 눈 밝기를 이단계로 설정해줘 그러고 나서 이 영화 언제 개봉해,<function_WN>(brightness=2);<function_MR>()<end>,"['function_WN', 'function_MR']"
+1HQGWJ,저녁에 뭐 먹을지 고민 중이야 뭘 먹으면 좋을까,<function_MR>()<end>,['function_MR']
+1HSPRV,이 드라마 스토리 진짜 긴장감 넘쳐,<function_MR>()<end>,['function_MR']
+1IDJOT,시드니의 토요일 날씨 정보 표시해줄래 그 후에 오늘은 아무것도 안 하고 그냥 푹 쉬고 싶어,"<function_MO>(timeframe=8, location=시드니);<function_MR>()<end>","['function_MO', 'function_MR']"
+1IEAGU,요즘 들어 너무 바빠서 쉬는 날이 필요해,<function_MR>()<end>,['function_MR']
+1IGGMJ,새로 나온 스마트폰 사고 싶은데 지금 사도 괜찮을까,<function_MR>()<end>,['function_MR']
+1INFPY,새로 나온 노래가 되게 좋더라 계속 반복해서 듣고 있어,<function_MR>()<end>,['function_MR']
+1IODKB,저녁에 뭐 먹을지 고민 중이야 피자 아니면 파스타,<function_MR>()<end>,['function_MR']
+1IQPLY,이 영화 진짜 재밌다 그러고 나서 음량을 60퍼센트로 올려줘,<function_MR>();<function_ZV>(volume=3)<end>,"['function_MR', 'function_ZV']"
+1ISSUA,효율적으로 공부하는 방법이 뭐야,<function_MR>()<end>,['function_MR']
+1JIKQD,시간 관리 방법 공유해줄래,<function_MR>()<end>,['function_MR']
+1JOTFO,유비이 살균 에릴디 기능 상태 확인해줘 다음으로 비행기 표 예약했어,<function_NN>(get=True);<function_MR>()<end>,"['function_NN', 'function_MR']"
+1JQECQ,새로운 취미를 찾고 싶은데 뭐가 좋을지 모르겠어,<function_MR>()<end>,['function_MR']
+1JRKZN,주말에 시간이 있을까,<function_MR>()<end>,['function_MR']
+1JWCUR,테니스 치러 가볼까 이어서 내일 서울 초미세먼지 알려줘,"<function_MR>();<function_IO>(timeframe=1, location=서울)<end>","['function_MR', 'function_IO']"
+1JXOCV,친구랑 같이 가는 여행이 정말 기대 돼,<function_MR>()<end>,['function_MR']
+1JYRIA,새로 시작한 취미가 너무 재미있어서 시간이 금방 가더라,<function_MR>()<end>,['function_MR']
+1JZMTA,실외 공기질 정보 연결 설정을 꺼줄래요 그러고 나서 다음 주말에 부모님과 시간을 보낼까 생각 중이야,"<function_BP>(enable=1, type=0);<function_MR>()<end>","['function_BP', 'function_MR']"
+1KDCND,이번 주말에 근교로 드라이브 갈래 그 다음에 유뷔 엘리디 작동 정지해,<function_MR>();<function_NN>(enable=False)<end>,"['function_MR', 'function_NN']"
+1KHEDE,좋아하는 TV 프로그램이 뭐야,<function_MR>()<end>,['function_MR']
+1KUEBT,이번에 새로 공부 시작한 게 뭐야,<function_MR>()<end>,['function_MR']
+1KVXBB,저녁 먹고 나서 디저트로 뭐 먹을지 고민 중이야,<function_MR>()<end>,['function_MR']
+1LHUXC,오늘 밤 뭐 할 계획이야,<function_MR>()<end>,['function_MR']
+1LWFNQ,내일 아침에 뭐 먹지 고민되네 오랜만에 브런치를 먹을까,<function_MR>()<end>,['function_MR']
+1MJWIF,요즘 좋아하는 음악이 뭐야 새로운 노래 추천해줘,<function_MR>()<end>,['function_MR']
+1MKFMM,오늘은 가볍게 산책하면서 기분 전환을 해야겠어,<function_MR>()<end>,['function_MR']
+1MXNRH,다음 주에는 조금 더 계획적으로 살아야겠다는 생각이 들어,<function_MR>()<end>,['function_MR']
+1MYYKS,다음 주말에 부모님과 시간을 보낼까 생각 중이야,<function_MR>()<end>,['function_MR']
+1NJAGM,오랜만에 영화를 보러 가는 것도 괜찮을 것 같아,<function_MR>()<end>,['function_MR']
+1NJOFW,커피 마실래 그러고 나서 풍속 몇으로 맞춰져 있는지 확인해줘,<function_MR>();<function_NK>(get=True)<end>,"['function_MR', 'function_NK']"
+1OBGAB,내일은 친구랑 카페에서 시간을 보낼 계획이야,<function_MR>()<end>,['function_MR']
+1ODUKA,다음 주에는 꼭 친구들이랑 만나서 같이 저녁 먹기로 했어,<function_MR>()<end>,['function_MR']
+1OKJXJ,그림 그리는 게 스트레스 풀리더라,<function_MR>()<end>,['function_MR']
+1OPTBE,내일은 꼭 일찍 일어나서 할 일을 끝내야겠어,<function_MR>()<end>,['function_MR']
+1OPTPG,유비이 에리디 빛 켜주라 그 후에 아이스크림 먹으러 가자,<function_NN>(enable=True);<function_MR>()<end>,"['function_NN', 'function_MR']"
+1PGZXC,이 식당 가본 적 있어,<function_MR>()<end>,['function_MR']
+1POBXZ,이 책 정말 재밌어 다음으로 음량을 40퍼센트로 올려줘,<function_MR>();<function_ZV>(volume=2)<end>,"['function_MR', 'function_ZV']"
+1PQDUX,요즘 너무 바빠서 친구들이랑 만날 시간이 없어,<function_MR>()<end>,['function_MR']
+1PWLYX,오늘은 오랜만에 친구들과 저녁을 먹으러 갈 계획이야,<function_MR>()<end>,['function_MR']
+1QARGM,팬 풍냥 강풍 세기로 해줘 그 다음에 오늘 일정 끝났어,<function_NK>(speed=3);<function_MR>()<end>,"['function_NK', 'function_MR']"
+1QLHCO,새로 시작한 취미가 생각보다 재미있어서 시간이 금방 가더라,<function_MR>()<end>,['function_MR']
+1QNLKM,외국어 공부 중인데 추천할 만한 자료 있어,<function_MR>()<end>,['function_MR']
+1QOBDO,스캐닝 청정 시작하세요 그리고 이 식당 가볼까,<function_IH>(scan=True);<function_MR>()<end>,"['function_IH', 'function_MR']"
+1QUVXZ,새로 나온 카페에 가서 커피 한 잔 하고 싶다,<function_MR>()<end>,['function_MR']
+1RFWFR,이번 주말에는 오랜만에 친구들과 만나기로 했어,<function_MR>()<end>,['function_MR']
+1RIZCT,겨울에는 스키 타러 가는 게 좋겠어 다음으로 유브이 살균 엘이디 기능 켜져 있나요,<function_MR>();<function_NN>(get=True)<end>,"['function_MR', 'function_NN']"
+1RKUPO,새로 시작한 운동이 너무 힘들어서 포기할까 고민 중이야 다음으로 수요일 나폴리 날씨 어때,"<function_MR>();<function_MO>(timeframe=5, location=나폴리)<end>","['function_MR', 'function_MO']"
+1SEDHU,유튜버나 인플루언서 중에 꾸준히 보는 사람 있어,<function_MR>()<end>,['function_MR']
+1SNMZM,새 가방이 필요해 그 다음에 월요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_IO']"
+1SNNKR,내일은 조금 더 부지런하게 보내야겠어 할 일이 많거든,<function_MR>()<end>,['function_MR']
+1SRVTI,내일 아침에 일찍 일어나서 운동해야지,<function_MR>()<end>,['function_MR']
+1TBVIT,온라인에서 저렴하게 살 수 있는 방법 있니,<function_MR>()<end>,['function_MR']
+1TKAJG,영화 예고편 봤어 또 엘이디를 팔십프로로 바꿔줘,<function_MR>();<function_WN>(brightness=4)<end>,"['function_MR', 'function_WN']"
+1TMRAW,오늘 뭐 먹었어,<function_MR>()<end>,['function_MR']
+1TQHSN,이번 주말에 뭐 하려고,<function_MR>()<end>,['function_MR']
+1TZSKN,여름 휴가 어디로 갈까,<function_MR>()<end>,['function_MR']
+1TZZFI,요즘 무슨 공부 하고 있어,<function_MR>()<end>,['function_MR']
+1UBLOP,내일 아침에 일찍 일어나야 돼,<function_MR>()<end>,['function_MR']
+1UERHW,이번 주말에는 뭘 할까 새로운 계획을 세워봐야겠어 또 화면 기본으로 설정해줘,<function_MR>();<function_HG>(theme=0)<end>,"['function_MR', 'function_HG']"
+1UIWLO,저녁에 뭐 하고 싶어,<function_MR>()<end>,['function_MR']
+1UNYXM,고스트 모드 설정해주세요 그러고 나서 오늘 하루는 그냥 아무것도 안 하고 싶어,<function_BS>(enable=True);<function_MR>()<end>,"['function_BS', 'function_MR']"
+1VMEHJ,음소거 기능 활성화를 원해요 그리고 이번에 새로 나온 영화 본 사람 있어,<function_MV>(mute=True);<function_MR>()<end>,"['function_MV', 'function_MR']"
+1WANRN,수요일 오사카 날씨 비 와 다음으로 다음 주에는 조금 더 부지런하게 지내야겠다고 다짐 중이야,"<function_MO>(timeframe=5, location=오사카);<function_MR>()<end>","['function_MO', 'function_MR']"
+1WAVVT,오늘은 일찍 자야지 내일 할 일이 많거든 또 일요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_IO']"
+1WBYZE,어디 가는 거야,<function_MR>()<end>,['function_MR']
+1WDMZN,내일은 일찍 일어나서 하루를 길게 써보려고 해,<function_MR>()<end>,['function_MR']
+1WZVPW,오늘 저녁 뭐 먹지,<function_MR>()<end>,['function_MR']
+1XQEIT,인터넷에서 쇼핑하는 거 좋아해,<function_MR>()<end>,['function_MR']
+1XQEPE,내일은 친구랑 점심 먹으러 가기로 했어,<function_MR>()<end>,['function_MR']
+1XSHFS,자동 풍속으로 조정해줘 이어서 넌 주말에 보통 뭐 해,<function_NK>(speed=0);<function_MR>()<end>,"['function_NK', 'function_MR']"
+1YJEGT,내일 시간 있어,<function_MR>()<end>,['function_MR']
+1YLQSL,이거 어디서 샀어,<function_MR>()<end>,['function_MR']
+1YPSCC,주말에 친구랑 캠핑 갈 거야,<function_MR>()<end>,['function_MR']
+1ZMSZS,아침에 일어나기가 정말 힘들어,<function_MR>()<end>,['function_MR']
+1ZWZBA,오늘 점심은 간단하게 먹고 싶어,<function_MR>()<end>,['function_MR']
+2ACGWF,다음 달에 있을 모임을 준비하려고 하는데 뭘 준비해야 할지 고민이야,<function_MR>()<end>,['function_MR']
+2ACQAB,일요일 미세먼지 정보 보여줘 또 아침에 먹은 커피가 너무 진해서 잠이 확 깨더라,"<function_IO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+2AGHOT,오늘 저녁은 무슨 메뉴로 할지 고민 중이야,<function_MR>()<end>,['function_MR']
+2AUOVF,좋아하는 스포츠가 뭐야,<function_MR>()<end>,['function_MR']
+2BABLV,일본어로 고마워는 어떻게 말해,<function_MR>()<end>,['function_MR']
+2BDANS,이번 주에 새로운 프로젝트가 시작돼서 기대 중이야 그러고 나서 에이아이 모드의 외부 대기 상태 연동 꺼줘,"<function_MR>();<function_BP>(enable=1, type=0)<end>","['function_MR', 'function_BP']"
+2BSZAN,오늘은 하루가 정말 빨리 지나갔어 뭘 했는지 모르겠어,<function_MR>()<end>,['function_MR']
+2BZAOF,매너모드 실행해줄래 또 저녁에 산책할 때 조용한 음악을 들으면 기분이 좋아져,<function_ZX>(enable=True);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+2CADJZ,오늘 하루는 정말 길었어 이제 쉬고 싶다 그 다음에 필터 상태 알려주세요,<function_MR>();<function_UJ>()<end>,"['function_MR', 'function_UJ']"
+2CECEV,오늘 점심은 뭐 먹지 뭔가 색다른 걸 먹어보고 싶어,<function_MR>()<end>,['function_MR']
+2CIOCN,다음 주말에 여행 가려고 계획 세우고 있어,<function_MR>()<end>,['function_MR']
+2CRPRQ,이번 주말에는 뭘 할까 미리 계획을 세워야겠어,<function_MR>()<end>,['function_MR']
+2CSIMI,새로 산 옷이 너무 마음에 들어 매일 입고 다니고 있어 또 감지 감도를 낮게 설정해줘,<function_MR>();<function_QD>(type=0)<end>,"['function_MR', 'function_QD']"
+2DPPPG,내일은 조금 더 부지런하게 보내야지 할 일이 많아,<function_MR>()<end>,['function_MR']
+2DSSZI,"아, 그만하고 싶다, 이거 또 매너모드 활성화해줘",<function_MR>();<function_ZX>(enable=True)<end>,"['function_MR', 'function_ZX']"
+2DZZSI,이번 주말에 새로운 식당을 찾아가볼까 고민 중이야 그러고 나서 이동 잠시 일시 정지해줘,<function_MR>();<function_YA>(move=1)<end>,"['function_MR', 'function_YA']"
+2EOZQW,새로운 스킬을 배우고 싶어,<function_MR>()<end>,['function_MR']
+2ETPGM,소리 볼륨을 이로 맞춰줘 다음으로 이번 주말에 뭐 할거야,<function_ZV>(volume=2);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+2EUMHA,"집에서 영화 보는 게 좋아, 아니면 영화관이 좋아",<function_MR>()<end>,['function_MR']
+2EVZGD,이번에 새로 나온 게임 해봤어 정말 재미있더라,<function_MR>()<end>,['function_MR']
+2EYSLQ,내일은 친구들과 카페에서 시간을 보낼 계획이야,<function_MR>()<end>,['function_MR']
+2EZKYK,새로 나온 게임이 재미있어 보이던데 언제 한번 해봐야겠어,<function_MR>()<end>,['function_MR']
+2FCHBN,요즘 스트레스를 너무 많이 받아서 운동으로 풀고 있어,<function_MR>()<end>,['function_MR']
+2FCLXE,요즘 스트레스가 많아,<function_MR>()<end>,['function_MR']
+2FHCXF,요즘 무슨 취미 생겼어,<function_MR>()<end>,['function_MR']
+2FJCBI,오늘 점심 뭐 먹지,<function_MR>()<end>,['function_MR']
+2FNPGF,책상 정리 좀 해야겠어 너무 지저분해졌어,<function_MR>()<end>,['function_MR']
+2FTFMR,오늘은 뭘 해야 할지 모르겠어 그냥 편하게 쉬고 싶어,<function_MR>()<end>,['function_MR']
+2FTTUC,현재 프라이버시가 어떤 상태입니까 그 다음에 다음 주에 중요한 발표가 있는데 준비가 잘 될지 걱정 돼,<function_GN>(get=True);<function_MR>()<end>,"['function_GN', 'function_MR']"
+2GAWSS,친구가 보내준 선물이 정말 마음에 들어 오랜만에 웃었어,<function_MR>()<end>,['function_MR']
+2GDJJN,최근에 다이어트를 시작했어,<function_MR>()<end>,['function_MR']
+2GMHXV,테마를 상세 공기질로 변경해주실래요 이어서 새로 나온 영화가 기대 돼 이번 주말에 보러 갈까 생각 중이야,<function_HG>(theme=2);<function_MR>()<end>,"['function_HG', 'function_MR']"
+2GOAAR,책 좀 추천해줘,<function_MR>()<end>,['function_MR']
+2HBEJE,오늘은 가볍게 산책을 하면서 하루를 마무리해야겠어,<function_MR>()<end>,['function_MR']
+2HHJQR,읽고 있는 책이 정말 두꺼워,<function_MR>()<end>,['function_MR']
+2HSRXS,가장 좋아하는 아이스크림 맛이 뭐야,<function_MR>()<end>,['function_MR']
+2HUGHV,겨울엔 정말 추운 걸 싫어해,<function_MR>()<end>,['function_MR']
+2HYELS,새로 나온 앨범 어땠어,<function_MR>()<end>,['function_MR']
+2IBFUI,산소포화도 확인하고 싶어요 다음으로 다음 주말에는 부모님과 시간을 보내기로 했어,<function_GV>();<function_MR>()<end>,"['function_GV', 'function_MR']"
+2ICCSB,내 뒤를 따라와 그 다음에 이번 주말에는 가족들이랑 시간을 보내기로 했어,<function_CK>();<function_MR>()<end>,"['function_CK', 'function_MR']"
+2IOGVA,내일은 좀 더 부지런히 일해야겠어 할 일이 많거든,<function_MR>()<end>,['function_MR']
+2IPPPK,이번에 무슨 브랜드를 살까 고민 중이야 그리고 주말 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=2, location=""0"")<end>","['function_MR', 'function_IO']"
+2IYONZ,운동 다녀왔어 그리고 풍량을 약풍으로 바꿔줘,<function_MR>();<function_NK>(speed=1)<end>,"['function_MR', 'function_NK']"
+2IYQUF,주말에 만날 수 있어,<function_MR>()<end>,['function_MR']
+2JKILC,요즘 음악 추천 좀 해줘,<function_MR>()<end>,['function_MR']
+2JKWEF,새로 산 가구가 정말 마음에 들어 집이 훨씬 넓어 보이더라,<function_MR>()<end>,['function_MR']
+2JRTNW,터치음을 사십퍼로 올려줘 다음으로 넌 무슨 취미 있어,<function_ZV>(volume=2);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+2JVFTO,커피 한 잔 할래,<function_MR>()<end>,['function_MR']
+2KASSV,일요일 몬트리올 날씨 비 와 다음으로 새로 산 책이 너무 재미있어서 밤새 읽었어,"<function_MO>(timeframe=9, location=몬트리올);<function_MR>()<end>","['function_MO', 'function_MR']"
+2KCQQZ,다음 주말에는 가족들과 여행을 가기로 했어,<function_MR>()<end>,['function_MR']
+2KOJNT,이번 주에는 운동을 좀 더 열심히 해야겠어 체력이 떨어지는 것 같아,<function_MR>()<end>,['function_MR']
+2LAHPZ,오늘 저녁 뭐 먹지 그 다음에 밝기를 제로로 설정해줘,<function_MR>();<function_WN>(brightness=0)<end>,"['function_MR', 'function_WN']"
+2LWQZB,주말엔 보통 뭐해,<function_MR>()<end>,['function_MR']
+2LXTGV,요즘 재미있는 책 있어 또 스캐닝 공기청정 꺼라,<function_MR>();<function_IH>(scan=False)<end>,"['function_MR', 'function_IH']"
+2MBWRT,나무 남성으로 지정해주실래요 그 다음에 다음 달에 있을 여행을 위해 준비해야 할 것들이 많아,<function_GQ>(gender=2);<function_MR>()<end>,"['function_GQ', 'function_MR']"
+2MDBQK,집에서 푹 쉬는 게 좋아,<function_MR>()<end>,['function_MR']
+2MKJSJ,이번 주말에 콘서트 가볼까,<function_MR>()<end>,['function_MR']
+2NDGBI,최근 하는 일이 뭐야,<function_MR>()<end>,['function_MR']
+2NFIWW,요즘 들어 스트레스를 많이 받아서 여행을 가고 싶어,<function_MR>()<end>,['function_MR']
+2NZJUH,공간별 누적 대기질 정보 연동 작동 중인가요 이어서 오늘 하루는 너무 길어서 이제 좀 쉬고 싶어,<function_BP>(get=True);<function_MR>()<end>,"['function_BP', 'function_MR']"
+2OEQCX,요즘 뜨는 밴드 알아,<function_MR>()<end>,['function_MR']
+2OKTBV,이번에 새로 산 옷 어때,<function_MR>()<end>,['function_MR']
+2OTHQD,내일은 아침 일찍 일어나서 운동을 해야겠어,<function_MR>()<end>,['function_MR']
+2OWXJO,나 좀 우울한 것 같아,<function_MR>()<end>,['function_MR']
+2PHMTU,이번 주말에는 가족들과 여행을 가기로 했어,<function_MR>()<end>,['function_MR']
+2PONZQ,오늘 저녁은 무슨 메뉴로 할지 고민 중이야 다음으로 바이탈 사인 체크해주세요,<function_MR>();<function_GV>()<end>,"['function_MR', 'function_GV']"
+2PWYLI,새로운 화장품을 샀는데 정말 좋아,<function_MR>()<end>,['function_MR']
+2QGCJM,집에 돌아와서 샤워하니까 너무 상쾌해졌어,<function_MR>()<end>,['function_MR']
+2QHGML,스캐닝 기능 비활성화 해줘 또 주말엔 보통 뭐해,<function_IH>(scan=False);<function_MR>()<end>,"['function_IH', 'function_MR']"
+2QKKAU,온도를 섭씨로 변경할 수 있어 다음으로 새로 나온 책을 읽고 있는데 너무 흥미진진해서 시간 가는 줄 몰라,<function_EW>(type=0);<function_MR>()<end>,"['function_EW', 'function_MR']"
+2QQQAB,요즘은 건강에 신경을 많이 써서 운동을 더 자주 하고 있어,<function_MR>()<end>,['function_MR']
+2QVDMG,매일 운동하려고 노력 중이야,<function_MR>()<end>,['function_MR']
+2QVIEC,주말에 같이 게임할 사람 구하는데 누구 할래,<function_MR>()<end>,['function_MR']
+2QXZDI,오늘은 푹 쉬고 싶어서 집에서 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+2RGKKP,내일 중요한 회의가 있어서 준비를 좀 더 해야겠어,<function_MR>()<end>,['function_MR']
+2RKICC,내일 베이징의 공기질 예보를 보여줘 이어서 수영하러 가는 거 어때,"<function_IO>(timeframe=1, location=베이징);<function_MR>()<end>","['function_IO', 'function_MR']"
+2RLIIA,내일은 아침에 일찍 일어나서 운동하고 싶어,<function_MR>()<end>,['function_MR']
+2SFRIL,내일은 오랜만에 친구랑 점심을 먹으려고 해,<function_MR>()<end>,['function_MR']
+2SHHTD,어디로 가는 중인지 말해주실래요 그리고 이번 주말에는 집에서 푹 쉬면서 시간을 보내려고 해,<function_ID>(get=True);<function_MR>()<end>,"['function_ID', 'function_MR']"
+2SXTXZ,요즘 재미있는 책 있어,<function_MR>()<end>,['function_MR']
+2TCOWK,새로 산 이어폰이 정말 좋아서 음악 듣는 게 더 즐거워졌어,<function_MR>()<end>,['function_MR']
+2TUKWG,새로운 노트북을 살까 말까 고민 중이야 그 후에 목요일 노량진 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=6, location=노량진)<end>","['function_MR', 'function_IO']"
+2UNXLU,이 영화 어때,<function_MR>()<end>,['function_MR']
+2UUPYE,운동을 꾸준히 하려고 노력 중인데 쉽지 않네,<function_MR>()<end>,['function_MR']
+2UYLXB,이 배우 연기 진짜 잘하지,<function_MR>()<end>,['function_MR']
+2VOHVM,이번 주말에는 영화를 보러 갈 계획이 있어,<function_MR>()<end>,['function_MR']
+2VYMCF,일요일 날씨 전망을 표시해줄 수 있어 그 다음에 새로 나온 스마트폰 사고 싶은데 지금 사도 괜찮을까,"<function_MO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+2VYMWI,새로 시작한 취미가 너무 즐거워 더 자주 하고 싶어,<function_MR>()<end>,['function_MR']
+2VZMQG,공기질 아이 표시 기능 해제해줘 이어서 디저트 먹고 싶은데 뭐가 좋을까,<function_SC>(enable=False);<function_MR>()<end>,"['function_SC', 'function_MR']"
+2WCYCB,주말에는 주로 공부하니 또 수요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=5, location=""0"")<end>","['function_MR', 'function_IO']"
+2WEFHJ,이번 주말에는 오랜만에 가족들과 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+2WGKES,주말에 가족들이랑 놀러 가려고 계획 중이야,<function_MR>()<end>,['function_MR']
+2WOITV,오늘은 진짜 아무것도 하기 싫어서 그냥 누워만 있었어,<function_MR>()<end>,['function_MR']
+2WSWGS,집에 있는 간식이 다 떨어져서 마트에 가야겠어,<function_MR>()<end>,['function_MR']
+2WUUEO,내일 아침에는 일찍 일어나서 하루를 좀 길게 써야겠어,<function_MR>()<end>,['function_MR']
+2WZQRD,주말에 뭘 하면 좋을지 추천해줘,<function_MR>()<end>,['function_MR']
+2XAKDB,주말에 영화관에 가고 싶은데 요즘 재밌는 영화 뭐가 있을까,<function_MR>()<end>,['function_MR']
+2XBXPF,오늘은 하루 종일 바쁘게 보냈는데도 아직 해야 할 일이 남아있어,<function_MR>()<end>,['function_MR']
+2XCGOJ,오늘은 친구들과 함께 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+2XDSLW,오늘 진짜 바빴어,<function_MR>()<end>,['function_MR']
+2XOVVC,새로운 노래가 나왔는데 한번 들어봐야겠어,<function_MR>()<end>,['function_MR']
+2XPLER,커피 한 잔 할까 그 후에 소리 꺼줘,<function_MR>();<function_ZV>(volume=0)<end>,"['function_MR', 'function_ZV']"
+2XUKOB,책을 읽다가 잠이 들었네 다시 시작해야겠어,<function_MR>()<end>,['function_MR']
+2YCNAS,저는 사진 찍는 걸 정말 좋아해요,<function_MR>()<end>,['function_MR']
+2YEQXK,내일 아침엔 일찍 일어나서 할 일을 빨리 끝내고 싶어,<function_MR>()<end>,['function_MR']
+2YPGKR,내일은 아침 일찍 일어나서 하루를 길게 써야겠어,<function_MR>()<end>,['function_MR']
+2ZGHTQ,여행 가서 먹을 맛집 리스트 만들어놨어,<function_MR>()<end>,['function_MR']
+2ZGUER,다음 주에 친구들이랑 여행 가기로 했는데 기대 돼 그리고 화요일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=4, location=""0"")<end>","['function_MR', 'function_MO']"
+2ZMWRZ,내일은 조금 더 부지런하게 보내야겠어 할 일이 많아,<function_MR>()<end>,['function_MR']
+2ZOKOZ,목소리 설정이 어떻게 되어있나요 다음으로 내일은 운동을 꼭 해야겠어 요즘 너무 게을러졌어,<function_GQ>(get=True);<function_MR>()<end>,"['function_GQ', 'function_MR']"
+2ZUHCR,새로 산 책이 너무 재밌어서 시간 가는 줄 모르고 읽고 있어,<function_MR>()<end>,['function_MR']
+2ZUYJK,이번 주말에는 오랜만에 친구들이랑 만나서 저녁 먹기로 했어,<function_MR>()<end>,['function_MR']
+2ZXTHM,이번 주에는 운동을 좀 더 자주 해야겠어,<function_MR>()<end>,['function_MR']
+3ADBLB,주말에 가족들이랑 모임이 있는데 무슨 얘기를 할지 고민이야 이어서 일요일 프라하 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=9, location=프라하)<end>","['function_MR', 'function_IO']"
+3AEKZF,이 책 읽어볼까,<function_MR>()<end>,['function_MR']
+3BLOXF,온도를 화씨로 변경할 수 있어 그러고 나서 저녁으로 뭐 먹을까 치킨 아니면 피자,<function_EW>(type=1);<function_MR>()<end>,"['function_EW', 'function_MR']"
+3BNYAL,오늘 저녁 메뉴는 뭘로 할까 고민 중이야,<function_MR>()<end>,['function_MR']
+3CBUFK,주말에 집에서 요리해볼까,<function_MR>()<end>,['function_MR']
+3CELFO,이번 주말에는 캠핑을 가볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+3CQCCI,테니스 치러 가볼까,<function_MR>()<end>,['function_MR']
+3CRJII,소리 볼륨을 일로 맞춰줘 그 다음에 이번 주에 할 일 많아,<function_ZV>(volume=1);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+3CXMTV,영화 다 보고 나서 카페 갈까 그 다음에 음소거가 꺼져있나요,<function_MR>();<function_MV>(get=True)<end>,"['function_MR', 'function_MV']"
+3DASZB,내일은 조금 일찍 일어나서 할 일 좀 미리 해둬야겠어,<function_MR>()<end>,['function_MR']
+3DNPHV,요즘에는 뉴스 볼 때마다 걱정되는 일이 많아,<function_MR>()<end>,['function_MR']
+3DORFM,국내 여행도 좋은 데가 많아,<function_MR>()<end>,['function_MR']
+3DQRGL,풍량 설정 상태를 알고 싶어요 그러고 나서 넌 아침형 인간이야,<function_NK>(get=True);<function_MR>()<end>,"['function_NK', 'function_MR']"
+3DSXAE,내일은 아침 일찍 일어나서 운동을 할 계획이야,<function_MR>()<end>,['function_MR']
+3EHUOH,오랜만에 영화를 보려고 하는데 어떤 영화를 볼지 고민이네,<function_MR>()<end>,['function_MR']
+3EIOXW,오늘 저녁에는 친구들이랑 만나서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+3EMKLA,노원구의 수요일 날씨 정보 표시해줄래 다음으로 집에 있는 시간이 많아지니까 집안일을 자꾸 미루게 돼,"<function_MO>(timeframe=5, location=노원구);<function_MR>()<end>","['function_MO', 'function_MR']"
+3EQJNK,가장 좋아하는 계절이 뭐야,<function_MR>()<end>,['function_MR']
+3ETKWI,운동을 하고 나니까 몸이 가벼워진 느낌이 들어,<function_MR>()<end>,['function_MR']
+3EWMQS,새로운 취미나 기술을 배우는 게 중요해 그러고 나서 화요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=4, location=""0"")<end>","['function_MR', 'function_IO']"
+3FAAPG,집에 있는 간식이 다 떨어져서 마트에 가야겠어 다음으로 내일 파리 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=1, location=파리)<end>","['function_MR', 'function_MO']"
+3FYWBC,음성 인지 시스템 종료해 그러고 나서 책을 다 읽었는데 이제 무슨 책을 읽어야 할지 고민이네,<function_QT>(enable=False);<function_MR>()<end>,"['function_QT', 'function_MR']"
+3GBBQN,이 영화 명장면이지,<function_MR>()<end>,['function_MR']
+3GOEZV,이번 주말에 같이 요리할래,<function_MR>()<end>,['function_MR']
+3GTDWO,새로 산 이어폰이 너무 좋아서 음악 듣는 게 더 즐거워졌어,<function_MR>()<end>,['function_MR']
+3GXVWV,주말에는 집안 청소를 해야 할 것 같은데 어디서부터 시작할지 고민이야,<function_MR>()<end>,['function_MR']
+3GZCHO,요즘 스트레스를 많이 받아서 운동을 시작해볼까 생각 중이야 그러고 나서 에이아이 모드에서 실외 대기질 정보 연동 꺼주세요,"<function_MR>();<function_BP>(enable=1, type=0)<end>","['function_MR', 'function_BP']"
+3HAHDQ,조깅하러 나갈까,<function_MR>()<end>,['function_MR']
+3HDKTB,방 청소를 하려고 했는데 시작도 안 했어,<function_MR>()<end>,['function_MR']
+3HZLIO,이거 어떻게 사용하는 거지,<function_MR>()<end>,['function_MR']
+3IHJRD,고스트 모드 종료해주세요 그리고 주말에 뭐 할지 아직 정하지 못했어 그냥 집에 있을까 생각 중이야,<function_BS>(enable=False);<function_MR>()<end>,"['function_BS', 'function_MR']"
+3IKGDY,실외 대기질 정보 연동이 꺼져 있는 상태인지 확인해주실래요 이어서 이번 주말에는 뭘 할까 미리 계획을 세워야겠어,<function_BP>(get=True);<function_MR>()<end>,"['function_BP', 'function_MR']"
+3JDAEF,내일 아침에는 일찍 일어나서 운동을 할 계획이야,<function_MR>()<end>,['function_MR']
+3JYNMA,새로운 취미를 찾고 싶어 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+3JZQPN,내일은 친구랑 점심을 먹으면서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+3JZTRG,다음 주에는 조금 더 부지런하게 지내야겠다고 결심했어 이어서 금요일 해남 날씨 어때,"<function_MR>();<function_MO>(timeframe=7, location=해남)<end>","['function_MR', 'function_MO']"
+3KEOGJ,이번 달은 너무 정신없이 바빴어서 여유 시간이 거의 없었어,<function_MR>()<end>,['function_MR']
+3KLCUY,아침에 일어나서 바로 운동하는 게 참 어렵네 다음으로 내일 서울 날씨 어때,"<function_MR>();<function_MO>(timeframe=1, location=서울)<end>","['function_MR', 'function_MO']"
+3KUSZH,음성 인식이 작동되어있나요 또 이번 달은 너무 바빠서 친구들 만날 시간이 없었어,<function_QT>(get=True);<function_MR>()<end>,"['function_QT', 'function_MR']"
+3KYFCM,새로운 노트북을 살까 말까 고민 중이야,<function_MR>()<end>,['function_MR']
+3LYMKH,책상 정리해야겠어 그리고 바람 강도 약풍으로 맞춰줘,<function_MR>();<function_NK>(speed=1)<end>,"['function_MR', 'function_NK']"
+3LZVMH,강릉의 금요일 날씨 정보 표시해줄래 이어서 새로 나온 드라마가 인기가 많아서 한번 봐야겠어,"<function_MO>(timeframe=7, location=강릉);<function_MR>()<end>","['function_MO', 'function_MR']"
+3MNVIU,저녁으로 뭘 먹어야 할지 아직도 결정 못 했어,<function_MR>()<end>,['function_MR']
+3MSZZS,밝기를 100퍼로 설정해줘 이어서 주말에 시간 있어,<function_WN>(brightness=5);<function_MR>()<end>,"['function_WN', 'function_MR']"
+3NDOVI,이번에 새로 공부 시작한 게 뭐야 그리고 화요일 이스탄불 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=4, location=이스탄불)<end>","['function_MR', 'function_IO']"
+3NEMKO,내일 아침은 뭐 먹지 오랜만에 빵을 먹을까,<function_MR>()<end>,['function_MR']
+3NMATZ,디저트로 케이크 어때,<function_MR>()<end>,['function_MR']
+3NSNFL,잠이 안 와서 유튜브를 계속 보고 있어,<function_MR>()<end>,['function_MR']
+3NTVVT,다음 주에는 새로운 취미를 시작해볼까 고민 중이야 또 에이아이 모드 둘 다 꺼주세요,"<function_MR>();<function_BP>(enable=1, type=2)<end>","['function_MR', 'function_BP']"
+3NUIWL,내일 날씨 전망을 표시해줄 수 있어 그 다음에 저녁으로 뭘 먹어야 할지 아직도 결정 못 했어,"<function_MO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+3ONHGK,이번에 새로 나온 영화 본 사람 있어,<function_MR>()<end>,['function_MR']
+3OOEDG,요즘에는 뉴스 볼 때마다 걱정되는 일이 많아 이어서 매너모드 해제해줘,<function_MR>();<function_ZX>(enable=False)<end>,"['function_MR', 'function_ZX']"
+3OOYVX,커피를 너무 많이 마셔서 잠이 안 온다,<function_MR>()<end>,['function_MR']
+3OXYPC,이번 주말에는 가족들이랑 오랜만에 외식이나 할까 생각 중이야,<function_MR>()<end>,['function_MR']
+3PGGFT,친구랑 같이 새로운 요리를 해보고 싶은데 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+3PHLGT,오늘 하루 종일 아무것도 안 했는데 시간은 왜 이렇게 빨리 갔지,<function_MR>()<end>,['function_MR']
+3PKXOY,스캐닝 청정 지금 꺼져 있나요 이어서 이번 주말에 계획 있어,<function_IH>(get=True);<function_MR>()<end>,"['function_IH', 'function_MR']"
+3PNIBJ,주말에 친구들이랑 만나서 뭐 할지 아직도 결정 못 했어,<function_MR>()<end>,['function_MR']
+3PUTEF,저녁에 뭐 먹을지 아직 결정 못했어 빨리 정해야겠어,<function_MR>()<end>,['function_MR']
+3PZWNR,온도 단위를 섭씨로 바꿔줄래요 다음으로 내일 아침에 뭐 먹지 고민되네 오랜만에 브런치를 먹을까,<function_EW>(type=0);<function_MR>()<end>,"['function_EW', 'function_MR']"
+3QJKVV,이번 주말에 뭐 하려고 그 후에 바람 강도 중풍으로 맞춰줘,<function_MR>();<function_NK>(speed=2)<end>,"['function_MR', 'function_NK']"
+3RAZEF,새로운 취미나 기술을 배우는 게 중요해,<function_MR>()<end>,['function_MR']
+3RDBLL,이번 주말에는 오랜만에 친구들이랑 만나서 저녁 먹기로 했어 이어서 감지 감도를 보통으로 설정해줘,<function_MR>();<function_QD>(type=1)<end>,"['function_MR', 'function_QD']"
+3RGJPP,아 맛있는 거 먹고 싶은걸,<function_MR>()<end>,['function_MR']
+3RJHXM,새로 시작한 취미가 너무 재밌어서 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+3RLUOA,친구랑 여행 계획 짜고 있어,<function_MR>()<end>,['function_MR']
+3RPHQN,내일은 아침에 일찍 일어나서 운동해야지,<function_MR>()<end>,['function_MR']
+3RXPYY,이번 주말에는 집에서 푹 쉬면서 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+3SFMOW,이번 주말엔 집 청소를 제대로 한번 해볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+3SKAEX,오늘은 하루 종일 바빴는데 이제야 좀 쉬는 시간이 생겼어,<function_MR>()<end>,['function_MR']
+3SMDHZ,토요일 여기에 공기가 나쁠까 그러고 나서 점심으로 먹은 음식이 너무 맛있어서 또 먹고 싶어,"<function_IO>(timeframe=8, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+3SSFMA,여행 갈 때 꼭 챙기는 물건이 있어,<function_MR>()<end>,['function_MR']
+3SUPYN,새로 산 책을 읽고 있는데 내용이 너무 흥미로워 그 후에 토요일 런던 날씨 어때,"<function_MR>();<function_MO>(timeframe=8, location=런던)<end>","['function_MR', 'function_MO']"
+3SYFBB,이번에 새로 나온 음식을 먹어보고 싶은데 어디서 먹을지 고민이야,<function_MR>()<end>,['function_MR']
+3SYWWI,오늘은 일찍 자고 내일은 일찍 일어나야지,<function_MR>()<end>,['function_MR']
+3SZMLM,긴장을 풀기 좋은 방법이 뭐야,<function_MR>()<end>,['function_MR']
+3TAEZX,이번 주에 등산 가볼래,<function_MR>()<end>,['function_MR']
+3TIIZZ,이번 주말에는 뭔가 특별한 계획을 세우고 싶어 또 일요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_IO']"
+3TPYAG,아침 뭐 먹었어,<function_MR>()<end>,['function_MR']
+3TSAYC,이번 주말에는 가족들이랑 오랜만에 외식을 하려고 해,<function_MR>()<end>,['function_MR']
+3TTRQW,오늘 일정 끝났어,<function_MR>()<end>,['function_MR']
+3ULTBG,운동할 때 어떤 음악 듣니,<function_MR>()<end>,['function_MR']
+3UQYGT,요리를 잘 하니,<function_MR>()<end>,['function_MR']
+3UWBEV,커피를 너무 많이 마셔서 잠이 안 온다 이어서 수요일 강남 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=5, location=강남)<end>","['function_MR', 'function_IO']"
+3VLIGP,이번 여름엔 해변에서 놀자,<function_MR>()<end>,['function_MR']
+3VWILZ,이번 주말엔 영화관에 가서 영화 한 편 볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+3WBFDF,오늘은 일찍 자야겠어 내일 아침에 일찍 일어나야 하거든,<function_MR>()<end>,['function_MR']
+3WEKGQ,내일 아침에 일찍 일어나야 돼 그 다음에 풍량을 강풍으로 바꿔줘,<function_MR>();<function_NK>(speed=3)<end>,"['function_MR', 'function_NK']"
+3WIJIU,요즘 스트레스가 너무 많이 쌓였어 어떻게 풀어야 할지 모르겠어,<function_MR>()<end>,['function_MR']
+3WZTJF,충전하러 복귀 또 이 옷 어때 괜찮아 보여,<function_KI>();<function_MR>()<end>,"['function_KI', 'function_MR']"
+3XMFQY,친구랑 약속이 있었는데 갑자기 일이 생겨서 취소됐어,<function_MR>()<end>,['function_MR']
+3XNDDL,퇴근 후에 뭐 할 계획이야,<function_MR>()<end>,['function_MR']
+3XNZYI,화요일 두바이 공기질 걱정해야 할까 그리고 시간 관리 방법 공유해줄래,"<function_IO>(timeframe=4, location=두바이);<function_MR>()<end>","['function_IO', 'function_MR']"
+3XTSCS,최신 영화 리뷰 읽어봤어,<function_MR>()<end>,['function_MR']
+3XXUDY,요즘 책을 많이 읽고 있는데 재밌는 소설 추천해줄래 이어서 매너모드 종료해줄래,<function_MR>();<function_ZX>(enable=False)<end>,"['function_MR', 'function_ZX']"
+3YDPOD,내일 비 온대,<function_MR>()<end>,['function_MR']
+3YTOXE,내일 여기에 공기가 나쁠까 또 새로 배운 운동이 있어,"<function_IO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+3YUDCK,이 식당 추천해줄래 그 다음에 미디음을 1단계로 조정해줄래,<function_MR>();<function_ZV>(volume=1)<end>,"['function_MR', 'function_ZV']"
+3YVUFN,최신 개봉 영화 정보 좀 찾아볼까,<function_MR>()<end>,['function_MR']
+3YYMXG,냉장고에 있는 재료들로 뭘 만들어 먹을 수 있을까,<function_MR>()<end>,['function_MR']
+3ZBXSH,온라인 수업 듣는 게 어때 그리고 화요일 싱가포르 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=4, location=싱가포르)<end>","['function_MR', 'function_IO']"
+3ZPAWO,음소거 아닌 상태야 그 다음에 영화 예매는 했어,<function_MV>(get=True);<function_MR>()<end>,"['function_MV', 'function_MR']"
+3ZUYSD,새로 나온 레스토랑 메뉴가 맛있어 보이던데 언제 가볼까,<function_MR>()<end>,['function_MR']
+3ZXJKY,영화관에서 팝콘이랑 콜라 마시면서 영화 보고 싶다,<function_MR>()<end>,['function_MR']
+4AHVQL,우리 고양이 너무 귀엽지 않아,<function_MR>()<end>,['function_MR']
+4AILRZ,요즘 인기 많은 아이템 뭐야 그 후에 주말 나이로비 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=2, location=나이로비)<end>","['function_MR', 'function_IO']"
+4ATMIC,저녁에 뭐 먹을지 고민되는데 중국음식도 좋을 것 같아 그리고 나무 실행해,<function_MR>();<function_QT>(enable=True)<end>,"['function_MR', 'function_QT']"
+4AUJPD,오늘 무슨 일 있었어 그리고 엘이디 눈 밝기 몇 퍼인지 말해줄래,<function_MR>();<function_WN>(get=True)<end>,"['function_MR', 'function_WN']"
+4AXWLX,이번 주말에는 무슨 영화가 개봉하는지 한번 찾아봐야겠어,<function_MR>()<end>,['function_MR']
+4BNLXU,요즘 스트레스를 너무 많이 받아서 운동으로 풀려고 해 또 음성 인식 상태 알려줘,<function_MR>();<function_QT>(get=True)<end>,"['function_MR', 'function_QT']"
+4BNRKL,좋아하는 영화 장르가 뭐야,<function_MR>()<end>,['function_MR']
+4BONPF,다음 주에 새로운 프로젝트를 시작하는데 준비가 잘 될까 걱정이야,<function_MR>()<end>,['function_MR']
+4BTWML,내일 중요한 미팅 있어,<function_MR>()<end>,['function_MR']
+4BWXQU,이번 주말엔 뭐할 거야,<function_MR>()<end>,['function_MR']
+4CCVDZ,요즘 무슨 음악 들어,<function_MR>()<end>,['function_MR']
+4CDGPF,엘씨디 디스플레이 밝기 사로 바꿔 또 오늘 뭐할 계획이야,<function_WN>(brightness=4);<function_MR>()<end>,"['function_WN', 'function_MR']"
+4CGIUT,영어로 언어 설정해줘 그러고 나서 이 가수 노래 엄청 좋더라,<function_HS>(type=2);<function_MR>()<end>,"['function_HS', 'function_MR']"
+4CHLQQ,음식을 만드는 게 정말 즐거워,<function_MR>()<end>,['function_MR']
+4CLWFP,이번 주말에 새로운 식당을 찾아가볼까 고민 중이야,<function_MR>()<end>,['function_MR']
+4CQZDI,디카페인 커피는 의미 없다고 생각해,<function_MR>()<end>,['function_MR']
+4CYRZR,오늘은 왠지 하루가 길게 느껴지네,<function_MR>()<end>,['function_MR']
+4CYWJG,가장 낮은 단계로 밝기를 조정할 수 있어 그 다음에 내일 뭐해,<function_WN>(brightness=0);<function_MR>()<end>,"['function_WN', 'function_MR']"
+4CYWMX,새로 산 자켓이 정말 마음에 들어 매일 입고 다니고 있어 그 다음에 목소리를 남성으로 바꿔줘,<function_MR>();<function_GQ>(gender=2)<end>,"['function_MR', 'function_GQ']"
+4DAVBE,친구랑 같은 영화 보고 싶어,<function_MR>()<end>,['function_MR']
+4DFDHM,점심 먹고 나니까 갑자기 너무 졸리네 잠깐 낮잠이라도 자야겠어 그러고 나서 주말 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=2, location=""0"")<end>","['function_MR', 'function_MO']"
+4DWMXM,헬스장 가는 거 어때,<function_MR>()<end>,['function_MR']
+4DXZQB,오늘 하루는 그냥 푹 쉬면서 책이나 읽을까 생각 중이야,<function_MR>()<end>,['function_MR']
+4DYQZT,다음 주에 중요한 발표가 있어,<function_MR>()<end>,['function_MR']
+4EAGRR,오늘 하루종일 집에 있었더니 기분이 좀 울적해졌어 그리고 대기화면 테마 설정이 뭐로 되어있나요,<function_MR>();<function_HG>(get=True)<end>,"['function_MR', 'function_HG']"
+4EFRDM,요즘 운동을 시작했는데 근육통이 너무 심해,<function_MR>()<end>,['function_MR']
+4EFSUD,새 가방이 필요해,<function_MR>()<end>,['function_MR']
+4EOJZI,이번 주말에는 가족들이랑 외식하기로 했어 오랜만이야,<function_MR>()<end>,['function_MR']
+4EOVUS,새로 산 책을 읽고 있는데 너무 재미있어 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+4EZYNM,너희 집 근처에 맛있는 식당 있어,<function_MR>()<end>,['function_MR']
+4FGPHN,이번 주말에는 가족들과 함께 등산을 가기로 했어,<function_MR>()<end>,['function_MR']
+4FHTZI,오늘 저녁에는 가볍게 산책을 하면서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+4FIOET,이번 주말에는 친구랑 등산가기로 했어요,<function_MR>()<end>,['function_MR']
+4FJFUG,오늘 저녁 뭐 먹을까 이어서 화면 밝기를 5단계로 설정해줘,<function_MR>();<function_WN>(brightness=5)<end>,"['function_MR', 'function_WN']"
+4FJIXA,오늘 저녁은 뭘 먹어야 할지 고민 중이야 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+4FLITE,오늘 하루 종일 바빴는데 이제야 좀 쉬는 시간이 생겼어 그 후에 프라이버시 기능 꺼줘,<function_MR>();<function_GN>(enable=False)<end>,"['function_MR', 'function_GN']"
+4FLLPN,새로운 음악을 찾아 듣는 게 요즘 내 소소한 즐거움이야 그리고 대기화면이 실내 공기질 테마인가요,<function_MR>();<function_HG>(get=True)<end>,"['function_MR', 'function_HG']"
+4FPXUX,내일은 아침 일찍 친구랑 만나서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+4GCQRJ,자카르타의 월요일 날씨 정보 표시해줄래 이어서 내일은 아침부터 중요한 미팅이 있어서 조금 긴장되네,"<function_MO>(timeframe=3, location=자카르타);<function_MR>()<end>","['function_MO', 'function_MR']"
+4HDCFE,내일은 꼭 일찍 일어나서 하루를 시작해야지 그 후에 토요일 제주시 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=8, location=제주시)<end>","['function_MR', 'function_MO']"
+4HDGXO,내일은 아침 일찍 일어나서 산책을 나가보려고 해,<function_MR>()<end>,['function_MR']
+4HKVYV,오늘은 가볍게 책을 읽으면서 시간을 보내고 있어,<function_MR>()<end>,['function_MR']
+4HLKTV,주말에 같이 운동할 사람 구하는데 누구 같이 할래 그리고 목요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=6, location=""0"")<end>","['function_MR', 'function_IO']"
+4HMIUL,이번 주말에는 뭘 할까 새로운 계획을 세워봐야겠어,<function_MR>()<end>,['function_MR']
+4HRDVS,유튜버나 인플루언서 중에 꾸준히 보는 사람 있어 그 다음에 현재 필터 사용량을 보여줄 수 있어,<function_MR>();<function_UJ>()<end>,"['function_MR', 'function_UJ']"
+4HVHIS,요가 수업 들어본 적 있어 또 내일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_IO']"
+4IKYEH,오늘은 집에서 쉬면서 책을 읽으려고 해,<function_MR>()<end>,['function_MR']
+4IVHGL,터치음을 육십퍼로 설정해줘 그러고 나서 오늘 뭐 먹을 거야,<function_ZV>(volume=3);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+4JEQAX,내일은 꼭 일찍 일어나서 할 일을 끝내야겠어 다음으로 수요일 강남 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=5, location=강남)<end>","['function_MR', 'function_MO']"
+4JGXUJ,이번 주말에는 영화를 보러 가기로 했는데 기대 중이야,<function_MR>()<end>,['function_MR']
+4JHPAK,오늘 하루 정말 바쁘게 보냈는데 왜 이렇게 시간이 안 갔지,<function_MR>()<end>,['function_MR']
+4JKIVQ,새로 산 책이 너무 재밌어서 시간이 금방 지나갔어,<function_MR>()<end>,['function_MR']
+4JMCGP,새 앨범 들어봤어,<function_MR>()<end>,['function_MR']
+4JZEKT,오랜만에 운동을 했더니 온몸이 뻐근해 꾸준히 해야겠어,<function_MR>()<end>,['function_MR']
+4KCCRJ,집에서 쉬는 것도 좋지만 가끔은 밖에 나가는 것도 필요한 것 같아,<function_MR>()<end>,['function_MR']
+4KEPNG,내일 아침에 일찍 일어나서 산책을 나가볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+4KIQJK,요즘 들어 스트레스를 많이 받아서 운동을 시작했어,<function_MR>()<end>,['function_MR']
+4KJPZC,새로 시작한 운동이 너무 힘들어서 포기할까 고민 중이야,<function_MR>()<end>,['function_MR']
+4KLBDN,새로 생긴 카페에 가봤어,<function_MR>()<end>,['function_MR']
+4KVGCI,내일 비 올까,<function_MR>()<end>,['function_MR']
+4LEIEK,프라이버시 중지해주실 수 있나요 그 후에 새로운 취미를 찾고 싶어 요즘 뭔가 색다른 걸 해보고 싶어,<function_GN>(enable=False);<function_MR>()<end>,"['function_GN', 'function_MR']"
+4LOQQE,아침에 일찍 일어나서 운동하는 게 생각보다 힘들지 않더라,<function_MR>()<end>,['function_MR']
+4LQDRZ,내일 비 온다던데 그리고 고정 공기 청정 가동 시작해줘,<function_MR>();<function_PG>()<end>,"['function_MR', 'function_PG']"
+4LQHLW,오늘 하루가 정말 길었어 이제 좀 쉬고 싶어 이어서 대기화면을 실내 공기질 테마로 설정해주세요,<function_MR>();<function_HG>(theme=2)<end>,"['function_MR', 'function_HG']"
+4LSMNA,저는 한국 역사에 관심이 많아요,<function_MR>()<end>,['function_MR']
+4MCXGZ,"짖궃다는 치읕 받침이야, 아니면 디귿 받침이야",<function_MR>()<end>,['function_MR']
+4MVBYD,주말에는 친구들이랑 영화 한 편 볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+4NJLUL,아침에 일어나서 바로 운동하는 게 참 어렵네,<function_MR>()<end>,['function_MR']
+4NTVSX,이번에 새로 나온 스마트폰이 정말 좋다는데 살까 말까 고민이야,<function_MR>()<end>,['function_MR']
+4NVXKO,오늘은 그냥 푹 쉬고 싶어 아무것도 하지 않는 하루가 필요해,<function_MR>()<end>,['function_MR']
+4NXSCB,저녁에 뭐 먹을지 고민되는데 중국음식도 좋을 것 같아,<function_MR>()<end>,['function_MR']
+4NXYMS,혹시 에이아이 모드 동시에 꺼주실 수 있나요 또 오늘은 그냥 집에서 푹 쉬면서 시간을 보내려고 해,"<function_BP>(enable=1, type=2);<function_MR>()<end>","['function_BP', 'function_MR']"
+4NZRHJ,요즘 경제 상황이 좀 걱정 돼,<function_MR>()<end>,['function_MR']
+4OCQMC,이쪽으로 틀어줄 수 있어 그 후에 내일은 아침 일찍 일어나서 하루를 길게 써볼까 생각 중이야,<function_FR>();<function_MR>()<end>,"['function_FR', 'function_MR']"
+4OKXKU,넌 아침형 인간이야,<function_MR>()<end>,['function_MR']
+4OUBFR,한국말로 바꿔 다음으로 이 영화 결말 예상했어,<function_HS>(type=1);<function_MR>()<end>,"['function_HS', 'function_MR']"
+4OXBUW,수영하러 가는 거 어때,<function_MR>()<end>,['function_MR']
+4OXSVS,주말 여기에 공기가 나쁠까 그리고 이번에 새로 산 옷 어때,"<function_IO>(timeframe=2, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4OYBUA,새로 산 책을 읽고 있는데 너무 재미있어 그 후에 목소리 여성으로 바꿔줘,<function_MR>();<function_GQ>(gender=1)<end>,"['function_MR', 'function_GQ']"
+4OYHRU,내일 아침에 일찍 일어나서 운동을 해볼까 생각 중이야 그 다음에 팔로미,<function_MR>();<function_CK>()<end>,"['function_MR', 'function_CK']"
+4PCOWF,매너모드 작동시켜줘 또 새로운 레스토랑이 생겼던데 다음 주말에 가보자,<function_ZX>(enable=True);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+4PNALA,저는 베이킹을 좋아해요,<function_MR>()<end>,['function_MR']
+4PQDTG,집에서 영화 보는 게 좋아,<function_MR>()<end>,['function_MR']
+4PQRLS,다음 달에 있을 중요한 시험을 준비해야 할 것 같아,<function_MR>()<end>,['function_MR']
+4PRTUY,저녁 먹고 산책 나갈까,<function_MR>()<end>,['function_MR']
+4PXQLA,내일은 조금 더 생산적인 하루를 보내야겠어,<function_MR>()<end>,['function_MR']
+4QGNVD,이번 주말에 공부할 계획 있어,<function_MR>()<end>,['function_MR']
+4QUXAQ,이번에 무슨 브랜드를 살까 고민 중이야,<function_MR>()<end>,['function_MR']
+4QVDKB,오랜만에 가족들이랑 시간을 보내니까 정말 좋았어,<function_MR>()<end>,['function_MR']
+4RDUNP,다음 달에 있을 모임 준비를 미리 해둬야겠어 그러고 나서 화씨 단위로 바꿔주세요,<function_MR>();<function_EW>(type=1)<end>,"['function_MR', 'function_EW']"
+4REDYK,새로 시작한 드라마가 너무 재밌어서 시간 가는 줄 몰랐어,<function_MR>()<end>,['function_MR']
+4SIIEF,이번 주말에는 집에서 요리해보는 것도 좋을 것 같아,<function_MR>()<end>,['function_MR']
+4SNOII,다음 주에는 더 열심히 일해야겠어 할 일이 많아 그 다음에 저를 향해 이동해주실래요,<function_MR>();<function_CK>()<end>,"['function_MR', 'function_CK']"
+4SODHE,뭐 마실래,<function_MR>()<end>,['function_MR']
+4SZTFI,오늘은 무슨 일을 해야 할지 모르겠어 그냥 쉬고 싶어,<function_MR>()<end>,['function_MR']
+4SZTOO,이 영화 재밌을까,<function_MR>()<end>,['function_MR']
+4TFFOC,이번 주말에는 오랜만에 친구들이랑 만나기로 했어,<function_MR>()<end>,['function_MR']
+4TFNQB,어제 저녁에 먹었던 음식이 너무 맛있어서 오늘도 먹고 싶어,<function_MR>()<end>,['function_MR']
+4TROMB,점심 먹었어,<function_MR>()<end>,['function_MR']
+4UEBMS,매너모드 비활성화해줘 이어서 오늘 회사에서 회의가 있었는데 생각보다 길었어,<function_ZX>(enable=False);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+4UJJSK,오늘 하루는 너무 바빠서 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+4ULKEV,현재 기본 테마로 설정되어 있는지 확인해줄 수 있어 그리고 오늘은 일찍 자야겠어 내일 아침에 일찍 일어나야 하거든,<function_HG>(get=True);<function_MR>()<end>,"['function_HG', 'function_MR']"
+4UQDHU,오늘 저녁에는 친구들과 만나서 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+4URVGO,내일은 꼭 일찍 일어나서 할 일을 빨리 끝내야겠어,<function_MR>()<end>,['function_MR']
+4VEENM,오늘 하루는 너무 바빴어 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+4VMAYE,반려동물을 키우고 싶어,<function_MR>()<end>,['function_MR']
+4VXWZN,주말에 뭐 할지 아직 정하지 못했어 그냥 집에 있을까 생각 중이야,<function_MR>()<end>,['function_MR']
+4WARPV,요즘 여행지 중에 어디가 제일 좋아 다음으로 유뷔 엘리디 켜진거 맞나요,<function_MR>();<function_NN>(get=True)<end>,"['function_MR', 'function_NN']"
+4WFPBX,내일 아침에는 조금 일찍 일어나서 산책이나 할까 다음으로 금요일 해남 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=7, location=해남)<end>","['function_MR', 'function_IO']"
+4WQDXS,내일은 뭘 해야 할지 아직 결정하지 못했어 이어서 에이아이 모드 비활성화되어 있는지 알려줘,<function_MR>();<function_BP>(get=True)<end>,"['function_MR', 'function_BP']"
+4WYQVO,센서 민감도 레벨이 무엇인지 알려줄래요 그 후에 이번 주말에는 뭐 하고 놀까 새로운 카페나 가볼까,<function_QD>(get=True);<function_MR>()<end>,"['function_QD', 'function_MR']"
+4XFBVH,이번 주말에는 뭐 할까 오랜만에 친구들과 시간을 보내고 싶어,<function_MR>()<end>,['function_MR']
+4XTXKW,수요일 여기에 공기가 나쁠까 또 새로 배운 기술 있으면 공유해줄래,"<function_IO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4YXTYY,주말에는 친구들이랑 오랜만에 만나기로 했어 기대 돼 그 다음에 남성 보이스로 변경해주세요,<function_MR>();<function_GQ>(gender=2)<end>,"['function_MR', 'function_GQ']"
+4ZAMFZ,내일은 친구들이랑 만나서 저녁을 먹기로 했어,<function_MR>()<end>,['function_MR']
+4ZFYXA,좋아하는 취미 활동이 뭐야,<function_MR>()<end>,['function_MR']
+4ZJKYF,소리 볼륨을 삼으로 맞춰줘 그러고 나서 오늘 무슨 계획 있어,<function_ZV>(volume=3);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+4ZKZKY,실시간 공기질 모니터링 보여주세요 그러고 나서 국내 여행도 좋은 데가 많아,"<function_IO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4ZLLQL,출근하기 싫어,<function_MR>()<end>,['function_MR']
+4ZPCEW,내일 아침에 일어나야 돼 또 화면 밝기를 4단계로 조정해줄래,<function_MR>();<function_WN>(brightness=4)<end>,"['function_MR', 'function_WN']"
+4ZVMUE,수요일 노원구 대기질을 화면에 보여줘 이어서 이번 주말엔 그냥 집에서 푹 쉬어야겠어,"<function_IO>(timeframe=5, location=노원구);<function_MR>()<end>","['function_IO', 'function_MR']"
+5AGRYR,공간별 누적 공기질 정보 연동 옵션을 활성화해주실래요 그 다음에 이번 주말에는 가족들이랑 시간을 보내려고 해 오랜만이야,"<function_BP>(enable=0, type=1);<function_MR>()<end>","['function_BP', 'function_MR']"
+5AHKDF,공기질 상태 표시 작동 중인지 알려줘 그리고 오늘 점심은 간단하게 먹고 싶어,<function_SC>(get=True);<function_MR>()<end>,"['function_SC', 'function_MR']"
+5AHMWV,다음 주에는 조금 더 부지런히 시간을 보내야겠어,<function_MR>()<end>,['function_MR']
+5ALZJH,다음 주에 있을 약속이 취소돼서 좀 아쉽다,<function_MR>()<end>,['function_MR']
+5AMTGU,내일은 아침 일찍 일어나서 산책을 나가볼까 고민 중이야,<function_MR>()<end>,['function_MR']
+5ANQLE,듣기 모드 중지해 그러고 나서 오늘은 하루 종일 비가 와서 기분이 축 처지네,<function_QT>(enable=False);<function_MR>()<end>,"['function_QT', 'function_MR']"
+5ANWBH,내일은 친구들이랑 만날 예정이라 기대 돼,<function_MR>()<end>,['function_MR']
+5AONRA,내일은 집에서 요리나 해볼까 싶어,<function_MR>()<end>,['function_MR']
+5ARZBN,어른이 되고 나서 친구 사귀기가 어렵지 않아,<function_MR>()<end>,['function_MR']
+5AXXMZ,내일은 운동을 꼭 해야겠어 요즘 너무 게을러졌어,<function_MR>()<end>,['function_MR']
+5BBWDY,내일 아침에는 일찍 일어나서 독서를 할 계획이야,<function_MR>()<end>,['function_MR']
+5BFLUR,내일은 조금 더 생산적인 하루를 보내야겠어 그러고 나서 목요일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=6, location=""0"")<end>","['function_MR', 'function_MO']"
+5BHBEK,주말 로마 공기질 걱정해야 할까 그 후에 새로 산 가방 마음에 들어,"<function_IO>(timeframe=2, location=로마);<function_MR>()<end>","['function_IO', 'function_MR']"
+5BKYSH,주말에 친구들이랑 모임을 가질 예정인데 뭘 입고 갈지 고민이야,<function_MR>()<end>,['function_MR']
+5BNDTA,매일 아침 산책하는 게 습관이 됐어,<function_MR>()<end>,['function_MR']
+5CAZYO,이번에 새로 배운 취미 있어 그리고 충전량 얼마야,<function_MR>();<function_JJ>()<end>,"['function_MR', 'function_JJ']"
+5CDROG,겨울 여행지 추천해줘,<function_MR>()<end>,['function_MR']
+5CLZHO,하나의 미래 기술을 지금 가질 수 있다면 뭘 원해,<function_MR>()<end>,['function_MR']
+5CMOLG,이번에 새로 나온 카메라가 정말 좋아 보이는데 살까 말까 고민 중이야 그리고 온도 단위 섭씨인지 알려주세요,<function_MR>();<function_EW>(get=True)<end>,"['function_MR', 'function_EW']"
+5CNHZU,듣기 기능 활성화됐나요 또 내일 아침에 일찍 일어나서 산책을 나가볼까 생각 중이야,<function_QT>(get=True);<function_MR>()<end>,"['function_QT', 'function_MR']"
+5DGHHJ,이번 주말에는 캠핑을 가기로 했는데 기대 돼,<function_MR>()<end>,['function_MR']
+5DHWAJ,홍보실 공기 청정이 필요해 그리고 뭐 좀 추천해줄래,<function_FF>(position=홍보실);<function_MR>()<end>,"['function_FF', 'function_MR']"
+5DKHDK,미디음을 제일 낮게 설정해 줘 그 후에 이번 주말 계획 말해줄래,<function_ZV>(volume=0);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+5DMEMO,책을 다 읽었는데 이제 무슨 책을 읽어야 할지 고민이네,<function_MR>()<end>,['function_MR']
+5DPDTC,이번 주에는 조금 더 계획적으로 살아야겠어,<function_MR>()<end>,['function_MR']
+5DRCVS,새로 나온 영화가 기대 돼 이번 주말에 보러 갈까 생각 중이야,<function_MR>()<end>,['function_MR']
+5DSFRX,온라인 강의 들어봤어 다음으로 월요일 방콕 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=3, location=방콕)<end>","['function_MR', 'function_IO']"
+5EIVCI,이번 주에는 할 일이 많아서 조금 더 부지런히 보내야겠어,<function_MR>()<end>,['function_MR']
+5EONDR,테일러 스위프트 노래 자주 들어,<function_MR>()<end>,['function_MR']
+5ERICS,오늘 저녁에 뭐 먹을지 고민 중인데 뭘 먹을까,<function_MR>()<end>,['function_MR']
+5FFQIH,버튼음을 최소 단계로 해줘 그 후에 오늘 아침 뭐 먹었어,<function_ZV>(volume=0);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+5FHFUU,요즘 인기 많은 드라마 뭐야 그 다음에 음소거 상태야,<function_MR>();<function_MV>(get=True)<end>,"['function_MR', 'function_MV']"
+5FKHHA,이사 왔는데 친구를 어떻게 사귀어야 할까,<function_MR>()<end>,['function_MR']
+5FWKJB,오늘 일찍 퇴근할 거야,<function_MR>()<end>,['function_MR']
+5FZGOW,이번 주말에는 오랜만에 가족들과 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+5FZMUS,오늘 하루는 정말 바빴어 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+5GDWIQ,주말에 뭘 할지 아직 못 정했는데 그냥 영화나 볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+5GFALH,오늘 저녁에는 간단하게 파스타나 만들어볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+5GPBVQ,엘씨디 화면 밝기를 영단계로 조절해줄래 그 다음에 이 책 읽어볼까,<function_WN>(brightness=0);<function_MR>()<end>,"['function_WN', 'function_MR']"
+5GQAGU,이 책 재미있어 보여,<function_MR>()<end>,['function_MR']
+5GTFRI,내일 만나자,<function_MR>()<end>,['function_MR']
+5GUZWC,새로 시작한 프로젝트가 생각보다 어려워서 스트레스를 많이 받아,<function_MR>()<end>,['function_MR']
+5HABMC,다음 주말에는 친구들과 함께 시간을 보내,<function_MR>()<end>,['function_MR']
+5HGCOH,지금 설정된 온도 표기를 확인하고 싶어요 그리고 요즘 들어 일찍 자고 일찍 일어나니까 기분이 상쾌해,<function_EW>(get=True);<function_MR>()<end>,"['function_EW', 'function_MR']"
+5HIOMK,이번 영화 기대 돼,<function_MR>()<end>,['function_MR']
+5HLHCP,새로 산 가방 마음에 들어,<function_MR>()<end>,['function_MR']
+5HMRPG,이번에 새로 나온 스마트폰이 정말 좋다는데 살까 말까 고민이네 그리고 나이트 모드 꺼줘,<function_MR>();<function_BS>(enable=False)<end>,"['function_MR', 'function_BS']"
+5HUAFZ,선호하는 운동이 있어,<function_MR>()<end>,['function_MR']
+5HUSLY,이번 주에는 운동을 좀 더 열심히 해서 몸을 건강하게 만들어야겠어,<function_MR>()<end>,['function_MR']
+5IIMHN,대기화면을 기본 테마로 전환해주실래요 또 다음 달에 중요한 발표가 있어서 준비를 열심히 하고 있어,<function_HG>(theme=0);<function_MR>()<end>,"['function_HG', 'function_MR']"
+5ILIOT,프라이버시 설정 비활성화할 수 있어 그 후에 다음 주에 새로운 프로젝트를 시작하는데 준비가 잘 될까 걱정이야,<function_GN>(enable=False);<function_MR>()<end>,"['function_GN', 'function_MR']"
+5IPYLB,저녁에 뭐할까,<function_MR>()<end>,['function_MR']
+5IQZED,다음 달에 친구들과 여행을 가기로 했는데 기대 돼,<function_MR>()<end>,['function_MR']
+5IVPWT,내일은 친구들이랑 만날 계획인데 어디서 만나야 할지 고민이네,<function_MR>()<end>,['function_MR']
+5JQHOT,일주일 중 가장 좋아하는 날이 언제야,<function_MR>()<end>,['function_MR']
+5JTYJY,새로 나온 카페가 분위기가 좋아서 가보고 싶어,<function_MR>()<end>,['function_MR']
+5JUITZ,이번에 새로 산 신발이 너무 편해서 매일 신고 다니고 있어,<function_MR>()<end>,['function_MR']
+5JXPFI,집에 있는 시간이 많아지니까 집안일을 자꾸 미루게 돼,<function_MR>()<end>,['function_MR']
+5KAQCY,여기 와본 적 있어,<function_MR>()<end>,['function_MR']
+5KHFHC,점심 같이 먹을래,<function_MR>()<end>,['function_MR']
+5KKKMI,다음 달에 있을 중요한 시험 준비로 바빠,<function_MR>()<end>,['function_MR']
+5KKLQS,다음 주에는 조금 더 부지런하게 보내야겠어 할 일이 많아,<function_MR>()<end>,['function_MR']
+5KLVZR,내일 비 온다던데,<function_MR>()<end>,['function_MR']
+5KODFI,주말에는 주로 공부하니,<function_MR>()<end>,['function_MR']
+5KWDIN,다음 주에 있을 모임 준비를 미리 해두는 게 좋겠지 그리고 토요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=8, location=""0"")<end>","['function_MR', 'function_MO']"
+5LQSGJ,다음 주에 친구들이랑 모임이 있는데 뭐 입고 갈지 고민이야,<function_MR>()<end>,['function_MR']
+5LSHEQ,실외 공기질 정보 연동 설정을 켜줄래요 그 후에 새로운 책을 시작했는데 너무 재밌어서 시간 가는 줄 모르겠어,"<function_BP>(enable=0, type=0);<function_MR>()<end>","['function_BP', 'function_MR']"
+5MMRRU,토요일 하노이 날씨 비 와 그 후에 요즘 스트레스를 너무 많이 받아서 어떻게 풀어야 할지 모르겠어,"<function_MO>(timeframe=8, location=하노이);<function_MR>()<end>","['function_MO', 'function_MR']"
+5MTYMU,주말에 뭐 할거야,<function_MR>()<end>,['function_MR']
+5MUQBD,집에 먹을 게 하나도 없어서 편의점 가려고,<function_MR>()<end>,['function_MR']
+5NBXUC,어제 본 영화가 정말 감동적이었어 추천해줄게,<function_MR>()<end>,['function_MR']
+5NJWQG,오늘 하루는 정말 길었어 이제 쉬고 싶다,<function_MR>()<end>,['function_MR']
+5NNFCS,풍속 강풍으로 조정해줘 그 다음에 요즘 뭐 공부하고 있어,<function_NK>(speed=3);<function_MR>()<end>,"['function_NK', 'function_MR']"
+5NNTDB,이번 주말에 뭐 할래 그리고 가든 청정,<function_MR>();<function_FF>(position=가든)<end>,"['function_MR', 'function_FF']"
+5NQGZN,새로 나온 노트북이 성능이 좋다고 하던데 한번 알아봐야겠어,<function_MR>()<end>,['function_MR']
+5NTPUH,이번 주에는 좀 더 부지런히 살아야겠다는 생각이 들어,<function_MR>()<end>,['function_MR']
+5NVLHQ,다음 주말에는 친구들과 캠핑을 가기로 했어 기대 돼,<function_MR>()<end>,['function_MR']
+5OGAUQ,오늘 저녁은 뭘 먹을지 고민이야 배는 고픈데 딱히 땡기는 게 없어,<function_MR>()<end>,['function_MR']
+5OGWMN,집에 있는 시간이 많아지니까 뭘 해야 할지 모르겠어,<function_MR>()<end>,['function_MR']
+5OMBMK,오늘은 친구들이랑 만나서 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+5PBLHI,친구와 함께 요리하는 걸 좋아해,<function_MR>()<end>,['function_MR']
+5PCUSZ,이 음악 들어봤어,<function_MR>()<end>,['function_MR']
+5PJMKS,자격증 준비하고 있니,<function_MR>()<end>,['function_MR']
+5PSLOS,새로운 레스토랑이 생겼던데 다음 주말에 가보자,<function_MR>()<end>,['function_MR']
+5QDIFH,학교 숙제가 너무 많아,<function_MR>()<end>,['function_MR']
+5QFAOQ,캠핑 한번 해보고 싶어,<function_MR>()<end>,['function_MR']
+5RACAO,다음 주에 중요한 미팅이 있어서 준비를 철저히 해야 해 다음으로 이동 멈춰줘,<function_MR>();<function_YA>(move=0)<end>,"['function_MR', 'function_YA']"
+5RCSOI,주말 모스크바의 공기질 예보를 보여줘 그 후에 쇼핑할 때 뭘 제일 많이 사,"<function_IO>(timeframe=2, location=모스크바);<function_MR>()<end>","['function_IO', 'function_MR']"
+5RDYXT,클래식 음악 들으면 마음이 편해져,<function_MR>()<end>,['function_MR']
+5RLBXU,이번 주말에는 집에서 영화를 몰아서 보려고 해,<function_MR>()<end>,['function_MR']
+5RUPFG,요즘 뭐가 제일 재밌어,<function_MR>()<end>,['function_MR']
+5SCCBM,다음 주에는 운동을 조금 더 열심히 해볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+5SCSOY,요즘 할인하는 상품 많더라,<function_MR>()<end>,['function_MR']
+5SLRES,목요일 광진구 날씨 비 와 그리고 내일 아침엔 일찍 일어나서 할 일을 빨리 끝내고 싶어,"<function_MO>(timeframe=6, location=광진구);<function_MR>()<end>","['function_MO', 'function_MR']"
+5SRYCO,커피 대신 차를 마셔볼까,<function_MR>()<end>,['function_MR']
+5SYBPH,실외 대기질 정보 연동 옵션을 비활성화해주실래요 그러고 나서 내일 아침에는 일찍 일어나서 독서를 할까 생각 중이야,"<function_BP>(enable=1, type=0);<function_MR>()<end>","['function_BP', 'function_MR']"
+5SYFFY,새로운 책을 시작했는데 너무 재밌어서 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+5SYPPI,새로 나온 게임이 화제라는데 해볼까 고민 중이야,<function_MR>()<end>,['function_MR']
+5TOBUO,토요일 시드니 대기질을 화면에 보여줘 그리고 어제 본 영화가 정말 감동적이었어 추천해줄게,"<function_IO>(timeframe=8, location=시드니);<function_MR>()<end>","['function_IO', 'function_MR']"
+5TQNFP,오늘 하루종일 비가 와서 기분이 가라앉아 있었어,<function_MR>()<end>,['function_MR']
+5TRRAX,기타 치는 걸 배우고 있어요,<function_MR>()<end>,['function_MR']
+5UGLEH,오늘 밤에 뭐 할 계획이야,<function_MR>()<end>,['function_MR']
+5UOWDC,청정 결과 미세먼지 농도 알려줘 그리고 이번 주말에는 오랜만에 영화를 보러 가려고 해,<function_CE>();<function_MR>()<end>,"['function_CE', 'function_MR']"
+5UYTNQ,밝기를 일로 조정해줘 다음으로 주말엔 뭐 할거야,<function_WN>(brightness=1);<function_MR>()<end>,"['function_WN', 'function_MR']"
+5VISJL,할인 쿠폰 받았어,<function_MR>()<end>,['function_MR']
+5VNTMX,이번 주에는 운동을 좀 더 열심히 해야겠어 체력이 필요해,<function_MR>()<end>,['function_MR']
+5VSNRX,엘이디 눈 조명을 4로 맞할 수 있니 또 이 책 읽어볼래,<function_WN>(brightness=4);<function_MR>()<end>,"['function_WN', 'function_MR']"
+5WKCOS,새로 산 옷이 너무 마음에 들어서 자주 입고 있어,<function_MR>()<end>,['function_MR']
+5WUAOF,이번 주말에는 영화관에 가서 보고 싶은 영화를 보려고 해,<function_MR>()<end>,['function_MR']
+5WXHOL,새로 산 책을 읽고 있는데 너무 재미있어 시간 가는 줄 모르겠어 그리고 나이트 모드 비활성화해줘,<function_MR>();<function_BS>(enable=False)<end>,"['function_MR', 'function_BS']"
+5WZPXY,새로 시작한 드라마가 너무 재밌어서 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+5XATIT,지금 판교 날씨 비 와 그 후에 오늘 하루 정말 바쁘게 보냈는데 왜 이렇게 시간이 안 갔지,"<function_MO>(timeframe=0, location=판교);<function_MR>()<end>","['function_MO', 'function_MR']"
+5XJOIY,프라이버시로 바꿔주실 수 있나요 그리고 오랜만에 영화를 한 편 봤는데 정말 감동적이었어,<function_GN>(enable=True);<function_MR>()<end>,"['function_GN', 'function_MR']"
+5XSHLE,이번에 새로 나온 전자제품 리뷰를 봤는데 괜찮더라,<function_MR>()<end>,['function_MR']
+5XUWAS,요즘 들어서 잠이 잘 안 와서 수면 패턴을 바꿔야 할 것 같아,<function_MR>()<end>,['function_MR']
+5XVUPI,새로 나온 책을 읽고 있는데 너무 흥미진진해서 시간 가는 줄 몰라,<function_MR>()<end>,['function_MR']
+5XYOCV,프라이버시 설정 활성화해줄 수 있어 그리고 하나의 영화만 평생 볼 수 있다면 뭘 선택할 거야,<function_GN>(enable=True);<function_MR>()<end>,"['function_GN', 'function_MR']"
+5XZLRS,새로운 취미를 찾아봐야겠어,<function_MR>()<end>,['function_MR']
+5YMYFB,공간별 공기질 이력 연동 설정을 켜줄래요 그 다음에 이번 주말에는 무슨 요리를 해볼까 생각 중이야,"<function_BP>(enable=0, type=1);<function_MR>()<end>","['function_BP', 'function_MR']"
+5ZTBEA,이번 주말에는 뭘 해야 할지 고민 중이야 계획을 세워야겠어,<function_MR>()<end>,['function_MR']
+6AFJGZ,이번에 새로 나온 전자제품 리뷰를 봤는데 괜찮더라 그 후에 뉴욕 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=0, location=뉴욕)<end>","['function_MR', 'function_MO']"
+6AHIAL,만약 한 명의 유명인과 저녁을 먹을 수 있다면 누구를 선택할 거야 그 후에 센서 민감도 상태 알려주세요,<function_MR>();<function_QD>(get=True)<end>,"['function_MR', 'function_QD']"
+6ASLUZ,커피 없으면 하루 시작하기 힘들지 않아,<function_MR>()<end>,['function_MR']
+6AZWMA,목요일 날씨 추울까 그러고 나서 저녁으로 뭘 먹을지 아직도 고민 중이야 빨리 결정해야겠어,"<function_MO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+6BBETM,다음 주에 있을 중요한 발표를 준비 중이야,<function_MR>()<end>,['function_MR']
+6BEFRQ,어디 가고 싶어,<function_MR>()<end>,['function_MR']
+6BMYCQ,가볍게 웃을 수 있는 영화 추천해 줄래,<function_MR>()<end>,['function_MR']
+6BRCIO,라이언 레이놀즈에 대해서 어떻게 생각해,<function_MR>()<end>,['function_MR']
+6BRCWO,저녁으로 뭐 먹을까 치킨 아니면 피자,<function_MR>()<end>,['function_MR']
+6BTGYY,혈압 상태를 체크해주실래요 다음으로 이번 주말에는 캠핑을 가기로 했는데 기대 돼,<function_GV>();<function_MR>()<end>,"['function_GV', 'function_MR']"
+6CCGTW,이번 주말에 근교로 드라이브 갈래,<function_MR>()<end>,['function_MR']
+6CIGZW,오늘 하루 종일 바빴는데 이제야 좀 쉬는 시간이 생겼어,<function_MR>()<end>,['function_MR']
+6CPONJ,아침에 먹은 커피가 너무 진해서 잠이 확 깨더라,<function_MR>()<end>,['function_MR']
+6DEDHH,새로 산 책을 읽고 있는데 내용이 되게 흥미로워,<function_MR>()<end>,['function_MR']
+6DFYMX,내일 도쿄 날씨 비 와 다음으로 새로 나온 게임이 재미있어 보이던데 언제 한번 해봐야겠어,"<function_MO>(timeframe=1, location=도쿄);<function_MR>()<end>","['function_MO', 'function_MR']"
+6DOKGU,새로 나온 스마트폰이 되게 좋아 보이더라,<function_MR>()<end>,['function_MR']
+6DOYDD,자주는 아니어도 가끔 케이크를 구워요,<function_MR>()<end>,['function_MR']
+6EDFZC,오늘은 산책을 하면서 기분을 전환해야겠어,<function_MR>()<end>,['function_MR']
+6EDKSH,오늘 커피 한 잔 할까,<function_MR>()<end>,['function_MR']
+6EHIZS,점심에 뭐 먹을지 고민 중이야 또 효과음을 5단계로 바꿔줘,<function_MR>();<function_ZV>(volume=5)<end>,"['function_MR', 'function_ZV']"
+6EIVPF,가볍게 웃을 수 있는 영화 추천해 줄래 이어서 에러 내역 보여줘,<function_MR>();<function_XO>()<end>,"['function_MR', 'function_XO']"
+6EVVDU,이 책 다 읽었어,<function_MR>()<end>,['function_MR']
+6FASNK,주말에 계획 있어 그 다음에 엘이디 조명 꺼줘,<function_MR>();<function_WN>(brightness=0)<end>,"['function_MR', 'function_WN']"
+6FFPNT,점심 먹었어 또 충전 위치로 되돌아가,<function_MR>();<function_KI>()<end>,"['function_MR', 'function_KI']"
+6FGJZO,내일은 운동을 좀 더 열심히 해야겠어 요즘 너무 게을러진 것 같아,<function_MR>()<end>,['function_MR']
+6FRCQX,요가 수업 들어본 적 있어,<function_MR>()<end>,['function_MR']
+6GINTS,현재 밝기 상태가 몇 퍼인지 알고 싶어 그리고 이 영화 재밌을까,<function_WN>(get=True);<function_MR>()<end>,"['function_WN', 'function_MR']"
+6GJDFM,주말에 만날까,<function_MR>()<end>,['function_MR']
+6GRNLR,운동하러 갈 거야,<function_MR>()<end>,['function_MR']
+6HAQNJ,월요일 멕시코시티 날씨 비 와 이어서 운동을 꾸준히 하려고 노력 중인데 쉽지 않네,"<function_MO>(timeframe=3, location=멕시코시티);<function_MR>()<end>","['function_MO', 'function_MR']"
+6HKZPD,오늘은 국물 요리가 땡긴다 그 후에 유브이 살균 엘이디 켜줘,<function_MR>();<function_NN>(enable=True)<end>,"['function_MR', 'function_NN']"
+6HUXKX,오늘 무슨 일 있었어,<function_MR>()<end>,['function_MR']
+6HWCGA,오늘 하루 종일 컴퓨터 앞에서 일했더니 눈이 너무 피로해,<function_MR>()<end>,['function_MR']
+6HYBTF,옛날 영화가 더 좋아,<function_MR>()<end>,['function_MR']
+6IDPBG,배가 고파서 뭐라도 먹어야겠어,<function_MR>()<end>,['function_MR']
+6IFTHV,자기 전에 잠깐 책이나 읽을까 싶어,<function_MR>()<end>,['function_MR']
+6ILEEJ,터치음을 팔십퍼로 설정해줘 그리고 오늘 아침부터 정신없었어,<function_ZV>(volume=4);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+6IOKEN,새로 시작한 드라마가 정말 재밌어 다음 화가 너무 기대 돼,<function_MR>()<end>,['function_MR']
+6JBJVI,책상 정리 좀 해야겠어 너무 지저분해졌어 그 다음에 금요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_IO']"
+6JMSBP,이번 주말에는 캠핑을 가기로 했어 기대 돼,<function_MR>()<end>,['function_MR']
+6JPUWM,오늘 저녁에는 가족들이랑 함께 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+6JRUVU,새로 나온 노래가 정말 좋더라 계속 듣고 있어,<function_MR>()<end>,['function_MR']
+6JWBTH,오늘은 진짜 아무것도 하기 싫어서 그냥 누워만 있었어 그 다음에 내일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_MO']"
+6JZAHS,이 영화 진짜 재밌어 다음으로 엘이디 아이 밝기 일단계로 높일래,<function_MR>();<function_WN>(brightness=1)<end>,"['function_MR', 'function_WN']"
+6KDHCO,이번에 새로 나온 스마트폰이 정말 좋다는데 살까 말까 고민이네,<function_MR>()<end>,['function_MR']
+6KDOHA,밝기 몇이야 그리고 주말에 뭘 하면 좋을지 추천해줘,<function_WN>(get=True);<function_MR>()<end>,"['function_WN', 'function_MR']"
+6KJJOZ,콘서트 티켓 구했어,<function_MR>()<end>,['function_MR']
+6KMHWE,이거 어떻게 사용하는 거야,<function_MR>()<end>,['function_MR']
+6KMSLR,공간별 누적 공기질 정보 연동 옵션을 비활성화해주실래요 그리고 이번 주말에는 무슨 영화를 볼지 미리 계획을 세워야겠어,"<function_BP>(enable=1, type=1);<function_MR>()<end>","['function_BP', 'function_MR']"
+6KYRPQ,요즘 무슨 책 읽어,<function_MR>()<end>,['function_MR']
+6LALUU,요즘 들어서 스트레스를 많이 받는 것 같아 좀 쉬어야겠어,<function_MR>()<end>,['function_MR']
+6LGPVL,오랜만에 운동을 시작했더니 몸이 좀 뻐근해,<function_MR>()<end>,['function_MR']
+6LJQEM,드라마 마라톤 해본 적 있어,<function_MR>()<end>,['function_MR']
+6LRSRD,이번 주말에는 무슨 요리를 해볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+6LVRAN,주말엔 뭐 할거야,<function_MR>()<end>,['function_MR']
+6MAIID,영화 예매는 했어,<function_MR>()<end>,['function_MR']
+6MAVDL,여름에는 어디로 휴가 가,<function_MR>()<end>,['function_MR']
+6MCKOD,내일은 아침 일찍 산책할 계획이야 다음으로 에이아이 모드 둘 다 켜주세요,"<function_MR>();<function_BP>(enable=0, type=2)<end>","['function_MR', 'function_BP']"
+6MGJXK,오늘은 왠지 하루가 길게 느껴지네 그리고 주말 나이로비 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=2, location=나이로비)<end>","['function_MR', 'function_MO']"
+6MGTRE,저녁에는 뭘 해야 시간도 잘 가고 의미 있을까 고민 중이야,<function_MR>()<end>,['function_MR']
+6MMLKL,오늘도 집에서 혼자 시간을 보내는데 조금 외로운 것 같아 그러고 나서 청정 기능 잠시 멈춰줘,<function_MR>();<function_YA>(move=1)<end>,"['function_MR', 'function_YA']"
+6MNUQJ,클래식 음악 들으면 마음이 편해져 그리고 배터리 몇 퍼센트야,<function_MR>();<function_JJ>()<end>,"['function_MR', 'function_JJ']"
+6MPIKW,이번 주말에는 친구들과 함께 시간을 보낼 계획이야,<function_MR>()<end>,['function_MR']
+6MVMMH,팬 풍냥 중풍 세기로 해줘 그 후에 내일은 뭐 할 계획이야,<function_NK>(speed=2);<function_MR>()<end>,"['function_NK', 'function_MR']"
+6MWMFK,내일 아침에 일어나야 돼,<function_MR>()<end>,['function_MR']
+6NPZXH,주말에 뭐 할지 아직도 결정을 못 했어 그냥 집에 있을까,<function_MR>()<end>,['function_MR']
+6NSPPT,볼륨이 현재 몇 단계인지 궁금해 이어서 오늘 진짜 일 많았어,<function_ZV>(get=True);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+6NZNHS,운동할 때 어떤 음악 들어,<function_MR>()<end>,['function_MR']
+6OJGBB,팬 풍냥 약풍 세기로 해줘 그리고 이거 어떻게 생각해,<function_NK>(speed=1);<function_MR>()<end>,"['function_NK', 'function_MR']"
+6OQZRW,주말에 뭐 할지 아직 정하지 못했어 그냥 집에 있을까,<function_MR>()<end>,['function_MR']
+6OVLEM,가장 기억에 남는 여행지는 어디야,<function_MR>()<end>,['function_MR']
+6OZAXP,다음 주에 있을 중요한 발표를 준비 중이야 다음으로 스트레스 지수 측정해줘,<function_MR>();<function_GV>()<end>,"['function_MR', 'function_GV']"
+6PDYZI,날씨 몇 도야 그리고 다음 주에 있을 약속이 취소돼서 다른 계획을 세워야겠어,"<function_MO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+6PKTST,배터리 잔량 확인해줘 그리고 피아노 연습 많이 했어,<function_JJ>();<function_MR>()<end>,"['function_JJ', 'function_MR']"
+6PMJEZ,주말에 만날 수 있어 다음으로 효과음을 2단계로 조절해줄래,<function_MR>();<function_ZV>(volume=2)<end>,"['function_MR', 'function_ZV']"
+6PMOYB,디저트 카페 추천해줄 수 있어,<function_MR>()<end>,['function_MR']
+6PONID,오랜만에 자전거 타고 한강에 가볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+6PQDRK,오늘 하루 종일 바빴어,<function_MR>()<end>,['function_MR']
+6PSFWN,이 식당 가봤어,<function_MR>()<end>,['function_MR']
+6PYHVR,뭐 할지 정했어,<function_MR>()<end>,['function_MR']
+6QBBNZ,새로 나온 영화 예고편 봤어 되게 재밌어 보이더라,<function_MR>()<end>,['function_MR']
+6QEKJL,내일은 뭘 해야 할지 아직 결정하지 못했어,<function_MR>()<end>,['function_MR']
+6QJNHX,화요일 대기질 정보를 화면에 보여줄래 그러고 나서 자기계발서 추천해줄래,"<function_IO>(timeframe=4, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+6QPSIH,요즘 쇼핑몰에 사람이 많아,<function_MR>()<end>,['function_MR']
+6QWKLE,"아, 그만하고 싶다, 이거",<function_MR>()<end>,['function_MR']
+6QZNNG,지금 보고 있는 드라마는 뭐야,<function_MR>()<end>,['function_MR']
+6REBFS,어제 저녁에 먹었던 음식이 너무 맛있어서 오늘도 먹고 싶어 또 월요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_MO']"
+6RFJGS,건강을 위해 뭐 하고 있어,<function_MR>()<end>,['function_MR']
+6RGQSZ,이번 주말에는 무슨 영화를 볼지 고민 중이야,<function_MR>()<end>,['function_MR']
+6RKBWQ,오늘은 가볍게 산책을 하면서 기분 전환을 해야겠어,<function_MR>()<end>,['function_MR']
+6RKXWC,주말에 영화관에 가고 싶은데 요즘 재밌는 영화 뭐가 있을까 그 다음에 일요일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_MO']"
+6RLMWV,영화 예고편 봤어,<function_MR>()<end>,['function_MR']
+6ROUGD,이번 주말에는 가족들이랑 외식하기로 했어 기대 돼,<function_MR>()<end>,['function_MR']
+6SAHTH,화요일 여기에 공기가 나쁠까 그러고 나서 이번 주말에 공부할 계획 있어,"<function_IO>(timeframe=4, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+6SCGQL,샌프란시스코 대기질 지수가 몇인지 알려줘 그리고 매일 운동하려고 노력 중이야,"<function_IO>(timeframe=0, location=샌프란시스코);<function_MR>()<end>","['function_IO', 'function_MR']"
+6SGKYO,책을 다 읽고 나니까 다른 책도 읽고 싶어졌어 그리고 목요일 노량진 날씨 어때,"<function_MR>();<function_MO>(timeframe=6, location=노량진)<end>","['function_MR', 'function_MO']"
+6SHFZD,오늘 저녁에는 가족들과 함께 저녁을 먹으러 갈 계획이야,<function_MR>()<end>,['function_MR']
+6SNACV,요즘 무슨 책 읽고 있어,<function_MR>()<end>,['function_MR']
+6SPGJJ,온도 단위를 화씨로 바꿔줄래요 그러고 나서 새로 산 운동화가 너무 편해서 자꾸 신고 나가고 싶어,<function_EW>(type=1);<function_MR>()<end>,"['function_EW', 'function_MR']"
+6SPKBS,다음 달에 있을 중요한 시험을 준비 중이야,<function_MR>()<end>,['function_MR']
+6SVSRR,놀러 갈 만한 곳 추천해줄래,<function_MR>()<end>,['function_MR']
+6SXGAM,새로 나온 제품 리뷰 봤어,<function_MR>()<end>,['function_MR']
+6SYLYB,오늘 하루가 너무 길었어 이제 좀 쉬어야겠어,<function_MR>()<end>,['function_MR']
+6TDETO,요즘 코로나 때문에 걱정이 많아,<function_MR>()<end>,['function_MR']
+6TMFLJ,볼만한 영화 하나 추천해 줄 수 있어 그리고 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=0, location=""0"")<end>","['function_MR', 'function_MO']"
+6TWEFY,혹시 에이아이 모드 동시에 켜주실 수 있나요 다음으로 이번 주말에는 캠핑을 가볼까 생각 중이야,"<function_BP>(enable=0, type=2);<function_MR>()<end>","['function_BP', 'function_MR']"
+6TYXCX,새로운 취미를 찾고 싶어서 뭘 배워볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+6ULTPI,주말에는 친구들이랑 오랜만에 만나기로 했어 기대 돼,<function_MR>()<end>,['function_MR']
+6UOSBI,오늘 진짜 힘들었어,<function_MR>()<end>,['function_MR']
+6UPNTU,요즘 공부하는 게 힘들어,<function_MR>()<end>,['function_MR']
+6UTZOS,금요일 날씨 추울까 또 새로운 레시피로 요리를 해볼까 하는데 뭐가 좋을지 고민 중이야,"<function_MO>(timeframe=7, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+6VKAEW,다음 주에는 더 열심히 일을 해야겠어 할 일이 많아,<function_MR>()<end>,['function_MR']
+6VWHXN,다음 주에 친구들이랑 캠핑 가는데 장비 챙길 게 많아,<function_MR>()<end>,['function_MR']
+6WITMS,오늘 하루는 정말 고단했어 이젠 푹 쉬고 싶어,<function_MR>()<end>,['function_MR']
+6WOEIT,새로 산 책이 너무 재미있어서 밤새 읽었어,<function_MR>()<end>,['function_MR']
+6WYGEV,엘씨디 조도를 삼단계로 맞춰줄래 그리고 운동 갔다 왔어,<function_WN>(brightness=3);<function_MR>()<end>,"['function_WN', 'function_MR']"
+6XBACH,내일은 조금 일찍 일어나서 책도 좀 읽고 운동도 해야지,<function_MR>()<end>,['function_MR']
+6XIQPR,저는 전시회를 자주 가요,<function_MR>()<end>,['function_MR']
+6XPOYF,일본어로 고마워는 어떻게 말해 이어서 오류 목록 조회해줘,<function_MR>();<function_XO>()<end>,"['function_MR', 'function_XO']"
+6XQMPS,주말에 여행 가고 싶다 또 티티에스 볼륨을 100프로로 바꿔줘,<function_MR>();<function_ZV>(volume=5)<end>,"['function_MR', 'function_ZV']"
+6XTRJN,영화 다 보고 나서 카페 갈까,<function_MR>()<end>,['function_MR']
+6YGRXO,드라마에서 나오는 음악도 좋더라,<function_MR>()<end>,['function_MR']
+6YJHYH,이 영화 진짜 재밌어,<function_MR>()<end>,['function_MR']
+6YKAOU,새로 나온 드라마가 너무 재밌어서 시간 가는 줄 모르겠어,<function_MR>()<end>,['function_MR']
+6ZAZHB,뭐 좀 추천해줄 수 있어,<function_MR>()<end>,['function_MR']
+6ZECPX,"커피 메뉴 하나 정해놓고 먹어, 아니면 매번 바꿔",<function_MR>()<end>,['function_MR']
+6ZGYXJ,방해 금지 모드 중단할게 그리고 이번 주말에는 가족들이랑 외식하기로 했어 기대 돼,<function_BS>(enable=False);<function_MR>()<end>,"['function_BS', 'function_MR']"
+6ZNFNS,수요일 날씨 추울까 그 다음에 저녁에 뭘 먹을지 아직도 고민 중이야 뭘 먹을까,"<function_MO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+6ZPQTE,이번 주말에 뭐할 계획이야,<function_MR>()<end>,['function_MR']
+6ZRFEF,운동을 더 열심히 해야겠어 요즘 체력이 너무 떨어진 것 같아,<function_MR>()<end>,['function_MR']
+6ZTMMS,오랜만에 영화를 한 편 봤는데 정말 감동적이었어,<function_MR>()<end>,['function_MR']
+7ABNWL,친구랑 같이 새로운 요리를 해보고 싶은데 뭐가 좋을까 그 후에 화요일 싱가포르 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=4, location=싱가포르)<end>","['function_MR', 'function_MO']"
+7AVGJC,오늘 하루는 정말 고단했어 이젠 푹 쉬고 싶어 또 기본 테마로 대기화면 설정해주세요,<function_MR>();<function_HG>(theme=0)<end>,"['function_MR', 'function_HG']"
+7AYZTO,점심 먹고 나니까 갑자기 너무 졸리네 잠깐 낮잠이라도 자야겠어,<function_MR>()<end>,['function_MR']
+7BFDZX,오늘 점심은 파스타 어때,<function_MR>()<end>,['function_MR']
+7BKFIP,내일은 친구들과 함께 저녁을 먹으러 갈 예정이야,<function_MR>()<end>,['function_MR']
+7BLQKX,다음 주에는 가족들이랑 오랜만에 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+7BMGXQ,집에 있는 시간이 많아지니까 뭘 해야 할지 모르겠어 또 월요일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_MO']"
+7BMHYG,커피 한 잔 하면서 얘기 나눌래,<function_MR>()<end>,['function_MR']
+7BMTEN,새로 나온 카페에 가서 커피 한 잔 하고 싶다 그 다음에 내일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_MO']"
+7BNOZN,요즘 들어 너무 바빠서 쉬는 날이 필요해 그러고 나서 나무 설정 비활성화해줘,<function_MR>();<function_QT>(enable=False)<end>,"['function_MR', 'function_QT']"
+7BVSUQ,다음 주말에는 가족들과 함께 등산을 가기로 했어,<function_MR>()<end>,['function_MR']
+7BWJUV,이번에 새로 배운 취미 있어,<function_MR>()<end>,['function_MR']
+7CAMFC,점심으로 먹은 음식이 너무 맛있어서 저녁에도 먹고 싶어,<function_MR>()<end>,['function_MR']
+7CDUVR,친구들과 함께 한 주말이 정말 즐거웠어 다시 만나고 싶다,<function_MR>()<end>,['function_MR']
+7CNHAJ,영화 볼래,<function_MR>()<end>,['function_MR']
+7CXJGL,러닝하러 나가자,<function_MR>()<end>,['function_MR']
+7CXUEO,봄이 되면 꽃이 피는 게 정말 예뻐,<function_MR>()<end>,['function_MR']
+7DCBCI,운동 다녀왔어,<function_MR>()<end>,['function_MR']
+7DJCDL,금요일 미세먼지 정보 보여줘 그 다음에 다음 주에 친구들이랑 모임이 있는데 뭐 입고 갈지 고민이야,"<function_IO>(timeframe=7, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7DTLGM,이번에 새로 산 신발이 정말 편하더라,<function_MR>()<end>,['function_MR']
+7DTWXA,다음 주에 중요한 미팅이 있어서 준비를 철저히 해야 해,<function_MR>()<end>,['function_MR']
+7DXKZC,이 옷 어때 괜찮아 보여,<function_MR>()<end>,['function_MR']
+7ECAMA,다음 달에 있을 여행을 위해 준비해야 할 것들이 많아,<function_MR>()<end>,['function_MR']
+7EDCTC,시간 있을 때 뭐해,<function_MR>()<end>,['function_MR']
+7EMCAK,이번 주말에는 영화를 한 편 보려고 해,<function_MR>()<end>,['function_MR']
+7EVTTA,감지 감도를 보통으로 조절해주실래요 이어서 키아누 리브스가 기부를 많이 하는 거 알고 있었어,<function_QD>(type=1);<function_MR>()<end>,"['function_QD', 'function_MR']"
+7EYLDD,저녁에 산책할 때 조용한 음악을 들으면 기분이 좋아져,<function_MR>()<end>,['function_MR']
+7FBCUG,오늘은 국물 요리가 땡긴다,<function_MR>()<end>,['function_MR']
+7FLCNV,요즘 무슨 드라마 봐,<function_MR>()<end>,['function_MR']
+7FLMXG,다음 주말에는 부모님과 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+7FSBNJ,볼만한 영화 하나 추천해 줄 수 있어,<function_MR>()<end>,['function_MR']
+7FXOKD,운동 계획 세워야겠어,<function_MR>()<end>,['function_MR']
+7FZTWK,뭐 도와줄까,<function_MR>()<end>,['function_MR']
+7GDREA,오늘 저녁에 뭐 먹을지 고민 중이야 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+7GLOLF,일찍 자고 일찍 일어나기 힘들어,<function_MR>()<end>,['function_MR']
+7GTIHU,매일 운동하기가 쉽지 않네,<function_MR>()<end>,['function_MR']
+7GXVIC,이번 주말에 뭐 할래,<function_MR>()<end>,['function_MR']
+7HGYAD,오늘도 집에서 혼자 시간을 보내는데 조금 외로운 것 같아,<function_MR>()<end>,['function_MR']
+7HUMDC,헬스장 가는 거 어때 그리고 청주 공기질 상태를 보여줘,"<function_MR>();<function_IO>(timeframe=0, location=청주)<end>","['function_MR', 'function_IO']"
+7HWZXX,이거 정말 멋지다,<function_MR>()<end>,['function_MR']
+7HZSGA,친구랑 친해지는 데 시간이 걸린다고 생각해,<function_MR>()<end>,['function_MR']
+7IBBTH,커피 대신 차를 마셔볼까 요즘 카페인 너무 많이 먹는 것 같아,<function_MR>()<end>,['function_MR']
+7ILHBU,목요일 여기에 공기가 나쁠까 그리고 요즘 스트레스가 너무 많이 쌓였어 어떻게 풀어야 할지 모르겠어,"<function_IO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7IOCLK,저녁 먹고 산책 나갈까 그리고 미디음을 4단계로 조정해줄래,<function_MR>();<function_ZV>(volume=4)<end>,"['function_MR', 'function_ZV']"
+7IWHTH,아침에 일찍 일어나니까 하루가 길어진 느낌이야,<function_MR>()<end>,['function_MR']
+7JCOJA,주말에는 특별한 계획이 없어서 그냥 집에서 쉴까 생각 중이야,<function_MR>()<end>,['function_MR']
+7JHATV,오랜만에 부모님과 시간을 보내려고 계획 중이야,<function_MR>()<end>,['function_MR']
+7JHYHT,주말에 같이 운동할 사람 구하는데 누구 같이 할래,<function_MR>()<end>,['function_MR']
+7JLMFX,친구들과 함께 한 주말이 정말 즐거웠어 다시 만나고 싶다 다음으로 날따름 정지해줘,<function_MR>();<function_YA>(move=0)<end>,"['function_MR', 'function_YA']"
+7KBNNY,이 영화 추천해줄래,<function_MR>()<end>,['function_MR']
+7KOKDO,공기질 아이 표시 활성화해줘 또 음악 들으면서 힐링하고 있어,<function_SC>(enable=True);<function_MR>()<end>,"['function_SC', 'function_MR']"
+7KTTFH,다음 달에 있을 중요한 회의를 준비 중이야,<function_MR>()<end>,['function_MR']
+7KZPDD,커피 마실 때 보통 어떻게 마셔,<function_MR>()<end>,['function_MR']
+7LDQSB,지금 배터리 몇 퍼센트야 그리고 취미로 요리하는 거 어때,<function_JJ>();<function_MR>()<end>,"['function_JJ', 'function_MR']"
+7LFJHH,주말에 여행 가고 싶다,<function_MR>()<end>,['function_MR']
+7LREEN,내일 중요한 일이 있는데 잘할 수 있을지 걱정 돼,<function_MR>()<end>,['function_MR']
+7LVTQN,소리 볼륨을 백퍼로 맞춰줘 또 퇴근 후에 뭐 할 계획이야,<function_ZV>(volume=5);<function_MR>()<end>,"['function_ZV', 'function_MR']"
+7MAUOC,다음 주에는 중요한 미팅이 있어서 준비를 해야 해,<function_MR>()<end>,['function_MR']
+7MDCQX,내일 아침에는 산책을 나가볼까 고민 중이야,<function_MR>()<end>,['function_MR']
+7MFAFE,다음 달에 있을 모임 준비를 미리 해둬야겠어,<function_MR>()<end>,['function_MR']
+7MRMHX,다음 달에 친구랑 여행 갈 계획 세우고 있어,<function_MR>()<end>,['function_MR']
+7MYVSM,여행지 추천해줄 수 있어,<function_MR>()<end>,['function_MR']
+7MZEDW,지금 가장 하고 싶은 일이 뭐야,<function_MR>()<end>,['function_MR']
+7NEESC,무슨 취미 있어 그리고 스캐닝 실행해주세요,<function_MR>();<function_IH>(scan=True)<end>,"['function_MR', 'function_IH']"
+7NERCO,처음 위치로 돌아가주면 좋겠어 또 어디로 여행 가고 싶어,<function_KI>();<function_MR>()<end>,"['function_KI', 'function_MR']"
+7NIION,이번에 새로 나온 스마트폰이 정말 좋다는데 고민이야,<function_MR>()<end>,['function_MR']
+7NTABU,이번 주에 할 일이 많아,<function_MR>()<end>,['function_MR']
+7NUKOT,지금 날씨 더운지 알려줘 그리고 오랜만에 달리기라도 좀 해볼까 싶어,"<function_MO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+7NWOVH,이 드라마 진짜 감동적이었어,<function_MR>()<end>,['function_MR']
+7OCDZI,엘씨디 디스플레이 밝기 삼으로 바꿔 그리고 내일 뭐 할거야,<function_WN>(brightness=3);<function_MR>()<end>,"['function_WN', 'function_MR']"
+7OGBXG,넌 무슨 음식을 좋아해 그 후에 전체 구역 청정 부탁할게,<function_MR>();<function_EF>(action=1)<end>,"['function_MR', 'function_EF']"
+7OJLUA,점심으로 먹은 음식이 너무 맛있어서 또 먹고 싶어,<function_MR>()<end>,['function_MR']
+7OUSLR,주말에 뭐 할지 아직 정하지 못했어 그냥 집에 있을까 그 후에 나무 여자 보이스로 변경해줘,<function_MR>();<function_GQ>(gender=1)<end>,"['function_MR', 'function_GQ']"
+7OVOWQ,하나의 영화만 평생 볼 수 있다면 뭘 선택할 거야,<function_MR>()<end>,['function_MR']
+7PAYRG,책 추천해줄래,<function_MR>()<end>,['function_MR']
+7PCRST,수요일 오사카 공기질 걱정해야 할까 이어서 오늘 점심으로 뭐 먹을지 고민이야 너무 배고파,"<function_IO>(timeframe=5, location=오사카);<function_MR>()<end>","['function_IO', 'function_MR']"
+7PGQAQ,이번 주말에는 책을 읽으면서 시간을 보내고 싶어,<function_MR>()<end>,['function_MR']
+7PTSKF,드라마 다시 보기 할까 고민 중이야,<function_MR>()<end>,['function_MR']
+7PUAPW,지금 에이아이 모드 전부 중지시켜줄래 또 내일은 친구들이랑 만날 예정이라 기대 돼,"<function_BP>(enable=1, type=2);<function_MR>()<end>","['function_BP', 'function_MR']"
+7PYDNE,만약 한 명의 유명인과 저녁을 먹을 수 있다면 누구를 선택할 거야,<function_MR>()<end>,['function_MR']
+7QHCOA,오늘 저녁에는 친구들과 함께 저녁을 먹기로 했어,<function_MR>()<end>,['function_MR']
+7QNNHC,이번 달은 너무 바빠서 뭔가를 계획하기가 어려웠어,<function_MR>()<end>,['function_MR']
+7QTQWM,책 좀 추천해줘 이어서 스캐닝 공기청정 상태가 어떤가요,<function_MR>();<function_IH>(get=True)<end>,"['function_MR', 'function_IH']"
+7RBHOL,월요일 날씨 전망을 표시해줄 수 있어 또 이번 주말엔 집 청소를 제대로 한번 해볼까 생각 중이야,"<function_MO>(timeframe=3, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+7RFIRE,에이원 필터 잔여량이 얼마나 남았는지 확인해주세요 그 다음에 친구가 보내준 선물이 정말 마음에 들어 오랜만에 웃었어,<function_UJ>();<function_MR>()<end>,"['function_UJ', 'function_MR']"
+7RKSKR,이번 달은 정신없이 바빠서 계획을 세우기가 어렵네 이어서 금요일 부산 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=7, location=부산)<end>","['function_MR', 'function_MO']"
+7ROVOA,오늘 저녁엔 뭘 만들어볼까,<function_MR>()<end>,['function_MR']
+7RVHUA,따뜻한 차 한 잔이 생각나,<function_MR>()<end>,['function_MR']
+7RWNXV,요즘 운동을 열심히 하고 있는데 몸이 조금 가벼워진 것 같아,<function_MR>()<end>,['function_MR']
+7RWSNZ,대기화면을 상세 공기질로 전환해줘 이어서 오늘 저녁에 뭐 먹을지 고민 중이야 뭐가 좋을까,<function_HG>(theme=2);<function_MR>()<end>,"['function_HG', 'function_MR']"
+7SAUSF,이번에 산 책이 너무 재밌어서 시간 가는 줄 모르겠어 그리고 청정 기능 재시작해줘,<function_MR>();<function_YA>(move=2)<end>,"['function_MR', 'function_YA']"
+7SGQOP,주말에 만날래,<function_MR>()<end>,['function_MR']
+7SGTXZ,금요일 강릉 대기질을 화면에 보여줘 다음으로 냉장고에 있는 재료들로 뭘 만들어 먹을 수 있을까,"<function_IO>(timeframe=7, location=강릉);<function_MR>()<end>","['function_IO', 'function_MR']"
+7SKFDV,이번 주말에 시간 있어,<function_MR>()<end>,['function_MR']
+7SKFSY,청정 켜봐 그리고 오늘 진짜 쳐진다,<function_PG>();<function_MR>()<end>,"['function_PG', 'function_MR']"
+7SLYBY,오늘은 오랜만에 친구들과 저녁을 먹으러 가기로 했어,<function_MR>()<end>,['function_MR']
+7SNWMS,최근에 산 것 중에서 가장 만족스러운 기기가 뭐야,<function_MR>()<end>,['function_MR']
+7SOSHR,어제 뉴스 봤어,<function_MR>()<end>,['function_MR']
+7SPCWN,저녁에 뭘 먹을지 아직도 고민 중이야 뭘 먹을까,<function_MR>()<end>,['function_MR']
+7SPWYJ,엘씨디 화면 밝기를 최대 밝기로 설정해줘 이어서 이 식당 가볼래,<function_WN>(brightness=5);<function_MR>()<end>,"['function_WN', 'function_MR']"
+7SULND,이번 주말에는 친구들이랑 캠핑 가기로 했어 정말 기대 돼,<function_MR>()<end>,['function_MR']
+7SYXEL,새로 나온 드라마가 인기가 많아서 한번 봐야겠어,<function_MR>()<end>,['function_MR']
+7SZHOV,취미로 그림을 그려요,<function_MR>()<end>,['function_MR']
+7TAOIV,이번에 새로 시작한 운동이 생각보다 힘들더라 또 금요일 날씨 정보 표시해줄래,"<function_MR>();<function_MO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_MO']"
+7TBUKS,다음 달에 친구들이랑 제주도로 여행 가기로 했어,<function_MR>()<end>,['function_MR']
+7TMXHW,이번 주말에는 가족들이랑 시간을 보내려고 해 오랜만이야,<function_MR>()<end>,['function_MR']
+7TSOUG,이번 주말에 자전거 타러 갈래 또 내일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_IO']"
+7TWVTW,청정 기능을 종료해주실래요 다음으로 이번 주에는 운동을 좀 더 자주 해야겠어,<function_YA>(move=0);<function_MR>()<end>,"['function_YA', 'function_MR']"
+7TXCAT,이번 세일 때 뭐 샀어,<function_MR>()<end>,['function_MR']
+7UDASN,스캐닝 청정 상태 좀 알려줘 이어서 이거 정말 괜찮다,<function_IH>(get=True);<function_MR>()<end>,"['function_IH', 'function_MR']"
+7UJVSJ,오늘 뭐 먹을까 그리고 음량을 80퍼센트로 올려줘,<function_MR>();<function_ZV>(volume=4)<end>,"['function_MR', 'function_ZV']"
+7VGHTO,새로운 요리법 배웠어,<function_MR>()<end>,['function_MR']
+7VKTTM,다음 주말에는 친구들이랑 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+7VYJSW,현재 뭐하고 있나요 그리고 내일 아침에는 일찍 일어나서 운동을 할 계획이야,<function_ID>(get=True);<function_MR>()<end>,"['function_ID', 'function_MR']"
+7WKDEF,오늘 하루가 너무 바빴어 이제 좀 쉬고 싶어,<function_MR>()<end>,['function_MR']
+7WNFAL,내일은 친구랑 같이 카페에 가서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+7XUPFO,이 노래 분위기 진짜 좋다,<function_MR>()<end>,['function_MR']
+7YFAHG,티비에서 무슨 영화 하는지 봤어,<function_MR>()<end>,['function_MR']
+7YIPPT,다음 주에는 조금 더 부지런하게 지내야겠다고 결심했어,<function_MR>()<end>,['function_MR']
+7YJQWS,공간별 미세먼지 어때 그러고 나서 겨울 여행지 추천해줘,"<function_IO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7YOAZB,지금 필터의 수명이 어떻게 되나요 그 다음에 새로운 취미를 찾고 싶은데 뭐가 좋을지 모르겠어,<function_UJ>();<function_MR>()<end>,"['function_UJ', 'function_MR']"
+7YQWPA,피아노 연습 많이 했어,<function_MR>()<end>,['function_MR']
+7YZEKN,이번 주말에는 오랜만에 친구들과 만나서 저녁을 먹기로 했어,<function_MR>()<end>,['function_MR']
+7ZKNRN,이 식당 어때,<function_MR>()<end>,['function_MR']
+7ZQVIV,이 책 재미있어,<function_MR>()<end>,['function_MR']
+7ZRVBC,주말에 잠깐 여행 다녀올래,<function_MR>()<end>,['function_MR']
+7ZXDFX,이 영화 봤어,<function_MR>()<end>,['function_MR']
+8ACRAV,테마를 기본으로 변경해줄래 또 내일은 친구들이랑 만날 예정인데 뭐 하고 놀지 고민 중이야,<function_HG>(theme=0);<function_MR>()<end>,"['function_HG', 'function_MR']"
+8AGRUQ,아침 먹었어 그러고 나서 엘이디 아이 밝기 이단계로 높일래,<function_MR>();<function_WN>(brightness=2)<end>,"['function_MR', 'function_WN']"
+8AIREL,오늘 일정은 어떻게 돼,<function_MR>()<end>,['function_MR']
+8ANHNF,풍속 설정된 값 확인해줄래 그러고 나서 이 영화 추천할 만해,<function_NK>(get=True);<function_MR>()<end>,"['function_NK', 'function_MR']"
+8AOMOO,나중에 유럽여행 가고 싶어,<function_MR>()<end>,['function_MR']
+8APNWZ,이번 주말에는 책을 읽으면서 여유롭게 시간을 보내고 싶어,<function_MR>()<end>,['function_MR']
+8ASLRW,현재 공기질 아이 표시가 작동하고 있나요 그리고 디저트 카페 추천해줄 수 있어,<function_SC>(get=True);<function_MR>()<end>,"['function_SC', 'function_MR']"
+8AXQVI,다음 주에 중요한 발표가 있는데 준비가 잘 될지 걱정 돼,<function_MR>()<end>,['function_MR']
+8AXSAU,저녁에 뭐 먹을지 벌써 결정했어,<function_MR>()<end>,['function_MR']
+8BBAKF,책을 다 읽고 나니까 다른 책도 읽고 싶어졌어,<function_MR>()<end>,['function_MR']
+8BCCFP,오늘 일찍 자야겠어,<function_MR>()<end>,['function_MR']
+8BCMUN,토요일 날씨 추울까 그리고 이번 주말에는 그냥 집에서 편하게 쉬고 싶어,"<function_MO>(timeframe=8, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+8BGQAX,오늘은 그냥 집에서 푹 쉬면서 책이나 읽을까 생각 중이야,<function_MR>()<end>,['function_MR']
+8BNXCK,베이징의 내일 날씨 정보 표시해줄래 다음으로 오늘은 좀 일찍 잠자리에 들어야겠어 내일 할 일이 많거든,"<function_MO>(timeframe=1, location=베이징);<function_MR>()<end>","['function_MO', 'function_MR']"
+8CBSGA,이번 주말에는 뭔가 특별한 계획을 세우고 싶어,<function_MR>()<end>,['function_MR']
+8CHWYF,새로 산 옷이 너무 마음에 들어 매일 입고 다니고 있어,<function_MR>()<end>,['function_MR']
+8CWKDQ,실외 대기질 정보 연동 옵션을 활성화해주실래요 그 후에 오늘은 하루가 정말 빨리 지나갔어 뭘 했는지 모르겠어,"<function_BP>(enable=0, type=0);<function_MR>()<end>","['function_BP', 'function_MR']"
+8CZHWF,요즘 인기 많은 드라마 뭐야,<function_MR>()<end>,['function_MR']
+8DKCWH,뉴델리의 화요일 날씨 정보 표시해줄래 그 후에 운동을 하고 나니까 몸이 가벼워진 느낌이 들어,"<function_MO>(timeframe=4, location=뉴델리);<function_MR>()<end>","['function_MO', 'function_MR']"
+8DORUE,음성을 남자로 전환해줄래 그 다음에 요즘 운동을 열심히 하고 있는데 몸이 조금 가벼워진 것 같아,<function_GQ>(gender=2);<function_MR>()<end>,"['function_GQ', 'function_MR']"
+8DQEQO,이번 달은 너무 바빠서 뭔가를 계획하기가 어려웠어 그리고 화요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=4, location=""0"")<end>","['function_MR', 'function_MO']"
+8DXFDD,빵을 구울 때 기분이 좋아져,<function_MR>()<end>,['function_MR']
+8DYXIH,내일 아침에 일찍 일어나서 산책을 하고 싶다,<function_MR>()<end>,['function_MR']
+8EARMB,부설연구소으로 이동해서 청정해줘 그리고 내일 뭐할 계획이야,<function_FF>(position=부설연구소);<function_MR>()<end>,"['function_FF', 'function_MR']"
+8EBMCW,가장 자주 듣는 음악이 뭐야,<function_MR>()<end>,['function_MR']
+8EHODD,오늘 하루 종일 바빴는데도 아직 해야 할 일이 많아,<function_MR>()<end>,['function_MR']
+8ERDVV,이거 어떻게 생각해,<function_MR>()<end>,['function_MR']
+8ERKTN,커피 마실 때 보통 어떻게 마셔 그 다음에 에이아이 모드에서 공간별 누적 공기질 정보 연동 켜주세요,"<function_MR>();<function_BP>(enable=0, type=1)<end>","['function_MR', 'function_BP']"
+8FDHXA,운동 후에는 스트레칭 꼭 해야 돼,<function_MR>()<end>,['function_MR']
+8FGSXF,오늘 뭐 먹을까,<function_MR>()<end>,['function_MR']
+8FKTDT,일요일 빈 대기질을 화면에 보여줘 이어서 새로 나온 노래가 되게 좋더라 계속 반복해서 듣고 있어,"<function_IO>(timeframe=9, location=빈);<function_MR>()<end>","['function_IO', 'function_MR']"
+8GCJFQ,요즘 들어 운동을 자주 하니까 몸이 조금 가벼워진 것 같아,<function_MR>()<end>,['function_MR']
+8GJTYL,저녁에 뭐 먹을지 고민 돼,<function_MR>()<end>,['function_MR']
+8GOHDS,실내에서 할 수 있는 활동 추천해줄래,<function_MR>()<end>,['function_MR']
+8GSAQR,이 책 읽어볼래,<function_MR>()<end>,['function_MR']
+8GWYUP,저녁으로 뭘 먹을지 아직도 고민 중이야 빨리 결정해야겠어,<function_MR>()<end>,['function_MR']
+8GYZWB,고양이를 키우고 있어요,<function_MR>()<end>,['function_MR']
+8HCPSB,어제 일찍 잤어,<function_MR>()<end>,['function_MR']
+8HKSFL,다음 주에는 새로운 도전도 해보고 싶어 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+8HTUNE,새로 나온 카페가 분위기가 좋아서 가보고 싶어 그 후에 화요일 이스탄불 날씨 어때,"<function_MR>();<function_MO>(timeframe=4, location=이스탄불)<end>","['function_MR', 'function_MO']"
+8HVFTX,책상 정리해야겠어,<function_MR>()<end>,['function_MR']
+8HXIWL,이번 주말에는 집에서 쉬면서 책을 읽을까 생각 중이야,<function_MR>()<end>,['function_MR']
+8HYERG,가장 좋아하는 국내 여행지가 어디야,<function_MR>()<end>,['function_MR']
+8IPIRC,오늘 점심에 뭐 먹지 고민 중이야 뭘 먹을까,<function_MR>()<end>,['function_MR']
+8IUVOL,주말 날씨 추울까 그러고 나서 내일은 조금 일찍 일어나서 책도 좀 읽고 운동도 해야지,"<function_MO>(timeframe=2, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+8IYJXP,쇼핑몰에서 뭐 샀어,<function_MR>()<end>,['function_MR']
+8IYMAK,다음 달에 있을 중요한 회의가 걱정 돼,<function_MR>()<end>,['function_MR']
+8JASYB,새로 시작한 취미가 너무 재미있어서 시간 가는 줄 몰라,<function_MR>()<end>,['function_MR']
+8JDYKP,지금 에이아이 모드 전부 작동시켜줄래 다음으로 이번 주말에는 뭘 할지 아직 못 정했는데 그냥 영화나 볼까 생각 중이야,"<function_BP>(enable=0, type=2);<function_MR>()<end>","['function_BP', 'function_MR']"
+8JHADJ,새로 나온 제품 리뷰 봤어 그 다음에 월요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_IO']"
+8JTJHJ,캠핑 한번 해보고 싶어 그 다음에 유브이 살균 엘이디 꺼줘,<function_MR>();<function_NN>(enable=False)<end>,"['function_MR', 'function_NN']"
+8KEEDR,요즘 시간이 너무 빨리 가는 것 같아 또 수요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=5, location=""0"")<end>","['function_MR', 'function_IO']"
+8KHRTE,오랜만에 집에 혼자 있으니까 뭘 해야 할지 모르겠어,<function_MR>()<end>,['function_MR']
+8KQLAH,이번 주말에는 오랜만에 친구들과 만나서 저녁을 먹기로 했어 그리고 지금 충전 중인지 확인해줘,<function_MR>();<function_ID>(get=True)<end>,"['function_MR', 'function_ID']"
+8KSKMU,어디서 커피 마시는 걸 좋아해,<function_MR>()<end>,['function_MR']
+8LDDJJ,토요일 하노이 공기질 걱정해야 할까 그리고 저녁에 뭐 해먹을지 고민 중이야 뭘 해먹을까,"<function_IO>(timeframe=8, location=하노이);<function_MR>()<end>","['function_IO', 'function_MR']"
+8LDNOM,천호동의 목요일 날씨 정보 표시해줄래 그리고 오늘 저녁은 뭘 먹어야 할지 고민이네 배는 고픈데 딱히 땡기는 게 없어,"<function_MO>(timeframe=6, location=천호동);<function_MR>()<end>","['function_MO', 'function_MR']"
+8LEPNJ,감지 민감도를 낮게 조정할 수 있어 또 요즘 들어 운동을 자주 하니까 몸이 조금 가벼워진 것 같아,<function_QD>(type=0);<function_MR>()<end>,"['function_QD', 'function_MR']"
+8LGNON,이 노래 들어봤어,<function_MR>()<end>,['function_MR']
+8LHGJS,이 영화 언제 개봉해,<function_MR>()<end>,['function_MR']
+8LMEWV,이번 주에 새 영화 개봉해,<function_MR>()<end>,['function_MR']
+8LPUWX,영화 볼래 그리고 스캐닝 공기청정 시작해줄래요,<function_MR>();<function_IH>(scan=True)<end>,"['function_MR', 'function_IH']"
+8LYXEE,주말에 가족들이랑 모임이 있는데 무슨 얘기를 할지 고민이야,<function_MR>()<end>,['function_MR']
+8MEJBS,다음 주에 중요한 시험이 있어서 공부에 집중해야겠어,<function_MR>()<end>,['function_MR']
+8MNBON,영화 보러 갈까 그 후에 티티에스 볼륨을 0단계로 조정해줄래,<function_MR>();<function_ZV>(volume=0)<end>,"['function_MR', 'function_ZV']"
+8MUQTI,오늘 뭐할 계획이야,<function_MR>()<end>,['function_MR']
+8MZXHS,이번 주에는 건강을 위해서 식단 관리를 시작하려고 해,<function_MR>()<end>,['function_MR']
+8NGGPR,잠이 안 와서 유튜브를 계속 보고 있어 그리고 목요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=6, location=""0"")<end>","['function_MR', 'function_IO']"
+8NHFMN,감지 민감도를 보통으로 조정할 수 있어 이어서 내일 아침에 일찍 일어나서 운동해야지,<function_QD>(type=1);<function_MR>()<end>,"['function_QD', 'function_MR']"
+8OADZJ,주말에 시간 있어,<function_MR>()<end>,['function_MR']
+8OBQDJ,이번 주에는 조금 더 계획적으로 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+8OEYZG,이번에 새로 나온 스마트워치가 정말 멋지던데 살까 말까 고민 중이야,<function_MR>()<end>,['function_MR']
+8OYYVY,주말 공기질 지수를 화면에 보여줘 그리고 새로 나온 신발이 예쁘더라,"<function_IO>(timeframe=2, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+8PCBDZ,내일의 오염 예보를 화면에 보여주세요 또 운동할 때 어떤 음악 듣니,"<function_IO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+8PHEJT,내일 뭐할 계획이야,<function_MR>()<end>,['function_MR']
+8PLYTM,오늘 뭐 먹을 거야,<function_MR>()<end>,['function_MR']
+8PRFIE,다음 주말에는 친구들과 함께 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+8PZHGO,이번 주말에는 그냥 집에서 쉬면서 책이나 읽으려고 해,<function_MR>()<end>,['function_MR']
+8QOMQQ,다음 주에 있을 발표 준비를 해야 하는데 조금 떨려,<function_MR>()<end>,['function_MR']
+8QULDE,새로 산 자켓이 너무 마음에 들어서 매일 입고 다니고 있어 또 나무 현재 상태 확인해줘,<function_MR>();<function_QT>(get=True)<end>,"['function_MR', 'function_QT']"
+8QWBXT,요즘 어떤 운동 하고 있어,<function_MR>()<end>,['function_MR']
+8QWYYV,나 좀 우울한 것 같아 이어서 스캐닝 청정 켜져있는 중인가요,<function_MR>();<function_IH>(get=True)<end>,"['function_MR', 'function_IH']"
+8RBYLZ,이번 주에는 할 일이 많아서 시간을 잘 관리해야겠어,<function_MR>()<end>,['function_MR']
+8RHLAO,저는 여행을 정말 좋아해요,<function_MR>()<end>,['function_MR']
+8RQMJU,이 영화 봤어 그리고 고정 청정 온,<function_MR>();<function_PG>()<end>,"['function_MR', 'function_PG']"
+8RYDJE,저는 사진 찍는 걸 좋아해요,<function_MR>()<end>,['function_MR']
+8SDJBJ,이번 주에 할 일이 많아서 큰일이야,<function_MR>()<end>,['function_MR']
+8SIYBV,요즘 책을 많이 읽고 있는데 재밌는 소설 추천해줄래,<function_MR>()<end>,['function_MR']
+8SLRMA,오늘 하루도 무사히 지나갔어,<function_MR>()<end>,['function_MR']
+8SQJSH,내일은 친구랑 만나서 저녁을 먹기로 했어 기대 돼,<function_MR>()<end>,['function_MR']
+8SVGXY,저녁 메뉴 추천 해줘 그 다음에 바람 강도 강풍으로 맞춰줘,<function_MR>();<function_NK>(speed=3)<end>,"['function_MR', 'function_NK']"
+8TBETI,주말에는 친구들이랑 영화 한 편 볼까 생각 중이야 또 금요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_MO']"
+8TEPEM,오늘 할 일 끝났어 이어서 엘이디 눈 밝기를 백퍼로 바꿔줘,<function_MR>();<function_WN>(brightness=5)<end>,"['function_MR', 'function_WN']"
+8THRSE,내일 중요한 발표가 있는데 너무 긴장 돼 잘해야 할 텐데,<function_MR>()<end>,['function_MR']
+8THTQN,영화 보러 갈래,<function_MR>()<end>,['function_MR']
+8THXDU,운전 배운 지 얼마 안 됐어,<function_MR>()<end>,['function_MR']
+8TJFTO,현재 센서 민감도 설정을 확인하고 싶어요 그 후에 이번에 새로 나온 스마트폰이 정말 좋다는데 고민이야,<function_QD>(get=True);<function_MR>()<end>,"['function_QD', 'function_MR']"
+8UAKNG,내일 아침에 뭘 먹을까 고민 중이야 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+8UBCZX,운동 갔다 왔어,<function_MR>()<end>,['function_MR']
+8VBANM,내일은 아침 일찍 산책할 계획이야,<function_MR>()<end>,['function_MR']
+8VEORK,이 식당 가봤어 그러고 나서 미디음을 3단계로 조정해줄래,<function_MR>();<function_ZV>(volume=3)<end>,"['function_MR', 'function_ZV']"
+8VGYPO,다음 주에 시간 괜찮아 이어서 미디음 볼륨 단계가 어떻게 되는지 알려줘,<function_MR>();<function_ZV>(get=True)<end>,"['function_MR', 'function_ZV']"
+8VNDIJ,내일은 아침 일찍 일어나서 공부를 시작하려고 해,<function_MR>()<end>,['function_MR']
+8VNMUK,"핸드폰 자주 바꾸는 편이야, 아니면 오래 쓰는 편이야",<function_MR>()<end>,['function_MR']
+8VXQWE,뭐 좀 도와줄까,<function_MR>()<end>,['function_MR']
+8VYPSB,내일은 좀 더 부지런히 일해야겠어 할 일이 많거든 그리고 에이아이 모드의 공간별 공기질 데이터 연동 종료해줘,"<function_MR>();<function_BP>(enable=1, type=1)<end>","['function_MR', 'function_BP']"
+8WQVDR,다음 달에 있을 중요한 발표 준비가 걱정 돼,<function_MR>()<end>,['function_MR']
+8WSHHB,이번 주에는 조금 더 운동을 열심히 해야겠어 또 에이아이 모드 한번에 다 꺼줘,"<function_MR>();<function_BP>(enable=1, type=2)<end>","['function_MR', 'function_BP']"
+8WXEQE,일요일 날씨 추울까 그 다음에 저녁에 뭐 먹을지 고민 중이야 피자 아니면 파스타,"<function_MO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+8WYQDW,내일은 꼭 일찍 일어나서 운동을 해야지,<function_MR>()<end>,['function_MR']
+8XABHI,다음 달에 중요한 발표가 있어서 준비를 열심히 하고 있어,<function_MR>()<end>,['function_MR']
+8XBXVT,취미로 배워볼 만한 거 추천해줄래 또 엘이디 아이 공기질 상태 표시 켜줘,<function_MR>();<function_SC>(enable=True)<end>,"['function_MR', 'function_SC']"
+8XGBVK,시간이 너무 늦었는데 아직도 할 일이 남아있어,<function_MR>()<end>,['function_MR']
+8XNGEB,오늘 저녁 뭐 먹을까,<function_MR>()<end>,['function_MR']
+8XPUNN,오늘 하루는 정말 바쁘게 보냈는데 아직도 해야 할 일이 많아,<function_MR>()<end>,['function_MR']
+8XXDAD,핫 커피랑 콜드브루 중에 뭐가 더 좋아,<function_MR>()<end>,['function_MR']
+8YBJQL,커피를 너무 많이 마신 것 같아 밤에 잠이 올지 모르겠어 그 다음에 일요일 날씨 알려줘,"<function_MR>();<function_MO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_MO']"
+8YHLUX,오늘 점심에 뭐 먹지 고민 중이야 뭘 먹을까 그리고 온도 단위 알려주세요,<function_MR>();<function_EW>(get=True)<end>,"['function_MR', 'function_EW']"
+8ZHSPT,새로 산 신발이 마음에 안 들어,<function_MR>()<end>,['function_MR']
+8ZKKZT,새로 나온 노래가 인기가 많아서 들어볼까 생각 중이야 그 후에 룩앳미,<function_MR>();<function_FR>()<end>,"['function_MR', 'function_FR']"
+8ZNBBC,다음 주에는 조금 더 부지런하게 지내야겠다고 다짐 중이야,<function_MR>()<end>,['function_MR']
+8ZTGFO,이번 주말에 계획이 없어서 뭐 할지 고민 중이야,<function_MR>()<end>,['function_MR']
+8ZWVZP,어디로 여행 가고 싶어,<function_MR>()<end>,['function_MR']
+8ZXDKK,새로 산 가방이 너무 마음에 들어서 매일 들고 다니고 있어,<function_MR>()<end>,['function_MR']
+9AEJMM,이 영화 재밌었어,<function_MR>()<end>,['function_MR']
+9AFMXU,스캐닝 기능 시작해주세요 그리고 이번 주말엔 뭐할 거야,<function_IH>(scan=True);<function_MR>()<end>,"['function_IH', 'function_MR']"
+9AIULH,내일은 아침 일찍 일어나서 산책을 해야겠어,<function_MR>()<end>,['function_MR']
+9AQYVI,이 드라마 진짜 감동적이었어 그리고 음소거 해,<function_MR>();<function_MV>(mute=True)<end>,"['function_MR', 'function_MV']"
+9BDFYZ,주말에 같이 게임할 사람 구하는데 누구 할래 그 후에 현재 청주 날씨 알려주세요,"<function_MR>();<function_MO>(timeframe=0, location=청주)<end>","['function_MR', 'function_MO']"
+9BHBOS,등산 갈 때 같이 갈래,<function_MR>()<end>,['function_MR']
+9BHSBQ,이번 주에는 계획한 일을 모두 마무리할 수 있으면 좋겠어,<function_MR>()<end>,['function_MR']
+9BTLNB,새로 산 책을 읽고 있는데 내용이 너무 흥미로워,<function_MR>()<end>,['function_MR']
+9CLDQS,오늘 할 일 끝났어,<function_MR>()<end>,['function_MR']
+9CNOKS,티비에서 무슨 영화 하는지 봤어 그 후에 음소거 해제해줘,<function_MR>();<function_MV>(mute=False)<end>,"['function_MR', 'function_MV']"
+9CUYSM,커피를 끊으려고 하는데 자꾸 생각나서 힘들어,<function_MR>()<end>,['function_MR']
+9CVGUR,수요일 미세먼지 정보 보여줘 또 이번 주말에 계획이 없어서 뭐 할지 고민 중이야,"<function_IO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+9DJLGQ,취미로 요리하는 거 어때,<function_MR>()<end>,['function_MR']
+9DQSTX,감지 민감도를 높음으로 조정해줄 수 있어 그리고 이번 주말에는 그냥 집에서 쉬면서 책이나 읽으려고 해,<function_QD>(type=2);<function_MR>()<end>,"['function_QD', 'function_MR']"
+9DRFUH,오늘 점심으로 뭐 먹을지 고민이야 너무 배고파,<function_MR>()<end>,['function_MR']
+9DTKWP,넌 어떤 음악 좋아해,<function_MR>()<end>,['function_MR']
+9DYJDA,이번 주말에는 뭘 할지 아직 못 정했는데 그냥 영화나 볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+9EGJTZ,새로 배운 기술 있으면 공유해줄래,<function_MR>()<end>,['function_MR']
+9EGSDC,좋아하는 커피 브랜드가 뭐야,<function_MR>()<end>,['function_MR']
+9ESUGQ,가장 좋아하는 과일이 뭐야,<function_MR>()<end>,['function_MR']
+9EZMKY,다음 주말에는 가족들과 함께 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+9FLUNO,선택한 구역 공기 정화를 다시 켜줄 수 있어 그리고 저녁에 뭐 먹을지 고민 중이야 뭘 먹으면 좋을까,<function_YA>(move=2);<function_MR>()<end>,"['function_YA', 'function_MR']"
+9FSWCC,여성 음성으로 지정해주실래요 그 후에 오늘 하루는 정말 바쁘게 보냈는데 아직도 해야 할 일이 많아,<function_GQ>(gender=1);<function_MR>()<end>,"['function_GQ', 'function_MR']"
+9GARXO,요즘 스트레스를 많이 받아서 운동을 시작했어,<function_MR>()<end>,['function_MR']
+9GBVNI,요즘 스트레스를 많이 받아,<function_MR>()<end>,['function_MR']
+9GDQAL,목요일 미세먼지 정보 보여줘 그리고 이번에 새로 나온 게임 해봤어 정말 재미있더라,"<function_IO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+9GERZQ,월요일 멕시코시티 공기질 나쁠까 다음으로 요즘 무슨 공부 하고 있어,"<function_IO>(timeframe=3, location=멕시코시티);<function_MR>()<end>","['function_IO', 'function_MR']"
+9GSBHQ,풍속 약풍으로 조정해줘 그리고 여기 와본 적 있어,<function_NK>(speed=1);<function_MR>()<end>,"['function_NK', 'function_MR']"
+9GSQFU,넌 무슨 취미 있어,<function_MR>()<end>,['function_MR']
+9GTPMX,저녁에 무슨 드라마 볼까요,<function_MR>()<end>,['function_MR']
+9HATCH,요즘 좋아하는 음식 뭐야 그리고 공기질 상태 표시가 켜져있는지 확인해볼래,<function_MR>();<function_SC>(get=True)<end>,"['function_MR', 'function_SC']"
+9HQMFK,쇼핑할 때 뭘 제일 많이 사,<function_MR>()<end>,['function_MR']
+9HUHZN,이번 주말엔 그냥 집에서 푹 쉬어야겠어,<function_MR>()<end>,['function_MR']
+9HVHOM,음성 인지 작동 시작해줘 그리고 새로 나온 노래가 인기가 많던데 한번 들어봐야겠어,<function_QT>(enable=True);<function_MR>()<end>,"['function_QT', 'function_MR']"
+9HVWWB,커피를 너무 많이 마신 것 같아 밤에 잠이 올지 모르겠어,<function_MR>()<end>,['function_MR']
+9HZLQZ,내일은 친구랑 카페에서 시간을 보낼 예정이야,<function_MR>()<end>,['function_MR']
+9ICQGP,다음 주 시험 준비 어떻게 하고 있어,<function_MR>()<end>,['function_MR']
+9ICTJW,기타 배우는 거 어때,<function_MR>()<end>,['function_MR']
+9IHQLB,내일 아침에 일찍 일어나서 운동을 해볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+9INNNO,주말에 잠깐 여행 다녀올래 그러고 나서 현재 공기질 모니터링 상황은 어때,"<function_MR>();<function_IO>(timeframe=0, location=""0"")<end>","['function_MR', 'function_IO']"
+9IOFCL,다음 주말에는 친구들과 함께 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+9IPAWT,이번 주말에는 그냥 집에서 영화나 볼까 생각 중이야,<function_MR>()<end>,['function_MR']
+9IPUJS,영화 보러 갈까,<function_MR>()<end>,['function_MR']
+9IQBDR,오늘 하루 어땠어,<function_MR>()<end>,['function_MR']
+9IZHZX,이번 주말에는 친구들과 함께 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+9JYCKI,새로 나온 드라마가 재미있다고 해서 한번 봐야겠어,<function_MR>()<end>,['function_MR']
+9KAAVD,다음 주에는 더 열심히 일을 해야겠어 할 일이 많아 이어서 에이아이 모드 켜져 있나요,<function_MR>();<function_BP>(get=True)<end>,"['function_MR', 'function_BP']"
+9KGULQ,이번 주에는 할 일이 많아서 조금 더 부지런히 살아야겠어,<function_MR>()<end>,['function_MR']
+9KIMPY,매너모드 취소해주실래요 이어서 다음 주에 친구들이랑 캠핑 가는데 장비 챙길 게 많아,<function_ZX>(enable=False);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+9KMFZJ,엘이디 눈 밝기 일단계로 높여줄래 다음으로 최근 하는 일이 뭐야,<function_WN>(brightness=1);<function_MR>()<end>,"['function_WN', 'function_MR']"
+9KUPCB,이번 주말 계획 말해줄래,<function_MR>()<end>,['function_MR']
+9KVIFH,이 가수 노래 엄청 좋더라,<function_MR>()<end>,['function_MR']
+9LEIHE,오늘 저녁은 샐러드로 가볍게 먹을까,<function_MR>()<end>,['function_MR']
+9LPFZA,커피 마시러 가자,<function_MR>()<end>,['function_MR']
+9LTKOW,이번 주말에 쇼핑 갈래 그 후에 주말 카이로 공기질 알려줄래,"<function_MR>();<function_IO>(timeframe=2, location=카이로)<end>","['function_MR', 'function_IO']"
+9LTSFN,이 영화 예고편 봤어,<function_MR>()<end>,['function_MR']
+9LUEQH,오늘은 푹 쉬는 날로 정했어 아무것도 안 하고 싶어,<function_MR>()<end>,['function_MR']
+9MIUDG,새로운 책을 샀는데 너무 기대 돼,<function_MR>()<end>,['function_MR']
+9MMLTU,내일 친구랑 점심 먹기로 약속했어,<function_MR>()<end>,['function_MR']
+9MUFZD,새 시즌 언제 나오는지 알아 그리고 음소거 모드로 지정해줘,<function_MR>();<function_MV>(mute=True)<end>,"['function_MR', 'function_MV']"
+9NFKMZ,풍속 터보로 조정해줘 다음으로 내일 만나자,<function_NK>(speed=4);<function_MR>()<end>,"['function_NK', 'function_MR']"
+9NFRUF,오랜만에 달리기라도 좀 해볼까 싶어,<function_MR>()<end>,['function_MR']
+9NHPNU,이번 주말에는 집에서 책이나 읽으면서 시간을 보내려고 해,<function_MR>()<end>,['function_MR']
+9NNHWT,오늘 하루가 너무 길어서 집에 가서 쉬고 싶어,<function_MR>()<end>,['function_MR']
+9NNUQW,내일 아침에 일찍 일어날 수 있을지 모르겠네 그 후에 목요일 옥수동 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=6, location=옥수동)<end>","['function_MR', 'function_IO']"
+9OLHOO,주말에 새로운 카페에 가보려고 하는데 맛있을까 궁금해,<function_MR>()<end>,['function_MR']
+9OXUPS,새로 배운 운동이 있어,<function_MR>()<end>,['function_MR']
+9PAHDT,모스크바의 주말 날씨 정보 표시해줄래 그리고 주말에 뭐 할지 아직도 결정을 못 했어 그냥 집에 있을까,"<function_MO>(timeframe=2, location=모스크바);<function_MR>()<end>","['function_MO', 'function_MR']"
+9PNSOP,에러 기록 알려줘 이어서 저녁으로 뭘 먹을지 아직도 고민 중이야 뭘 먹을까,<function_XO>();<function_MR>()<end>,"['function_XO', 'function_MR']"
+9PSHOE,새로 시작한 프로젝트가 기대돼서 열심히 준비 중이야,<function_MR>()<end>,['function_MR']
+9PYTPE,"전자기기 관심 많아, 아니면 그냥 필요한 것만 써",<function_MR>()<end>,['function_MR']
+9QBJTP,이번 달은 정신없이 바빠서 계획을 세우기가 어렵네,<function_MR>()<end>,['function_MR']
+9QNFWY,다음 달에 해외여행 계획이 있어서 준비를 하고 있어,<function_MR>()<end>,['function_MR']
+9RBUBR,자주 가는 맛집 추천해 줄래,<function_MR>()<end>,['function_MR']
+9RTMQM,이 영화 진짜 재밌다,<function_MR>()<end>,['function_MR']
+9RVIJZ,주말에는 특별한 계획이 없어서 그냥 집에 있으려고 해,<function_MR>()<end>,['function_MR']
+9SGLEQ,요즘 들어서 건강식에 관심이 많아졌어 뭐가 좋을까,<function_MR>()<end>,['function_MR']
+9SPLHB,샌프란시스코의 날씨 정보 표시해줄래 그 후에 오늘 저녁은 뭘 먹을지 고민이야 배는 고픈데 딱히 땡기는 게 없어,"<function_MO>(timeframe=0, location=샌프란시스코);<function_MR>()<end>","['function_MO', 'function_MR']"
+9SQDVK,새로 배운 게 뭐야 다음으로 월요일 홍콩 공기질 때문에 마스크 필요할까,"<function_MR>();<function_IO>(timeframe=3, location=홍콩)<end>","['function_MR', 'function_IO']"
+9SXOHN,오늘 저녁으로 뭘 먹을지 아직도 고민 중이야,<function_MR>()<end>,['function_MR']
+9SZZCG,최근에 본 영화 중에 가장 좋았던 거 뭐야,<function_MR>()<end>,['function_MR']
+9TFNWW,운전할 때 가장 듣기 좋은 음악 뭐야,<function_MR>()<end>,['function_MR']
+9TJDXR,내일은 친구들이랑 카페에서 만나서 시간을 보낼 거야,<function_MR>()<end>,['function_MR']
+9TMIQK,산책은 늘 상쾌해,<function_MR>()<end>,['function_MR']
+9TSVJX,새 시즌 언제 나오는지 알아,<function_MR>()<end>,['function_MR']
+9UBZCW,다음 주에 있을 회의 준비를 미리 좀 해놔야겠어,<function_MR>()<end>,['function_MR']
+9UERAD,토요일 날씨 전망을 표시해줄 수 있어 그리고 내일은 집에서 요리나 해볼까 싶어,"<function_MO>(timeframe=8, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+9UPCHD,한글로 언어 설정 바꿔줘 다음으로 이번 주말에 콘서트 가볼까,<function_HS>(type=1);<function_MR>()<end>,"['function_HS', 'function_MR']"
+9UXYOK,새로 나온 드라마가 재미있다고 해서 한번 봐야겠어 다음으로 현재 어떤 성별로 말하나요,<function_MR>();<function_GQ>(get=True)<end>,"['function_MR', 'function_GQ']"
+9VAMWZ,요즘 기온이 많이 떨어졌으니 따뜻한 옷을 챙겨 입어야겠어,<function_MR>()<end>,['function_MR']
+9VEGWV,다음 주말에는 친구들과 여행을 가기로 했어,<function_MR>()<end>,['function_MR']
+9VEIJT,요즘 스트레스를 너무 많이 받아서 어떻게 풀어야 할지 모르겠어,<function_MR>()<end>,['function_MR']
+9VFHKO,내일은 조금 더 생산적인 하루를 보내야지,<function_MR>()<end>,['function_MR']
+9VKNCK,점심에 뭐 먹을지 고민 중이야,<function_MR>()<end>,['function_MR']
+9VPNFC,요즘 너무 바빠서 운동할 시간이 없어서 몸이 찌뿌둥해,<function_MR>()<end>,['function_MR']
+9VVJDU,주말 로마 날씨 비 와 그리고 내일 아침에 일찍 일어나서 운동을 해야 하는데 할 수 있을까 모르겠어,"<function_MO>(timeframe=2, location=로마);<function_MR>()<end>","['function_MO', 'function_MR']"
+9WHAHU,요즘 시간이 너무 빨리 가는 것 같아,<function_MR>()<end>,['function_MR']
+9WPGLW,오늘 하루는 정말 바쁘게 보냈는데도 해야 할 일이 아직 많아,<function_MR>()<end>,['function_MR']
+9XHGWY,아이스크림 먹으러 가자,<function_MR>()<end>,['function_MR']
+9XIHMU,프라이버시 설정 활성화하셨나요 그 다음에 아침에 일찍 일어나서 운동하는 게 생각보다 힘들지 않더라,<function_GN>(get=True);<function_MR>()<end>,"['function_GN', 'function_MR']"
+9XNXXO,이번 주말에는 가족들이랑 바베큐 파티 하기로 했어,<function_MR>()<end>,['function_MR']
+9XQMGA,이번 주말에는 가족들이랑 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+9XSYBO,다음 주말에는 가족들이랑 함께 시간을 보내기로 했어,<function_MR>()<end>,['function_MR']
+9XTFEK,다음 달에 있을 모임을 준비하려고 하는데 뭘 준비해야 할지 고민이야 이어서 센서 감도 보통으로 해줘,<function_MR>();<function_QD>(type=1)<end>,"['function_MR', 'function_QD']"
+9YALMT,새로 산 이어폰이 너무 좋아서 음악 듣는 게 더 즐거워졌어 그리고 센서 민감도를 민감으로 설정해야 해요,<function_MR>();<function_QD>(type=2)<end>,"['function_MR', 'function_QD']"
+9YDHDS,오늘 저녁은 뭘 먹을지 고민 중이야 배는 고픈데 딱히 생각나는 게 없어 다음으로 지금 여성 목소리로 설정된 건가요,<function_MR>();<function_GQ>(get=True)<end>,"['function_MR', 'function_GQ']"
+9YKHTD,이 식당 추천해줄래,<function_MR>()<end>,['function_MR']
+9YNQZE,전체 공기 정화 일시 정지할 수 있어 그러고 나서 요즘 기온이 많이 떨어졌으니 따뜻한 옷을 챙겨 입어야겠어,<function_YA>(move=1);<function_MR>()<end>,"['function_YA', 'function_MR']"
+9YSNVU,요즘 무슨 음악 자주 들어,<function_MR>()<end>,['function_MR']
+9ZEHFA,저녁에 뭐 해먹을지 고민 중이야 뭘 해먹을까,<function_MR>()<end>,['function_MR']
+9ZMCII,공부할 때 집중하는 팁 있니,<function_MR>()<end>,['function_MR']
+9ZSBIH,피트니스 프로그램 추천해줄래,<function_MR>()<end>,['function_MR']
+9ZSFBU,목요일 날씨 전망을 표시해줄 수 있어 그러고 나서 새로 시작한 취미가 생각보다 재미있어서 시간이 금방 가더라,"<function_MO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_MO', 'function_MR']"
+9ZYCHH,이번 주에 새로운 프로젝트가 시작돼서 기대 중이야,<function_MR>()<end>,['function_MR']

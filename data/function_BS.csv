@@ -1,0 +1,21 @@
+﻿Index,Query(한글),LLM Output,Functions
+1CUPEZ,고정 공기 청정 가동 시작해줘 그 다음에 나이트 모드 시작할래,<function_PG>();<function_BS>(enable=True)<end>,"['function_PG', 'function_BS']"
+1UNYXM,고스트 모드 설정해주세요 그러고 나서 오늘 하루는 그냥 아무것도 안 하고 싶어,<function_BS>(enable=True);<function_MR>()<end>,"['function_BS', 'function_MR']"
+1YKPJF,어두운 모드로 바꿔줘,<function_BS>(enable=True)<end>,['function_BS']
+2PDLTR,고정 공청 기능 켜줘 그러고 나서 나이트 모드 비활성화해줘,<function_PG>();<function_BS>(enable=False)<end>,"['function_PG', 'function_BS']"
+3IHJRD,고스트 모드 종료해주세요 그리고 주말에 뭐 할지 아직 정하지 못했어 그냥 집에 있을까 생각 중이야,<function_BS>(enable=False);<function_MR>()<end>,"['function_BS', 'function_MR']"
+3XHJTV,고스트 모드 켜줘,<function_BS>(enable=True)<end>,['function_BS']
+4EUGLD,고스트 모드 실행해줘,<function_BS>(enable=True)<end>,['function_BS']
+4IOTZL,고정 청정 온 또 방해 금지 모드 중단할게,<function_PG>();<function_BS>(enable=False)<end>,"['function_PG', 'function_BS']"
+4WHWLT,고스트 모드 중지해줘,<function_BS>(enable=False)<end>,['function_BS']
+5HMRPG,이번에 새로 나온 스마트폰이 정말 좋다는데 살까 말까 고민이네 그리고 나이트 모드 꺼줘,<function_MR>();<function_BS>(enable=False)<end>,"['function_MR', 'function_BS']"
+5IQZOS,나이트 모드 설정해줘,<function_BS>(enable=True)<end>,['function_BS']
+5WXHOL,새로 산 책을 읽고 있는데 너무 재미있어 시간 가는 줄 모르겠어 그리고 나이트 모드 비활성화해줘,<function_MR>();<function_BS>(enable=False)<end>,"['function_MR', 'function_BS']"
+6BJCQB,고정 공기 청정 가동 시작해줘 그리고 고스트 모드 설정해주세요,<function_PG>();<function_BS>(enable=True)<end>,"['function_PG', 'function_BS']"
+6YUZDS,고정 공기 청정 실행해줘 그리고 나이트 모드 비활성화해줘,<function_PG>();<function_BS>(enable=False)<end>,"['function_PG', 'function_BS']"
+6YYYLS,고정 공청 기능 켜줘 또 나이트 모드 켜줘,<function_PG>();<function_BS>(enable=True)<end>,"['function_PG', 'function_BS']"
+6ZGYXJ,방해 금지 모드 중단할게 그리고 이번 주말에는 가족들이랑 외식하기로 했어 기대 돼,<function_BS>(enable=False);<function_MR>()<end>,"['function_BS', 'function_MR']"
+7NRGJD,나이트 모드 중지해줘,<function_BS>(enable=False)<end>,['function_BS']
+7OTSYX,나이트 모드 실행해줘,<function_BS>(enable=True)<end>,['function_BS']
+8FEFLJ,나이트 모드 해제해줘,<function_BS>(enable=False)<end>,['function_BS']
+9ZKVSQ,고스트 모드 꺼줘,<function_BS>(enable=False)<end>,['function_BS']

@@ -1,0 +1,41 @@
+
+seed: 1234
+logging_level: INFO
+
+debug: False
+
+# v0, v1
+method: v2
+
+# for null prompt
+# use_dummy: False
+use_dummy: 
+
+environ:
+  model_cache: HF_MODEL_CACHE
+  dataset_cache: HF_DATASETS_CACHE
+  openai_api_key: OPENAI_API_KEY
+  dummy_api_key: DUMMY_API_KEY
+
+model:
+  name: Qwen/Qwen2.5-Math-7B-Instruct
+  is_api: False
+  base_url: http://localhost:8000/v1
+
+path: 
+  # output: /home/heyjoonkim/data/reasoning_abstention
+  output: /data1/heyjoonkim/reasoning_abstention
+
+dataset:
+  # select from : heyjoonkim/hendrycks_math, heyjoonkim/math_500
+  name: heyjoonkim/math_500
+
+generation:
+  template_id: 0
+  num_generations: 1
+  num_demonstrations: 2
+  # num_demonstrations: 4
+  max_new_tokens: 3000
+  temperature: 0.0
+  top_p: 1.0
+  top_logprobs: 100
