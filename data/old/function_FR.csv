@@ -1,0 +1,13 @@
+﻿Index,Query(한글),LLM Output,Functions
+0FLTFS,나 쪽으로 돌려줄래?,<function_FR>()<end>,['function_FR']
+0GGEKN,오늘 하루가 너무 바빴어 이제 좀 쉬고 싶어 그 후에 제 방향으로 돌려주실래요,<function_MR>();<function_FR>()<end>,"['function_MR', 'function_FR']"
+1APAFN,저를 향해 봐주세요 그 후에 이번 주에는 운동을 좀 더 열심히 해야겠어 체력이 필요해,<function_FR>();<function_MR>()<end>,"['function_FR', 'function_MR']"
+1WAYFB,나 쪽으로 돌려주겠니?,<function_FR>()<end>,['function_FR']
+3KXLPW,나 쪽으로 돌려줄 수 있어?,<function_FR>()<end>,['function_FR']
+4BOWDR,고정 공청 기능 켜줘 이어서 제 방향으로 돌려주실래요,<function_PG>();<function_FR>()<end>,"['function_PG', 'function_FR']"
+4OCQMC,이쪽으로 틀어줄 수 있어 그 후에 내일은 아침 일찍 일어나서 하루를 길게 써볼까 생각 중이야,<function_FR>();<function_MR>()<end>,"['function_FR', 'function_MR']"
+4USVSY,나를 바라봐줄래?,<function_FR>()<end>,['function_FR']
+5FMBZH,고정 공기 청정 가동 시작해줘 그리고 룩앳미,<function_PG>();<function_FR>()<end>,"['function_PG', 'function_FR']"
+7VBJQQ,나 좀 봐줄래?,<function_FR>()<end>,['function_FR']
+8ZKKZT,새로 나온 노래가 인기가 많아서 들어볼까 생각 중이야 그 후에 룩앳미,<function_MR>();<function_FR>()<end>,"['function_MR', 'function_FR']"
+8ZWUYP,고정 공기 청정 가동 시작해줘 그리고 이쪽으로 틀어줄 수 있어,<function_PG>();<function_FR>()<end>,"['function_PG', 'function_FR']"

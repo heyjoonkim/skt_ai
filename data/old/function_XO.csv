@@ -1,0 +1,11 @@
+﻿Index,Query(한글),LLM Output,Functions
+2AAUWC,고정 공청 기능 켜줘 그리고 오류 히스토리 확인해줘,<function_PG>();<function_XO>()<end>,"['function_PG', 'function_XO']"
+4MHMDR,오류 기록을 보여줘,<function_XO>()<end>,['function_XO']
+5GQDHT,고정 공기 청정 가동 시작해줘 그리고 에러 띄워줘,<function_PG>();<function_XO>()<end>,"['function_PG', 'function_XO']"
+6EIVPF,가볍게 웃을 수 있는 영화 추천해 줄래 이어서 에러 내역 보여줘,<function_MR>();<function_XO>()<end>,"['function_MR', 'function_XO']"
+6IZHTS,에러 내역 표시해줘,<function_XO>()<end>,['function_XO']
+6XPOYF,일본어로 고마워는 어떻게 말해 이어서 오류 목록 조회해줘,<function_MR>();<function_XO>()<end>,"['function_MR', 'function_XO']"
+7MMWKQ,에러 이력 표시해줄래,<function_XO>()<end>,['function_XO']
+7WSOUI,에러 이력 확인해줘,<function_XO>()<end>,['function_XO']
+8MKPXB,에러 내역 보여줘,<function_XO>()<end>,['function_XO']
+9PNSOP,에러 기록 알려줘 이어서 저녁으로 뭘 먹을지 아직도 고민 중이야 뭘 먹을까,<function_XO>();<function_MR>()<end>,"['function_XO', 'function_MR']"

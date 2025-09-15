@@ -1,0 +1,12 @@
+﻿Index,Query(한글),LLM Output,Functions
+2ICCSB,내 뒤를 따라와 그 다음에 이번 주말에는 가족들이랑 시간을 보내기로 했어,<function_CK>();<function_MR>()<end>,"['function_CK', 'function_MR']"
+2IYUPE,고정 공기 청정 실행해줘 그러고 나서 팔로미,<function_PG>();<function_CK>()<end>,"['function_PG', 'function_CK']"
+3FSGIP,나 따라올래,<function_CK>()<end>,['function_CK']
+3VLZCC,고정 공청 기능 켜줘 그러고 나서 팔로미,<function_PG>();<function_CK>()<end>,"['function_PG', 'function_CK']"
+4OYHRU,내일 아침에 일찍 일어나서 운동을 해볼까 생각 중이야 그 다음에 팔로미,<function_MR>();<function_CK>()<end>,"['function_MR', 'function_CK']"
+4SNOII,다음 주에는 더 열심히 일해야겠어 할 일이 많아 그 다음에 저를 향해 이동해주실래요,<function_MR>();<function_CK>()<end>,"['function_MR', 'function_CK']"
+6JEAWC,나 따라와줘요,<function_CK>()<end>,['function_CK']
+6TBVSG,청정 켜봐 그리고 여기로 따라와주세요,<function_PG>();<function_CK>()<end>,"['function_PG', 'function_CK']"
+7MWFFW,나를 따라와 줄래?,<function_CK>()<end>,['function_CK']
+9PPQMO,나 따라와,<function_CK>()<end>,['function_CK']
+9YOHOD,나 따라와야 해,<function_CK>()<end>,['function_CK']
