@@ -1,0 +1,1000 @@
+{"query": "공기질상태지금바로보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "포항 머 대기 상태 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"포항\")<end>"}
+{"query": "대구 공기 지금 상태 좀 보여 줘라", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "오늘인천먼지많냐", "function_call": "<function_IO>(timeframe=0, location=\"인천\")<end>"}
+{"query": "실시간 대구 공기 모니터링 체크해줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "지금 원주 공기 오염 지수 알려줄래?", "function_call": "<function_IO>(timeframe=0, location=\"원주\")<end>"}
+{"query": "수요일에 서울 공기 오염 어때?", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>"}
+{"query": "사투리_경상도: 내일 포항 대기질 조아질낀가?", "function_call": "<function_IO>(timeframe=1, location=\"포항\")<end>"}
+{"query": "내일강서구공기질상황알려줄래", "function_call": "<function_IO>(timeframe=1, location=\"강서구\")<end>"}
+{"query": "화요일 대구 초미세먼지 수치는 어떻게 되지?", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "주말김해먼지농도?", "function_call": "<function_IO>(timeframe=2, location=\"김해\")<end>"}
+{"query": "주말 서울 미세먼지 농도 어때?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "금요일 수원 대기 상태 확인해 주세요", "function_call": "<function_IO>(timeframe=7, location=\"수원\")<end>"}
+{"query": "여기공기상태어때", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "현재 대구 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "이번주일요일공기질어떻노", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "내일울산공기체크해줘", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "당장 판교 초미세먼지 상태 좀 봐줘", "function_call": "<function_IO>(timeframe=0, location=\"판교\")<end>"}
+{"query": "내일 인천 공기 상황 상태 좀 볼래?", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "아따지금공기상태가어떻노", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "대전 먼지 수치 빨리 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "이번 주 금요일 청주 공기 상태 좀 확인할래", "function_call": "<function_IO>(timeframe=7, location=\"청주\")<end>"}
+{"query": "주말에 울진 공기 좀 알려주쇼", "function_call": "<function_IO>(timeframe=2, location=\"울진\")<end>"}
+{"query": "화요일 대구 대기 상태 확인해줘", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "주말울산공기좋나?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "내일 울산 공기질 체크해 줘요", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "화요일 대구 대기상태 확인해줘", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "주말 충청도 공기 상태 어떤가요?", "function_call": "<function_IO>(timeframe=2, location=\"충청도\")<end>"}
+{"query": "월요일여의도공기질예보가궁금해요", "function_call": "<function_IO>(timeframe=3, location=\"여의도\")<end>"}
+{"query": "주말 대전 미세먼지 상황 좀 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "이번 주 수요일 공기 상태 어떨까 궁금해요", "function_call": "<function_IO>(timeframe=5, location=\"0\")<end>"}
+{"query": "내일 군산 지역 공기 질 보여 주세요", "function_call": "<function_IO>(timeframe=1, location=\"군산\")<end>"}
+{"query": "수요일 울산 초미세먼지 수치 좀 확인해줘", "function_call": "<function_IO>(timeframe=5, location=\"울산\")<end>"}
+{"query": "줄임말, 뭉개짐: 내일 대구 먼지 농도 어때?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "사투리_경상도: 내일 김해 공기 질 확인할래", "function_call": "<function_IO>(timeframe=1, location=\"김해\")<end>"}
+{"query": "익산 주말 공기질은 어떻노?", "function_call": "<function_IO>(timeframe=2, location=\"익산\")<end>"}
+{"query": "오늘부산미세먼지는어때", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "주말 제주 대기질 상태 알려라", "function_call": "<function_IO>(timeframe=2, location=\"제주\")<end>"}
+{"query": "주말 대구 공기 상태 알려주세유", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "내일 부산 미세먼지 농도 얼마나 될까?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "주말 청주 공기질 확인 좀 해줘", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "부산에 내일 대기질 어때요?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "인제군오늘미세먼지어떠노", "function_call": "<function_IO>(timeframe=0, location=\"인제군\")<end>"}
+{"query": "내일 강릉 먼지 농도 어떻게 될까?", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "월요일 울산 공기질 확인 부탁해", "function_call": "<function_IO>(timeframe=3, location=\"울산\")<end>"}
+{"query": "대전 미세먼지 내일 좀 봐줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "월요일 공기 상태 좀 체크해 봐요", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "내일 광주 초미세먼지 수치 어떻겠노?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "줄임말, 뭉개짐: 금요일 부산 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"부산\")<end>"}
+{"query": "수요일 용인 지역 공기 상태 어때?", "function_call": "<function_IO>(timeframe=5, location=\"용인\")<end>"}
+{"query": "오늘 김해 미세먼지 농도 알려 줘요", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "현재 강릉 공기져 어떠누?", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "월요일대기질어때", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "내일 울진 공기질 확인해 주삼", "function_call": "<function_IO>(timeframe=1, location=\"울진\")<end>"}
+{"query": "내일 춘천 공기 질 좀 확인해 줄래?", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "지금용산공기질어때?", "function_call": "<function_IO>(timeframe=0, location=\"용산\")<end>"}
+{"query": "STT노이즈: 내일청주공기농도좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "화요일 서울 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=4, location=\"서울\")<end>"}
+{"query": "내일 대전 공기 질 보고 싶어", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "현재 공기질 모니터링 좀 화면에 띄워 줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 마산 공기질 예보 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"마산\")<end>"}
+{"query": "주말여의도미세먼지어때?", "function_call": "<function_IO>(timeframe=2, location=\"여의도\")<end>"}
+{"query": "주말대기질조케 알라주라~", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일대전공기질상태좀봐주소", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "사투리_경상도: 지금 밀양 공기질 좀 알려봐라", "function_call": "<function_IO>(timeframe=0, location=\"밀양\")<end>"}
+{"query": "여기공기상태어때?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일서울미세먼지?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "주말 서울 공기 상태 어때?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "이번주부산공기상태좋나?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "목요일 파리 초미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"파리\")<end>"}
+{"query": "주말 대전 공기 치우쳐 있나 보이소", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "내일 창원 공기질 좀 보여주이소", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "내일 대구 미세먼지 상태 좀 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일청주공기좀봐줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "주말 여의도 대기질 상태 알 수 있을까?", "function_call": "<function_IO>(timeframe=2, location=\"여의도\")<end>"}
+{"query": "내일 뉴델리 미세먼지 상황 잘 보여줘요", "function_call": "<function_IO>(timeframe=1, location=\"뉴델리\")<end>"}
+{"query": "내일 광주 대기 질 괜찮은가?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "일요일때 세종시 공기질 상태 보여줘", "function_call": "<function_IO>(timeframe=9, location=\"세종시\")<end>"}
+{"query": "금요일 부산 초미세먼지 상황 알려 줘", "function_call": "<function_IO>(timeframe=7, location=\"부산\")<end>"}
+{"query": "실시간 노원구 공기질 모니터링 부탁해", "function_call": "<function_IO>(timeframe=0, location=\"노원구\")<end>"}
+{"query": "수요일파주공기질상태는어떨까", "function_call": "<function_IO>(timeframe=5, location=\"파주\")<end>"}
+{"query": "이번 주말 공기 상태 좋을까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "이번 주 금요일 대구 먼지 상황 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"대구\")<end>"}
+{"query": "주말 공기 어때?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 울산 미세먼지 농도 알수있나?", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "주말에 대기오염 많이 심하나 알려주실래?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 서울 공기질 상태 궁금하오", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일 군산 공기질 최가인다고", "function_call": "<function_IO>(timeframe=1, location=\"군산\")<end>"}
+{"query": "현재 부산 공기질 상황 좀 알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "주말 거제도 공기 상태 괜찮나요?", "function_call": "<function_IO>(timeframe=2, location=\"거제도\")<end>"}
+{"query": "지금 경주 공기 상태 궁금해", "function_call": "<function_IO>(timeframe=0, location=\"경주\")<end>"}
+{"query": "대전공기질현실시간봐줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "내일 광주 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "수요일 대전 공기질 수치 부탁드려요", "function_call": "<function_IO>(timeframe=5, location=\"대전\")<end>"}
+{"query": "내일 청주 대기질 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "월요일 대전 공기질 상황 조회할게요", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "내일 평택 미세먼지 상황 궁금해", "function_call": "<function_IO>(timeframe=1, location=\"평택\")<end>"}
+{"query": "내일서울미세먼지예보좀보여줄래", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일 여기 공기질 좀 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일부산공기질좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "내일 광주 초미세먼지 상태 보여줘요", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "공기질 모니터링 상태 부탁해", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 대구 공기 좀 확인해 줘", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "주말 서울 공기질 예보 보여줄 수 있나요?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "토요일 창원 공기 상태 어때요?", "function_call": "<function_IO>(timeframe=8, location=\"창원\")<end>"}
+{"query": "내일 이곳 공기질 상태 어떻게 돼?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일서울미세먼지예보보여줄래", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "대전 내일 공기 상태 알려주라", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "금요일 대기 상황 궁금", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "서울 이번 주 토요일 공기 상태", "function_call": "<function_IO>(timeframe=8, location=\"서울\")<end>"}
+{"query": "요즘 대구 공기 좀 어떠꾸만?", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "공기질 지금 확인 좀 해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 대구 미세먼지수치 알려주세요", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일 용인 대기질 수치 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"용인\")<end>"}
+{"query": "월요일 청주 공기질 농도 알려줄 수 있어?", "function_call": "<function_IO>(timeframe=3, location=\"청주\")<end>"}
+{"query": "대전 내일 공기 오염 정도 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "줄임말, 뭉개짐: 지금 경북 공기질 상태?", "function_call": "<function_IO>(timeframe=0, location=\"경북\")<end>"}
+{"query": "오늘 광명 공기질 보고 싶습니다", "function_call": "<function_IO>(timeframe=0, location=\"광명\")<end>"}
+{"query": "현재대기질상황인천에서알려줘", "function_call": "<function_IO>(timeframe=0, location=\"인천\")<end>"}
+{"query": "주말 동안 공기질 어떻게 될까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 울산 대기질 수치 보고 싶어요", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "실내 공기 질 확인해볼래?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 강화도 공기질 괜찮을까?", "function_call": "<function_IO>(timeframe=1, location=\"강화도\")<end>"}
+{"query": "담주월요일성남공기질수치뽑아줄래", "function_call": "<function_IO>(timeframe=3, location=\"성남\")<end>"}
+{"query": "전주 내일 공기질 좀 보여주께", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "주말에 여기 공기질 괜찮을까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "화요일 청주 공기 오염 상태 보자", "function_call": "<function_IO>(timeframe=4, location=\"청주\")<end>"}
+{"query": "월요일 경기도 공기질 상황 보여줘", "function_call": "<function_IO>(timeframe=3, location=\"경기도\")<end>"}
+{"query": "월요일에대기질 어떠심?", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "줄임말, 뭉개짐: 내일 인천 대기질 체크해줘", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "여기 공간별 공기 현황 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "현재공기질상태알려줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "월요일 광주 미세먼지 상태는 어떨까?", "function_call": "<function_IO>(timeframe=3, location=\"광주\")<end>"}
+{"query": "월요일 여의도 공기질 예보가 궁금해요", "function_call": "<function_IO>(timeframe=3, location=\"여의도\")<end>"}
+{"query": "내일 금요일 공기질 대전에", "function_call": "<function_IO>(timeframe=7, location=\"대전\")<end>"}
+{"query": "주말부산먼지상태?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "목요일공기질상태봐줘<function_IO>(timeframe=6, location=\"0\")<end>", "function_call": "<function_IO>(timeframe=6, location=\"0\")<end>"}
+{"query": "지금 공기질 좀 확인해주라", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "광양내 공기 어때가?", "function_call": "<function_IO>(timeframe=0, location=\"광양\")<end>"}
+{"query": "실시간 전국 공기질 상황 보여주세요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "STT노이즈: 오늘울산공기상태좀확인", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "내일울산공기좀보여줘", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "주말에 마스크 써야 하나요?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "부산에 공기 상태 좀 보여줘라", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "현 서울 공기질 상태 알려줘요", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일청주공기질좀알려주소", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "내일 광주 미세먼지 농도 확인해 줘요", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "주말서울공기좀 확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "아따지금공기상태어떠냐?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "충청도 내일 대기 오염 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"충청도\")<end>"}
+{"query": "대전에서 공기 상황 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "내일 오산 미세먼지 어때?", "function_call": "<function_IO>(timeframe=1, location=\"오산\")<end>"}
+{"query": "오늘대전먼지상태봐줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "수요일 공기질 상황 좀 확인하게 해주세요", "function_call": "<function_IO>(timeframe=5, location=\"0\")<end>"}
+{"query": "금욜 울산 공기 좋나?", "function_call": "<function_IO>(timeframe=7, location=\"울산\")<end>"}
+{"query": "내일광주공기상태알려줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "오늘 서울 미세먼지 많이 낄까?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "주말 공기 좋아질까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말서울먼지어때?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "일요일 공기질 예측 결과 알려줘", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "서울 현 공기질 상태가 어떤지 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "금요일 강남구 미세먼지 수치 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"강남구\")<end>"}
+{"query": "주말대전 대기요 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "주말 공기질 좀 확실하게 보여 줄 수 있어?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일대전공기오염도알려주세요", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "오늘 청주 공기 상태 어때?", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "오늘 공기질 모니터링 부탁해", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말에 전국 공기질 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 서울 공기질 상태 확인해봐주세요", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "줄임말, 뭉개짐: 지금 경기 공기질 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"경기\")<end>"}
+{"query": "내일 전주 미세먼지 내역 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "오후까지 서울 공기농도 어떨까?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "공기질 상태 주말에 괜찮겠나?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말 의정부 공기질 상태는 어떵까?", "function_call": "<function_IO>(timeframe=2, location=\"의정부\")<end>"}
+{"query": "내일 의정부 공기 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"의정부\")<end>"}
+{"query": "내일 당진시 대기질 어때요?", "function_call": "<function_IO>(timeframe=1, location=\"당진\")<end>"}
+{"query": "내일전라도공기질알수있냐?", "function_call": "<function_IO>(timeframe=1, location=\"전라도\")<end>"}
+{"query": "보령 주말 대기질 예상 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"보령\")<end>"}
+{"query": "내일 대구 공기질 수치 좀 알려주라", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "실내 공기 질 상태 지금 보여 주실래요?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "일요일 대기상태 확인해 주세요", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "내일 광주 대기 상태 어때?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "공기 질? 지금 괜찮는겨?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말에 여기 공기 좀 어떨껴?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 대전 공기질 좋아질까?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "이땐 채공식 공기질 어떵?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "일요일 강동구 공기질 알려줘", "function_call": "<function_IO>(timeframe=9, location=\"강동구\")<end>"}
+{"query": "내일 광주 미세먼지 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일 청주 공기질 전망 좀 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "주말여의도미세먼지어때", "function_call": "<function_IO>(timeframe=2, location=\"여의도\")<end>"}
+{"query": "내일 춘천 공기 좋을는지 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "줄임말, 뭉개짐: 지금 광주 공기 상태 알려주라", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "내일대구먼지보여줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "주말 전남 공기질 살피고 싶어", "function_call": "<function_IO>(timeframe=2, location=\"전남\")<end>"}
+{"query": "이번주토요일진주공기질어때?", "function_call": "<function_IO>(timeframe=8, location=\"진주\")<end>"}
+{"query": "내일 울산 공기 상태 확인해줘", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "화요일 제주 공기 상황 알려줘", "function_call": "<function_IO>(timeframe=4, location=\"제주\")<end>"}
+{"query": "대구 내일 초미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "주말광주대기농도?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "부산 주말 대기질 농도 궁금해", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "내일 대구 공기 질 얼마나 나쁠까?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일전라도공기질알수있나", "function_call": "<function_IO>(timeframe=1, location=\"전라도\")<end>"}
+{"query": "내일 여수 공기 상태 어때?", "function_call": "<function_IO>(timeframe=1, location=\"여수\")<end>"}
+{"query": "내일 서울 공기 상태 꼭 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일 춘천 쪽 미세먼지 수치 보여주게", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "월요일 전남 지역 공기질 괜찮은가?", "function_call": "<function_IO>(timeframe=3, location=\"전남\")<end>"}
+{"query": "주말 공기질 평가 좀 부탁해요", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말에 부산 공기 상태 좀 알려주라", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "내일 수원 미세먼지만 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "내일 대전 공기 질 상태 알려드려", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "주말 광양 공기질 조금 알려 줄 수 있나?", "function_call": "<function_IO>(timeframe=2, location=\"광양\")<end>"}
+{"query": "내일 저녁 인천 공기 상태 알려주이소", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "주말대구먼지얼마임?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "오늘 광주 공기질 실시간 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "지금 부산 공기 나쁘니 알려줄래요", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일대전공기오염좀봐줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "지금해운대미세먼지농도알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"해운대\")<end>"}
+{"query": "오늘부산 미세먼지 좀", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "오늘 공기 질좀 확인해주이소", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일충북청주대기오염수치알려줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "주말 공기 질 상태 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 서울 대기 상태 나쁘니?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "금요일청주공기상태좀봐", "function_call": "<function_IO>(timeframe=7, location=\"청주\")<end>"}
+{"query": "주말 공기 상태 좀 봐 주실랑가?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "부산 내일 공기 상태 괜찮을까 몰라", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "내일 아산 공기 상황 어떻게 돼?", "function_call": "<function_IO>(timeframe=1, location=\"아산\")<end>"}
+{"query": "내일 광주 초미세먼지 농도 확인해줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일 청주 먼지 상황 어떻노?", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "충청도 사투리: 금요일 천안 대기질 좀 알려라", "function_call": "<function_IO>(timeframe=7, location=\"천안\")<end>"}
+{"query": "내일대전공기질상태보여줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "서울내일공기좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일 서산 공기 상태 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"서산\")<end>"}
+{"query": "이번 주 토요일 진주 공기질 상태 알려줘라", "function_call": "<function_IO>(timeframe=8, location=\"진주\")<end>"}
+{"query": "주말 공기질 상태 좀 보자", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 부산 공기 모니터링 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "금요일 부산 공기질 알아봐 주이소", "function_call": "<function_IO>(timeframe=7, location=\"부산\")<end>"}
+{"query": "오늘부산공기질알려죠", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "주중 화요일 공기질 상태가 궁금해", "function_call": "<function_IO>(timeframe=4, location=\"0\")<end>"}
+{"query": "오늘광명공기질보여줘", "function_call": "<function_IO>(timeframe=0, location=\"광명\")<end>"}
+{"query": "내일 대구 미세먼지 예상 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "지금 늑찌미 공기 어때유?", "function_call": "<function_IO>(timeframe=0, location=\"늑찌미\")<end>"}
+{"query": "주말 대구 공기 어때??", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "내일 부천 공기 질 확인 부탁해", "function_call": "<function_IO>(timeframe=1, location=\"부천\")<end>"}
+{"query": "대구 공기질 주말에 어떠냐?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "현재 광주 공기 너무 안좋아?", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "이번 주 목요일 제주 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"제주\")<end>"}
+{"query": "내일대전상태알려", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "내일 광주 미세먼지 농도 보고 싶어요", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "오늘 충북 공기 오염 상황 알고 싶어", "function_call": "<function_IO>(timeframe=0, location=\"충북\")<end>"}
+{"query": "실시간 천안시 공기질 알려 줘", "function_call": "<function_IO>(timeframe=0, location=\"천안\")<end>"}
+{"query": "공기 상태 지금 한 번 보여주시겠어요?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "오늘 대구 공기 상태 보여주세요", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "오늘 실내 공기 상태 모니터링 부탁해요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주중 수요일 서울 대기질 알려줘", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>"}
+{"query": "지금 군산 공기질 괜찮은가?", "function_call": "<function_IO>(timeframe=0, location=\"군산\")<end>"}
+{"query": "오늘 부산 공기 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "금요일 서울 대기질 괜찮나", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "주말 인천 공기 상황 어떠냐", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "주말 대전 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "내일춘천미세먼지수치보여줘", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "금요일 서울 공기질 모니터링 결과 보여줘", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "강릉 금요일 공기 상태 어때?", "function_call": "<function_IO>(timeframe=7, location=\"강릉\")<end>"}
+{"query": "현재 서울 공기질 상황 알려 주세요", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일 진주 공기 상태 좀 보여 줘라", "function_call": "<function_IO>(timeframe=1, location=\"진주\")<end>"}
+{"query": "내일 광주 공기 상태 확인해봐유", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "경상도 사투리: 내일 창원이 공기 좀 어떠노?", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "주말에공기질좋을까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 광주 공기 오염 상황 알려줄래요", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일부산미세먼지?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "다음주 월요일 여의도 공기질 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"여의도\")<end>"}
+{"query": "내일 진주 공기질 확인해줘라", "function_call": "<function_IO>(timeframe=1, location=\"진주\")<end>"}
+{"query": "내일 공기 상태  보여주게나", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "충남 지역에 내일 공기질 상황 어때?", "function_call": "<function_IO>(timeframe=1, location=\"충남\")<end>"}
+{"query": "실내 공기질 상황 디스플레이에 띄워줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "목요일 대기질 상태 확인해줘", "function_call": "<function_IO>(timeframe=6, location=\"0\")<end>"}
+{"query": "내일대구초미세먼지알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "오늘 부산 공기상태 보여줄래", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "금요일 노원구 공기 어때?", "function_call": "<function_IO>(timeframe=7, location=\"노원구\")<end>"}
+{"query": "주말에제주쪽공기상태는어떨까", "function_call": "<function_IO>(timeframe=2, location=\"제주\")<end>"}
+{"query": "오늘서울대기질상태?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일 수원 공기질 어떤지 좀 알려준다", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "오늘 울산 공기질 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "월요일 공기 상태 기기 근처로 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "여기 공기질 지금 상태 어때?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 천안 대기질 예보 보고 싶어요", "function_call": "<function_IO>(timeframe=2, location=\"천안\")<end>"}
+{"query": "내일 강릉 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "사투리_전라도: 금요일 순창 대기 상태 어떠냐", "function_call": "<function_IO>(timeframe=7, location=\"순창\")<end>"}
+{"query": "주말공기질평가좀부탁해요", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "월요일 여기 공기 상태 확인해줘", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "내일강릉대기상태가어때부러", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "주말에 공기 좀 낫겠나?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "실시간공기질모니터링화면보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일강릉대기상태어때?", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "주말 울산 공기좀 어때?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "이번 주 토요일 송탄 공기질 어떨까?", "function_call": "<function_IO>(timeframe=8, location=\"송탄\")<end>"}
+{"query": "주말 경산 공기 상태 어떨까?", "function_call": "<function_IO>(timeframe=2, location=\"경산\")<end>"}
+{"query": "주말 대전 공기 상태 좀 확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "목요일 용산구 미세먼지 상태 확인해줘", "function_call": "<function_IO>(timeframe=6, location=\"용산구\")<end>"}
+{"query": "내일 제주도 대기 상태 알려주세요", "function_call": "<function_IO>(timeframe=1, location=\"제주도\")<end>"}
+{"query": "오늘대구대기좀봐줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "오늘광명공기질보고싶습니다", "function_call": "<function_IO>(timeframe=0, location=\"광명\")<end>"}
+{"query": "금요일 서울 미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "여기서 바로 공기질 좀 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 부산 초미세먼지 농도 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "이번 주 금요일 공기 상태가 어떨까?", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "수욜서울먼지상황확인", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>"}
+{"query": "STT노이즈: 지금공기좀알려줘요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 대구 공기 모니터링 화면 띄워 줘", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "오늘 공기 상태가 좀 안 좋은 것 같은데 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "고맙다, 내일 천안 공기 좀 봐줘요", "function_call": "<function_IO>(timeframe=1, location=\"천안\")<end>"}
+{"query": "지금 대전 공기 상태 괜찮은가?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "울산 지금 대기질 상태 괜찮나요?", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "지금 광주 초미세먼지 농도 알려 주세요", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "전체 실내 공기질 모니터링 해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "금욜 대구 미세먼지 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"대구\")<end>"}
+{"query": "실시간노원구공기질모니터링부탁해", "function_call": "<function_IO>(timeframe=0, location=\"노원구\")<end>"}
+{"query": "오늘서울먼지농도?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "주말 대전 대기 얘기 좀 해주이소", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "토요일원주대기질어때?", "function_call": "<function_IO>(timeframe=8, location=\"원주\")<end>"}
+{"query": "월욜여수미세먼지있나?", "function_call": "<function_IO>(timeframe=3, location=\"여수\")<end>"}
+{"query": "내일 강서구 공기 오염 있나?", "function_call": "<function_IO>(timeframe=1, location=\"강서구\")<end>"}
+{"query": "화요일 울진에 먼지 얼마나 많노?", "function_call": "<function_IO>(timeframe=4, location=\"울진\")<end>"}
+{"query": "내일 서울 미세먼지 예보 좀 보여줄래?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "화요일 대구 공기 상태 완만혀부러?", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "공기질 현황 좀 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "실시간 전주 공기 오염 정보 보여 줘", "function_call": "<function_IO>(timeframe=0, location=\"전주\")<end>"}
+{"query": "주말 인천 공기 어때?", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "요즘공기좀봐줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "줄임말, 뭉개짐: 지금 인천 미세먼지 상태?", "function_call": "<function_IO>(timeframe=0, location=\"인천\")<end>"}
+{"query": "내일 창원 대기질 정보 알려주세요", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "주말대기질좀알려줘<function_IO>(timeframe=2, location=\"0\")<end>", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "금요일광주피엠투어때?", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "내일 시에나 미세먼지 예보 확인해 주세요", "function_call": "<function_IO>(timeframe=1, location=\"시에나\")<end>"}
+{"query": "주말 동안 공기 상태가 어떨지 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "여기 주말 공기 상태 알려줘라잉", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일대전먼지농도?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "금요일 서울 미세먼지 농도 더 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "내일 광주 미세먼지 농도 확인할 수 있을까요?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "현재 대구 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "금요일 인천 대기 상태 확인해 보자", "function_call": "<function_IO>(timeframe=7, location=\"인천\")<end>"}
+{"query": "내일인 강원의 대기 상태 알려줘라", "function_call": "<function_IO>(timeframe=1, location=\"강원\")<end>"}
+{"query": "화요일 여수 공기 오염 상태 확인해줘", "function_call": "<function_IO>(timeframe=4, location=\"여수\")<end>"}
+{"query": "수요일용인지역공기상태어때", "function_call": "<function_IO>(timeframe=5, location=\"용인\")<end>"}
+{"query": "충주 내일 대기 오염 상태 볼 수 있을까?", "function_call": "<function_IO>(timeframe=1, location=\"충주\")<end>"}
+{"query": "지금제주공기좋은가?", "function_call": "<function_IO>(timeframe=0, location=\"제주\")<end>"}
+{"query": "공기질 내일 대전 근처 어때?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "금요일 강릉 공기 오염 상황 알려줄래?", "function_call": "<function_IO>(timeframe=7, location=\"강릉\")<end>"}
+{"query": "서울멍 공기어때?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일 청주 공기질 좀 알려주소", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "오산 공기 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"오산\")<end>"}
+{"query": "내일서울맑을까", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일강화도공기괜찮냐?", "function_call": "<function_IO>(timeframe=1, location=\"강화도\")<end>"}
+{"query": "수요일 대기질 예보 보여줘", "function_call": "<function_IO>(timeframe=5, location=\"0\")<end>"}
+{"query": "금요일 광주 공기 오염 상태 보내 줘", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "주말 공기 모니터링 부탁해", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "금요일 광주 대기 상태 부탁해", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "백암 내일 초미세먼지 좀 알려주소", "function_call": "<function_IO>(timeframe=1, location=\"백암\")<end>"}
+{"query": "주말 대전 미세먼지 상황 좀 설명해 줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "이번 주 토요일 서울 대기질 확인해줘", "function_call": "<function_IO>(timeframe=8, location=\"서울\")<end>"}
+{"query": "주말부산공기구림?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "주말에 공기질 상태 한 번 봐줄래?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "이번 주 화요일 서울 공기 상태 어때?", "function_call": "<function_IO>(timeframe=4, location=\"서울\")<end>"}
+{"query": "실내 공기 환경 상황 보여줘라", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "오늘 대구 공기 좀 보여주라", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "충청도내일대기오염상태좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"충청도\")<end>"}
+{"query": "금요일 창원 공기질 상황 알려 주이소", "function_call": "<function_IO>(timeframe=7, location=\"창원\")<end>"}
+{"query": "내일 마산 미세먼지 상태 보여 줘라", "function_call": "<function_IO>(timeframe=1, location=\"마산\")<end>"}
+{"query": "내일 충청도 미세먼지 얼마나 될까?", "function_call": "<function_IO>(timeframe=1, location=\"충청도\")<end>"}
+{"query": "이번 주말 광주 지역 공기질 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "내일 군산 공기질 알려 주실래요?", "function_call": "<function_IO>(timeframe=1, location=\"군산\")<end>"}
+{"query": "우리 동네 내일 공기질 상태는?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "일요일 용인시 대기질 예보 좀 알려줘", "function_call": "<function_IO>(timeframe=9, location=\"용인\")<end>"}
+{"query": "지금 공기 상태 어떠노?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "월요일 부산 공기질 알려주셈", "function_call": "<function_IO>(timeframe=3, location=\"부산\")<end>"}
+{"query": "충주 지금 공기 상태 어찌되가?", "function_call": "<function_IO>(timeframe=0, location=\"충주\")<end>"}
+{"query": "내일청주먼지얼마?", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "내일 부산 대기 상태가 어떨지 궁금해요", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "현 시점 울산 대기질 보고 싶어요", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "지금서울공기상황좀보여줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "이번 주말 서울 초미세먼지 상태 확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "내일 안산 미세먼지 농도 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"안산\")<end>"}
+{"query": "여기 공기 쿠 좀 봐 주이소", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "영천 지금 공기 상태 좀 보여 주라우", "function_call": "<function_IO>(timeframe=0, location=\"영천\")<end>"}
+{"query": "내일울산공기상태어때?", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "STT노이즈: 금요일인천공기상태확인", "function_call": "<function_IO>(timeframe=7, location=\"인천\")<end>"}
+{"query": "창원 주말 공기 상태 확인좀 해주이소", "function_call": "<function_IO>(timeframe=2, location=\"창원\")<end>"}
+{"query": "월요일에 울산 공기 오염 그런지 모르나?", "function_call": "<function_IO>(timeframe=3, location=\"울산\")<end>"}
+{"query": "내일 대전 공기질 상태 좀 봐주이소", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "오늘천안공기질?", "function_call": "<function_IO>(timeframe=0, location=\"천안\")<end>"}
+{"query": "김해 주말 먼지 많나?", "function_call": "<function_IO>(timeframe=2, location=\"김해\")<end>"}
+{"query": "주말서울공기농도?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "줄임말, 뭉개짐: 내일 청주 미세먼지 농도 봐줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "STT노이즈: 인천주말공기질상태좀봐", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "월요일 서울 대기질 상태 알려 줘", "function_call": "<function_IO>(timeframe=3, location=\"서울\")<end>"}
+{"query": "내일대구먼지상태", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "지금 전남 나주 공기 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"나주\")<end>"}
+{"query": "내일 목요일 제주도 공기 어때?", "function_call": "<function_IO>(timeframe=6, location=\"제주도\")<end>"}
+{"query": "실내공기상태모니터링해줘<function_IO>(timeframe=0, location=\"0\")<end>", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일대구먼지농도?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "현재 판교 공기질 상태 좀 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"판교\")<end>"}
+{"query": "저기 진주 내일 공기 좀 본다 아입니꺼", "function_call": "<function_IO>(timeframe=1, location=\"진주\")<end>"}
+{"query": "여기 좀 바람통하는데, 오늘 공기 상황 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "월요일대전먼지상태좀", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "내일 원주 공기질 괜찮은가?", "function_call": "<function_IO>(timeframe=1, location=\"원주\")<end>"}
+{"query": "실시간 원주 공기질 상태 확인해 주세요", "function_call": "<function_IO>(timeframe=0, location=\"원주\")<end>"}
+{"query": "지금 대전 공기질 좀 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 인천 공기질 좀 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "서울 내일 공기 상태 알려주게", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "주말 공기좀 알러줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말 중 부산 공기질 좀 보여줘요", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "한캐공기질상태알려", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말울산먼지많아?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "주말 대구 공기질 상태 어때?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "주말에 울산 먼지 얼마나 될까?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "내일 미세먼지 상황 좀 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일 익산 대기질 어떻지?", "function_call": "<function_IO>(timeframe=1, location=\"익산\")<end>"}
+{"query": "사투리_전라도: 주말에 광주 공기 좀 보줘라", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "내일 대구 먼지 수치 좀 불러주라", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "사투리_전라도: 지금 목포 공기 상태 어때유?", "function_call": "<function_IO>(timeframe=0, location=\"목포\")<end>"}
+{"query": "주말에광주쪽공기좋나안좋나", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "베이징 실내 공기질 확인 부탁드립니다", "function_call": "<function_IO>(timeframe=0, location=\"베이징\")<end>"}
+{"query": "이번주토요일송탄공기질어떨까", "function_call": "<function_IO>(timeframe=8, location=\"송탄\")<end>"}
+{"query": "야 내일 울산 공기 좀 봐라", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "이번 주 목요일 공기질 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"0\")<end>"}
+{"query": "토요일 제주도 대기질 상태 알려줘", "function_call": "<function_IO>(timeframe=8, location=\"제주\")<end>"}
+{"query": "지금 광주 공기 오염 정도 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "대전 목요일 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"대전\")<end>"}
+{"query": "현재 청주 공기 오염 상황 좀 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "월요일 강릉 공기 상황이 어떤지 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"강릉\")<end>"}
+{"query": "금요일 중구 대기질 상태 조회 부탁해요", "function_call": "<function_IO>(timeframe=7, location=\"중구\")<end>"}
+{"query": "경상도 사투리: 목요일 구미 공기질 어때예?", "function_call": "<function_IO>(timeframe=6, location=\"구미\")<end>"}
+{"query": "월요일 대전 공기질 예보 보여주세요", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "충청도내일대기오염상태보여줘", "function_call": "<function_IO>(timeframe=1, location=\"충청도\")<end>"}
+{"query": "내일 이곳 공기 상태 봐줘", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일 마산 미세먼지 농도 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"마산\")<end>"}
+{"query": "대전 요미 내일 공기 어떤고?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "주말에 부산 공기가 좋을까?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "내일강릉먼지얼마야?", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "대기 오염 상태 실시간으로 확인시켜줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "이번 주 월요일 대전 좀 봐 줘랏", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "주말에 부산 공기 얼마나 나쁠까?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "내일 경주 먼지 상황 좀 알려가", "function_call": "<function_IO>(timeframe=1, location=\"경주\")<end>"}
+{"query": "주말에 창원 공기 많이 안 좋아?", "function_call": "<function_IO>(timeframe=2, location=\"창원\")<end>"}
+{"query": "내일 전주 공기 오염 상태 어떻노?", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "대전 내일 공기 상태 어떻노?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "월욜여의도공기질예보궁금해요", "function_call": "<function_IO>(timeframe=3, location=\"여의도\")<end>"}
+{"query": "내일아침김해공기알려줘", "function_call": "<function_IO>(timeframe=1, location=\"김해\")<end>"}
+{"query": "주말 제주도 초미세먼지 상태 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"제주도\")<end>"}
+{"query": "전주 내일 공기 상태 어떻게 될까?", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "주말 공기 질 봐라잉", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "현재 실내 공기질 상태를 보여주세요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말엔 공기질 조금 나을랑가?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "실내 공기질 모니터링 화면 좀 켜줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 진주 미세먼지 많이 낄까?", "function_call": "<function_IO>(timeframe=2, location=\"진주\")<end>"}
+{"query": "공기 상태 현재 실내 위치 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "여기 공기 상태 어때?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "수요일부산공기상태보여주소", "function_call": "<function_IO>(timeframe=5, location=\"부산\")<end>"}
+{"query": "오늘 서울 미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "서울 주말 상황 보이소", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "화요일 울산 공기 오염 상태는 어떻게 되냐?", "function_call": "<function_IO>(timeframe=4, location=\"울산\")<end>"}
+{"query": "금요일중구대기질상태조회부탁해요", "function_call": "<function_IO>(timeframe=7, location=\"중구\")<end>"}
+{"query": "내일 대구 미세먼지 농도 좀 알려주이소", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "충청도 사투리: 주말 공기 좀 보여주이소", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "실내공기질상태지금알려줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말에 대구 공기 좋아질까?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "주말대구공기질예보받겠나", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "포항 이번 주말 공기 상태 어떻노?", "function_call": "<function_IO>(timeframe=2, location=\"포항\")<end>"}
+{"query": "내일 거제 대기 상태 좀 알려주라", "function_call": "<function_IO>(timeframe=1, location=\"거제\")<end>"}
+{"query": "와 이제 대전 공기 상태 좀 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "경상도 사투리: 지금 부산 공기질 좀 캐라봐라", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "주말에 공기 좋을 낀가?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "대전 공기 지금 좀 보여줄래?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "공간별 공기 오염도 확인 가능할까?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "이번주수요일대기질상태좀보여줘", "function_call": "<function_IO>(timeframe=5, location=\"0\")<end>"}
+{"query": "주말 서울 공기가 좋아보이나?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "화요일 강릉 대기오염 정보 좀 알려 줘", "function_call": "<function_IO>(timeframe=4, location=\"강릉\")<end>"}
+{"query": "대전 지금 공기질 좀 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "지금 서울 공기 어때? 보여줄래", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "오늘 구미 공기 상태는 어때요?", "function_call": "<function_IO>(timeframe=0, location=\"구미\")<end>"}
+{"query": "내일 수원 공기 상태 봐줘", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "내일 김포시 공기질 예보 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"김포시\")<end>"}
+{"query": "이번 주 금요일 대전 공기 상태가 어때?", "function_call": "<function_IO>(timeframe=7, location=\"대전\")<end>"}
+{"query": "주말서울먼지많아?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "주말 울산 대기 상황 좀 말해 줘", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "지금여기공기좀봐줘<function_IO>(timeframe=0, location=\"0\")<end>", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 청주 공기 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "주말에 마스크 꼭 써야하는겨?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "대전 실시간 공기 상태 부탁해", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "이번주토요일진주공기질상태알려줘라", "function_call": "<function_IO>(timeframe=8, location=\"진주\")<end>"}
+{"query": "오늘 울산 공기 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "현재 부산 미세먼지 수치 화면에 보여줘요", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "일욜부산공기질상황확인가능할까?", "function_call": "<function_IO>(timeframe=9, location=\"부산\")<end>"}
+{"query": "지금 평택 공기질 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"평택\")<end>"}
+{"query": "수요일용인공기어때?", "function_call": "<function_IO>(timeframe=5, location=\"용인\")<end>"}
+{"query": "현제실내공기질모니터링해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일공기도 상태 괜찮은가?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "일요일부산쪽공기질상황확인가능한가요", "function_call": "<function_IO>(timeframe=9, location=\"부산\")<end>"}
+{"query": "진짜로 내일 평택 공기 어때?", "function_call": "<function_IO>(timeframe=1, location=\"평택\")<end>"}
+{"query": "실시간 대전 공기 쪼꼬 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "여수 주말 공기 상황 좀 보고싶다", "function_call": "<function_IO>(timeframe=2, location=\"여수\")<end>"}
+{"query": "현재 서울 공기 상태 어떻게 돼?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "오늘김해공기알려줘<function_IO>(timeframe=0, location=\"김해\")<end>", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "오늘부산미세먼지?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일공기질좀봐라", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일 금요일 대기질 예보 좀 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "내일 서울 공기 어떽노?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "요즘 공기 어떻게 나오고 있노?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "오늘청주 공기좀 보여주세요", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "주말서울공기농도?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "내일 울진 대기 상태 걱정되네", "function_call": "<function_IO>(timeframe=1, location=\"울진\")<end>"}
+{"query": "내일 마산 공기질 상황이 어떨까?", "function_call": "<function_IO>(timeframe=1, location=\"마산\")<end>"}
+{"query": "주말대전공기상태?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "금요일 강릉 미세먼지 농도 보여주라", "function_call": "<function_IO>(timeframe=7, location=\"강릉\")<end>"}
+{"query": "실시간 큰 대기 오염 상황 좀 봐줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "실시간 대구 공기질 기록 모아 줘봐", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "실시간 대기오염 상태 보여 줄래요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "공기상태좀보여줘<function_IO>(timeframe=0, location=\"0\")<end>", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "현 공기질 화면 좀 보여 주세요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 대구 공기질 알려 줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "사투리_전라도: 내일 목포 공기 보이께", "function_call": "<function_IO>(timeframe=1, location=\"목포\")<end>"}
+{"query": "주말 군산 공기 질 좀 봐 주실래요?", "function_call": "<function_IO>(timeframe=2, location=\"군산\")<end>"}
+{"query": "화요일공기질상태확인해주세여", "function_call": "<function_IO>(timeframe=4, location=\"0\")<end>"}
+{"query": "토요일창원공기상태좀봐줘", "function_call": "<function_IO>(timeframe=8, location=\"창원\")<end>"}
+{"query": "담주 월요일 포항 미세먼지 농도 확인 좀 해봐라", "function_call": "<function_IO>(timeframe=3, location=\"포항\")<end>"}
+{"query": "이번 주 수요일 인천 공기질 좀 알려 주세요", "function_call": "<function_IO>(timeframe=5, location=\"인천\")<end>"}
+{"query": "지금 대전 공기질 상태가 어떤가?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "부산내일먼지상태좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "실시간 공기 상태 궁금해", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "일요일대기상태좀보여줘라", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "사투리_충청도: 지금 대전 공기좀 알려주수", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "대구 미세먼지 상황 지금 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "판교 지역의 현재 대기 상태 어때?", "function_call": "<function_IO>(timeframe=0, location=\"판교\")<end>"}
+{"query": "주말 공기 조코 있었능가?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "이번주말서산공기질좀보여줘", "function_call": "<function_IO>(timeframe=2, location=\"서산\")<end>"}
+{"query": "주말 대전 공기 상태 어때?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "사투리_충청도: 이번 주 토요일 공기 좀 알려줄게", "function_call": "<function_IO>(timeframe=8, location=\"0\")<end>"}
+{"query": "요즘 전북 지역 대기 상태가 어떠냐?", "function_call": "<function_IO>(timeframe=0, location=\"전북\")<end>"}
+{"query": "주말 공기 상태 쪼끔 알려줘~", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "서울 내일 공기 상태 궁금해", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "수요일 전북 공기질 상황 확인해줘", "function_call": "<function_IO>(timeframe=5, location=\"전북\")<end>"}
+{"query": "가지 내일 서울 공기 모니터링 좀 보여라", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일공기질상태보러와라", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일 나주 공기질 상태 어떻겠노", "function_call": "<function_IO>(timeframe=1, location=\"나주\")<end>"}
+{"query": "현재 안동 공기 상태 확인 부탁해요", "function_call": "<function_IO>(timeframe=0, location=\"안동\")<end>"}
+{"query": "주말대기질봐줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 강릉 공기질 상황이 어떤지 알고 싶어요", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "주말 창원 공기좀 확인해", "function_call": "<function_IO>(timeframe=2, location=\"창원\")<end>"}
+{"query": "주말에 충청도 공기질 상태 어때?", "function_call": "<function_IO>(timeframe=2, location=\"충청도\")<end>"}
+{"query": "지금 광주 공기 상태 어떠냐?", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "서산 주말 공기 상태 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"서산\")<end>"}
+{"query": "금요일대구초미세먼지 어케되노?", "function_call": "<function_IO>(timeframe=7, location=\"대구\")<end>"}
+{"query": "금요일 경기 공기상태 보여 주세요", "function_call": "<function_IO>(timeframe=7, location=\"경기\")<end>"}
+{"query": "실시간 전주 공기질 모니터링 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"전주\")<end>"}
+{"query": "화요일 대구 포름알데히드 농도 좀 알려 줘", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "내일 대구의 초미세먼지 상황 알려줘요", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "주말대전공기상태?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "내일 서울 먼지 많앙?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "오늘 부산 미세먼지 좀 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일부산먼지많을까?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "주말이동네공기어떻냐?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "충청도 내일 미세먼지 농도 어때?", "function_call": "<function_IO>(timeframe=1, location=\"충청도\")<end>"}
+{"query": "인천 내일 대기 상태 어떻거가?", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "지금 진주 공기 상태 괜찮제?", "function_call": "<function_IO>(timeframe=0, location=\"진주\")<end>"}
+{"query": "금요일강릉공기 어때용?", "function_call": "<function_IO>(timeframe=7, location=\"강릉\")<end>"}
+{"query": "주말 광주 미세먼지 어때?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "진주 공기질 상태 알려 주세요", "function_call": "<function_IO>(timeframe=0, location=\"진주\")<end>"}
+{"query": "목요일 부산 대기오염 상황 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"부산\")<end>"}
+{"query": "내일 김해 공기질 예보 좀 알려주세요", "function_call": "<function_IO>(timeframe=1, location=\"김해\")<end>"}
+{"query": "사투리_충청도: 주말 대전 공기질 잘 보여 주이소", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "사투리_충청도: 주말에 청주 공기 요모양임?", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "주말울산공기나쁨?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "천안 내일 공기 오염 괜찮을까?", "function_call": "<function_IO>(timeframe=1, location=\"천안\")<end>"}
+{"query": "실내 공기질 지금 어떤지 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "지금 공 기술 모니터링 해줄수 있어?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "실시간 군산 대기 상황 좀 알려줄래", "function_call": "<function_IO>(timeframe=0, location=\"군산\")<end>"}
+{"query": "내일광주공기도와줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "현재 울산 공기 상태 알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "실짱노원구공기질모니터링부탁해", "function_call": "<function_IO>(timeframe=0, location=\"노원구\")<end>"}
+{"query": "주말에 공기 상태 얼마나 좋아?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "STT노이즈: 주말공기상태알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 제주의 미세먼지 농도 어때요?", "function_call": "<function_IO>(timeframe=0, location=\"제주\")<end>"}
+{"query": "금요일 광주 미세먼지 상태 보고싶어", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "김해공기상태요근래어떠노", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "내일 인천 미세먼지 농도 확인해 주세요", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "주말 대구 공기 상태 봐야 해", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "김해 내일 공기 오염 상황 알 수 있을까요?", "function_call": "<function_IO>(timeframe=1, location=\"김해\")<end>"}
+{"query": "휴.. 주말 공기질 어케 되는지 알려주라", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말광주공기좋아?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "요번 주말 부산 공기 어떻고?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "주말 대구 대기질 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "금요일 서울 초미세먼지 농도 어때?", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "내일 수원 공기질 상태 궁금해", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "주말 공기질 모니터링 현황 확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "기기 주변 주말 공기질 괜찮노?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말대기상태어떤가", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "금요일 제주 미세먼지 상태 어때?", "function_call": "<function_IO>(timeframe=7, location=\"제주\")<end>"}
+{"query": "내일 대구에서 미세먼지 보일래?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "주말 경기 지역 공기 질 보여주세요", "function_call": "<function_IO>(timeframe=2, location=\"경기\")<end>"}
+{"query": "서울 주말 공기 나쁠까?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "내일 울산 공기 상태 괜찮나?", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "주말청주공기나빠?", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "내일 천안 공기질 상태 보여 줄 수 있어?", "function_call": "<function_IO>(timeframe=1, location=\"천안\")<end>"}
+{"query": "현재 공기질 상태 알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 춘천 공기 좀 알려다오", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "주말 대구 공기 질 좀 볼래?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "내일 동해 공기질 좋아?", "function_call": "<function_IO>(timeframe=1, location=\"동해\")<end>"}
+{"query": "이번 주 수요일 대기질 상태 좀 보여줘", "function_call": "<function_IO>(timeframe=5, location=\"0\")<end>"}
+{"query": "금요일 광주 미세먼지 수치 확인하게 해줘", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "주말 서울 공기 상태 확인 부탁해", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "내일 여기 공기질 상황 함 봐 주엉", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "부산공기나빠?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일 전주 공기 상태가 어떠냐?", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "주말 대기 상태는 어떤가요?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "현재 충청도 공기질 괜찮아?", "function_call": "<function_IO>(timeframe=0, location=\"충청도\")<end>"}
+{"query": "내일 강서구 공기질 상황 알려줄래?", "function_call": "<function_IO>(timeframe=1, location=\"강서구\")<end>"}
+{"query": "월요일여수미세먼지농도있나보소", "function_call": "<function_IO>(timeframe=3, location=\"여수\")<end>"}
+{"query": "주말공기질좀봐줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 평택 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"평택\")<end>"}
+{"query": "주말울산북구미세먼지농도<function_IO>(timeframe=2, location=\"울산북구\")<end>", "function_call": "<function_IO>(timeframe=2, location=\"울산북구\")<end>"}
+{"query": "내일 서울 미세먼지 많이 끼노?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "주말 울산 공기질 좀 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "금요일 강릉 공기 오염 상태 알려 주시겠어요?", "function_call": "<function_IO>(timeframe=7, location=\"강릉\")<end>"}
+{"query": "용인 내일 대기질 확인 부탁해", "function_call": "<function_IO>(timeframe=1, location=\"용인\")<end>"}
+{"query": "금요일 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "실내 공기 상태 현재 좀 알려줄래요?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "대전 공기질 보고 싶다 아입니꺼?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "월요일 창원시 공기질 상황 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"창원\")<end>"}
+{"query": "수요일파주공기질어때?", "function_call": "<function_IO>(timeframe=5, location=\"파주\")<end>"}
+{"query": "주말 강원도 대기질 상황 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"강원도\")<end>"}
+{"query": "부산내일먼지정보줘", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "내일 광주 공기질 좀 봐줘바", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일 울산 공기질 괜찮아 보여", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "주말대구공기질예보알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "내일이천공기오염상태좀알고싶어요", "function_call": "<function_IO>(timeframe=1, location=\"이천\")<end>"}
+{"query": "토요일 강릉 공기 오염 상황 알려줘", "function_call": "<function_IO>(timeframe=8, location=\"강릉\")<end>"}
+{"query": "일요일 대구 대기질 예보 알고 싶어", "function_call": "<function_IO>(timeframe=9, location=\"대구\")<end>"}
+{"query": "주말 부산 먼지 농도 좀 알려줘라", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "창원 내일 공기질 나쁜가요?", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "주말에 광주 쪽 공기 좋나 안 좋나?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "화요일 인천 미세먼지 농도 보여줘", "function_call": "<function_IO>(timeframe=4, location=\"인천\")<end>"}
+{"query": "주말 광주 공기 얼마나 나쁠까?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "주말 실내 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 광주 대기오염 수치는 얼마나 되나요?", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "김천 주말 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"김천\")<end>"}
+{"query": "화욜광주미세먼지알려줘<function_IO>(timeframe=4, location=\"광주\")<end>", "function_call": "<function_IO>(timeframe=4, location=\"광주\")<end>"}
+{"query": "내일 대전 대기질 예보 부탁해요", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "내일 대전 미세먼지 농도?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "주말 대전 공기질 수치 확인해봐", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "내일 천안 공기 상태 어떤지 좀 알려주소", "function_call": "<function_IO>(timeframe=1, location=\"천안\")<end>"}
+{"query": "내일 울산 대기 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "김해 공기 상태 요 근래 어떠노?", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "내일 이곳 공기 괜찮나 보즤", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "실시간 공기질 상태 보는 중", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "지금 창원 공기질 수치 좀 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"창원\")<end>"}
+{"query": "부산 공기 상태 지금 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "사투리_전라도: 내일 전주 공기 좀 봐봐라", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "현재대전대기좀알려줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "이번 주말 대구 주변 공기 상태가 궁금해요", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "일요일 인천 대기 질 상태 보여줘", "function_call": "<function_IO>(timeframe=9, location=\"인천\")<end>"}
+{"query": "내일 대전 공기질이 나쁠까?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "전주 대기 상태가 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"전주\")<end>"}
+{"query": "주말에 여의도 미세먼지 어때?", "function_call": "<function_IO>(timeframe=2, location=\"여의도\")<end>"}
+{"query": "다음 주 월요일 공기 상태 좋은가?", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "내일 전주 공기 질 괜춘한가요?", "function_call": "<function_IO>(timeframe=1, location=\"전주\")<end>"}
+{"query": "금욜중구대기질상태조회부탁해", "function_call": "<function_IO>(timeframe=7, location=\"중구\")<end>"}
+{"query": "충청도 사투리: 지금 청주 대기상태 어떤겨?", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "주말 미세먼지 확인 좀", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "공기 상태 좀 보고 싶은데?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 대구 초미세먼지 어떻게 돼?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일광주미세먼지?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "주말 전주 공기 상태 얼마나 안 좋아?", "function_call": "<function_IO>(timeframe=2, location=\"전주\")<end>"}
+{"query": "아침에 울산 먼지 어땠나 좀 봐줘여", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "주말 전북 공기 안 좋은가?", "function_call": "<function_IO>(timeframe=2, location=\"전북\")<end>"}
+{"query": "좀 내일 광주 공기질 보고 싶다", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "주말공기 어떤지 확인좀", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "안녕하슈, 부산 공기 상태 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "청주 공기 오염 정도 알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "주말 서울 도심 공기 오염 지수 확인", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "일요일 공기 상태 보고 싶어", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "지금 강원도 공기질 상태 확인해 주세요", "function_call": "<function_IO>(timeframe=0, location=\"강원도\")<end>"}
+{"query": "월요일 서울 공기질 상태 궁금해", "function_call": "<function_IO>(timeframe=3, location=\"서울\")<end>"}
+{"query": "강릉 공기질 상태 지금 알수있게 해줘", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "오늘대구공기농도?", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "월요일 대전 공기 상황 보여 줄래?", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "주말에 공기질 상태는?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 대전 미세먼지 농도 몇인지 보여 줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "월요일 울산 대기질 수치 좀 보여줘", "function_call": "<function_IO>(timeframe=3, location=\"울산\")<end>"}
+{"query": "주말 인천 공기질 상황 부탁해", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "내일 제주도 대기질 예보 확인해 주세요", "function_call": "<function_IO>(timeframe=1, location=\"제주도\")<end>"}
+{"query": "이번주금요일청주공기상태좀확인할래", "function_call": "<function_IO>(timeframe=7, location=\"청주\")<end>"}
+{"query": "금요일 인천 대기질 예측 좀 보여줘", "function_call": "<function_IO>(timeframe=7, location=\"인천\")<end>"}
+{"query": "수요일 서울 초미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>"}
+{"query": "부산내일먼지얼마야", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "내일 창원 공기질 괜찮은지 궁금해", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "주말전주공기상태확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"전주\")<end>"}
+{"query": "STT노이즈: 월요일서울대기질예보줘", "function_call": "<function_IO>(timeframe=3, location=\"서울\")<end>"}
+{"query": "내일대구미세먼지좀알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일광주먼지좀봐", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "요즘 진주 공기 상태 어떻게 돼?", "function_call": "<function_IO>(timeframe=0, location=\"진주\")<end>"}
+{"query": "내일대구공기질봐줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "목요일 원주 공기 오염도 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"원주\")<end>"}
+{"query": "주말 강원도 공기질 예보 좀 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"강원도\")<end>"}
+{"query": "주말 대전 공기질 보내줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "오늘서울공기질알려줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일 공주 미세먼지 상황 보고 싶어", "function_call": "<function_IO>(timeframe=1, location=\"공주\")<end>"}
+{"query": "경상도 사투리: 실내 공기 상태 좀 봐줘라", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일광주먼지농도알려줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "주말에 대전 공기질 상태 좀 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "월요일에 전주 공기질 상황 알려 주세요", "function_call": "<function_IO>(timeframe=3, location=\"전주\")<end>"}
+{"query": "이번 주말 서산 공기 질 좀 봐 줘요", "function_call": "<function_IO>(timeframe=2, location=\"서산\")<end>"}
+{"query": "부산 주말 공기가 좀 맑은가?", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "내일춘천공기상태어때?", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "월요일대전공기질예보보여주세요", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "주말 공기질 상태 궁금한디 보여주이소", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "여기 내일 강릉 쪽 공기질 괜찮을까?", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "지금 세종시에 먼지 많아?", "function_call": "<function_IO>(timeframe=0, location=\"세종\")<end>"}
+{"query": "서울 토요일 공기 오염 상태 알려줘요", "function_call": "<function_IO>(timeframe=8, location=\"서울\")<end>"}
+{"query": "울산 공기 상태 좀 틀어봐라", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "월요일 서울 공기질 예보 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"서울\")<end>"}
+{"query": "지금 전주 공기 좀 알려줄래", "function_call": "<function_IO>(timeframe=0, location=\"전주\")<end>"}
+{"query": "아따 지금 공기 상태가 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 공기질 상태 보러와라", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "월요일 여수 대기질 상황 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"여수\")<end>"}
+{"query": "서울은 지금 공기질 괜찮나?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "내일금욜대기질필요해요", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "여주 주말 공기좀 봐주소", "function_call": "<function_IO>(timeframe=2, location=\"여주\")<end>"}
+{"query": "토요일 울산 공기 상태 어떨지 확인해줘", "function_call": "<function_IO>(timeframe=8, location=\"울산\")<end>"}
+{"query": "현 시점 대전 공기 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 대구 공기 오염은 어떻노?", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "지금 공기질 모니터링 화면 좀 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "STT노이즈: 내일광주공기질좀봐줘", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "주말울산먼지양궁금함", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "주말 대전쪽 대기질 상태 봐줄래", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "이번 주 토요일 공기 나쁠까 알려줘", "function_call": "<function_IO>(timeframe=8, location=\"0\")<end>"}
+{"query": "내일 태안공기 괜찮냐?", "function_call": "<function_IO>(timeframe=1, location=\"태안\")<end>"}
+{"query": "실시간 공기질 모니터링 화면 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 공기질 상황 좀 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "부산 공기질 지금 상태 보여줘라", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "사투리_경상도: 월요일 공기 상태 안 좋은감?", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "일요일 울산 공기 오염 수치 보여줘", "function_call": "<function_IO>(timeframe=9, location=\"울산\")<end>"}
+{"query": "내일 광주 공기 상태 좀 살펴주게", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "월요일 제주 공기질 상황 알려줘", "function_call": "<function_IO>(timeframe=3, location=\"제주\")<end>"}
+{"query": "화요일공기질상태확인해줘요", "function_call": "<function_IO>(timeframe=4, location=\"0\")<end>"}
+{"query": "지금 종로구 대기질 좀 보자", "function_call": "<function_IO>(timeframe=0, location=\"종로구\")<end>"}
+{"query": "인천 내일 공기 상태 알려줄수 있나요?", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "주말에 충주 미세먼지 많이 낄까?", "function_call": "<function_IO>(timeframe=2, location=\"충주\")<end>"}
+{"query": "지금 현재 공기상태 화면에 띄워줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "금요일 경남 지역 공기질 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"경남\")<end>"}
+{"query": "주말 인천 지역 공기질 걱정 되네", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "서울 지금 공기 상태 어때냐?", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "실시간 대전 주변 공기 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 울진 대기질 예보 보고 싶어요", "function_call": "<function_IO>(timeframe=2, location=\"울진\")<end>"}
+{"query": "여수 공기 상태 좀 확인해주소", "function_call": "<function_IO>(timeframe=0, location=\"여수\")<end>"}
+{"query": "내일 오전에 대구 공기 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "지금대전먼지좀말해줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "2일후목요일홍천미세먼지상황 봐줘", "function_call": "<function_IO>(timeframe=6, location=\"홍천\")<end>"}
+{"query": "내일대구공기상태?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "지금 서산 대기 오염 상황 좀 볼까?", "function_call": "<function_IO>(timeframe=0, location=\"서산\")<end>"}
+{"query": "금요일 서울 대기오염 수치 조회해줘", "function_call": "<function_IO>(timeframe=7, location=\"서울\")<end>"}
+{"query": "미세먼지 내일 청양 지역 상태 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"청양\")<end>"}
+{"query": "수요일 강서구 대기 오염 예보 부탁해요", "function_call": "<function_IO>(timeframe=5, location=\"강서구\")<end>"}
+{"query": "여기서바로공기질좀확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 대전 미세먼지 농도는 어떻게 돼?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "지금 용산 쪽 공기질 어때?", "function_call": "<function_IO>(timeframe=0, location=\"용산\")<end>"}
+{"query": "오늘 안양 주변 공기질 상태는 어떤가요?", "function_call": "<function_IO>(timeframe=0, location=\"안양\")<end>"}
+{"query": "주말광주먼지알려줘", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "실시간 서울 공기 질 상태 알려 줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "주말부산미세먼진양좀", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "주말 서울 대기오염 수치 알려줘렀다", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "이번 주말 공기 괜찬나?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "줄임말, 뭉개짐: 주말 김해 공기 확인 좀", "function_call": "<function_IO>(timeframe=2, location=\"김해\")<end>"}
+{"query": "내일대전먼지농도?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "내일 창원 미세먼지 상태 확인해줘", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "주말대기상태는어떤가요", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말인천 공기 상태 궁굼해", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "내일 부천 대기질 상태 어때?", "function_call": "<function_IO>(timeframe=1, location=\"부천\")<end>"}
+{"query": "줄임말, 뭉개짐: 주말 전국 공기 좀 봐줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘 강릉 공기질 상태 알려주이소", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "김해공기상태요근래어때?", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "화요일 판교 미세먼지 농도 알려주세요", "function_call": "<function_IO>(timeframe=4, location=\"판교\")<end>"}
+{"query": "내일 대전 먼지 상태 어때?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "내일 대구 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "부산 공기 지금 상태 어떠노?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "토요일 춘천 대기질 예보 보여줘요", "function_call": "<function_IO>(timeframe=8, location=\"춘천\")<end>"}
+{"query": "지금 강서구 공기질 좀 보여주세요", "function_call": "<function_IO>(timeframe=0, location=\"강서구\")<end>"}
+{"query": "이번 주말 강릉 공기 상태 좀 봐 주이소", "function_call": "<function_IO>(timeframe=2, location=\"강릉\")<end>"}
+{"query": "내일 광주 미세먼지 상태 어케?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일 김천 공기 오염 심한가?", "function_call": "<function_IO>(timeframe=1, location=\"김천\")<end>"}
+{"query": "수요일부천대기좀봐줘", "function_call": "<function_IO>(timeframe=5, location=\"부천\")<end>"}
+{"query": "부산 토요일 공기 상태 어뗘?", "function_call": "<function_IO>(timeframe=8, location=\"부산\")<end>"}
+{"query": "충북 주말 공기질 확인해줘", "function_call": "<function_IO>(timeframe=2, location=\"충북\")<end>"}
+{"query": "수요일부산공기상태좀보여줘", "function_call": "<function_IO>(timeframe=5, location=\"부산\")<end>"}
+{"query": "수요일 부산 공기 상태 보여주소", "function_call": "<function_IO>(timeframe=5, location=\"부산\")<end>"}
+{"query": "목요일 공기질 농도 궁금해", "function_call": "<function_IO>(timeframe=6, location=\"0\")<end>"}
+{"query": "대전 지금 공기 상태 알러줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 인천 미세먼지 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"인천\")<end>"}
+{"query": "지금 대전 공기 상태 보여 줘야겠다", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 공기 상태 좀 확인해봐라", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말 대전 공기 상태 알려 주세요", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "벌써산청공기상황좀봐바", "function_call": "<function_IO>(timeframe=0, location=\"산청\")<end>"}
+{"query": "주말 여수 공기질 리포트 주세요", "function_call": "<function_IO>(timeframe=2, location=\"여수\")<end>"}
+{"query": "주말에 내 기기 주변 공기 어때?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일청주공기질보여줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "경기 지역 내일 공기질 상태는 어때?", "function_call": "<function_IO>(timeframe=1, location=\"경기\")<end>"}
+{"query": "월요일 청주 공기질 좀 알려주이소", "function_call": "<function_IO>(timeframe=3, location=\"청주\")<end>"}
+{"query": "화요일 여의도 공기 밀도 알려줘", "function_call": "<function_IO>(timeframe=4, location=\"여의도\")<end>"}
+{"query": "목요일 울산 공기 오염 수치 좀 알려줘", "function_call": "<function_IO>(timeframe=6, location=\"울산\")<end>"}
+{"query": "현재 부산 대기 상태 표시해줘", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일서울미세먼지농도어느정도여", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "이번 주 수요일 강서구 공기질 어떠냐?", "function_call": "<function_IO>(timeframe=5, location=\"강서구\")<end>"}
+{"query": "오늘부산공기 상태 확인해", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "주말 강릉 공기질 알려주이소", "function_call": "<function_IO>(timeframe=2, location=\"강릉\")<end>"}
+{"query": "부산 내일 대기질 괜찮을까?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "내일 강서구 공기질 좀 확인해 줘", "function_call": "<function_IO>(timeframe=1, location=\"강서구\")<end>"}
+{"query": "내일 부산 공기 괜찮은가", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
+{"query": "강원도 내일 대기질 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"강원도\")<end>"}
+{"query": "요즘 대구 공기 안 좋다매?", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "목요일 전북 지역 공기질 상태 보여줘", "function_call": "<function_IO>(timeframe=6, location=\"전북\")<end>"}
+{"query": "내일울산공기질좋나", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "내일 청주 공기 상태 확인해줘", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "주말에 울산 공기 좀 보여주라", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "서울내일미세먼지좀 알려주셈", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "오늘 울산 공기 질 어떤지 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "내일 공기 모니터링 상태 봐줄 수 있나", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "부평구공기상태알려줘", "function_call": "<function_IO>(timeframe=0, location=\"부평구\")<end>"}
+{"query": "포항 대기질 현황 알려 주이소", "function_call": "<function_IO>(timeframe=0, location=\"포항\")<end>"}
+{"query": "일욜대기상태좀보여주랑", "function_call": "<function_IO>(timeframe=9, location=\"0\")<end>"}
+{"query": "주말 청주 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "이번 주말 공기 상태 한 번 보여라", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일대구공기질확인좀", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "오늘 강남 공기 상태 보여 줘", "function_call": "<function_IO>(timeframe=0, location=\"강남\")<end>"}
+{"query": "내일 대전미세 먼지 안 좋을까?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "오늘 경기지역 대기 상태 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"경기\")<end>"}
+{"query": "내일 천안 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"천안\")<end>"}
+{"query": "내일 서울 공기질 어때?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "이번주말서산공기질좀봐줘요", "function_call": "<function_IO>(timeframe=2, location=\"서산\")<end>"}
+{"query": "오늘 강릉 대기 상태 알려주삼", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "내일대구먼지농도?", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "내일 의왕시 공기 상황 알려 주실래요", "function_call": "<function_IO>(timeframe=1, location=\"의왕\")<end>"}
+{"query": "줄임말, 뭉개짐: 월요일 서울 공기 질 체크", "function_call": "<function_IO>(timeframe=3, location=\"서울\")<end>"}
+{"query": "이번 주말 미세먼지 상황 좀 알려줘요", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "현재 실내 공기 상태가 괜찮은가요?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "대전 주말 공기 오염 확인 가능할까?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "기기 근처 내일 공기 상태 많이 안 좋으노?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "주말에 동작구 공기 상태 어때요?", "function_call": "<function_IO>(timeframe=2, location=\"동작구\")<end>"}
+{"query": "수요일부천대기상태좀알려주시오", "function_call": "<function_IO>(timeframe=5, location=\"부천\")<end>"}
+{"query": "내일 수원 대기 상태는 어때?", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "내일 청주 미세먼지 예보 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "오늘공기질좀보여줄래?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "주말 대구 미세먼지 상황 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "내일대전 초미세먼지수치좀봐줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "화요일 대전 미세먼지 농도 알려줄래", "function_call": "<function_IO>(timeframe=4, location=\"대전\")<end>"}
+{"query": "실시간 공기 모니터링 보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "오늘울산 공기 상태보여", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "청주 내일 공기질 확인 좀 해줘요", "function_call": "<function_IO>(timeframe=1, location=\"청주\")<end>"}
+{"query": "오늘양산공기얼마나안좋나", "function_call": "<function_IO>(timeframe=0, location=\"양산\")<end>"}
+{"query": "주말 실내 공기질 모니터링 좀 보여줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "주말 진주 공기 상태 보고파", "function_call": "<function_IO>(timeframe=2, location=\"진주\")<end>"}
+{"query": "내일 충청북도 공기 질 보고 싶어", "function_call": "<function_IO>(timeframe=1, location=\"충청북도\")<end>"}
+{"query": "화요일 인천 공기질 좀 궁금해", "function_call": "<function_IO>(timeframe=4, location=\"인천\")<end>"}
+{"query": "김해 공기질 상태 어떻게 되노?", "function_call": "<function_IO>(timeframe=0, location=\"김해\")<end>"}
+{"query": "STT노이즈: 월요일부산대기질알려주삼", "function_call": "<function_IO>(timeframe=3, location=\"부산\")<end>"}
+{"query": "오늘 실내 공기질 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "진짜 내일 울산 공기 좀 알아봐줘", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "내일 대구 공기질 예보 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "화요일 대구 공기질좀 확인해주라", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>"}
+{"query": "주말실내공기질상태알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 평택 이산화탄소 농도 높니?", "function_call": "<function_IO>(timeframe=1, location=\"평택\")<end>"}
+{"query": "사투리_경상도: 지금 울산 공기 실감나니?", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "대구 이번 토요일 공기 상황 알려줘", "function_call": "<function_IO>(timeframe=8, location=\"대구\")<end>"}
+{"query": "오늘 서천 대기환경 상태 오나?", "function_call": "<function_IO>(timeframe=0, location=\"서천\")<end>"}
+{"query": "이번 주 화요일 대전 공기 오염 세부 수치 알려줘", "function_call": "<function_IO>(timeframe=4, location=\"대전\")<end>"}
+{"query": "3일 후 대구 미세먼지 농도 확인해줘", "function_call": "<function_IO>(timeframe=5, location=\"대구\")<end>"}
+{"query": "줄임말, 뭉개짐: 서울 공기 좀 봐줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "금요일 공기 상태 확인 좀 해줄래요", "function_call": "<function_IO>(timeframe=7, location=\"0\")<end>"}
+{"query": "오늘대구 미세먼지 상태가 어때?", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "내일 창원 공기질 상황 어떡하노?", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "목요일 강원도 공기질 예보 알려줘요", "function_call": "<function_IO>(timeframe=6, location=\"강원도\")<end>"}
+{"query": "금요일 청주 미세먼지 얼마나 많노?", "function_call": "<function_IO>(timeframe=7, location=\"청주\")<end>"}
+{"query": "영덕 내일 먼지 많다캤는디, 확인 좀 해주라", "function_call": "<function_IO>(timeframe=1, location=\"영덕\")<end>"}
+{"query": "내일 공기상태 부탁해", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "STT노이즈: 현재부산미세먼지농도알려줘", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일강원도먼지얼마임", "function_call": "<function_IO>(timeframe=1, location=\"강원\")<end>"}
+{"query": "내일 여기 공기 상태 어때?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "내일 공주 대기질 괜찮나?", "function_call": "<function_IO>(timeframe=1, location=\"공주\")<end>"}
+{"query": "실시간모니터링공기질봐줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일광주먼지심심?", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "여기는 지금 공기 상태가 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "오늘 강릉 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"강릉\")<end>"}
+{"query": "내일 대전 미세먼지가 심할까요?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "현재 평택의 공기 상태 알려 줘", "function_call": "<function_IO>(timeframe=0, location=\"평택\")<end>"}
+{"query": "천안 공기질 지금 어떤지 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"천안\")<end>"}
+{"query": "주말 울산 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "주말광주먼지상태?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "전라도 사투리: 주말 광주 공기 어때유?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "실시간 대전 공기 상태 보여줄래?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "실시간 청주 공기질 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"청주\")<end>"}
+{"query": "내일 대전 공기 상태 언제쯤 좋을까?", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "월요일 청주 대기질 예보 알려줄래?", "function_call": "<function_IO>(timeframe=3, location=\"청주\")<end>"}
+{"query": "주말울산공기농도?", "function_call": "<function_IO>(timeframe=2, location=\"울산\")<end>"}
+{"query": "오늘 동대문구 공기 나쁜가?", "function_call": "<function_IO>(timeframe=0, location=\"동대문구\")<end>"}
+{"query": "내일 서울 공기 나쁠까?", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "평택 내일 공기질 상태 좀 봐주세요", "function_call": "<function_IO>(timeframe=1, location=\"평택\")<end>"}
+{"query": "대전 공기 좀 확인할래", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "내일 영광 공기질 좀 봐주라", "function_call": "<function_IO>(timeframe=1, location=\"영광\")<end>"}
+{"query": "여기 지금 공기 조금 나쁜가?", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "금욜 대전 공기 상태 좀", "function_call": "<function_IO>(timeframe=7, location=\"대전\")<end>"}
+{"query": "주말에제주공기어떠냐고", "function_call": "<function_IO>(timeframe=2, location=\"제주\")<end>"}
+{"query": "지금 전주 대기 질 상태 알려줘!", "function_call": "<function_IO>(timeframe=0, location=\"전주\")<end>"}
+{"query": "목요일 부산 대기질 상태 알려 줘", "function_call": "<function_IO>(timeframe=6, location=\"부산\")<end>"}
+{"query": "주말대전미세먼지어때?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "내일 부천 미세먼지 농도 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"부천\")<end>"}
+{"query": "내일 대구 공기 상태 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "여기 대전 공기 상태 함 볼라캉게", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "목요일 서울 미세먼지 농도 알려 주세요", "function_call": "<function_IO>(timeframe=6, location=\"서울\")<end>"}
+{"query": "내일 대전 공기 질 괜챦을가 모르것네", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "지금마산대기상태어때?", "function_call": "<function_IO>(timeframe=0, location=\"마산\")<end>"}
+{"query": "내일수원 미세먼지 어떻노?", "function_call": "<function_IO>(timeframe=1, location=\"수원\")<end>"}
+{"query": "이번 주말 부산 미세먼지 상태 확인 부탁해", "function_call": "<function_IO>(timeframe=2, location=\"부산\")<end>"}
+{"query": "사투리_충청도: 수요일 청주 공기 좀 봐주세유", "function_call": "<function_IO>(timeframe=5, location=\"청주\")<end>"}
+{"query": "내일공기 어때?", "function_call": "<function_IO>(timeframe=1, location=\"0\")<end>"}
+{"query": "지금 울산 대기질 정도 알려 줘봐", "function_call": "<function_IO>(timeframe=0, location=\"울산\")<end>"}
+{"query": "내일 울산 공기질 어떻게 돼?", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "내일 수요일 서울 공기질 예보 보여줘", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>"}
+{"query": "지금 마산 대기 상태 어때?", "function_call": "<function_IO>(timeframe=0, location=\"마산\")<end>"}
+{"query": "주말 공기 상태 좀 볼 수 있을까?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "오늘서울공기좀 봐줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "토요일에원주대기질어때부러", "function_call": "<function_IO>(timeframe=8, location=\"원주\")<end>"}
+{"query": "주말 서울 대기질 어때", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "춘천 내일 초미세먼지 농도 좀 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"춘천\")<end>"}
+{"query": "내일 김해 공기모니터링 상태 보여 주소", "function_call": "<function_IO>(timeframe=1, location=\"김해\")<end>"}
+{"query": "주말 대구 공기질 상황 확인 부탁해", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "오늘대기질상태어때", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "현재 서울 공기질 상태 좀 알려주세요", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "대전 지금 공기질 멀괜찮노?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "내일 충북 공기질 예보 보고싶어", "function_call": "<function_IO>(timeframe=1, location=\"충북\")<end>"}
+{"query": "그럼 주말 광주 공기질 좀 확인해볼까?", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "STT노이즈: 금요일전북공기질체크", "function_call": "<function_IO>(timeframe=7, location=\"전북\")<end>"}
+{"query": "주말대구공기알려", "function_call": "<function_IO>(timeframe=2, location=\"대구\")<end>"}
+{"query": "토요일 대전 미세먼지 농도 알 수 있을까?", "function_call": "<function_IO>(timeframe=8, location=\"대전\")<end>"}
+{"query": "서울주말먼지조아?", "function_call": "<function_IO>(timeframe=2, location=\"서울\")<end>"}
+{"query": "내일 대전 공기 상태 좀 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "현재 실내 공기질 모니터링 해줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>"}
+{"query": "내일 인천 쪽 대기 상태 알려 주세요", "function_call": "<function_IO>(timeframe=1, location=\"인천\")<end>"}
+{"query": "아직은 안 괜찮나? 대구 지금 공기좀 보여줭", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "주말에 제주 쪽 공기 상태는 어떨까?", "function_call": "<function_IO>(timeframe=2, location=\"제주\")<end>"}
+{"query": "포항 주말 공기 상황은 어떨까", "function_call": "<function_IO>(timeframe=2, location=\"포항\")<end>"}
+{"query": "내일 대전 공기질 예보 좀 보여 줘라", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "실시간 영등포 공기질 어떻게 되나?", "function_call": "<function_IO>(timeframe=0, location=\"영등포\")<end>"}
+{"query": "대전 공기 상태 보고싶다 아이가", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주중 월요일 공기질은 어떤가요?", "function_call": "<function_IO>(timeframe=3, location=\"0\")<end>"}
+{"query": "지금 대전 쪼끔 공기 상태 알려줘라", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "사투리_전라도: 내일 순천 공기농도 보여보소", "function_call": "<function_IO>(timeframe=1, location=\"순천\")<end>"}
+{"query": "주말 공간별 실내외 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "현재 부산 공기질 상태 알려 줄 수 있어?", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "내일이천공기오염알려줘", "function_call": "<function_IO>(timeframe=1, location=\"이천\")<end>"}
+{"query": "담주월요일성남공기질보여줄래", "function_call": "<function_IO>(timeframe=3, location=\"성남\")<end>"}
+{"query": "월요일 대전 공기질 상태 보여줘", "function_call": "<function_IO>(timeframe=3, location=\"대전\")<end>"}
+{"query": "내일 강릉의 공기 상태 알려줄 수 있나요?", "function_call": "<function_IO>(timeframe=1, location=\"강릉\")<end>"}
+{"query": "현재 서울 공기질 상태 알려주시겠어요", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "요즘 대전 공기 언제 좋아져?", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "주말 광주 공기질 상태 좀 알려 줘", "function_call": "<function_IO>(timeframe=2, location=\"광주\")<end>"}
+{"query": "주말에 대전 미세먼지 농도 알려 줄래?", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "주말 공기질 어느정도 되노?", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 대구 공기의 상태가 궁금해요", "function_call": "<function_IO>(timeframe=1, location=\"대구\")<end>"}
+{"query": "서울먼지상태알려", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "목요일 인천 대기질 상태 확인할게", "function_call": "<function_IO>(timeframe=6, location=\"인천\")<end>"}
+{"query": "오늘 부산 대기질 궁금해", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "지금 인천 주변 공기질 상태 확인해줘", "function_call": "<function_IO>(timeframe=0, location=\"인천\")<end>"}
+{"query": "목요일 제주도 공기 오염 봐 주이소", "function_call": "<function_IO>(timeframe=6, location=\"제주도\")<end>"}
+{"query": "지금 광주 미세먼지 농도 어때?", "function_call": "<function_IO>(timeframe=0, location=\"광주\")<end>"}
+{"query": "줄임말, 뭉개짐: 주말 공기 상태 봐줘", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "내일 금요일 광주 미세먼지 농도 알려줘", "function_call": "<function_IO>(timeframe=7, location=\"광주\")<end>"}
+{"query": "내일서울공기질좀알라줘", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "줄임말, 뭉개짐: 내일 제주도 대기좀 봐", "function_call": "<function_IO>(timeframe=1, location=\"제주도\")<end>"}
+{"query": "내일 창원 초미세먼지 수치 보여줘", "function_call": "<function_IO>(timeframe=1, location=\"창원\")<end>"}
+{"query": "수요일 대전 공기 상황 어때?", "function_call": "<function_IO>(timeframe=5, location=\"대전\")<end>"}
+{"query": "지금 부산 공기 상태 부탁해", "function_call": "<function_IO>(timeframe=0, location=\"부산\")<end>"}
+{"query": "지금 대구 공기 오염 상태 모니터링 해줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>"}
+{"query": "주말 강원 공기 오염 상태 알려줘", "function_call": "<function_IO>(timeframe=2, location=\"강원\")<end>"}
+{"query": "주말청주공기상태봐줘", "function_call": "<function_IO>(timeframe=2, location=\"청주\")<end>"}
+{"query": "현재 서울 공기 상태 알려줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "현시점부평구공기질상태알려줘", "function_call": "<function_IO>(timeframe=0, location=\"부평구\")<end>"}
+{"query": "금요일 인천 공기 상태 확인해줘", "function_call": "<function_IO>(timeframe=7, location=\"인천\")<end>"}
+{"query": "화요일 대전 공기질 예측 보여주세요", "function_call": "<function_IO>(timeframe=4, location=\"대전\")<end>"}
+{"query": "금요일 울산 공기 질 나쁜가?", "function_call": "<function_IO>(timeframe=7, location=\"울산\")<end>"}
+{"query": "내일울산공기질체크해줘요", "function_call": "<function_IO>(timeframe=1, location=\"울산\")<end>"}
+{"query": "화요일 판교 공기질 상태 조회해줘", "function_call": "<function_IO>(timeframe=4, location=\"판교\")<end>"}
+{"query": "거제도 일요일 공기 오염 알려줘", "function_call": "<function_IO>(timeframe=9, location=\"거제도\")<end>"}
+{"query": "오늘 판교 지역의 공기질은 어떤가요?", "function_call": "<function_IO>(timeframe=0, location=\"판교\")<end>"}
+{"query": "주말 공기 상태 다시 보여줘요", "function_call": "<function_IO>(timeframe=2, location=\"0\")<end>"}
+{"query": "월요일 인천 미세먼지 농도 알려줘요", "function_call": "<function_IO>(timeframe=3, location=\"인천\")<end>"}
+{"query": "서울공기잘좀보여줘", "function_call": "<function_IO>(timeframe=0, location=\"서울\")<end>"}
+{"query": "오늘 대전 공기질 알라줘", "function_call": "<function_IO>(timeframe=0, location=\"대전\")<end>"}
+{"query": "내일 광주 공기질 확인해줘요", "function_call": "<function_IO>(timeframe=1, location=\"광주\")<end>"}
+{"query": "내일 서울 근교 공기질 예보 확인해줘", "function_call": "<function_IO>(timeframe=1, location=\"서울\")<end>"}
+{"query": "내일 대전 대기 상황 좀 알려줘", "function_call": "<function_IO>(timeframe=1, location=\"대전\")<end>"}
+{"query": "주말 대전 대기 상태 파악해줘", "function_call": "<function_IO>(timeframe=2, location=\"대전\")<end>"}
+{"query": "벌써산청공기상황확인좀해바라", "function_call": "<function_IO>(timeframe=0, location=\"산청\")<end>"}
+{"query": "STT노이즈: 내일부산미세먼지어때요?", "function_call": "<function_IO>(timeframe=1, location=\"부산\")<end>"}
