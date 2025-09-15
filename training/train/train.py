@@ -5,8 +5,7 @@ from typing import Optional, List
 from dataclasses import dataclass, field
 
 import torch
-from transformers import HfArgumentParser, BitsAndBytesConfig
-from peft import LoraConfig, TaskType
+from transformers import HfArgumentParser
 from trl import SFTTrainer, SFTConfig
 from datasets import Dataset
 
@@ -64,9 +63,6 @@ def train():
     random_seed = training_args.seed   
 
     seed_everything(random_seed)
-
-    # # accelerator는 어차피 trainer 안에서 한번 초기화 함. 여기서 별도로 생성해줄 필요 없음.
-    # accelerator = Accelerator()
     
     cache_key = model_args.model_cache
     cache_dir = os.environ.get(cache_key)
@@ -74,16 +70,10 @@ def train():
     model_name = model_args.model_name_or_path
     model_name_for_dir = model_name.replace('/', '-')
     
-    dataset_name = data_args.dataset_name
-    dataset_name_for_dir = dataset_name.replace('/', '-')
-    
-    inference_template_id = training_args.inference_template_id
-    num_demonstrations = training_args.num_demonstrations
-
-    config_str = f'{model_name_for_dir}-{dataset_name_for_dir}-template_{inference_template_id}-demo_{num_demonstrations}-{str(random_seed)}'    
+    config_str = f'{model_name_for_dir}-{str(random_seed)}'    
     
     ## BASE PATH for outputs
-    base_path = os.path.join(training_args.output_dir, 'train', config_str, 'sft')
+    base_path = os.path.join(training_args.output_dir, config_str)
     assert os.path.isdir(base_path), f'Base path does not exist : {base_path}'
 
     ############################
@@ -91,10 +81,6 @@ def train():
     #       LOAD DATASET       #
     #                          #
     ############################
-
-    # if training data is balanced
-    is_balanced = training_args.is_balanced
-
     selected_data_file = os.path.join(base_path, 'train_data.pkl')
         
     train_data = load_pkl(path=selected_data_file)
@@ -114,19 +100,12 @@ def train():
     #                                         #
     ###########################################
 
-    r=lora_args.lora_r
-    lora_alpha=lora_args.lora_alpha
     
     ## SET OUTPUT DIRECTORY ##
-    TRAINING_CONFIG_STR = f'epoch-{int(training_args.num_train_epochs)}_batch-{training_args.per_device_train_batch_size}_accumulation-{training_args.gradient_accumulation_steps}_lr-{training_args.learning_rate}_lora_r-{r}_lora_alpha-{lora_alpha}'
-    
-    if lora_args.use_qlora:
-        TRAINING_CONFIG_STR = f'_qlora{TRAINING_CONFIG_STR}'
+    TRAINING_CONFIG_STR = f'epoch-{int(training_args.num_train_epochs)}_batch-{training_args.per_device_train_batch_size}_accumulation-{training_args.gradient_accumulation_steps}_lr-{training_args.learning_rate}'
     
     # set wandb run name
     training_args.run_name = f'SFT_v1_{TRAINING_CONFIG_STR}'
-    if is_balanced:
-        training_args.run_name = f'balanced_SFT_v1_{TRAINING_CONFIG_STR}'
     
     model_checkpoint_path = os.path.join(base_path, TRAINING_CONFIG_STR)
     
@@ -151,30 +130,33 @@ def train():
     training_config_file = os.path.join(model_checkpoint_path, 'training_config.pkl')
     save_pkl(data=[model_args, data_args, training_args, lora_args], path=training_config_file)
     
-    ## Train model to learn ambiguity ##
-    ## Initialize PEFT Configs ##
-    lora_config = LoraConfig(
-                        r=lora_args.lora_r,
-                        lora_alpha=lora_args.lora_alpha,
-                        lora_dropout=lora_args.lora_dropout,
-                        bias=lora_args.lora_bias,
-                        inference_mode=False,
-                        task_type=TaskType.CAUSAL_LM,
-                        target_modules=lora_args.lora_target_modules,
-                    )
+    
+    # ## Train model to learn ambiguity ##
+    # ## Initialize PEFT Configs ##
+    lora_config = None
+    # lora_config = LoraConfig(
+    #                     r=lora_args.lora_r,
+    #                     lora_alpha=lora_args.lora_alpha,
+    #                     lora_dropout=lora_args.lora_dropout,
+    #                     bias=lora_args.lora_bias,
+    #                     inference_mode=False,
+    #                     task_type=TaskType.CAUSAL_LM,
+    #                     target_modules=lora_args.lora_target_modules,
+    #                 )
 
-    # 모델이 안크니깐 굳이 qlora 써서 학습할 필요 없음. 
-    if lora_args.use_qlora:
-        logger.info('** Use QLoRa quantization.')
-        quantization_config = BitsAndBytesConfig(
-                                load_in_4bit=True,
-                                bnb_4bit_quant_type="nf4",
-                                bnb_4bit_use_double_quant=True,
-                                bnb_4bit_compute_dtype=torch.bfloat16
-                            )
-    else:
-        logger.info('** No QLoRa quantization.')
-        quantization_config = None
+    # # 모델이 안크니깐 굳이 qlora 써서 학습할 필요 없음. 
+    quantization_config = None
+    # if lora_args.use_qlora:
+    #     logger.info('** Use QLoRa quantization.')
+    #     quantization_config = BitsAndBytesConfig(
+    #                             load_in_4bit=True,
+    #                             bnb_4bit_quant_type="nf4",
+    #                             bnb_4bit_use_double_quant=True,
+    #                             bnb_4bit_compute_dtype=torch.bfloat16
+    #                         )
+    # else:
+    #     logger.info('** No QLoRa quantization.')
+    #     quantization_config = None
     
     
     ## LOAD MODEL and TOKENIZER ##
@@ -207,14 +189,9 @@ def train():
     end_time = time()
     logger.info(f'Training time : {end_time - start_time} seconds.')
     
-    
     final_model = trainer.model
     final_model = final_model.merge_and_unload()
     
-    if lora_args.use_qlora:
-        logger.info('Dequantize model...')
-        final_model.dequantize()
-        
     logger.info('Save final model...')
     start_time = time()
     final_model.save_pretrained(model_checkpoint_path)

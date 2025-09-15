@@ -1,0 +1,289 @@
+﻿Index,Query(한글),LLM Output,Functions
+0ABOVW,월요일 자카르타 대기질을 화면에 보여줘 다음으로 자격증 준비하고 있니,"<function_IO>(timeframe=3, location=자카르타);<function_MR>()<end>","['function_IO', 'function_MR']"
+0BTVBV,현재 판교 공기질 알려주세요 그리고 새로 시작한 운동이 뭐야,"<function_IO>(timeframe=0, location=판교);<function_MR>()<end>","['function_IO', 'function_MR']"
+0DJGSA,현재 공기질 모니터링 어떤지 알려줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0DUGVV,지금 공기질 모니터링 상태 확인하게 해주세요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0EQFYI,공기질 모니터링 상황 좀 보여줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0FQABR,새로 나온 영화 예고편 봤어 되게 재밌어 보이더라 이어서 수요일 나폴리 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=5, location=나폴리)<end>","['function_MR', 'function_IO']"
+0FTAMX,충전하러 복귀 그 다음에 월요일 공기질 상태 알려줘,"<function_KI>();<function_IO>(timeframe=3, location=""0"")<end>","['function_KI', 'function_IO']"
+0FVGFB,스테이션 위치로 복귀하세요 그리고 일요일 미세먼지 정보 보여줘,"<function_KI>();<function_IO>(timeframe=9, location=""0"")<end>","['function_KI', 'function_IO']"
+0HBSJG,현재 해운대 공기질 상황 어때,"<function_IO>(timeframe=0, location=""해운대"")<end>",['function_IO']
+0IFMPP,고정 청정 온 일요일 미세먼지 농도 어때,"<function_PG>();<function_IO>(timeframe=9, location=""0"")<end>","['function_PG', 'function_IO']"
+0ILGGD,충전하러 복귀 다음으로 주말 공기질 지수를 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=2, location=""0"")<end>","['function_KI', 'function_IO']"
+0IZVJR,목요일 광진구 공기질 걱정해야 할까 그 후에 다음 달에 친구랑 여행 갈 계획 세우고 있어,"<function_IO>(timeframe=6, location=광진구);<function_MR>()<end>","['function_IO', 'function_MR']"
+0KXCPQ,처음 위치로 돌아가주면 좋겠어 그 다음에 일요일 공기질 상태 알려줘,"<function_KI>();<function_IO>(timeframe=9, location=""0"")<end>","['function_KI', 'function_IO']"
+0LCHIL,공기질 모니터링 확인 필요해,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0LRQLL,실내 공기질 모니터링 창을 열어줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0MCPHM,청정 켜봐 그 다음에 월요일 기기 근처 공기 상태는 어때,"<function_PG>();<function_IO>(timeframe=3, location=""0"")<end>","['function_PG', 'function_IO']"
+0NASFW,내일 카트만두 초미세먼지 몇이야,"<function_IO>(timeframe=1, location=""카트만두"")<end>",['function_IO']
+0NZHTU,내일 강릉 미세먼지 어때,"<function_IO>(timeframe=1, location=""강릉"")<end>",['function_IO']
+0QQGCV,내일 앙카라의 초미세먼지 수치를 보여줘,"<function_IO>(timeframe=1, location=""앙카라"")<end>",['function_IO']
+0QWCES,화요일 뉴델리 대기질을 화면에 보여줘 그리고 요즘 공부하는 게 힘들어,"<function_IO>(timeframe=4, location=뉴델리);<function_MR>()<end>","['function_IO', 'function_MR']"
+0QYOZF,스테이션 위치로 복귀하세요 그리고 공기질 모니터링 기능 켜줘,"<function_KI>();<function_IO>(timeframe=0, location=""0"")<end>","['function_KI', 'function_IO']"
+0RQVYL,충전 위치로 되돌아가 그리고 일요일 전주 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=9, location=전주)<end>","['function_KI', 'function_IO']"
+0SIBYE,내일 시드니 포름알데히드 농도 높아,"<function_IO>(timeframe=1, location=""시드니"")<end>",['function_IO']
+0TFVWN,주말 마스크 써야 할 정도로 공기 안 좋을까,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+0UZMEO,내일 여기 공기 상태 알려줘,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+0VZUXX,공간별 실내 공기질 상태 보여줘라,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0XRLFH,주말 미세먼지 농도 어때,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+0YNUOZ,오늘 공기 모니터링,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+0ZGDMO,일요일 여기에 공기가 나쁠까 또 오늘 하루 종일 바빴는데도 아직 해야 할 일이 많아,"<function_IO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+1AHNGR,이제 그만 복귀해 다음으로 화요일 미세먼지 농도 어때,"<function_KI>();<function_IO>(timeframe=4, location=""0"")<end>","['function_KI', 'function_IO']"
+1AJLCA,오늘 여기에 공기가 나쁠까,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1CBATM,이 동네의 내일 공기질 예보를 보여줘,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+1DCDRH,배가 고파서 뭐라도 먹어야겠어 그 다음에 금요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_IO']"
+1DOVEV,내일 부산 초미세먼지 상태 알려줘,"<function_IO>(timeframe=1, location=""부산"")<end>",['function_IO']
+1EIRXX,몬테비데오 포름알데히드 수준이 어떤지 알려줘,"<function_IO>(timeframe=0, location=""몬테비데오"")<end>",['function_IO']
+1EPTGV,내일 제주시 이산화탄소 상태 알려줘,"<function_IO>(timeframe=1, location=""제주시"")<end>",['function_IO']
+1FZCJD,내일 치앙마이 초미세먼지 상황 어때,"<function_IO>(timeframe=1, location=""치앙마이"")<end>",['function_IO']
+1GJSVV,실시간 공기질 모니터링 띄워줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1GPSJR,충전 위치로 되돌아가 그 다음에 주말 미세먼지 농도 어때,"<function_KI>();<function_IO>(timeframe=2, location=""0"")<end>","['function_KI', 'function_IO']"
+1HCZFC,각 방마다 공기 상태가 어떤지 나한테 보여줄 수 있어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1IZMPN,지금 노원구 공기질 좀 알려줄래,"<function_IO>(timeframe=0, location=""노원구"")<end>",['function_IO']
+1JDDTJ,청정 켜봐 이어서 실시간 공기질 모니터링 보여주세요,"<function_PG>();<function_IO>(timeframe=0, location=""0"")<end>","['function_PG', 'function_IO']"
+1JIBAY,타슈켄트 공기질 상태 어때요,"<function_IO>(timeframe=0, location=""타슈켄트"")<end>",['function_IO']
+1JWCUR,테니스 치러 가볼까 이어서 내일 서울 초미세먼지 알려줘,"<function_MR>();<function_IO>(timeframe=1, location=서울)<end>","['function_MR', 'function_IO']"
+1QKPMO,공간마다 공기 모니터링 확인이 필요해,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1QSTCP,방별 공기 모니터링 확인 화면으로 바꿔주세요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1QYEZU,처음 위치로 돌아가주면 좋겠어 그러고 나서 현재 하노이 공기질 알려주세요,"<function_KI>();<function_IO>(timeframe=0, location=하노이)<end>","['function_KI', 'function_IO']"
+1RIOFV,주말 공기 좀 알려줘요,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+1RPZKM,실시간 공기질 모니터링 화면 보여줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1RYDEF,내일 용산구 공기질 상태 확인했어,"<function_IO>(timeframe=1, location=""용산구"")<end>",['function_IO']
+1SNMZM,새 가방이 필요해 그 다음에 월요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_IO']"
+1TSBLQ,고정 청정 온 또 샌프란시스코 대기질 지수가 몇인지 알려줘,"<function_PG>();<function_IO>(timeframe=0, location=샌프란시스코)<end>","['function_PG', 'function_IO']"
+1TVOCR,공기질 모니터링 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+1UEOYY,현재 방콕 공기질 알려주세요,"<function_IO>(timeframe=0, location=""방콕"")<end>",['function_IO']
+1VOPRN,스테이션 위치로 복귀하세요 오늘 부산 공기 어때,"<function_KI>();<function_IO>(timeframe=0, location=부산)<end>","['function_KI', 'function_IO']"
+1WAVVT,오늘은 일찍 자야지 내일 할 일이 많거든 또 일요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_IO']"
+1YOSWB,고정 공청 기능 켜줘 또 토요일 광진구 대기질을 화면에 보여줘,"<function_PG>();<function_IO>(timeframe=8, location=광진구)<end>","['function_PG', 'function_IO']"
+2ACQAB,일요일 미세먼지 정보 보여줘 또 아침에 먹은 커피가 너무 진해서 잠이 확 깨더라,"<function_IO>(timeframe=9, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+2ADZZQ,내일 아부다비 포름알데히드 농도 높아,"<function_IO>(timeframe=1, location=""아부다비"")<end>",['function_IO']
+2BPGCT,청정 켜봐 다음으로 월요일 공기질 예보를 화면에 보여줘,"<function_PG>();<function_IO>(timeframe=3, location=""0"")<end>","['function_PG', 'function_IO']"
+2DDRCE,내일 빈 초미세먼지 농도 어때,"<function_IO>(timeframe=1, location=""빈"")<end>",['function_IO']
+2ENQUZ,주말 공기질 상태 알려죠,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+2GNVII,스테이션 위치로 복귀하세요 그 후에 일요일 군산 대기질을 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=9, location=군산)<end>","['function_KI', 'function_IO']"
+2GOJKA,현재 맨해튼 미세먼지 수치를 화면에 보여줘,"<function_IO>(timeframe=0, location=""맨해튼"")<end>",['function_IO']
+2IPPPK,이번에 무슨 브랜드를 살까 고민 중이야 그리고 주말 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=2, location=""0"")<end>","['function_MR', 'function_IO']"
+2JEDCG,현 시점 광진구 대기 상태 알려줘,"<function_IO>(timeframe=0, location=""광진구"")<end>",['function_IO']
+2JMNFX,공기 모니터링 화면 보여줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+2NJOYX,고정 공청 기능 켜줘 다음으로 주말 파리의 공기질 예보를 보여줘,"<function_PG>();<function_IO>(timeframe=2, location=파리)<end>","['function_PG', 'function_IO']"
+2NSRPE,고정 청정 온 목요일 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=6, location=""0"")<end>","['function_PG', 'function_IO']"
+2OPYEW,고정 청정 온 그리고 금요일 공기질 상태 알려줘,"<function_PG>();<function_IO>(timeframe=7, location=""0"")<end>","['function_PG', 'function_IO']"
+2PAJYU,내일 은평구의 공기질 예보를 보여줘,"<function_IO>(timeframe=1, location=""은평구"")<end>",['function_IO']
+2PDTLB,고정 공청 기능 켜줘 그리고 월요일 나이로비 대기질을 화면에 보여줘,"<function_PG>();<function_IO>(timeframe=3, location=나이로비)<end>","['function_PG', 'function_IO']"
+2QKZIS,내일 송도 공기질 상태 괜찮아,"<function_IO>(timeframe=1, location=""송도"")<end>",['function_IO']
+2RKICC,내일 베이징의 공기질 예보를 보여줘 이어서 수영하러 가는 거 어때,"<function_IO>(timeframe=1, location=베이징);<function_MR>()<end>","['function_IO', 'function_MR']"
+2TGJSX,내일 인천 공기질 안 좋아,"<function_IO>(timeframe=1, location=""인천"")<end>",['function_IO']
+2TUKWG,새로운 노트북을 살까 말까 고민 중이야 그 후에 목요일 노량진 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=6, location=노량진)<end>","['function_MR', 'function_IO']"
+2UKFNB,저쪽 공기 상태는 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+2UOMRN,강서구에 내일 극초미세먼지 많아,"<function_IO>(timeframe=1, location=""강서구"")<end>",['function_IO']
+2UQCQE,주말 기기 주변 공기 상태는 어때,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+2UUVFW,지금 공기질 모니터링 상태 알려주실래요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+2UZRGF,충전 위치로 되돌아가 다음으로 수요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=5, location=""0"")<end>","['function_KI', 'function_IO']"
+2WCYCB,주말에는 주로 공부하니 또 수요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=5, location=""0"")<end>","['function_MR', 'function_IO']"
+2ZDMVI,스테이션 위치로 복귀하세요 그리고 화요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=4, location=""0"")<end>","['function_KI', 'function_IO']"
+3ADBLB,주말에 가족들이랑 모임이 있는데 무슨 얘기를 할지 고민이야 이어서 일요일 프라하 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=9, location=프라하)<end>","['function_MR', 'function_IO']"
+3BHXFY,충전하러 복귀 또 토요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=8, location=""0"")<end>","['function_KI', 'function_IO']"
+3BSFSF,실시간 공기질 모니터링 상황을 보고 싶어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+3DLRHK,고정 공기 청정 실행해줘 그 다음에 주말 베이징 미세먼지 어때,"<function_PG>();<function_IO>(timeframe=2, location=베이징)<end>","['function_PG', 'function_IO']"
+3EWMQS,새로운 취미나 기술을 배우는 게 중요해 그러고 나서 화요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=4, location=""0"")<end>","['function_MR', 'function_IO']"
+3HRAPF,충전하러 복귀 그 후에 오늘 공기 모니터링 화면 띄워줘,"<function_KI>();<function_IO>(timeframe=0, location=""0"")<end>","['function_KI', 'function_IO']"
+3IWDBZ,고정 청정 온 그 다음에 판교 공기질 상태를 보여줘,"<function_PG>();<function_IO>(timeframe=0, location=판교)<end>","['function_PG', 'function_IO']"
+3IYQHS,청정 켜봐 그 후에 금요일 나폴리 공기질 걱정해야 할까,"<function_PG>();<function_IO>(timeframe=7, location=나폴리)<end>","['function_PG', 'function_IO']"
+3JBHPX,충전하러 복귀 다음으로 수요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=5, location=""0"")<end>","['function_KI', 'function_IO']"
+3JEXVK,이제 그만 복귀해 그러고 나서 금요일 미세먼지 농도 어때,"<function_KI>();<function_IO>(timeframe=7, location=""0"")<end>","['function_KI', 'function_IO']"
+3JIDMA,충전하러 복귀 그리고 월요일 케이프타운 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=3, location=케이프타운)<end>","['function_KI', 'function_IO']"
+3JORPX,고정 공청 기능 켜줘 그리고 화요일 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=4, location=""0"")<end>","['function_PG', 'function_IO']"
+3JUUKK,내일 전주 공기질 알려줘,"<function_IO>(timeframe=1, location=""전주"")<end>",['function_IO']
+3KXJKO,내일 리마 미세먼지 때문에 마스크 필요할까,"<function_IO>(timeframe=1, location=""리마"")<end>",['function_IO']
+3LBEEM,고정 공기 청정 실행해줘 그리고 내일 도쿄의 공기질 예보를 보여줘,"<function_PG>();<function_IO>(timeframe=1, location=도쿄)<end>","['function_PG', 'function_IO']"
+3MOXQD,실시간 공기질 모니터링 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+3NDOVI,이번에 새로 공부 시작한 게 뭐야 그리고 화요일 이스탄불 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=4, location=이스탄불)<end>","['function_MR', 'function_IO']"
+3NNYTT,오늘 무주 공기질 상태를 보여줘,"<function_IO>(timeframe=0, location=""무주"")<end>",['function_IO']
+3PMOIY,지금 공기질 모니터링 확인 필요해,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+3QMEGF,고정 청정 온 수요일 두바이 TVOC 농도는 얼마야,"<function_PG>();<function_IO>(timeframe=5, location=두바이)<end>","['function_PG', 'function_IO']"
+3QYKOC,고정 청정 온 그 후에 일요일 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=9, location=""0"")<end>","['function_PG', 'function_IO']"
+3RDFJH,내일 카사블랑카 대기 상태 나쁘니,"<function_IO>(timeframe=1, location=""카사블랑카"")<end>",['function_IO']
+3SMDHZ,토요일 여기에 공기가 나쁠까 그러고 나서 점심으로 먹은 음식이 너무 맛있어서 또 먹고 싶어,"<function_IO>(timeframe=8, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+3TIIZZ,이번 주말에는 뭔가 특별한 계획을 세우고 싶어 또 일요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=9, location=""0"")<end>","['function_MR', 'function_IO']"
+3TLHNK,오늘 멕시코시티 공기질 상태에 맞춰 창문 열어도 될까,"<function_IO>(timeframe=0, location=""멕시코시티"")<end>",['function_IO']
+3UWBEV,커피를 너무 많이 마셔서 잠이 안 온다 이어서 수요일 강남 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=5, location=강남)<end>","['function_MR', 'function_IO']"
+3WLIAA,처음 위치로 돌아가주면 좋겠어 그리고 일요일 송도 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=9, location=송도)<end>","['function_KI', 'function_IO']"
+3XILQZ,처음 위치로 돌아가주면 좋겠어 다음으로 목요일 카트만두 TVOC 농도는 얼마야,"<function_KI>();<function_IO>(timeframe=6, location=카트만두)<end>","['function_KI', 'function_IO']"
+3XNZYI,화요일 두바이 공기질 걱정해야 할까 그리고 시간 관리 방법 공유해줄래,"<function_IO>(timeframe=4, location=두바이);<function_MR>()<end>","['function_IO', 'function_MR']"
+3YTOXE,내일 여기에 공기가 나쁠까 또 새로 배운 운동이 있어,"<function_IO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+3ZBXSH,온라인 수업 듣는 게 어때 그리고 화요일 싱가포르 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=4, location=싱가포르)<end>","['function_MR', 'function_IO']"
+3ZMJQB,고정 공청 기능 켜줘 다음으로 내일 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=1, location=""0"")<end>","['function_PG', 'function_IO']"
+4AILRZ,요즘 인기 많은 아이템 뭐야 그 후에 주말 나이로비 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=2, location=나이로비)<end>","['function_MR', 'function_IO']"
+4FCNQZ,스테이션 위치로 복귀하세요 그리고 내일 제주시 TVOC 농도는 얼마야,"<function_KI>();<function_IO>(timeframe=1, location=제주시)<end>","['function_KI', 'function_IO']"
+4FJIUP,공기질 모니터링 상태 확인할 수 있게 해줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+4GSEVB,스테이션 위치로 복귀하세요 이어서 목요일 기기 근처 공기 상태는 어때,"<function_KI>();<function_IO>(timeframe=6, location=""0"")<end>","['function_KI', 'function_IO']"
+4HLKTV,주말에 같이 운동할 사람 구하는데 누구 같이 할래 그리고 목요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=6, location=""0"")<end>","['function_MR', 'function_IO']"
+4HVHIS,요가 수업 들어본 적 있어 또 내일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_IO']"
+4IZOVK,오늘 공기질 상태 화면 보여줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+4JEKBN,현재 공기질 모니터링 상태 알려주겠어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+4KGYHY,퀴토 미세먼지 어떠니,"<function_IO>(timeframe=0, location=""퀴토"")<end>",['function_IO']
+4NGCOW,처음 위치로 돌아가주면 좋겠어 내일 시드니의 공기질 예보를 보여줘,"<function_KI>();<function_IO>(timeframe=1, location=시드니)<end>","['function_KI', 'function_IO']"
+4NNQAI,지금 홍콩 피엠이쩜오 때문에 외출하기 괜찮아,"<function_IO>(timeframe=0, location=""홍콩"")<end>",['function_IO']
+4OXSVS,주말 여기에 공기가 나쁠까 그리고 이번에 새로 산 옷 어때,"<function_IO>(timeframe=2, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4PGNKQ,내일 후쿠오카 대기오염 괜찮아,"<function_IO>(timeframe=1, location=""후쿠오카"")<end>",['function_IO']
+4ROOSF,이제 그만 복귀해 그 다음에 공기질 모니터링 기능 켜줘,"<function_KI>();<function_IO>(timeframe=0, location=""0"")<end>","['function_KI', 'function_IO']"
+4SIAFY,지금 베이징 공기는 어때,"<function_IO>(timeframe=0, location=""베이징"")<end>",['function_IO']
+4ULIEM,충전 위치로 되돌아가 그 다음에 금요일 시에나 대기질을 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=7, location=시에나)<end>","['function_KI', 'function_IO']"
+4UVROP,주말 여기에 공기가 나쁠까,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+4WFPBX,내일 아침에는 조금 일찍 일어나서 산책이나 할까 다음으로 금요일 해남 공기질 때문에 마스크 써야 할까,"<function_MR>();<function_IO>(timeframe=7, location=해남)<end>","['function_MR', 'function_IO']"
+4WGQID,고정 공기 청정 가동 시작해줘 또 금요일 미세먼지 농도 어때,"<function_PG>();<function_IO>(timeframe=7, location=""0"")<end>","['function_PG', 'function_IO']"
+4WSPPZ,고정 공기 청정 실행해줘 주말 기기 근처 공기 상태는 어때,"<function_PG>();<function_IO>(timeframe=2, location=""0"")<end>","['function_PG', 'function_IO']"
+4XTXKW,수요일 여기에 공기가 나쁠까 또 새로 배운 기술 있으면 공유해줄래,"<function_IO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4YTEBW,지금 나이로비 공기질 나쁘게 느껴져,"<function_IO>(timeframe=0, location=""나이로비"")<end>",['function_IO']
+4ZKZKY,실시간 공기질 모니터링 보여주세요 그러고 나서 국내 여행도 좋은 데가 많아,"<function_IO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+4ZVMUE,수요일 노원구 대기질을 화면에 보여줘 이어서 이번 주말엔 그냥 집에서 푹 쉬어야겠어,"<function_IO>(timeframe=5, location=노원구);<function_MR>()<end>","['function_IO', 'function_MR']"
+5AFRLG,고정 공기 청정 가동 시작해줘 그리고 토요일 천호동 미세먼지 어때,"<function_PG>();<function_IO>(timeframe=8, location=천호동)<end>","['function_PG', 'function_IO']"
+5BHBEK,주말 로마 공기질 걱정해야 할까 그 후에 새로 산 가방 마음에 들어,"<function_IO>(timeframe=2, location=로마);<function_MR>()<end>","['function_IO', 'function_MR']"
+5BTXWQ,고정 청정 온 그러고 나서 목요일 싱가포르 공기질 걱정해야 할까,"<function_PG>();<function_IO>(timeframe=6, location=싱가포르)<end>","['function_PG', 'function_IO']"
+5DSFRX,온라인 강의 들어봤어 다음으로 월요일 방콕 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=3, location=방콕)<end>","['function_MR', 'function_IO']"
+5FEQVH,이제 그만 복귀해 그리고 목요일 마닐라 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=6, location=마닐라)<end>","['function_KI', 'function_IO']"
+5GXMJN,지금 공기질 모니터링 상황 알고 싶어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+5IYBUE,현재 뉴델리 초미세먼지 농도 몇이야,"<function_IO>(timeframe=0, location=""뉴델리"")<end>",['function_IO']
+5JINDH,방별 공기질 모니터링 결과 알려줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+5LOLHS,충전 위치로 되돌아가 그러고 나서 월요일 미세먼지 농도 어때,"<function_KI>();<function_IO>(timeframe=3, location=""0"")<end>","['function_KI', 'function_IO']"
+5NGBXH,처음 위치로 돌아가주면 좋겠어 주말 몬트리올의 공기질 예보를 보여줘,"<function_KI>();<function_IO>(timeframe=2, location=몬트리올)<end>","['function_KI', 'function_IO']"
+5QOEMM,고정 청정 온 이어서 일요일 옥수동 공기질 걱정해야 할까,"<function_PG>();<function_IO>(timeframe=9, location=옥수동)<end>","['function_PG', 'function_IO']"
+5RCSOI,주말 모스크바의 공기질 예보를 보여줘 그 후에 쇼핑할 때 뭘 제일 많이 사,"<function_IO>(timeframe=2, location=모스크바);<function_MR>()<end>","['function_IO', 'function_MR']"
+5REFVP,내일 공기질 상태 알려줘,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+5TOBUO,토요일 시드니 대기질을 화면에 보여줘 그리고 어제 본 영화가 정말 감동적이었어 추천해줄게,"<function_IO>(timeframe=8, location=시드니);<function_MR>()<end>","['function_IO', 'function_MR']"
+5UWOQT,이제 그만 복귀해 다음으로 금요일 인천 대기질을 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=7, location=인천)<end>","['function_KI', 'function_IO']"
+5WDHNM,공기질 모니터링 기능 켜줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+5XOJEH,내일 기기 주변 공기 상태는 어때,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+5YNSNM,내일 몬트리올 공기질 괜찮아,"<function_IO>(timeframe=1, location=""몬트리올"")<end>",['function_IO']
+5YOGMZ,처음 위치로 돌아가주면 좋겠어 그리고 주말 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=2, location=""0"")<end>","['function_KI', 'function_IO']"
+5ZRYJI,노량진에 오늘 대기오염 심해,"<function_IO>(timeframe=0, location=""노량진"")<end>",['function_IO']
+6BATFT,지금 오사카에서 공기질이 나쁘다는 얘기 있나요,"<function_IO>(timeframe=0, location=""오사카"")<end>",['function_IO']
+6BPPCB,고정 공기 청정 가동 시작해줘 공기질 모니터링 기능 켜줘,"<function_PG>();<function_IO>(timeframe=0, location=""0"")<end>","['function_PG', 'function_IO']"
+6CXENF,구역별 공기 상태 모니터링 하게 도와줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+6DWUZT,현재 나폴리 대기질 지수는 몇이에요,"<function_IO>(timeframe=0, location=""나폴리"")<end>",['function_IO']
+6ECQZD,오늘 싱가포르 공기질 알려주세요,"<function_IO>(timeframe=0, location=""싱가포르"")<end>",['function_IO']
+6FHUMM,고정 청정 온 그 다음에 실시간 공기질 모니터링 보여주세요,"<function_PG>();<function_IO>(timeframe=0, location=""0"")<end>","['function_PG', 'function_IO']"
+6FZUJM,이제 그만 복귀해 그리고 내일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=1, location=""0"")<end>","['function_KI', 'function_IO']"
+6JBJVI,책상 정리 좀 해야겠어 너무 지저분해졌어 그 다음에 금요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=7, location=""0"")<end>","['function_MR', 'function_IO']"
+6KEUSB,구역별 공기질 모니터링 상황 보여줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+6MRWMN,공기질 모니터링 화면 보여줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+6NNLVO,주말 여기 공기 질이 좋은 편이야,"<function_IO>(timeframe=2, location=""0"")<end>",['function_IO']
+6OOABT,뭄바이 대기 상태 어떤지 말해줘요,"<function_IO>(timeframe=0, location=""뭄바이"")<end>",['function_IO']
+6QJNHX,화요일 대기질 정보를 화면에 보여줄래 그러고 나서 자기계발서 추천해줄래,"<function_IO>(timeframe=4, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+6SAHTH,화요일 여기에 공기가 나쁠까 그러고 나서 이번 주말에 공부할 계획 있어,"<function_IO>(timeframe=4, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+6SCGQL,샌프란시스코 대기질 지수가 몇인지 알려줘 그리고 매일 운동하려고 노력 중이야,"<function_IO>(timeframe=0, location=샌프란시스코);<function_MR>()<end>","['function_IO', 'function_MR']"
+6UMGRI,처음 위치로 돌아가주면 좋겠어 그리고 수요일 치앙마이 대기질을 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=5, location=치앙마이)<end>","['function_KI', 'function_IO']"
+6UXZYL,고정 공기 청정 실행해줘 그 다음에 토요일 노량진 TVOC 농도는 얼마야,"<function_PG>();<function_IO>(timeframe=8, location=노량진)<end>","['function_PG', 'function_IO']"
+6UZQNR,오늘 도쿄에서 마스크 써야 할 정도로 공기가 안 좋아,"<function_IO>(timeframe=0, location=""도쿄"")<end>",['function_IO']
+6VDRCU,스톡홀름 마스크 쓸 필요 있을 정도야,"<function_IO>(timeframe=0, location=""스톡홀름"")<end>",['function_IO']
+6VQDOO,당장 카르타헤나 초미세먼지 농도를 보여줘,"<function_IO>(timeframe=0, location=""카르타헤나"")<end>",['function_IO']
+6VQGQU,지금 그라츠 공기질 지수를 화면에 보여줘,"<function_IO>(timeframe=0, location=""그라츠"")<end>",['function_IO']
+6VUKVJ,고정 청정 온 그리고 내일 미세먼지 농도 어때,"<function_PG>();<function_IO>(timeframe=1, location=""0"")<end>","['function_PG', 'function_IO']"
+6VZYVQ,청정 켜봐 그 후에 화요일 기기 근처 공기 상태는 어때,"<function_PG>();<function_IO>(timeframe=4, location=""0"")<end>","['function_PG', 'function_IO']"
+6WFVCW,오늘 모스크바에서 창문 닫아야 할까,"<function_IO>(timeframe=0, location=""모스크바"")<end>",['function_IO']
+6WNPJP,오늘 천호동 공기질 때문에 실내가 나을까,"<function_IO>(timeframe=0, location=""천호동"")<end>",['function_IO']
+6WYIUX,공간별 미세먼지 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+6XINXB,고정 공기 청정 가동 시작해줘 그 후에 내일 뉴욕 미세먼지 어때,"<function_PG>();<function_IO>(timeframe=1, location=뉴욕)<end>","['function_PG', 'function_IO']"
+6XNXVM,고정 청정 온 그 다음에 주말 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=2, location=""0"")<end>","['function_PG', 'function_IO']"
+7ALUXX,지금 파리 초미세먼지 농도는 몇이야,"<function_IO>(timeframe=0, location=""파리"")<end>",['function_IO']
+7ATXVN,공간별 공기질 모니터링 수치 확인해줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7BDFPX,충전 위치로 되돌아가 화요일 쿠알라룸푸르 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=4, location=쿠알라룸푸르)<end>","['function_KI', 'function_IO']"
+7BRUBY,오늘 센프란시스코 미세먼지 농도는 얼마야,"<function_IO>(timeframe=0, location=""센프란시스코"")<end>",['function_IO']
+7DJCDL,금요일 미세먼지 정보 보여줘 그 다음에 다음 주에 친구들이랑 모임이 있는데 뭐 입고 갈지 고민이야,"<function_IO>(timeframe=7, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7DKOIP,공기 모니터링 화면 띄워주세요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7FZGSP,고정 공청 기능 켜줘 다음으로 월요일 기기 근처 공기 상태는 어때,"<function_PG>();<function_IO>(timeframe=3, location=""0"")<end>","['function_PG', 'function_IO']"
+7HCMCN,청정 켜봐 그리고 화요일 대기질 정보를 화면에 보여줄래,"<function_PG>();<function_IO>(timeframe=4, location=""0"")<end>","['function_PG', 'function_IO']"
+7HSGHZ,지금 옥수동 공기질 상태 괜찮은가,"<function_IO>(timeframe=0, location=""옥수동"")<end>",['function_IO']
+7HUMDC,헬스장 가는 거 어때 그리고 청주 공기질 상태를 보여줘,"<function_MR>();<function_IO>(timeframe=0, location=청주)<end>","['function_MR', 'function_IO']"
+7ILHBU,목요일 여기에 공기가 나쁠까 그리고 요즘 스트레스가 너무 많이 쌓였어 어떻게 풀어야 할지 모르겠어,"<function_IO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7LCYDE,제주 공기질 상태 알려줘,"<function_IO>(timeframe=0, location=""제주"")<end>",['function_IO']
+7MEVYG,내일 케이프타운 이산화탄소 농도 높아,"<function_IO>(timeframe=1, location=""케이프타운"")<end>",['function_IO']
+7MNRAZ,충전하러 복귀 그러고 나서 수요일 아부다비 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=5, location=아부다비)<end>","['function_KI', 'function_IO']"
+7MTGTA,이제 그만 복귀해 그리고 목요일 공기질 상태 알려줘,"<function_KI>();<function_IO>(timeframe=6, location=""0"")<end>","['function_KI', 'function_IO']"
+7NAZCP,내일 바그다드의 공기질이 괜찮을지 보여줘,"<function_IO>(timeframe=1, location=""바그다드"")<end>",['function_IO']
+7OOEFM,오늘 공기질 모니터링 어떤지 알려줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7PCRST,수요일 오사카 공기질 걱정해야 할까 이어서 오늘 점심으로 뭐 먹을지 고민이야 너무 배고파,"<function_IO>(timeframe=5, location=오사카);<function_MR>()<end>","['function_IO', 'function_MR']"
+7QLLIP,현재 공기질 모니터링 결과 띄워봐,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7QZRQH,충전하러 복귀 그리고 토요일 강서구 대기질을 화면에 보여줘,"<function_KI>();<function_IO>(timeframe=8, location=강서구)<end>","['function_KI', 'function_IO']"
+7REOUN,처음 위치로 돌아가주면 좋겠어 그리고 토요일 대구 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=8, location=대구)<end>","['function_KI', 'function_IO']"
+7SGTXZ,금요일 강릉 대기질을 화면에 보여줘 다음으로 냉장고에 있는 재료들로 뭘 만들어 먹을 수 있을까,"<function_IO>(timeframe=7, location=강릉);<function_MR>()<end>","['function_IO', 'function_MR']"
+7TLMRI,스테이션 위치로 복귀하세요 그 후에 토요일 기기 근처 공기 상태는 어때,"<function_KI>();<function_IO>(timeframe=8, location=""0"")<end>","['function_KI', 'function_IO']"
+7TMLUL,충전 위치로 되돌아가 그리고 목요일 기기 근처 공기 상태는 어때,"<function_KI>();<function_IO>(timeframe=6, location=""0"")<end>","['function_KI', 'function_IO']"
+7TSOUG,이번 주말에 자전거 타러 갈래 또 내일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=1, location=""0"")<end>","['function_MR', 'function_IO']"
+7TZSRH,오늘 마스크 써야 할 정도로 공기 안 좋을까,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7UAEHK,내일 이 곳의 미세먼지 농도는 얼마야,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+7UAHIG,처음 위치로 돌아가주면 좋겠어 이어서 화요일 리마 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=4, location=리마)<end>","['function_KI', 'function_IO']"
+7UNZCZ,충전 위치로 되돌아가 다음으로 내일 런던 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=1, location=런던)<end>","['function_KI', 'function_IO']"
+7VQOFM,내일 시에나 공기질 나쁜가,"<function_IO>(timeframe=1, location=""시에나"")<end>",['function_IO']
+7VXQWQ,현재 이 곳의 피엠텐 농도는 얼마야,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7WJTEZ,현재 공기질 모니터링 기능 보여줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7WTNYG,여기 공기질 모니터링 상태를 화면에 나타내줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+7XYCEJ,내일 기기 근처 공기 상태는 어때,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+7XYILT,고정 공기 청정 실행해줘 그 다음에 월요일 모스크바 미세먼지 어때,"<function_PG>();<function_IO>(timeframe=3, location=모스크바)<end>","['function_PG', 'function_IO']"
+7YJQWS,공간별 미세먼지 어때 그러고 나서 겨울 여행지 추천해줘,"<function_IO>(timeframe=0, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+7ZPROB,구역마다 공기질 모니터링 대시보드 띄워주세요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8BWBGR,방마다 공기질 모니터링 화면으로 전환해줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8CCEUL,고정 공기 청정 가동 시작해줘 그 후에 화요일 홍콩 공기질 때문에 마스크 써야 할까,"<function_PG>();<function_IO>(timeframe=4, location=홍콩)<end>","['function_PG', 'function_IO']"
+8DVMHF,오늘 공기질 모니터링 상태 알려주실래요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8FKTDT,일요일 빈 대기질을 화면에 보여줘 이어서 새로 나온 노래가 되게 좋더라 계속 반복해서 듣고 있어,"<function_IO>(timeframe=9, location=빈);<function_MR>()<end>","['function_IO', 'function_MR']"
+8FSFSR,내일 런던 공기 나쁘고 질소산화물 많을까,"<function_IO>(timeframe=1, location=""런던"")<end>",['function_IO']
+8FTLJM,오늘 공기질 모니터링 확인하게 해줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8GJVOA,고정 청정 온 일요일 해운대 대기질을 화면에 보여줘,"<function_PG>();<function_IO>(timeframe=9, location=해운대)<end>","['function_PG', 'function_IO']"
+8GQOAS,공간별 공기 모니터링 상태 화면 보여줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8GVQNJ,내일 아스타나의 공기질 상황을 보여줘,"<function_IO>(timeframe=1, location=""아스타나"")<end>",['function_IO']
+8JHADJ,새로 나온 제품 리뷰 봤어 그 다음에 월요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=3, location=""0"")<end>","['function_MR', 'function_IO']"
+8KEEDR,요즘 시간이 너무 빨리 가는 것 같아 또 수요일 공기질 상태 알려줘,"<function_MR>();<function_IO>(timeframe=5, location=""0"")<end>","['function_MR', 'function_IO']"
+8LDDJJ,토요일 하노이 공기질 걱정해야 할까 그리고 저녁에 뭐 해먹을지 고민 중이야 뭘 해먹을까,"<function_IO>(timeframe=8, location=하노이);<function_MR>()<end>","['function_IO', 'function_MR']"
+8LEHHR,상주 공기질 나빠,"<function_IO>(timeframe=0, location=""상주"")<end>",['function_IO']
+8LTKTB,처음 위치로 돌아가주면 좋겠어 그 다음에 월요일 베를린 공기질 때문에 마스크 필요할까,"<function_KI>();<function_IO>(timeframe=3, location=베를린)<end>","['function_KI', 'function_IO']"
+8MMXNJ,지금 공기질 모니터링 어떤지 알려줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8MTUZJ,지금 이스탄불 대기오염 상태 말해줘,"<function_IO>(timeframe=0, location=""이스탄불"")<end>",['function_IO']
+8NGGPR,잠이 안 와서 유튜브를 계속 보고 있어 그리고 목요일 기기 근처 공기 상태는 어때,"<function_MR>();<function_IO>(timeframe=6, location=""0"")<end>","['function_MR', 'function_IO']"
+8NNIXQ,공기질 모니터링 화면으로 바꿔줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8NUDZH,공기질 모니터링 어떤지 알려줘,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8OYYVY,주말 공기질 지수를 화면에 보여줘 그리고 새로 나온 신발이 예쁘더라,"<function_IO>(timeframe=2, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+8PCBDZ,내일의 오염 예보를 화면에 보여주세요 또 운동할 때 어떤 음악 듣니,"<function_IO>(timeframe=1, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+8QDCDR,현재 공기질 모니터링 상황은 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8QSOMF,오늘 두바이 미세먼지 상황 안내해줘,"<function_IO>(timeframe=0, location=""두바이"")<end>",['function_IO']
+8VDZBY,처음 위치로 돌아가주면 좋겠어 그 후에 토요일 용산구 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=8, location=용산구)<end>","['function_KI', 'function_IO']"
+8WIHJK,오늘 공기질 모니터링 화면 보여줄래,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8XINZG,고정 공기 청정 가동 시작해줘 그리고 목요일 뉴델리 TVOC 농도는 얼마야,"<function_PG>();<function_IO>(timeframe=6, location=뉴델리)<end>","['function_PG', 'function_IO']"
+8YGHBO,처음 위치로 돌아가주면 좋겠어 수요일 카사블랑카 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=5, location=카사블랑카)<end>","['function_KI', 'function_IO']"
+8YTARA,공기질 모니터링 상태 알려주겠어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+8ZIAWZ,처음 위치로 돌아가주면 좋겠어 이어서 주말 빈 미세먼지 어때,"<function_KI>();<function_IO>(timeframe=2, location=빈)<end>","['function_KI', 'function_IO']"
+8ZJZUC,브리지타운 대기질 지수가 몇인지 알려줘,"<function_IO>(timeframe=0, location=""브리지타운"")<end>",['function_IO']
+9AFYKZ,고정 공청 기능 켜줘 그리고 수요일 방콕 공기질 걱정해야 할까,"<function_PG>();<function_IO>(timeframe=5, location=방콕)<end>","['function_PG', 'function_IO']"
+9CVGUR,수요일 미세먼지 정보 보여줘 또 이번 주말에 계획이 없어서 뭐 할지 고민 중이야,"<function_IO>(timeframe=5, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+9DVJII,고정 공청 기능 켜줘 그리고 목요일 공기질 상태 알려줘,"<function_PG>();<function_IO>(timeframe=6, location=""0"")<end>","['function_PG', 'function_IO']"
+9ERMDF,고정 청정 온 그 후에 화요일 자카르타 공기질 때문에 마스크 써야 할까,"<function_PG>();<function_IO>(timeframe=4, location=자카르타)<end>","['function_PG', 'function_IO']"
+9FFYEK,이 지역의 내일 저녁 공기질 예측을 보여줘,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+9FHLDA,현재 카이로 공기 나쁘니,"<function_IO>(timeframe=0, location=""카이로"")<end>",['function_IO']
+9GDQAL,목요일 미세먼지 정보 보여줘 그리고 이번에 새로 나온 게임 해봤어 정말 재미있더라,"<function_IO>(timeframe=6, location=""0"");<function_MR>()<end>","['function_IO', 'function_MR']"
+9GERZQ,월요일 멕시코시티 공기질 나쁠까 다음으로 요즘 무슨 공부 하고 있어,"<function_IO>(timeframe=3, location=멕시코시티);<function_MR>()<end>","['function_IO', 'function_MR']"
+9HQQQU,고정 공기 청정 실행해줘 토요일 미세먼지 농도 어때,"<function_PG>();<function_IO>(timeframe=8, location=""0"")<end>","['function_PG', 'function_IO']"
+9HZMZL,내일 미세먼지 농도 어때,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+9INNNO,주말에 잠깐 여행 다녀올래 그러고 나서 현재 공기질 모니터링 상황은 어때,"<function_MR>();<function_IO>(timeframe=0, location=""0"")<end>","['function_MR', 'function_IO']"
+9ITBMP,실시간 공기 좀 알려줘요,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+9JDYNU,내일의 오염 예보를 화면에 보여주세요,"<function_IO>(timeframe=1, location=""0"")<end>",['function_IO']
+9JQDBG,이제 그만 복귀해 또 수요일 미세먼지 농도 어때,"<function_KI>();<function_IO>(timeframe=5, location=""0"")<end>","['function_KI', 'function_IO']"
+9JRXVA,이제 그만 복귀해 이어서 금요일 수원 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=7, location=수원)<end>","['function_KI', 'function_IO']"
+9KKKER,충전 위치로 되돌아가 그리고 월요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=3, location=""0"")<end>","['function_KI', 'function_IO']"
+9LTKOW,이번 주말에 쇼핑 갈래 그 후에 주말 카이로 공기질 알려줄래,"<function_MR>();<function_IO>(timeframe=2, location=카이로)<end>","['function_MR', 'function_IO']"
+9NNUQW,내일 아침에 일찍 일어날 수 있을지 모르겠네 그 후에 목요일 옥수동 미세먼지 어때,"<function_MR>();<function_IO>(timeframe=6, location=옥수동)<end>","['function_MR', 'function_IO']"
+9NUSAP,공기질 모니터링 상황은 어때,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']
+9PANRF,충전하러 복귀 이어서 강릉 대기질 지수가 몇인지 알려줘,"<function_KI>();<function_IO>(timeframe=0, location=강릉)<end>","['function_KI', 'function_IO']"
+9PXQBZ,서울 지금 공기 상태 화면,"<function_IO>(timeframe=0, location=""서울"")<end>",['function_IO']
+9QGGSC,고정 공기 청정 실행해줘 다음으로 수요일 기기 근처 공기 상태는 어때,"<function_PG>();<function_IO>(timeframe=5, location=""0"")<end>","['function_PG', 'function_IO']"
+9QHDAC,충전하러 복귀 이어서 토요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=8, location=""0"")<end>","['function_KI', 'function_IO']"
+9RSXCS,마라케시 질소산화물 수준이 어떻게 되나요,"<function_IO>(timeframe=0, location=""마라케시"")<end>",['function_IO']
+9SQDVK,새로 배운 게 뭐야 다음으로 월요일 홍콩 공기질 때문에 마스크 필요할까,"<function_MR>();<function_IO>(timeframe=3, location=홍콩)<end>","['function_MR', 'function_IO']"
+9VLIZK,고정 공청 기능 켜줘 그 다음에 일요일 해남 공기질 때문에 마스크 써야 할까,"<function_PG>();<function_IO>(timeframe=9, location=해남)<end>","['function_PG', 'function_IO']"
+9VLTEO,고정 청정 온 그리고 수요일 이스탄불 미세먼지 어때,"<function_PG>();<function_IO>(timeframe=5, location=이스탄불)<end>","['function_PG', 'function_IO']"
+9WOMSX,마닐라 내일 미세먼지 어때,"<function_IO>(timeframe=1, location=""마닐라"")<end>",['function_IO']
+9WQFUH,청정 켜봐 그리고 금요일 강남 대기질을 화면에 보여줘,"<function_PG>();<function_IO>(timeframe=7, location=강남)<end>","['function_PG', 'function_IO']"
+9XTKFW,오늘 판교 공기 어때,"<function_IO>(timeframe=0, location=""판교"")<end>",['function_IO']
+9YLKHS,고정 청정 온 그리고 토요일 여기에 공기가 나쁠까,"<function_PG>();<function_IO>(timeframe=8, location=""0"")<end>","['function_PG', 'function_IO']"
+9YMJSH,충전 위치로 되돌아가 이어서 일요일 여기에 공기가 나쁠까,"<function_KI>();<function_IO>(timeframe=9, location=""0"")<end>","['function_KI', 'function_IO']"
+9YSFEN,충전 위치로 되돌아가 목요일 후쿠오카 공기질 걱정해야 할까,"<function_KI>();<function_IO>(timeframe=6, location=후쿠오카)<end>","['function_KI', 'function_IO']"
+9YYKNI,장소마다 공기 상태 모니터링 상황 보여줄 수 있어,"<function_IO>(timeframe=0, location=""0"")<end>",['function_IO']

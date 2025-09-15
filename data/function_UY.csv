@@ -1,6 +1,0 @@
-﻿Index,Query(한글),LLM Output,Functions
-0GCNJQ,화면에 있는 에러코드를 설명해줘,<function_UY>()<end>,['function_UY']
-2DBFFZ,지금 화면에 뜬 에러코드는 왜 생긴거에요,<function_UY>()<end>,['function_UY']
-4EZOHW,이 에러코드가 뜨면 어떡해,<function_UY>()<end>,['function_UY']
-4NVZND,F01 에러코드의 의미가 무엇인지 알려줄 수 있어?,<function_UY>()<end>,['function_UY']
-8VZIOM,이건 무슨 에러코드야,<function_UY>()<end>,['function_UY']

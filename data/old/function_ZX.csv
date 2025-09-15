@@ -1,0 +1,21 @@
+﻿Index,Query(한글),LLM Output,Functions
+0HFNAV,청정 켜봐 그리고 매너모드 켜줘,<function_PG>();<function_ZX>(enable=True)<end>,"['function_PG', 'function_ZX']"
+0JBLYJ,매너모드 작동시켜줘,<function_ZX>(enable=True)<end>,['function_ZX']
+1OXMVK,매너모드 활성화해줘,<function_ZX>(enable=True)<end>,['function_ZX']
+2BZAOF,매너모드 실행해줄래 또 저녁에 산책할 때 조용한 음악을 들으면 기분이 좋아져,<function_ZX>(enable=True);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+2DSSZI,"아, 그만하고 싶다, 이거 또 매너모드 활성화해줘",<function_MR>();<function_ZX>(enable=True)<end>,"['function_MR', 'function_ZX']"
+2XAQDL,고정 공청 기능 켜줘 이어서 매너모드로 설정해주세요,<function_PG>();<function_ZX>(enable=True)<end>,"['function_PG', 'function_ZX']"
+2XSYQE,매너모드 설정해줘,<function_ZX>(enable=True)<end>,['function_ZX']
+3DWZDI,매너모드 비활성화해줘,<function_ZX>(enable=False)<end>,['function_ZX']
+3OCCOX,매너모드 중지해줘,<function_ZX>(enable=False)<end>,['function_ZX']
+3OOEDG,요즘에는 뉴스 볼 때마다 걱정되는 일이 많아 이어서 매너모드 해제해줘,<function_MR>();<function_ZX>(enable=False)<end>,"['function_MR', 'function_ZX']"
+3XXUDY,요즘 책을 많이 읽고 있는데 재밌는 소설 추천해줄래 이어서 매너모드 종료해줄래,<function_MR>();<function_ZX>(enable=False)<end>,"['function_MR', 'function_ZX']"
+4PCOWF,매너모드 작동시켜줘 또 새로운 레스토랑이 생겼던데 다음 주말에 가보자,<function_ZX>(enable=True);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+4SMEMT,고정 공청 기능 켜줘 또 매너모드 꺼주세요,<function_PG>();<function_ZX>(enable=False)<end>,"['function_PG', 'function_ZX']"
+4UEBMS,매너모드 비활성화해줘 이어서 오늘 회사에서 회의가 있었는데 생각보다 길었어,<function_ZX>(enable=False);<function_MR>()<end>,"['function_ZX', 'function_MR']"
+7AYZUL,고정 공기 청정 실행해줘 그러고 나서 매너모드 활성화해줘,<function_PG>();<function_ZX>(enable=True)<end>,"['function_PG', 'function_ZX']"
+7OXZVV,매너모드 켜줘,<function_ZX>(enable=True)<end>,['function_ZX']
+7UYENX,매너모드 꺼줘,<function_ZX>(enable=False)<end>,['function_ZX']
+8EDLDG,매너모드 설정 해제해줘,<function_ZX>(enable=False)<end>,['function_ZX']
+8MIUMG,청정 켜봐 그리고 매너모드 꺼주세요,<function_PG>();<function_ZX>(enable=False)<end>,"['function_PG', 'function_ZX']"
+9KIMPY,매너모드 취소해주실래요 이어서 다음 주에 친구들이랑 캠핑 가는데 장비 챙길 게 많아,<function_ZX>(enable=False);<function_MR>()<end>,"['function_ZX', 'function_MR']"

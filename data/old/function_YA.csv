@@ -1,0 +1,26 @@
+﻿Index,Query(한글),LLM Output,Functions
+0YIMIY,운행 다시 시작해.,<function_YA>(move=2)<end>,['function_YA']
+2DZZSI,이번 주말에 새로운 식당을 찾아가볼까 고민 중이야 그러고 나서 이동 잠시 일시 정지해줘,<function_MR>();<function_YA>(move=1)<end>,"['function_MR', 'function_YA']"
+2TSRCQ,이동 멈춰줘.,<function_YA>(move=0)<end>,['function_YA']
+2ZGHDX,멈춘 주행 빨리 다시 켜봐.,<function_YA>(move=2)<end>,['function_YA']
+3MLCEF,드라이브를 잠시 멈춰줘.,<function_YA>(move=1)<end>,['function_YA']
+3PYFKF,드라이브 잠깐 일시 정지해.,<function_YA>(move=1)<end>,['function_YA']
+4PTBZK,운행 빨리 다시 틀어.,<function_YA>(move=2)<end>,['function_YA']
+4VOYIE,이동 정지해줘.,<function_YA>(move=0)<end>,['function_YA']
+5AEMBU,고정 청정 온 그러고 나서 청정 기능 재시작해줘,<function_PG>();<function_YA>(move=2)<end>,"['function_PG', 'function_YA']"
+5RACAO,다음 주에 중요한 미팅이 있어서 준비를 철저히 해야 해 다음으로 이동 멈춰줘,<function_MR>();<function_YA>(move=0)<end>,"['function_MR', 'function_YA']"
+6MMLKL,오늘도 집에서 혼자 시간을 보내는데 조금 외로운 것 같아 그러고 나서 청정 기능 잠시 멈춰줘,<function_MR>();<function_YA>(move=1)<end>,"['function_MR', 'function_YA']"
+6SEZGC,고정 공청 기능 켜줘 그 후에 이동 다시 시작해줘,<function_PG>();<function_YA>(move=2)<end>,"['function_PG', 'function_YA']"
+6WAZRM,드라이브 일시 정지해.,<function_YA>(move=1)<end>,['function_YA']
+7FYRUT,이동 끝내줘.,<function_YA>(move=0)<end>,['function_YA']
+7JLMFX,친구들과 함께 한 주말이 정말 즐거웠어 다시 만나고 싶다 다음으로 날따름 정지해줘,<function_MR>();<function_YA>(move=0)<end>,"['function_MR', 'function_YA']"
+7SAUSF,이번에 산 책이 너무 재밌어서 시간 가는 줄 모르겠어 그리고 청정 기능 재시작해줘,<function_MR>();<function_YA>(move=2)<end>,"['function_MR', 'function_YA']"
+7TWVTW,청정 기능을 종료해주실래요 다음으로 이번 주에는 운동을 좀 더 자주 해야겠어,<function_YA>(move=0);<function_MR>()<end>,"['function_YA', 'function_MR']"
+7ZWEDY,운행 지금 바로 다시 켜줘.,<function_YA>(move=2)<end>,['function_YA']
+8IFQCL,드라이브 잠시 일시 정지해줘.,<function_YA>(move=1)<end>,['function_YA']
+8JIRLX,청정 켜봐 지금 하는 작업 일시 정지해줄래요,<function_PG>();<function_YA>(move=1)<end>,"['function_PG', 'function_YA']"
+8VPQSQ,드라이브 잠깐 일시 정지해줘.,<function_YA>(move=1)<end>,['function_YA']
+8ZOUPR,청정 켜봐 그리고 선택 공간 청정 잠깐 일시 정지해주세요,<function_PG>();<function_YA>(move=1)<end>,"['function_PG', 'function_YA']"
+9FLUNO,선택한 구역 공기 정화를 다시 켜줄 수 있어 그리고 저녁에 뭐 먹을지 고민 중이야 뭘 먹으면 좋을까,<function_YA>(move=2);<function_MR>()<end>,"['function_YA', 'function_MR']"
+9MLXQS,이동 그만둬.,<function_YA>(move=0)<end>,['function_YA']
+9YNQZE,전체 공기 정화 일시 정지할 수 있어 그러고 나서 요즘 기온이 많이 떨어졌으니 따뜻한 옷을 챙겨 입어야겠어,<function_YA>(move=1);<function_MR>()<end>,"['function_YA', 'function_MR']"
