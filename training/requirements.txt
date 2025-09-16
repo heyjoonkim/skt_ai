@@ -311,7 +311,8 @@ ptyprocess==0.7.0
 pure_eval==0.2.2
 py-cpuinfo==9.0.0
 py-spy==0.4.0
-pyairports==2.1.1
+# pyairports - PyPI에서 사용할 수 없음 (대안: airportsdata 패키지 사용)
+# pyairports==2.1.1
 pyarrow==14.0.2
 pyarrow-hotfix==0.6
 pyasn1==0.5.1
