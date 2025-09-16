@@ -8,7 +8,11 @@
 #    python -m spacy download en_core_web_lg
 #    python -m spacy download en_core_web_sm
 #
-# 3. 개발용 도구 설치 (필요시):
+# 3. faiss 설치 (필요시):
+#    conda install -c pytorch faiss-cpu=1.9.0
+#    # 또는 GPU 버전: conda install -c pytorch faiss-gpu=1.9.0
+#
+# 4. 개발용 도구 설치 (필요시):
 #    pip install -e git+https://github.com/acl-org/aclpubcheck.git@a340fc0a1a7d1c9808f08ab1dab1d228f63af405#egg=aclpubcheck
 # =============================================================================
 
@@ -104,7 +108,8 @@ entmax==1.3
 et-xmlfile==1.1.0
 evaluate==0.4.3
 executing==2.0.1
-faiss==1.9.0
+# faiss - conda를 통해 설치 필요 (CPU 버전: conda install -c pytorch faiss-cpu=1.9.0)
+# faiss==1.9.0
 Faker==25.2.0
 fastapi==0.115.12
 fastapi-cli==0.0.7
