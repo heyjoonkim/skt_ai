@@ -1,0 +1,440 @@
+{"query": "전기 요금이 얼만지도 좀 계산해 주게.", "function_call": "<function_HI>(type=2)<end>", "function_name": "function_HI"}
+{"query": "기기 전기 소비 어떤지 알려줘.", "function_call": "<function_HI>(type=1)<end>", "function_name": "function_HI"}
+{"query": "전력 얼마나 써요?", "function_call": "<function_HI>(type=1)<end>", "function_name": "function_HI"}
+{"query": "이번 달 전기요금 계산 부탁해요", "function_call": "<function_HI>(type=2)<end>", "function_name": "function_HI"}
+{"query": "전력얼만지좀보여줘", "function_call": "<function_HI>(type=1)<end>", "function_name": "function_HI"}
+{"query": "전기요금 계산좀 해주셨심더.", "function_call": "<function_HI>(type=2)<end>", "function_name": "function_HI"}
+{"query": "한달 전기요금 예상금액이 뭔지 계산해줘.", "function_call": "<function_HI>(type=2)<end>", "function_name": "function_HI"}
+{"query": "전기 얼마나 필요해?", "function_call": "<function_HI>(type=1)<end>", "function_name": "function_HI"}
+{"query": "전기요금 대략 측정 해봐", "function_call": "<function_HI>(type=2)<end>", "function_name": "function_HI"}
+{"query": "기기전력알려주세요", "function_call": "<function_HI>(type=1)<end>", "function_name": "function_HI"}
+{"query": "기기 홈으로 복귀해 줘.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "스테이션으로 빨리 가라.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "스테이션 복귀 해다이소", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "기기 충전하러 댕겨오라", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "기기헐 충잔 해라", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "기기를 충전 위치로 보내 주세요.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "기기 좀 충전자리로 바래 보시오.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "스테이션 충전 위치로 기기 가게 해 줘요.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "암튼 충전하러 가.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "기기 충전하는 데로 갔다와라.", "function_call": "<function_KI>()<end>", "function_name": "function_KI"}
+{"query": "영어로 언어를 바꿔 줘", "function_call": "<function_HS>(type=2)<end>", "function_name": "function_HS"}
+{"query": "영어로 해주이소", "function_call": "<function_HS>(type=2)<end>", "function_name": "function_HS"}
+{"query": "기기 언어 변경해줘요", "function_call": "<function_HS>(type=-1)<end>", "function_name": "function_HS"}
+{"query": "언어바꿔줘라", "function_call": "<function_HS>(type=-1)<end>", "function_name": "function_HS"}
+{"query": "기기 언어 한글로 해줄래?", "function_call": "<function_HS>(type=1)<end>", "function_name": "function_HS"}
+{"query": "기기 언어 바꾸이소", "function_call": "<function_HS>(type=-1)<end>", "function_name": "function_HS"}
+{"query": "한국어로 기기 언어 설정 부탁합니다", "function_call": "<function_HS>(type=1)<end>", "function_name": "function_HS"}
+{"query": "기기언어 한국어로 다시 바꿔줘", "function_call": "<function_HS>(type=1)<end>", "function_name": "function_HS"}
+{"query": "언어를 변경해 주세요", "function_call": "<function_HS>(type=-1)<end>", "function_name": "function_HS"}
+{"query": "한국어바꿔", "function_call": "<function_HS>(type=1)<end>", "function_name": "function_HS"}
+{"query": "공기질상태지금바로보여줘", "function_call": "<function_IO>(timeframe=0, location=\"0\")<end>", "function_name": "function_IO"}
+{"query": "포항 머 대기 상태 어떻노?", "function_call": "<function_IO>(timeframe=0, location=\"포항\")<end>", "function_name": "function_IO"}
+{"query": "대구 공기 지금 상태 좀 보여 줘라", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>", "function_name": "function_IO"}
+{"query": "오늘인천먼지많냐", "function_call": "<function_IO>(timeframe=0, location=\"인천\")<end>", "function_name": "function_IO"}
+{"query": "실시간 대구 공기 모니터링 체크해줘", "function_call": "<function_IO>(timeframe=0, location=\"대구\")<end>", "function_name": "function_IO"}
+{"query": "지금 원주 공기 오염 지수 알려줄래?", "function_call": "<function_IO>(timeframe=0, location=\"원주\")<end>", "function_name": "function_IO"}
+{"query": "수요일에 서울 공기 오염 어때?", "function_call": "<function_IO>(timeframe=5, location=\"서울\")<end>", "function_name": "function_IO"}
+{"query": "사투리_경상도: 내일 포항 대기질 조아질낀가?", "function_call": "<function_IO>(timeframe=1, location=\"포항\")<end>", "function_name": "function_IO"}
+{"query": "내일강서구공기질상황알려줄래", "function_call": "<function_IO>(timeframe=1, location=\"강서구\")<end>", "function_name": "function_IO"}
+{"query": "화요일 대구 초미세먼지 수치는 어떻게 되지?", "function_call": "<function_IO>(timeframe=4, location=\"대구\")<end>", "function_name": "function_IO"}
+{"query": "무슨필터쓰는지알려줘", "function_call": "<function_SB>(type=2)<end>", "function_name": "function_SB"}
+{"query": "최대 소음 수준 좀 알려 줄래?", "function_call": "<function_SB>(type=3)<end>", "function_name": "function_SB"}
+{"query": "개인정보 보안 어때?", "function_call": "<function_SB>(type=5)<end>", "function_name": "function_SB"}
+{"query": "최대소음 얼마냐?", "function_call": "<function_SB>(type=3)<end>", "function_name": "function_SB"}
+{"query": "필터 종류가 뭐가 있음?", "function_call": "<function_SB>(type=2)<end>", "function_name": "function_SB"}
+{"query": "내 개인정보 안전히 보관돼?", "function_call": "<function_SB>(type=5)<end>", "function_name": "function_SB"}
+{"query": "내 개인 정보 안전해?", "function_call": "<function_SB>(type=5)<end>", "function_name": "function_SB"}
+{"query": "어인증 받았나요", "function_call": "<function_SB>(type=1)<end>", "function_name": "function_SB"}
+{"query": "개인정보 보안 됐나?", "function_call": "<function_SB>(type=5)<end>", "function_name": "function_SB"}
+{"query": "개인정보보호되냐", "function_call": "<function_SB>(type=5)<end>", "function_name": "function_SB"}
+{"query": "유부이 LED 상태 좀 보여주소.", "function_call": "<function_NN>(get=True)<end>", "function_name": "function_NN"}
+{"query": "유부이 LED 상태 좀 알려줄래?", "function_call": "<function_NN>(get=True)<end>", "function_name": "function_NN"}
+{"query": "유브이 LED 상태를 알려 주세요.", "function_call": "<function_NN>(get=True)<end>", "function_name": "function_NN"}
+{"query": "유브이 살균 LED의 현재 상태를 알려줄래?", "function_call": "<function_NN>(get=True)<end>", "function_name": "function_NN"}
+{"query": "유브이 엘이디 중지해 줘.", "function_call": "<function_NN>(enable=False)<end>", "function_name": "function_NN"}
+{"query": "유브이 살균릿디 켜줘", "function_call": "<function_NN>(enable=True)<end>", "function_name": "function_NN"}
+{"query": "유브이 LED 좀 켜주세유.", "function_call": "<function_NN>(enable=True)<end>", "function_name": "function_NN"}
+{"query": "유부이 살균 LED 켜줘.", "function_call": "<function_NN>(enable=True)<end>", "function_name": "function_NN"}
+{"query": "유부이 LED 상태 알려줘봐.", "function_call": "<function_NN>(get=True)<end>", "function_name": "function_NN"}
+{"query": "유부이LED 좀 켜주라", "function_call": "<function_NN>(enable=True)<end>", "function_name": "function_NN"}
+{"query": "기본 AI 모드 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>", "function_name": "function_BP"}
+{"query": "에이아이 모드 공기질 누적 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>", "function_name": "function_BP"}
+{"query": "에이아이 모드 전체 복합 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>", "function_name": "function_BP"}
+{"query": "에이아이 공간별 연동 켜요", "function_call": "<function_BP>(enable=0, type=1)<end>", "function_name": "function_BP"}
+{"query": "모두 에이아이 모드 작동시켜 보자", "function_call": "<function_BP>(enable=0, type=2)<end>", "function_name": "function_BP"}
+{"query": "외부 대기질 연동 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>", "function_name": "function_BP"}
+{"query": "에이아이 기능을 꺼주시겠어요?", "function_call": "<function_BP>(enable=1, type=-1)<end>", "function_name": "function_BP"}
+{"query": "에이아이 모드 좀 켜 주이소.", "function_call": "<function_BP>(enable=0, type=-1)<end>", "function_name": "function_BP"}
+{"query": "에이아이 껐으면 좋겠네유", "function_call": "<function_BP>(enable=1, type=-1)<end>", "function_name": "function_BP"}
+{"query": "모든 모드 다 켜 주이소", "function_call": "<function_BP>(enable=0, type=2)<end>", "function_name": "function_BP"}
+{"query": "대기화면 테마가 지금 뭐로 되어 있는지 알려 줄래?", "function_call": "<function_HG>(get=True)<end>", "function_name": "function_HG"}
+{"query": "대기화면 기본으로 할래", "function_call": "<function_HG>(theme=0)<end>", "function_name": "function_HG"}
+{"query": "대기화면 기본테마로 해달라고", "function_call": "<function_HG>(theme=0)<end>", "function_name": "function_HG"}
+{"query": "대기화면 지금 어떤 테마냐", "function_call": "<function_HG>(get=True)<end>", "function_name": "function_HG"}
+{"query": "대기화면 상태 보여", "function_call": "<function_HG>(get=True)<end>", "function_name": "function_HG"}
+{"query": "지금 대기화면 상태가 어떻게 돼요?", "function_call": "<function_HG>(get=True)<end>", "function_name": "function_HG"}
+{"query": "대기화면테마기본으로해줘", "function_call": "<function_HG>(theme=0)<end>", "function_name": "function_HG"}
+{"query": "기본테마로해줘", "function_call": "<function_HG>(theme=0)<end>", "function_name": "function_HG"}
+{"query": "대기화면 아무거나 바꿔봐", "function_call": "<function_HG>(theme=-1)<end>", "function_name": "function_HG"}
+{"query": "기본 테마로 대기화면을 맞췄어", "function_call": "<function_HG>(get=True)<end>", "function_name": "function_HG"}
+{"query": "완전 충전 시간 알려주시겠어요?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "충전 다 되는데 시간이 얼마나 소요돼요?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "충전이 안 돼서 완전 못 쓰겠다잉.", "function_call": "<function_KP>(type=2)<end>", "function_name": "function_KP"}
+{"query": "완충되기까지 시간 알려줄래?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "완충 얼마나 걸려?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "충전이 하나도 안된다 아이가", "function_call": "<function_KP>(type=2)<end>", "function_name": "function_KP"}
+{"query": "완충까지 걸리는 시간 대략 알려주이소.", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "배터리 충전 안 돼서 곤란해 도와줘.", "function_call": "<function_KP>(type=2)<end>", "function_name": "function_KP"}
+{"query": "완충되는데 얼만큼 시간이 걸려?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "완충시간 얼마나 걸리나?", "function_call": "<function_KP>(type=1)<end>", "function_name": "function_KP"}
+{"query": "산소포화도 자세히 봐봐라.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "산소포화도 재라잉.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "전부 다 바이탈사인 재줘.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "스트레스 지수 알려주세요.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "혈압좀 잰다꼬 해보자.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "맥박 수치 체크해 보자.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "스트레스나 산소포화도도 같이 측정해 보이소.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "혈압 체크 좀 해줘라", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "전체 바이탈 사인 측정을 시작해 주세요.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "맥박수 좀 주소.", "function_call": "<function_GV>()<end>", "function_name": "function_GV"}
+{"query": "고정 청정 모드로 작동해 줘.", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "ㅍ공기 청정해 줘", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "공기 청정 기능 좀 켜 보소", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "공기 좀 고정 청정 시켜 주게", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "공기 청정 고정 모드로 켜라", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "고정 청정 기능 좀 켜주이소", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "공기 청정기 고정으로 켜줘", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "고정청정실행해줘", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "고정 청정으로 켜 주세요", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "고청정모드켜줘", "function_call": "<function_PG>()<end>", "function_name": "function_PG"}
+{"query": "오류 기록을 전부 보여주이소.", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "기기 오류 기록 표시해 주세요.", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "에러 내역 볼 수 있을까요?", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "기기온에러내역다보입시더.", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "오류기록모두알려줘", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "에러 기록 전체 보여줘요", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "에러기록좀알려줘", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "기기 오류 기록 보고 싶다.", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "지난번해서 났던 오류 기록 다 찾어 봐라.", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "현재 오류 로그 이력 보여주세요", "function_call": "<function_XO>()<end>", "function_name": "function_XO"}
+{"query": "필터 상태 화면에 띄워주세요.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터 남은 수명 알려 최신.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터 수명 언제까지인지 보여줘.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "이 필터가 얼마나 사용되었는지 보여줘.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터 사용량 현재 얼마됐나 보이소.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "지금 필터 상태랑 사용량 알려 줘.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터 상태 한번 점검 부탁해요.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터의 현재 상태와 수명을 보여 주세요.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터얼마썼는지좀보자.", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "필터사용량얼마인지계산해줘", "function_call": "<function_UJ>()<end>", "function_name": "function_UJ"}
+{"query": "LED랑 디스플레이 기능 설명해줘", "function_call": "<function_JS>(type=7)<end>", "function_name": "function_JS"}
+{"query": "디스플레이랑 LED는 무신 역할임?", "function_call": "<function_JS>(type=7)<end>", "function_name": "function_JS"}
+{"query": "프라이버시 모드가 어찌 기능인고?", "function_call": "<function_JS>(type=2)<end>", "function_name": "function_JS"}
+{"query": "나무 보이스 기능 좀 알려 주세요", "function_call": "<function_JS>(type=4)<end>", "function_name": "function_JS"}
+{"query": "나이트모드 머냐?", "function_call": "<function_JS>(type=3)<end>", "function_name": "function_JS"}
+{"query": "센서 민감도 조정 이유가 뭐죠?", "function_call": "<function_JS>(type=9)<end>", "function_name": "function_JS"}
+{"query": "AI 모드가 머길랑가?", "function_call": "<function_JS>(type=10)<end>", "function_name": "function_JS"}
+{"query": "언어 설정은 어떻게 변경하죠?", "function_call": "<function_JS>(type=8)<end>", "function_name": "function_JS"}
+{"query": "매너모드기능뭐임?", "function_call": "<function_JS>(type=1)<end>", "function_name": "function_JS"}
+{"query": "UV LED 기능 좀 알려주라.", "function_call": "<function_JS>(type=6)<end>", "function_name": "function_JS"}
+{"query": "매너모드비활해줘", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 켜도 될까?", "function_call": "<function_ZX>(enable=True)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 꺼라 켜지지 말고.", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 중지해 주시겠습니까?", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 설정해줘", "function_call": "<function_ZX>(enable=True)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 꺼면 되겠나?", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 작동 시켜 줘", "function_call": "<function_ZX>(enable=True)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 비활성화해 다오.", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 끄어줘", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "매너모드 좀 꺼도 될까?", "function_call": "<function_ZX>(enable=False)<end>", "function_name": "function_ZX"}
+{"query": "청정 상태 리포트 보여주소.", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기청정 상태나 상태 결과 좀 확인해줘라", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기청정 결과좀 보고싶다", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "청정리포트 어디 있노", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기 청정 상태 좀 봐주께", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기청정 보고서 함 볼까?", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기청정 리포트 확인해보세요.", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "청정결과좀 캅서?", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기청정 뭣 좀 확인해 주소", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "공기 정화 결과를 알려 줄래?", "function_call": "<function_CE>()<end>", "function_name": "function_CE"}
+{"query": "장애물 감지 센서 어떻게 청소해요?", "function_call": "<function_PC>(type=6)<end>", "function_name": "function_PC"}
+{"query": "장애물 감지 센서 청소하는 법 좀 알려줘", "function_call": "<function_PC>(type=6)<end>", "function_name": "function_PC"}
+{"query": "라이더센서청소법", "function_call": "<function_PC>(type=5)<end>", "function_name": "function_PC"}
+{"query": "A1 필터는 어케 닦노?", "function_call": "<function_PC>(type=3)<end>", "function_name": "function_PC"}
+{"query": "필터 청소 잘하는 법 있으면 알려줘", "function_call": "<function_PC>(type=3)<end>", "function_name": "function_PC"}
+{"query": "센서창 청소요령 알려 주세요.", "function_call": "<function_PC>(type=4)<end>", "function_name": "function_PC"}
+{"query": "장애물 감지 센서 청소하는 법 알려 주세요.", "function_call": "<function_PC>(type=6)<end>", "function_name": "function_PC"}
+{"query": "라이다 센서 관리를 위해 무엇을 해야 하나요?", "function_call": "<function_PC>(type=5)<end>", "function_name": "function_PC"}
+{"query": "라이더 센서 관리는 모양이요?", "function_call": "<function_PC>(type=5)<end>", "function_name": "function_PC"}
+{"query": "충전 포트는 어떻게 닦아야 하노?", "function_call": "<function_PC>(type=7)<end>", "function_name": "function_PC"}
+{"query": "포름알데히드 어디서 나와?", "function_call": "<function_HW>(type=5)<end>", "function_name": "function_HW"}
+{"query": "초미세먼지가 건강에 나쁜 까닭은요?", "function_call": "<function_HW>(type=2)<end>", "function_name": "function_HW"}
+{"query": "미세먼지가 뭔지 말해줘봐", "function_call": "<function_HW>(type=1)<end>", "function_name": "function_HW"}
+{"query": "미세먼지는 어떻게 생기는데?", "function_call": "<function_HW>(type=1)<end>", "function_name": "function_HW"}
+{"query": "미세먼지라는 단어가 정확히 뭐냐구", "function_call": "<function_HW>(type=1)<end>", "function_name": "function_HW"}
+{"query": "유기화합물 건강 영향이 궁금해", "function_call": "<function_HW>(type=3)<end>", "function_name": "function_HW"}
+{"query": "미세먼지는 어케 생기냐고?", "function_call": "<function_HW>(type=1)<end>", "function_name": "function_HW"}
+{"query": "폼알데히드 위험해? 알려주셈", "function_call": "<function_HW>(type=5)<end>", "function_name": "function_HW"}
+{"query": "이산화탄소 가 먼지 궁금", "function_call": "<function_HW>(type=6)<end>", "function_name": "function_HW"}
+{"query": "미세먼지 성분뭔지 알려줘", "function_call": "<function_HW>(type=1)<end>", "function_name": "function_HW"}
+{"query": "화씨 온도 단위로 설정해 주세요", "function_call": "<function_EW>(type=1)<end>", "function_name": "function_EW"}
+{"query": "화씨로 변경해 줘.", "function_call": "<function_EW>(type=1)<end>", "function_name": "function_EW"}
+{"query": "온도 단위 화씨로 바꿔 줘", "function_call": "<function_EW>(type=1)<end>", "function_name": "function_EW"}
+{"query": "온도단위좀봤자", "function_call": "<function_EW>(get=True)<end>", "function_name": "function_EW"}
+{"query": "온도 단위 섭씨로 해주세요", "function_call": "<function_EW>(type=0)<end>", "function_name": "function_EW"}
+{"query": "섭씨단위로바꿔주세요", "function_call": "<function_EW>(type=0)<end>", "function_name": "function_EW"}
+{"query": "섭씨가 편해요, 바꿔줘요", "function_call": "<function_EW>(type=0)<end>", "function_name": "function_EW"}
+{"query": "우리 기기 온도 단위가 어떻게 돼노?", "function_call": "<function_EW>(get=True)<end>", "function_name": "function_EW"}
+{"query": "온도 단위 상태 알려줄래", "function_call": "<function_EW>(get=True)<end>", "function_name": "function_EW"}
+{"query": "온도단위화씨로바꿔주실래요", "function_call": "<function_EW>(type=1)<end>", "function_name": "function_EW"}
+{"query": "화면 밝기를 마니 올려줘라", "function_call": "<function_WN>(brightness=5)<end>", "function_name": "function_WN"}
+{"query": "밝기 좀 확인해 주겠나?", "function_call": "<function_WN>(get=True)<end>", "function_name": "function_WN"}
+{"query": "엘이디 밝기 1단계로 조절해줘라잉", "function_call": "<function_WN>(brightness=1)<end>", "function_name": "function_WN"}
+{"query": "LED 밝기를 쫌 낮춰주쇼", "function_call": "<function_WN>(brightness=-1)<end>", "function_name": "function_WN"}
+{"query": "기본 밝기 설정으로 변경해줘야겠다", "function_call": "<function_WN>(brightness=-1)<end>", "function_name": "function_WN"}
+{"query": "밝기 좀 키워라, 알겠나", "function_call": "<function_WN>(brightness=-1)<end>", "function_name": "function_WN"}
+{"query": "엘이디 밝기 4단계로 해 줘요", "function_call": "<function_WN>(brightness=4)<end>", "function_name": "function_WN"}
+{"query": "엘이디 불빛을 1 단계로 맞춰주이소", "function_call": "<function_WN>(brightness=1)<end>", "function_name": "function_WN"}
+{"query": "엘이디 밝기 몇단계야?", "function_call": "<function_WN>(get=True)<end>", "function_name": "function_WN"}
+{"query": "밝기 상태 좀 보여 줘라", "function_call": "<function_WN>(get=True)<end>", "function_name": "function_WN"}
+{"query": "집에서 영화 보는 게 좋아 아니면 영화관?", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "시험 준비 때문에 요즘 너무 바빠서 힘들어", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "새로운 책 읽는 재미가 쏠쏠해요", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "요즘 새로 빠진 취미 있다 아이가", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "요즘 많이 바빠서 운동도 못하고 있숴", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "커피 대신 차 마셔볼까? 카페인 너무 많이 먹는 것 같아", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "요즘 신나는 음악 자주 들어", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "피아노 연습 많이 했어", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "내일 친구랑 영화 보러 갈까 생각 중이야", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "오늘은 그냥 집에서 뒹굴뒹굴하고 싶어", "function_call": "<function_MR>()<end>", "function_name": "function_MR"}
+{"query": "음성인식 기능 좀 켜래.", "function_call": "<function_QT>(enable=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 켜 줌?", "function_call": "<function_QT>(enable=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 상태를 확인해 줘요", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 켜져 있나 보소", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 기능 상태 좀 알려줘.", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음인기능꺼.", "function_call": "<function_QT>(enable=False)<end>", "function_name": "function_QT"}
+{"query": "음성 인식 상태 좀 알려주소.", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 켜져 있을까요?", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음성인식 켜져 있는지 알려 줘.", "function_call": "<function_QT>(get=True)<end>", "function_name": "function_QT"}
+{"query": "음 인 좀 꺼 줘.", "function_call": "<function_QT>(enable=False)<end>", "function_name": "function_QT"}
+{"query": "오늘 날짜 확인할 수 있을까?", "function_call": "<function_SV>(type=5)<end>", "function_name": "function_SV"}
+{"query": "나이트 모드가 지금 켜져 있습니까?", "function_call": "<function_SV>(type=3)<end>", "function_name": "function_SV"}
+{"query": "오늘 며칠인지 알려주실래?", "function_call": "<function_SV>(type=5)<end>", "function_name": "function_SV"}
+{"query": "오늘 며칠인지 생각 안남", "function_call": "<function_SV>(type=5)<end>", "function_name": "function_SV"}
+{"query": "오늘 날짜가 몇 일인지 알려줘예.", "function_call": "<function_SV>(type=5)<end>", "function_name": "function_SV"}
+{"query": "나이트 모드 상태 기대해도 되나?", "function_call": "<function_SV>(type=3)<end>", "function_name": "function_SV"}
+{"query": "인터넷 연결 상태를 알려주시겠어요?", "function_call": "<function_SV>(type=4)<end>", "function_name": "function_SV"}
+{"query": "나이트 모드 지금 작동 중인지 궁금타.", "function_call": "<function_SV>(type=3)<end>", "function_name": "function_SV"}
+{"query": "나이트 모드 켜져 있어?", "function_call": "<function_SV>(type=3)<end>", "function_name": "function_SV"}
+{"query": "와이파이 됐나 봐주라.", "function_call": "<function_SV>(type=4)<end>", "function_name": "function_SV"}
+{"query": "운행 일시 정지해줘", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "운행 잠깐 멈춰 줘.", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "드라이브 잠시만 멈췄다 합시더.", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "운행 켜봐.", "function_call": "<function_YA>(move=2)<end>", "function_name": "function_YA"}
+{"query": "잠깐 운행을 멈춰 줄래요?", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "운행 다시 시작해 줘.", "function_call": "<function_YA>(move=2)<end>", "function_name": "function_YA"}
+{"query": "드라이브잠시멈 춰줘.", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "운행다시켜줘", "function_call": "<function_YA>(move=2)<end>", "function_name": "function_YA"}
+{"query": "운행 빨리 다시 재개해라.", "function_call": "<function_YA>(move=2)<end>", "function_name": "function_YA"}
+{"query": "드라이브 잠깐 멈춰 주세요.", "function_call": "<function_YA>(move=1)<end>", "function_name": "function_YA"}
+{"query": "거실 공기청정 가동 시작해 줘요", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "다 청정 좀 하입시더", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "공기청정즉시시작해줘", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "전체 청정 바로 시작해 줘", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "여그 공기 청정 좀 시작해보소", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "실내 공기 청정 얼른 시작 합시다잉", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "지금 공기청정 시작해 줘", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "바로 공기청전 가동해줘", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "공기청해줘", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "니기 공기 좀 청정해봐라?", "function_call": "<function_EF>(action=1)<end>", "function_name": "function_EF"}
+{"query": "팔로미 기능을 켜 줄래?", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "팔로미 모드 사용하게 해 줘", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "따라와라", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "나 따라들 와라", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "나 따라와주이소", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "나를 좀 따라와 주이소", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "기기 따라오게 해 줘.", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "팔로미 좀 켜줘라잉", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "따라와 주게", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "따라온다카이", "function_call": "<function_CK>()<end>", "function_name": "function_CK"}
+{"query": "암전모드 켜줘", "function_call": "<function_BS>(enable=True)<end>", "function_name": "function_BS"}
+{"query": "충청도 사투리 고요한 모드 켜부러유", "function_call": "<function_BS>(enable=True)<end>", "function_name": "function_BS"}
+{"query": "전라도 사투리 딥 모드 시작해 보소", "function_call": "<function_BS>(enable=True)<end>", "function_name": "function_BS"}
+{"query": "나이트 모드 꺼줘", "function_call": "<function_BS>(enable=False)<end>", "function_name": "function_BS"}
+{"query": "사일런트모드꺼", "function_call": "<function_BS>(enable=False)<end>", "function_name": "function_BS"}
+{"query": "나이트모드 졸중해줘", "function_call": "<function_BS>(enable=False)<end>", "function_name": "function_BS"}
+{"query": "블랙 모드 좀 켜 주세요", "function_call": "<function_BS>(enable=True)<end>", "function_name": "function_BS"}
+{"query": "은신 모드 비활성화해 주세요", "function_call": "<function_BS>(enable=False)<end>", "function_name": "function_BS"}
+{"query": "스텔스 모드 시작해줘", "function_call": "<function_BS>(enable=True)<end>", "function_name": "function_BS"}
+{"query": "고요한 모드 꺼줘", "function_call": "<function_BS>(enable=False)<end>", "function_name": "function_BS"}
+{"query": "설치할때 조심해야할거 알려 줄수 있어?", "function_call": "<function_DW>(type=3)<end>", "function_name": "function_DW"}
+{"query": "설치할 때 조심해야 할 점 좀 알려줘라.", "function_call": "<function_DW>(type=3)<end>", "function_name": "function_DW"}
+{"query": "기기 사용할 때 조심할 부분 좀 알려줘.", "function_call": "<function_DW>(type=4)<end>", "function_name": "function_DW"}
+{"query": "기계 쓸때 뭐 조심해야하는지 말해라.", "function_call": "<function_DW>(type=4)<end>", "function_name": "function_DW"}
+{"query": "기기를 사용할 때 주의해야 할 점이 뭔가요?", "function_call": "<function_DW>(type=4)<end>", "function_name": "function_DW"}
+{"query": "어린이 안전수칙 자세히 알려줘", "function_call": "<function_DW>(type=1)<end>", "function_name": "function_DW"}
+{"query": "애기들 안전 관련해서 주의해야 할 게 뭐가 있능교?", "function_call": "<function_DW>(type=1)<end>", "function_name": "function_DW"}
+{"query": "기계 쓸때 주의할 점 뭔지 알려 줘.", "function_call": "<function_DW>(type=4)<end>", "function_name": "function_DW"}
+{"query": "기기 사용땐 조심할 점 뭐 있어?", "function_call": "<function_DW>(type=4)<end>", "function_name": "function_DW"}
+{"query": "어린이 조심할 점 좀 알려주겟나?", "function_call": "<function_DW>(type=1)<end>", "function_name": "function_DW"}
+{"query": "음소거 되는 중이니?", "function_call": "<function_MV>(get=True)<end>", "function_name": "function_MV"}
+{"query": "소리 켜주라", "function_call": "<function_MV>(mute=False)<end>", "function_name": "function_MV"}
+{"query": "음소거 상태 확인해줘", "function_call": "<function_MV>(get=True)<end>", "function_name": "function_MV"}
+{"query": "음소거를 그만 해 줘.", "function_call": "<function_MV>(mute=False)<end>", "function_name": "function_MV"}
+{"query": "음소거 풀어 보면 안될까?", "function_call": "<function_MV>(mute=False)<end>", "function_name": "function_MV"}
+{"query": "음소거 좀 해줘봐", "function_call": "<function_MV>(mute=True)<end>", "function_name": "function_MV"}
+{"query": "소리 꺼줘라", "function_call": "<function_MV>(mute=True)<end>", "function_name": "function_MV"}
+{"query": "음소거 해놨니?", "function_call": "<function_MV>(get=True)<end>", "function_name": "function_MV"}
+{"query": "음소거 기능 켜져있어?", "function_call": "<function_MV>(get=True)<end>", "function_name": "function_MV"}
+{"query": "음소거 취소해줘", "function_call": "<function_MV>(mute=False)<end>", "function_name": "function_MV"}
+{"query": "공기질 엘이디 작동 상태 알려 주라", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 상태 표시 LED 꺼주이소", "function_call": "<function_SC>(enable=False)<end>", "function_name": "function_SC"}
+{"query": "공기질 LED 좀 꺼 주세요.", "function_call": "<function_SC>(enable=False)<end>", "function_name": "function_SC"}
+{"query": "공기질상태 엘이디 꺼져 있어?", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 상태 엘이디 작동 중인지 알려 주세요", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 표시 LED 작동하는지 알려줘", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 상태 엘이디 지금 켜져 있나?", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 상태 LED 켜 줘.", "function_call": "<function_SC>(enable=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 엘이디가 켜져 있는지 알려줘", "function_call": "<function_SC>(get=True)<end>", "function_name": "function_SC"}
+{"query": "공기질 LED 켜 주라예", "function_call": "<function_SC>(enable=True)<end>", "function_name": "function_SC"}
+{"query": "그룹학습실에서 즉시 청정 진행해줘", "function_call": "<function_FF>(position=\"그룹학습실\")<end>", "function_name": "function_FF"}
+{"query": "삼촌방에서 청정 기능 시작해줘봐", "function_call": "<function_FF>(position=\"삼촌방\")<end>", "function_name": "function_FF"}
+{"query": "아이 방에서 공기청정 시작해봐", "function_call": "<function_FF>(position=\"아이방\")<end>", "function_name": "function_FF"}
+{"query": "연속간행물실에서 청정 시작해 줄래요", "function_call": "<function_FF>(position=\"연속간행물실\")<end>", "function_name": "function_FF"}
+{"query": "제본실청정해줘", "function_call": "<function_FF>(position=\"제본실\")<end>", "function_name": "function_FF"}
+{"query": "폐수처리실 공기청정 즉시 시작해요", "function_call": "<function_FF>(position=\"폐수처리실\")<end>", "function_name": "function_FF"}
+{"query": "워크존 청정 직행", "function_call": "<function_FF>(position=\"워크존\")<end>", "function_name": "function_FF"}
+{"query": "예약 존 청정 모드 시작해줘", "function_call": "<function_FF>(position=\"예약존\")<end>", "function_name": "function_FF"}
+{"query": "선택 공간에서 청정해 줄래?", "function_call": "<function_FF>(position=-1)<end>", "function_name": "function_FF"}
+{"query": "프리미엄실 청정 시작해", "function_call": "<function_FF>(position=\"프리미엄실\")<end>", "function_name": "function_FF"}
+{"query": "릴렉스모드기능설명좀", "function_call": "<function_EN>(type=6)<end>", "function_name": "function_EN"}
+{"query": "청정 기능이 모꼬?", "function_call": "<function_EN>(type=3)<end>", "function_name": "function_EN"}
+{"query": "일반 절전 모드에 대해 알어?", "function_call": "<function_EN>(type=1)<end>", "function_name": "function_EN"}
+{"query": "릴렉스 모드 기능이 궁금합니다.", "function_call": "<function_EN>(type=6)<end>", "function_name": "function_EN"}
+{"query": "릴렉스 모드가 뭐하고 있는지 알려 줘.", "function_call": "<function_EN>(type=6)<end>", "function_name": "function_EN"}
+{"query": "기본 절전 모드 기능 뭐임?", "function_call": "<function_EN>(type=1)<end>", "function_name": "function_EN"}
+{"query": "릴렉스 모드가 어떤 기능인가요?", "function_call": "<function_EN>(type=6)<end>", "function_name": "function_EN"}
+{"query": "이 제품 웨이크업 기능 어데 있노?", "function_call": "<function_EN>(type=5)<end>", "function_name": "function_EN"}
+{"query": "청정 기능은 어떤 게 있어요?", "function_call": "<function_EN>(type=3)<end>", "function_name": "function_EN"}
+{"query": "넌 뭘 할 수 있노?", "function_call": "<function_EN>(type=2)<end>", "function_name": "function_EN"}
+{"query": "화면에 보이는 에러 설명 좀 부탁해요.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "화면상에 뜬 에러 코드가 왜 뜨는지 알 수 있을까요?", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "지금 있는 에러코드 뜻하고 원인 좀 알려 줘.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "F01 에러코드가 궁금한데 설명 좀 해줘.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "화면의 에러코드뜻말해줘", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "이 에러코드에 대해 상세하게 알려주세요.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "지금화면에뜬코드의상징뜻알려야", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "화면에 표시된 에러코드가 무슨 뜻인지 좀 알려줄래?", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "에러코드 좀 알려주이소.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "이 에러코드가 뭐여, 좀 말해봐.", "function_call": "<function_UY>()<end>", "function_name": "function_UY"}
+{"query": "프라이버시 모드 상태좀 확인해 봐.", "function_call": "<function_GN>(get=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 꺼주랑", "function_call": "<function_GN>(enable=False)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 실행 좀 해 주라", "function_call": "<function_GN>(enable=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 기능 활성화해 주세요", "function_call": "<function_GN>(enable=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 좀 작동시켜봐라.", "function_call": "<function_GN>(enable=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 상태 좀 볼래", "function_call": "<function_GN>(get=True)<end>", "function_name": "function_GN"}
+{"query": "지금프라이버시모드켜져있나", "function_call": "<function_GN>(get=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 꺼라잉", "function_call": "<function_GN>(enable=False)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 멈춰 있나 확인해 줘", "function_call": "<function_GN>(get=True)<end>", "function_name": "function_GN"}
+{"query": "프라이버시 모드 켜죠", "function_call": "<function_GN>(enable=True)<end>", "function_name": "function_GN"}
+{"query": "바람 태세를 자동으로 해 줘", "function_call": "<function_NK>(speed=0)<end>", "function_name": "function_NK"}
+{"query": "바람 세기 올려줘", "function_call": "<function_NK>(speed=1)<end>", "function_name": "function_NK"}
+{"query": "풍량 터보로 바꿔줘요", "function_call": "<function_NK>(speed=4)<end>", "function_name": "function_NK"}
+{"query": "바람 상태 좀 알 수 있을까?", "function_call": "<function_NK>(get=True)<end>", "function_name": "function_NK"}
+{"query": "바람을 터보로 돌려 주이소", "function_call": "<function_NK>(speed=4)<end>", "function_name": "function_NK"}
+{"query": "바람을 한 단계 낮춰주세요", "function_call": "<function_NK>(speed=-1)<end>", "function_name": "function_NK"}
+{"query": "터보로 풍량 바꿔줘", "function_call": "<function_NK>(speed=4)<end>", "function_name": "function_NK"}
+{"query": "바람 상태 좀 확인해 주이소", "function_call": "<function_NK>(get=True)<end>", "function_name": "function_NK"}
+{"query": "풍량 상태좀 알려줘", "function_call": "<function_NK>(get=True)<end>", "function_name": "function_NK"}
+{"query": "풍량 자동 모드로 바꿔 줘", "function_call": "<function_NK>(speed=0)<end>", "function_name": "function_NK"}
+{"query": "내일 언제 서울 날씨 알려줘?", "function_call": "<function_MO>(timeframe=1, location=\"서울\")<end>", "function_name": "function_MO"}
+{"query": "월요일 울산 하늘 알려줘", "function_call": "<function_MO>(timeframe=3, location=\"울산\")<end>", "function_name": "function_MO"}
+{"query": "월요일 권선동 날씨 알려줘", "function_call": "<function_MO>(timeframe=3, location=\"권선동\")<end>", "function_name": "function_MO"}
+{"query": "토요일 춘천 날씨 어때요", "function_call": "<function_MO>(timeframe=8, location=\"춘천\")<end>", "function_name": "function_MO"}
+{"query": "오늘전주날씨좀알려줘", "function_call": "<function_MO>(timeframe=0, location=\"전주\")<end>", "function_name": "function_MO"}
+{"query": "토요일서울날씨알려줘", "function_call": "<function_MO>(timeframe=8, location=\"서울\")<end>", "function_name": "function_MO"}
+{"query": "대구 내일 날씨 어때?", "function_call": "<function_MO>(timeframe=1, location=\"대구\")<end>", "function_name": "function_MO"}
+{"query": "화요일 인천 날씨 상황 알려주세요", "function_call": "<function_MO>(timeframe=4, location=\"인천\")<end>", "function_name": "function_MO"}
+{"query": "화요일 대전 날씨 어떨까요?", "function_call": "<function_MO>(timeframe=4, location=\"대전\")<end>", "function_name": "function_MO"}
+{"query": "월요일여수날씨알려줘", "function_call": "<function_MO>(timeframe=3, location=\"여수\")<end>", "function_name": "function_MO"}
+{"query": "배터리잔량확인좀해줘.", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "기기의 남은 배터리 양 뭐야?", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리 상태 얼마임?", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리 상태 체크해 줘", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리 남은 양 좀 알려주세요", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리충전량얼마남았냐", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "현재 내 휴대폰 배터리 상태가 어떤지 확인해 주세요.", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리 남은 상태 봐주라.", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터리 잔량 봐봐", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "배터얼마남았는지봐바요.", "function_call": "<function_JJ>()<end>", "function_name": "function_JJ"}
+{"query": "필터점검좀해라", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 한 번 돌려줘.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 상태 체크 부탁드립니다", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 있나 확인해 주이소.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 좀 돌려보소.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 기능 좀 돌려 볼깡?", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터상태체크좀해줘바랍니다.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터좀작동해봐.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터상태좀봐줘.", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "필터 지금 갱생 좀 해주라 아입니까?", "function_call": "<function_FR>()<end>", "function_name": "function_FR"}
+{"query": "스캐닝 청정 기능 꺼 줘.", "function_call": "<function_IH>(scan=False)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 켜져있음", "function_call": "<function_IH>(get=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 작동 돼?", "function_call": "<function_IH>(get=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 꺼버려", "function_call": "<function_IH>(scan=False)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 작동 좀 알려줘", "function_call": "<function_IH>(get=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 시작 시켜 줘 봐", "function_call": "<function_IH>(scan=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 공기청정 켜져 있긔?", "function_call": "<function_IH>(get=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 청정 중이니?", "function_call": "<function_IH>(get=True)<end>", "function_name": "function_IH"}
+{"query": "스캐닝 공기청정 꺼라 좀", "function_call": "<function_IH>(scan=False)<end>", "function_name": "function_IH"}
+{"query": "스캐닝청정 좀 켬", "function_call": "<function_IH>(scan=True)<end>", "function_name": "function_IH"}
+{"query": "에어 센서 어디에 두면 잘 작동하나요?", "function_call": "<function_CS>(type=3)<end>", "function_name": "function_CS"}
+{"query": "기기설치 위치좀 알려 주라.", "function_call": "<function_CS>(type=1)<end>", "function_name": "function_CS"}
+{"query": "공기청정기 권장 설치 대수 알려 주세요.", "function_call": "<function_CS>(type=2)<end>", "function_name": "function_CS"}
+{"query": "공기청정기 몇 대 놔야 제때이노?", "function_call": "<function_CS>(type=2)<end>", "function_name": "function_CS"}
+{"query": "공기청정기 몇 대가 최적인지 알고 싶어요.", "function_call": "<function_CS>(type=2)<end>", "function_name": "function_CS"}
+{"query": "이 집에 맞는 공기청정기 대수는 얼마나 되죠?", "function_call": "<function_CS>(type=2)<end>", "function_name": "function_CS"}
+{"query": "기기 설치 어딜로 하면 돼?", "function_call": "<function_CS>(type=1)<end>", "function_name": "function_CS"}
+{"query": "에어센서 어디 둬야 할까-?", "function_call": "<function_CS>(type=3)<end>", "function_name": "function_CS"}
+{"query": "에어센서 어디에 달면 젤 나을가?", "function_call": "<function_CS>(type=3)<end>", "function_name": "function_CS"}
+{"query": "이 청정기 설치할 위치가 어디가 좋을까요?", "function_call": "<function_CS>(type=1)<end>", "function_name": "function_CS"}
+{"query": "지금 볼륨은 몇 단계예요?", "function_call": "<function_ZV>(get=True)<end>", "function_name": "function_ZV"}
+{"query": "볼륨을 영으로 맞춰 줘.", "function_call": "<function_ZV>(volume=0)<end>", "function_name": "function_ZV"}
+{"query": "음량을 한 번 확인해 주시겠어요?", "function_call": "<function_ZV>(get=True)<end>", "function_name": "function_ZV"}
+{"query": "음량을 두로 맞춰 주이소", "function_call": "<function_ZV>(volume=2)<end>", "function_name": "function_ZV"}
+{"query": "음량2로조절해줘요.", "function_call": "<function_ZV>(volume=2)<end>", "function_name": "function_ZV"}
+{"query": "소리 크기 낮춰주라.", "function_call": "<function_ZV>(volume=-1)<end>", "function_name": "function_ZV"}
+{"query": "소리 좀 줄여 줘라", "function_call": "<function_ZV>(volume=-1)<end>", "function_name": "function_ZV"}
+{"query": "음량 한단계 낮춰줘유", "function_call": "<function_ZV>(volume=-1)<end>", "function_name": "function_ZV"}
+{"query": "볼륨을 1로 맞춰주이소", "function_call": "<function_ZV>(volume=1)<end>", "function_name": "function_ZV"}
+{"query": "효과음 좀 오 단계로 맞춰 주이소", "function_call": "<function_ZV>(volume=5)<end>", "function_name": "function_ZV"}
+{"query": "음성 성별 상태 좀 알려 줘.", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "목소리 상태 좀 보여 주이소.", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "음성 성별 상태를 확인해 주시겠어요?", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "남성 목소리로 변경해 주세요.", "function_call": "<function_GQ>(gender=2)<end>", "function_name": "function_GQ"}
+{"query": "현재 목소리 성별 알려 주세요.", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "지금 목소리 성별 봐 주이소.", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "음성 상태를 확인해 주세요.", "function_call": "<function_GQ>(get=True)<end>", "function_name": "function_GQ"}
+{"query": "남자 목소리로 해줘.", "function_call": "<function_GQ>(gender=2)<end>", "function_name": "function_GQ"}
+{"query": "여성 음성으로 바꿔.", "function_call": "<function_GQ>(gender=1)<end>", "function_name": "function_GQ"}
+{"query": "목소리 바꿔 주쇼.", "function_call": "<function_GQ>(gender=-1)<end>", "function_name": "function_GQ"}
+{"query": "기계 돌고 있는 겨?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "현재 상태 좀 알려줘유.", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "기기를 지금 상태 봐줄 수 있나요?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "기기 충전 진행중임?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "기기 운전중인지 확인 가능합니까?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "이 기기 작동 중인지 보고 싶습니다.", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "기기 상태 보겠심더?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "충전 중인거 맞나?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "기기 지금 뭐 하는 중인가요?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "공기청정기 작동 상태 알려주실 수 있나요?", "function_call": "<function_ID>(get=True)<end>", "function_name": "function_ID"}
+{"query": "감도 상태 좀 가르쳐줘", "function_call": "<function_QD>(get=True)<end>", "function_name": "function_QD"}
+{"query": "강도좀올려줘", "function_call": "<function_QD>(type=2)<end>", "function_name": "function_QD"}
+{"query": "감도 강하게 해 줘", "function_call": "<function_QD>(type=2)<end>", "function_name": "function_QD"}
+{"query": "감도 상태 좀 볼 수 있나?", "function_call": "<function_QD>(get=True)<end>", "function_name": "function_QD"}
+{"query": "감도 강도 낮춰 준다잉", "function_call": "<function_QD>(type=0)<end>", "function_name": "function_QD"}
+{"query": "감도 상태 좀 보여 주소", "function_call": "<function_QD>(get=True)<end>", "function_name": "function_QD"}
+{"query": "감도 레벨 맞추자", "function_call": "<function_QD>(type=-1)<end>", "function_name": "function_QD"}
+{"query": "감도 좀 맞춰봐이소", "function_call": "<function_QD>(type=-1)<end>", "function_name": "function_QD"}
+{"query": "센서 감도를 낮춰주실래요?", "function_call": "<function_QD>(type=0)<end>", "function_name": "function_QD"}
+{"query": "감도좀봐줘", "function_call": "<function_QD>(get=True)<end>", "function_name": "function_QD"}

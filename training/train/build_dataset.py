@@ -64,9 +64,14 @@ def main(args: DictConfig) -> None:
     ##                                  ##
     ######################################
     
+    TEST_INDEX = 4
+    
     # 최종 결과가 있으면 실험 X
     # output_filename = os.path.join(output_dir, 'train_data.pkl')
-    output_filename = os.path.join(output_dir, 'train_data_subset.pkl')
+    # output_filename = os.path.join(output_dir, 'train_data_subset.pkl')
+    # output_filename = os.path.join(output_dir, 'train_data_subset_2.pkl')
+    output_filename = os.path.join(output_dir, f'train_data_subset_{TEST_INDEX}.pkl')
+    # output_filename = os.path.join(output_dir, 'train_data_subsubset.pkl')
     
     logger.info(f'Initial prediction file : {output_filename}')
     if not os.path.isfile(output_filename):
@@ -117,12 +122,13 @@ def main(args: DictConfig) -> None:
     logger.info(f'Load : {output_filename}')
     sft_sample_list = load_pkl(path=output_filename)
     # output_filename = os.path.join(output_dir, 'final_train_data.pkl')
-    output_filename = os.path.join(output_dir, 'final_train_data_subset.pkl')
+    # output_filename = os.path.join(output_dir, 'final_train_data_subset.pkl')
+    output_filename = os.path.join(output_dir, f'final_train_data_subset_{TEST_INDEX}.pkl')
+    # output_filename = os.path.join(output_dir, 'final_train_data_subsubset.pkl')
     data_module = make_supervised_data_module(tokenizer=tokenizer, dataset=sft_sample_list)
+    
     save_pkl(data=data_module, path=output_filename)
 
-                
-                
     logger.info(f'Trian data : {len(sft_sample_list)}')
     logger.info('Done.')
     

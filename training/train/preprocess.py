@@ -71,8 +71,16 @@ def preprocess(
     examples_tokenized, sources_tokenized = [_tokenize_fn(strings, tokenizer) for strings in (examples, sources)]
     input_ids = examples_tokenized["input_ids"]
     labels = copy.deepcopy(input_ids)
+    
+    # for debugging
+    num_tokens = list()
+    
     for label, source_len in zip(labels, sources_tokenized["input_ids_lens"]):
         label[:source_len] = IGNORE_INDEX
+        num_tokens.append(len(label))
+        
+    print(f'min num tokens: {min(num_tokens)}, max num tokens: {max(num_tokens)}, avg num tokens: {sum(num_tokens)/len(num_tokens)}')
+        
     return dict(input_ids=input_ids, labels=labels)
 
 
@@ -86,7 +94,7 @@ class SupervisedDataset(Dataset):
 
         sources = [tokenizer.apply_chat_template(example.get('prompt'), tokenize=False, add_generation_prompt=True) for example in dataset]
         # targets = [tokenizer.apply_chat_template(example.get('completion'), tokenize=False) for example in dataset]
-        targets = [f"example.get('label'){tokenizer.eos_token}" for example in dataset]
+        targets = [f"{example.get('label')}{tokenizer.eos_token}" for example in dataset]
         
         # breakpoint()
         
@@ -109,6 +117,8 @@ class SupervisedDataset(Dataset):
 
 def make_supervised_data_module(tokenizer:PreTrainedTokenizer, dataset:List[Dict]):
     """Make dataset and collator for supervised fine-tuning."""
+    print('Supervised Dataset')
     train_dataset = SupervisedDataset(tokenizer=tokenizer, dataset=dataset)
+    print('Collator')
     data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
     return dict(train_dataset=train_dataset, eval_dataset=None, data_collator=data_collator)
