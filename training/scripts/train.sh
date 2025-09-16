@@ -16,7 +16,7 @@ batch_size=8
 # lrs='1e-3 5e-4 1e-4 5e-5 1e-5 5e-6 1e-6 5e-7 1e-7'
 
 num_epochs='1'
-lrs='1e-5'
+lrs='1e-4'
 
 # transformers 4.51.3
 for num_epoch in $num_epochs; do
