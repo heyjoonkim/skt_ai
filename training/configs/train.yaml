@@ -18,7 +18,7 @@ path:
   output: /skt_ai/output
 
 dataset:
-  train: /skt_ai/data_0915_1/data.jsonl
+  train: /skt_ai/data_0915_1/data_half.jsonl
 
 generation:
   template_id: 0
