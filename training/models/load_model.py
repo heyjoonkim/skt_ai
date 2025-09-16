@@ -7,6 +7,7 @@ from transformers import (
     BitsAndBytesConfig
 )
 from vllm import LLM, SamplingParams
+from huggingface_hub import login
 
 ## Transformer 모델 로드 ##
 
