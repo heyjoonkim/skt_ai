@@ -386,7 +386,7 @@ tomlkit==0.12.5
 torch==2.4.0
 torchaudio==2.4.0
 torchmetrics==0.10.3
-torchvision==0.20.1
+torchvision==0.19.1
 tornado==6.4
 tox==4.12.1
 tqdm==4.66.1
