@@ -243,7 +243,7 @@ nvidia-cublas-cu12==12.4.5.8
 nvidia-cuda-cupti-cu11==11.8.87
 nvidia-cuda-cupti-cu12==12.4.127
 nvidia-cuda-nvrtc-cu11==11.8.89
-nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-nvrtc-cu12==12.1.105
 nvidia-cuda-runtime-cu11==11.8.89
 nvidia-cuda-runtime-cu12==12.4.127
 nvidia-cudnn-cu11==8.7.0.84
