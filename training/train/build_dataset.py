@@ -10,9 +10,7 @@ import hydra
 from tqdm import tqdm
 from omegaconf import DictConfig
 from datasets import load_dataset
-from transformers import Trainer
 
-from models import load_vllm_model_and_tokenizer, get_vllm_param
 from utils import seed_everything, logger_init, save_pkl, load_pkl
 from models import load_transformers_model_and_tokenizer
 from train.preprocess import make_supervised_data_module
