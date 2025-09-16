@@ -287,7 +287,7 @@ outlines==0.1.11
 outlines_core==0.1.26
 packaging==24.1
 pandas==2.1.4
-parso==0.8.3
+parso==0.8.4
 partial-json-parser==0.2.1.1.post5
 pathvalidate==3.2.0
 pdfminer.six==20231228
