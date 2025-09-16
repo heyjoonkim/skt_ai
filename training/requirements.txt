@@ -461,7 +461,8 @@ wasabi==1.1.2
 watchfiles==0.21.0
 wavedrom==2.0.3.post3
 wcwidth==0.2.13
-weasel==0.3.4
+# weasel - typer 의존성 충돌로 인해 주석 처리
+# weasel==0.3.4
 websockets==12.0
 Werkzeug==3.0.3
 wget==3.2
