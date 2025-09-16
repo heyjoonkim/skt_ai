@@ -15,31 +15,22 @@ model:
   name: meta-llama/Llama-3.2-1B-Instruct
 
 path: 
-  output: /home/heyjoonkim/data/skt_ai
+  output: ../output
 
 dataset:
-  # train: ../data/train.jsonl
-  train: ../data/train_subset.jsonl
-  test: heyjoonkim/math_500
+  train: ../data_0915_1/data.jsonl
 
 generation:
   template_id: 0
   num_generations: 1
   num_demonstrations: 2
-  # num_demonstrations: 4
   max_new_tokens: 3000
   temperature: 0.0
   top_p: 1.0
   top_logprobs: 100
 
-
-
-    
 training:
-  # num_training_epochs: 1
   num_training_epochs: 0
   per_device_train_batch_size: 4
   gradient_accumulation_steps: 2
   learning_rate: 1e-3
-
-  test_dataset: heyjoonkim/math_500
