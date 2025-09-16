@@ -1,7 +1,7 @@
 # export CUDA_VISIBLE_DEVICES=6,7
 # num_processes=2
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 num_processes=1
 
 model='meta-llama/Llama-3.2-1B-Instruct'
@@ -13,10 +13,9 @@ batch_size=1
 
 # num_epochs='1 2 3 5 10'
 num_epochs='1 2 3 5'
-lrs='1e-3 5e-4 1e-4 5e-5 1e-5 5e-6 1e-6 5e-7 1e-7'
+num_epochs='3'
+lrs='5e-4 1e-4 5e-5 1e-5'
 
-num_epochs='1'
-lrs='1e-3'
 
 
 # transformers 4.51.3

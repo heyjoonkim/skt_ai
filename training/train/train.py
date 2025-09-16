@@ -5,10 +5,11 @@ from typing import Optional, List
 from dataclasses import dataclass, field
 
 import torch
-from transformers import HfArgumentParser, Trainer, TrainingArguments
+from transformers import HfArgumentParser, Trainer, TrainingArguments, BitsAndBytesConfig
 # from trl import SFTTrainer, SFTConfig, DataCollatorForCompletionOnlyLM
 # from trl.trainer.sft_trainer import DataCollatorForLanguageModeling
 from datasets import Dataset
+from peft import LoraConfig, TaskType, get_peft_model
 
 
 from utils import seed_everything, logger_init, save_pkl, load_pkl
@@ -104,7 +105,10 @@ def train():
     #       LOAD DATASET       #
     #                          #
     ############################
-    selected_data_file = os.path.join(base_path, 'final_train_data_subset.pkl')
+    
+    PROMPT_INDEX = 3
+    
+    selected_data_file = os.path.join(base_path, f'final_train_data_subset_{PROMPT_INDEX}.pkl')
     # selected_data_file = os.path.join(base_path, 'final_train_data.pkl')
         
     data_module = load_pkl(path=selected_data_file)
@@ -124,10 +128,10 @@ def train():
 
     
     ## SET OUTPUT DIRECTORY ##
-    TRAINING_CONFIG_STR = f'epoch-{int(training_args.num_train_epochs)}_batch-{training_args.per_device_train_batch_size}_accumulation-{training_args.gradient_accumulation_steps}_lr-{training_args.learning_rate}'
+    TRAINING_CONFIG_STR = f'PROMPT-{PROMPT_INDEX}_epoch-{int(training_args.num_train_epochs)}_batch-{training_args.per_device_train_batch_size}_accumulation-{training_args.gradient_accumulation_steps}_lr-{training_args.learning_rate}'
     
     # set wandb run name
-    training_args.run_name = f'SFT_v1_{TRAINING_CONFIG_STR}'
+    training_args.run_name = f'SKT_AI_{TRAINING_CONFIG_STR}'
     
     model_checkpoint_path = os.path.join(base_path, TRAINING_CONFIG_STR)
     
@@ -155,30 +159,29 @@ def train():
     
     # ## Train model to learn ambiguity ##
     # ## Initialize PEFT Configs ##
-    lora_config = None
-    # lora_config = LoraConfig(
-    #                     r=lora_args.lora_r,
-    #                     lora_alpha=lora_args.lora_alpha,
-    #                     lora_dropout=lora_args.lora_dropout,
-    #                     bias=lora_args.lora_bias,
-    #                     inference_mode=False,
-    #                     task_type=TaskType.CAUSAL_LM,
-    #                     target_modules=lora_args.lora_target_modules,
-    #                 )
+    # lora_config = None
+    lora_config = LoraConfig(
+                        r=lora_args.lora_r,
+                        lora_alpha=lora_args.lora_alpha,
+                        lora_dropout=lora_args.lora_dropout,
+                        bias=lora_args.lora_bias,
+                        inference_mode=False,
+                        task_type=TaskType.CAUSAL_LM,
+                        target_modules=lora_args.lora_target_modules,
+                    )
 
-    # # 모델이 안크니깐 굳이 qlora 써서 학습할 필요 없음. 
-    quantization_config = None
-    # if lora_args.use_qlora:
-    #     logger.info('** Use QLoRa quantization.')
-    #     quantization_config = BitsAndBytesConfig(
-    #                             load_in_4bit=True,
-    #                             bnb_4bit_quant_type="nf4",
-    #                             bnb_4bit_use_double_quant=True,
-    #                             bnb_4bit_compute_dtype=torch.bfloat16
-    #                         )
-    # else:
-    #     logger.info('** No QLoRa quantization.')
-    #     quantization_config = None
+    # QLoRA
+    if lora_args.use_qlora:
+        logger.info('** Use QLoRa quantization.')
+        quantization_config = BitsAndBytesConfig(
+                                load_in_4bit=True,
+                                bnb_4bit_quant_type="nf4",
+                                bnb_4bit_use_double_quant=True,
+                                bnb_4bit_compute_dtype=torch.bfloat16
+                            )
+    else:
+        logger.info('** No QLoRa quantization.')
+        quantization_config = None
     
     logger.info(f'Load model : {model_args.model_name_or_path}')
     ## LOAD MODEL and TOKENIZER ##
@@ -191,6 +194,23 @@ def train():
     
 
     model.config.use_cache = False  # Disable cache for DPO training
+    
+    
+    if model is not None:
+        logger.info('** Add PEFT parameters.')
+        model.config.use_cache=False
+        model.config.attn_implementation = "flash_attention_2"
+
+        
+        # model.gradient_checkpointing_enable()  # enable gradient checkpointing
+        model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
+
+        # from : https://github.com/huggingface/peft/issues/137
+        model.enable_input_require_grads()
+
+        model = get_peft_model(model, lora_config)
+        model.print_trainable_parameters()
+
         
     # set logs
     training_args.logging_dir = os.path.join(model_checkpoint_path, 'logs')
@@ -210,7 +230,7 @@ def train():
     logger.info(f'Training time : {end_time - start_time} seconds.')
     
     final_model = trainer.model
-    # final_model = final_model.merge_and_unload()
+    final_model = final_model.merge_and_unload()
     
     logger.info('Save final model...')
     start_time = time()

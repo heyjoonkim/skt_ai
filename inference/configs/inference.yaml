@@ -20,7 +20,6 @@ path:
 dataset:
   # train: ../data/train.jsonl
   train: ../data/train_subset.jsonl
-  # train: ../data/train_subsubset.jsonl
   test: heyjoonkim/math_500
 
 generation:
