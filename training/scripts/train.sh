@@ -6,7 +6,7 @@ num_processes=1
 
 model='meta-llama/Llama-3.2-1B-Instruct'
 
-output_dir='./output'
+output_dir='/skt_ai/output'
 
 accumulation=1
 batch_size=1

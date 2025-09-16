@@ -15,10 +15,10 @@ model:
   name: meta-llama/Llama-3.2-1B-Instruct
 
 path: 
-  output: ../output
+  output: /skt_ai/output
 
 dataset:
-  train: ../data_0915_1/data.jsonl
+  train: /skt_ai//data.jsonl
 
 generation:
   template_id: 0
