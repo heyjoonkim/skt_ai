@@ -1455,8 +1455,7 @@ def function_IO(timeframe: int = 0, location: str = "0"):
     
 For the following query, you MUST choose exact function calls from the predefined set.  
 
-Query : {query}
-Function : """
+Query : {query}"""
 
 
 

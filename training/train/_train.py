@@ -5,9 +5,9 @@ from typing import Optional, List
 from dataclasses import dataclass, field
 
 import torch
-from transformers import HfArgumentParser, Trainer, TrainingArguments
-# from trl import SFTTrainer, SFTConfig, DataCollatorForCompletionOnlyLM
-# from trl.trainer.sft_trainer import DataCollatorForLanguageModeling
+from transformers import HfArgumentParser, Trainer
+from trl import SFTTrainer, SFTConfig, DataCollatorForCompletionOnlyLM
+from trl.trainer.sft_trainer import DataCollatorForLanguageModeling
 from datasets import Dataset
 
 
@@ -33,38 +33,16 @@ class ModelArguments:
 class DataArguments:
     dataset_name: str = field(default='heyjoonkim/hendrycks_math')
 
-# @dataclass
-# # class CustomTrainingArguments(SFTConfig):
-# class CustomTrainingArguments(TrainingArguments):
-#     output_dir: Optional[str] = field(default='/data1/heyjoonkim/reasoning_abstention')
-#     optim: str = field(default="adamw_torch")
-#     logging_level: Optional[str] = field(default='INFO')
-#     # 원래 코드에 default 값이 있는데, 길이가 길어질 수 있으므로 truncate하지 않도록 None으로 설정.
-#     max_prompt_length: int = field(default=None)
-#     max_completion_length: int = field(default=None)
-#     max_length: int = field(default=None)
-#     # completion_only_loss: bool = field(default=True)
-    
 @dataclass
-class CustomTrainingArguments(TrainingArguments):
-    # override
-    #   output_dir
-    #   per_device_train_batch_size, per_device_eval_batch_size, gradient_accumulation_steps
-    #   learning_rate, weight_decay, num_train_epochs
-    #   lr_scheduler_type, warmup_ratio
-    #   logging_steps
-    #   save_strategy, save_steps, save_total_limit
-    #   seed
-    #   fp16
-    cache_dir: Optional[str] = field(default=None)
-    # select from : adamw_hf, adamw_torch, adamw_torch_fused, adamw_apex_fused, adamw_anyprecision or adafactor.
+class CustomTrainingArguments(SFTConfig):
+    output_dir: Optional[str] = field(default='/data1/heyjoonkim/reasoning_abstention')
     optim: str = field(default="adamw_torch")
-    model_max_length: int = field(
-        default=100000,
-        metadata={"help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."},
-    )
-    remove_unused_columns: bool = field(default=False)
     logging_level: Optional[str] = field(default='INFO')
+    # 원래 코드에 default 값이 있는데, 길이가 길어질 수 있으므로 truncate하지 않도록 None으로 설정.
+    max_prompt_length: int = field(default=None)
+    max_completion_length: int = field(default=None)
+    max_length: int = field(default=None)
+    completion_only_loss: bool = field(default=True)
     
     
 @dataclass
@@ -104,14 +82,15 @@ def train():
     #       LOAD DATASET       #
     #                          #
     ############################
-    selected_data_file = os.path.join(base_path, 'final_train_data_subset.pkl')
-    # selected_data_file = os.path.join(base_path, 'final_train_data.pkl')
+    selected_data_file = os.path.join(base_path, 'train_data.pkl')
         
-    data_module = load_pkl(path=selected_data_file)
+    train_data = load_pkl(path=selected_data_file)
     
     # TODO : for debugging. remove later.
     # train_data = train_data[:1]
         
+    if type(train_data) == list:
+        train_data = Dataset.from_list(train_data)
     logger.info(f'Loaded data module : {selected_data_file}')
 
 
@@ -194,10 +173,37 @@ def train():
         
     # set logs
     training_args.logging_dir = os.path.join(model_checkpoint_path, 'logs')
-    # training_args.dataset_kwargs={'skip_prepare_dataset':True}
+    training_args.dataset_kwargs={'skip_prepare_dataset':True}
+    
+    # data_collator = DataCollatorForCompletionOnlyLM(tokenizer=tokenizer, mlm=False)
+    # data_collator = DataCollatorForLanguageModeling(pad_token_id =tokenizer.pad_token_id,completion_only_loss=True)
+    
+        
+    def formatting_prompts_func(example):
+        output_texts = []
+        for i in range(len(example['prompt'])):
+            prompt = example['prompt'][i]
+            completion = example['completion'][i]
+            messages = prompt + completion
+            
+            text = tokenizer.apply_chat_template(messages, tokenize=False)
+            output_texts.append(text)
+        return output_texts
+
+    response_template = "Function : "
+    data_collator = DataCollatorForCompletionOnlyLM(response_template, tokenizer=tokenizer)
+    
     
     training_args.output_dir = model_checkpoint_path
-    trainer = Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module)
+    trainer = SFTTrainer(model=model, 
+                         args=training_args,
+                         data_collator=data_collator,
+                        formatting_func=formatting_prompts_func,
+                        #  tokenizer=tokenizer, 
+                        #  processing_class=tokenizer, 
+                         train_dataset=train_data,
+                         peft_config=lora_config,
+                         max_seq_length=100000)
 
     
     # trainer.model.print_trainable_parameters()
@@ -210,7 +216,7 @@ def train():
     logger.info(f'Training time : {end_time - start_time} seconds.')
     
     final_model = trainer.model
-    # final_model = final_model.merge_and_unload()
+    final_model = final_model.merge_and_unload()
     
     logger.info('Save final model...')
     start_time = time()

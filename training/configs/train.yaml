@@ -18,8 +18,8 @@ path:
   output: /home/heyjoonkim/data/skt_ai
 
 dataset:
-  # select from : heyjoonkim/hendrycks_math, heyjoonkim/math_500
-  train: ../data/train.jsonl
+  # train: ../data/train.jsonl
+  train: ../data/train_subset.jsonl
   test: heyjoonkim/math_500
 
 generation:
