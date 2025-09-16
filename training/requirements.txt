@@ -386,7 +386,7 @@ snowballstemmer==2.2.0
 snowflake-connector-python==3.10.0
 sortedcontainers==2.4.0
 soupsieve==2.5
-spacy==3.7.2
+spacy==3.8.0
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 SPARQLWrapper==2.0.0
