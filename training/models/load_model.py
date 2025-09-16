@@ -1,4 +1,5 @@
 
+import os
 from typing import List, Dict
 
 from transformers import (
@@ -7,10 +8,14 @@ from transformers import (
     BitsAndBytesConfig
 )
 from vllm import LLM, SamplingParams
+from huggingface_hub import login
 
 ## Transformer 모델 로드 ##
 
 def _load_transformers_model(model_name:str=None, cache_path:str=None, quantization_config:BitsAndBytesConfig=None, train:bool=False):
+
+    token = os.environ['HF_TOKEN']
+    login(token=token)
     
     # device_map = 'auto' if quantization_config is None else None
     # Deepspeed를 쓰면 device_map='auto'하면 오류남. 아래 링크에서 해결책.
@@ -28,6 +33,9 @@ def _load_transformers_model(model_name:str=None, cache_path:str=None, quantizat
     
     
 def _load_transformers_tokenizer(model_name:str=None, cache_path:str=None):
+
+    token = os.environ['HF_TOKEN']
+    login(token=token)
     
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_path)
     special_tokens_map = tokenizer.special_tokens_map

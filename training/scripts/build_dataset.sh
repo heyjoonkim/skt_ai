@@ -7,4 +7,4 @@ python -m train.build_dataset \
     tensor_parallel_size=$tensor_parallel_size
 
 
-curl -d "Done [Train (DPO) : build_dataset] process... Please Check..." ntfy.sh/hjkim-experiments
+curl -d "Done [Train (DPO) : build_dataset] process... Please Check..."

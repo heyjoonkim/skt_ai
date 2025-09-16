@@ -260,5 +260,5 @@ if __name__ == '__main__':
         print(f'Total time : {end - start} seconds')
         
     except Exception as error:
-        os.system(f'curl -d "Error running preliminary_training/main.py. Error : {error}" ntfy.sh/hjkim-experiments')
+        os.system(f'curl -d "Error running preliminary_training/main.py. Error : {error}"')
         

@@ -1,0 +1,1000 @@
+{"query": "기본 AI 모드 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 공기질 누적 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 전체 복합 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 공간별 연동 켜요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모두 에이아이 모드 작동시켜 보자", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "외부 대기질 연동 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 기능을 꺼주시겠어요?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 좀 켜 주이소.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 껐으면 좋겠네유", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모든 모드 다 켜 주이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 데이터 모드 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "현재 AI 모드 상태 알려 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 에이아이 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 꺼 줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "(STT 발음 뭉개짐) 에이아이 상태 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 좀 알려 주겠어요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 모드 꺼 줘 볼래요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "AI모드 상태 보이고", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 데이터 꺼줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 모두 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "모드 꺼 주이소.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드가 작동 중임까", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "AI 모드 상태 좀 확인해 주시겠어요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태좀 알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기본 모드로 AI 켜 줘라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "누적데이터 꺼줘요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 끄주이소.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공기질 정보 연동모드 작동 부탁한다 아이가", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기질 모드 켜라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 중실외 공기 연동 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 공간별 데이터 켜 주라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이 모드 끄 주라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 복합 모드 다 켜 줄래요?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적 끄 주라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 지금 켜 놨냥?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드가 현재 켜져 있냐?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기 연동 좀 켜 주이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모드 활성 상태 좀 확인해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 좀 꺼준다 아이가", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "(STT 노이즈) ai모드 켜져 있는지 확인 부탁해요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이모드꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모두 켜 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 모두 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 기능 꺼 주시겠습니까?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 두 개 다 켜 줄라나?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 모두 꺼줘요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "외부 대기질 꺼라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "기본 모드 작동 좀 시켜봐", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 연동 켜 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 중단해라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 켜졌는지 좀 알려줘.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 확인 좀 해줬으면 하네", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 가동 중이오?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기질 모드 켜줘라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "벙 커져라 AI 모드", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 끄고 제발", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 기능 중단해 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 복합 모드 작동 시켜 주세요.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "복합 모드 켜 줄래?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 데이터 연동 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모두 다 비활성화 시켜 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "베이스 모드 온해조", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "기본 AI 모드 시작해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 작동 가능할까?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드상태 좀 확인해봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 에이아이 모드 켜이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "모두 킨다잉", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에아이 모듀 다 꺼 줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "지금 에아이 작동 해준나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 좀 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 연동 켜 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 데이터 좀 꺼내주게", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간 누적 데이터 끄주실래요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "실외기질 연동 켜 주라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 켜져 있는지 확인 부탁합니다", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 확인해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 켜줘라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기질 연동 좀 켜줘야 되는 거 아이가.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 데이터 모드 온 해줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "일단 기본 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 지금 켜져 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기 질 연동 올려조", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모두 끄이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 켜졌는지 알려 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 켜 줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 노이즈) 에이아이모드 현재 표시해라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 둘 다 작동 시켜 주이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "두개 같이 켜줘유", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 공기데이 터 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 공기질 누적 모드 꺼 주이소", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "요즘 에이아이 모드 상태 어때유?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄그라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "합쳐진 모드 켜 주이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 중단해 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "ai 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "(STT 발음 뭉개짐) 기본 모드 꺼주라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 확인 좀 해주라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동 어케 돼 있노?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기본 AI 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 보여 줘요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄는 거 좀 해 줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공기질 누적 데이터 모드 시작해라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 연동 기능 좀 시작해 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기질 연동 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 온 해주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "기능 좀 켜주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "전체 모드 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이알 모드 상태 얼만디?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 지금 알려 줘 봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 모드 시작 부탁드려요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 좀 끄려고요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 꺼져 있는지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 켜져 있나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외공연동 켜줘잉", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 데이터 좀 꺼라.", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "전체모드 켜 주세요.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이모드 중지 시켜", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 꺼 줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "지금 에이아이 모드 작동 중인가요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 전체 꺼줘유", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공기질 정보 연동 모드 시작 부탁해요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 켜져 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 모드 실행해봐", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 올라와있나", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기질 꺼줘요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 기능 켜지게 해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 연동 좀 켜줘요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공기질 데이터 연동 꺼놔라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 공기질 연동 꺼줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 기능 꺼부러", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 치 누적 모드 켜 주소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 멈추이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이  모드 상태 지금 보자", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 좀 꺼놔라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 상태를 좀 확인해 주시겠어요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 꺼버려", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모든 AI 모드 꺼주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 켜라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 공간별 데이터 좀 켜 줄래?", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 상태 조회해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모드 좀 켜줄래?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기 상태 연동 부탁해요 켜 줘라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 공기질 데이터 꺼 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "실외 대기질 연동 모드 좀 온 해 주이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "외부 대기질 연동 켜", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 켜죠", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 기능 다 꺼 줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모드 다 켜줭", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "AI 모드 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "외부 공기 모드 좀 켜주소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 둘 다 작동시켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공기질이력모드 꺼 주이소", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 꺼졌는지 확인해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 노이즈) 공기질데이터모드여 켜주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기질 누적 데이터 좀 켜 줄래요?", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 모두 종료 부탁합니다.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "AI 모드 모두 끄기", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 연동 기능 출발 시켜 주게", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "AI 모드 일부러 종료해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 연동 모드 켜 주세요.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모드 상태좀 보여 주소.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 한번 켜봐라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 지금 활동하는지 보고싶어", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "복합 모드 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적 데이터 모드 닫아 주쇼", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 모드 연동 좀 켜라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드지금 켜 주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "현재 AI모드 활성 상태 인가?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드에서 실외 대기질 연동 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드를 켜놓아 주게", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 모드 켜라 그거", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 꺼 부천동", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 공간별 데이터 온해 주라.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 다 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 다 꺼버려", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 상태 알려주십시오", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 이력 모드 활성화 요청합니다", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 공기질 누적 데이터 모드 꺼 줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 켜줄래?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 모두 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 좀 꺼 줘봐라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜부러라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외모드 키줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모드상태 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기능좀 작동시켜 줘 에이아이 모드", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 데이터 모드 온좀", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 꺼 주래이", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜짐 봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기질 꺼", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 좀 꺼 주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "외부 대기질 끄 주라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 온 해라잉", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 전체 기능 꺼준다", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "지금 에아이 모드 켜져 있나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 꺼줘요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "지금에이아모드좀켜주", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질 누적 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 꺼 줄래?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 데이터 모드 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 중단할래요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기 모드 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외공기 켜놔", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 공간별 누적 꺼 줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "실외 대기질 연동 기능 좀 켜줘요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 상태 현재 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 복합 모드로 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 끄이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "(STT 노이즈) 실외 데이터를 연결 해 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모드가 켜져 있는지 좀 봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 에이아이 모드 작동 중입니까?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기 상태 연동 모드 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "외대기 꺼줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이모드 켜져 있남유?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 누적 켜져 있는지 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 시작 부탁드립니다", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질이력연동 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기 연동 꺼줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간별 누적 꺼라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "모드 상태 좀 확인해주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체작큼 해줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "기능들 다 켜주시고요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "지금 AI 모드가 활성 상태인가요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 둘 다 켜 주소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 공간별 데이터 켜 주세요.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "반응 상태 좀 봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "왠지 에이아이 모드 좀 중단시켜 주실 수 있나요?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 켜주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이모드 상태함 알려주쇼", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 켜져?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 공기질 연동 켜 줘봐바", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기 질 모드 좀 켜 달라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 둘 다 실행해 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "기본 AI 모드 좀 온 해주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드가 켜졌는지 확인 부탁해요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동 되어 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 좀 꺼줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에아이 머드 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아 모드 상태좀 봐 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 다 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 공별 누적모드 켜봐요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "복합 모드 전부 꺼 달라고요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이모드 켜 있는지 봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 기본 모드 활성화 부탁드립니다", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 데이터 모드 중단 요청합니다", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 종료해 주쇼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 상태 확인해봥", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기질 꺼 줘머라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 공기질 누적 좀 꺼주소", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드가 켜져있는지 안 켜져있는지 알려주세요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 상태 좀 좀 봐주소.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 현재 상태 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드상태좀보여줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 복합 모드 시작해 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 연동 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "전체 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "ai 켜부러", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 끄라 아이가.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 실외 연동 기능 작동해줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 꺼 줘라진짜", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드켜져있나 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 켜져 있는지 보여주라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 모든 기능 꺼주세요.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 작동상태 확인 가능?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 한번 확인해주실래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 노이즈) 공간별 누적데이터를 켜 줄래요?", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드를 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "복합 기능 에이아이 모드 켜 수 있나?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "AI 모드 활성화 상태 알려 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 다 켜 달라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 켜부러", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 데이터 모드 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 지금 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 누적 데이터 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기질 모드 좀 꺼 줄래요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 다 꺼라, 알았지?", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 정보 켜 주이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 작동 중인지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 모드 작동시켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 상태가 어떻게 되어 있는지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 발음 뭉개짐) 모드 다 켜줘라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 상태 체크 해 줘라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기 연동 켜져 있는지 알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드좀 끄 고 싶어", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "외부 공기질 연동 모드 활성화해 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "대기질연동 꺼줘 에이아이모드에서", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 상태 확인해 보입시더", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 모드 상태 좀 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼 줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "아따, 에이아이 모드 다 켜 주소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에아이 모드와이 꺼 줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체모드작동시켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 상태가 궁금한데 확인 가능할까요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "누적 데이터 활성화 좀 해 주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기질 누적 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "복합 모드 좀 꺼 줄래?", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "대기질 외부 연동 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 작동 중 인가요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아 이야기 모드 켜 버려조", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 작동 상태 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "대기질 연동 모드 꺼줄래?", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간별 누적 데이터 꺼", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "(STT 발음 뭉개짐) AI 모드 꺼달라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 공기질 누적 모드 비활성화 요청합니다", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "전체 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 실외 대기질 연동 시작해 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에아이모드 공간별 데이터 좀 꺼주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 기능 지금 켜진 거야?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 지금 상태 좀 알려줄래?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 좀 꺼 줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "(STT 노이즈) 대기질 연동 진짜 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 다 끄거라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 누적 모드 켜 달라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 온하자.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질 누적 꺼졌는지 확인 좀", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 공기질 누적 꺼 줘라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 꺼졌나 확인해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 발음 뭉개짐) 에모드 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "기능 종료 좀 해 주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 공기질 데이터 누적 좀 켜 주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 켜놔", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모든 AI 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "둘 다 작동시켜 주이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간 누적꺼줘잉", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "복합 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외대기 연동 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 기능 작동 중이냐?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 유무 좀 봐줌서.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기 질 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "실외 대기질 모드 꺼 줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간누적데이터켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 켜져 있어?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동해라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 둘 다 끄이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 둘 다 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기 모드 켜", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "전체 모드 중단해라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 기능 작동 좀 시켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "지금 AI 모드 작동 중인지 확인해 주세요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 AI 모드 켜져 있니?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동 좀 시작해 주실래요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 조금만 켜줘라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 연동 기능 시작해 줄래요?", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 공간별 공기질 누적 켜 줘요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "AI 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜져 있는지 알려 주세요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기 누적 데이터 모드 꺼 놔 줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "AI 모드 현재 상태 좀 확인해 줄래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동 해 줄래?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 켜졌는지 확인 좀 해 줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 바로 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 좀 끄는거 해 조요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "복합모드들다 켜볼까", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공기질 데이터 좀 켜주소.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "둘다 키자", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "복합 모드 켜 놔", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "전체 모드 끄고 싶어", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "AI 모드 상태 좀봐봐라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모든 모드 꺼 줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "밖 공기 연동 좀 시작해줘.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이모드 상태 알켜 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 데이터 연동 모드 켜 주소.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 작동시켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 꺼 주라우", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "현재 모드 상태 알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 모드를 활성화해 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "내 에이아이 모드 상태 알랑가 몰라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 데이터 연동 기능 시작해 주시겠어요?", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "복합 모드 켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 어찌 되어가나 확인 좀 해보죠", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 좀 보개이", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 곧 꺼버려라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 중단해 달라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에아모드 기본 모드 온 하자", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 봐 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "아이가 모드 끄이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 모드 끄 주라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "기본 AI 모드 좀 꺼 줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간 데이터 모드 켜", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 공기질 데이터 모드 좀 켜준다", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모드 상태 뭐여?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 끄기 좀 해 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 상태 봐 줌", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 종료해줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 꺼줄게", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 좀 꺼 줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 모드 좀 켜 주소.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공기질 데이터 연동 좀 시작해 주이소.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 중복 누적으로 시작해줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 킬래.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "대기질 연동 기능 꺼 놔라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 시작 좀 해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 진짜 확인 좀", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 전체 복합 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적데이터 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 데이터 연동 모드 켜라.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "외부공기질좀켜보자", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "기본모드켜줘요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "지금 에이아이 모드 살아있나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "대기질 연동 모드 끄기 부탁합니다", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "AI모드 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이 모드 둘다 만들어 줘봐", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "모드 꺼주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 기본 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "전체 복합 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 끄고 제발", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 올로 켜 주소.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 작동 여부 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 꺼 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 누적 모드 꺼 줘라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 상태 알려줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기 연동 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 시작해 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 데이터 모드 시작시켜 주라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "ai 모드 상태 좀 알려줄래?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 작동 여부 좀 알려줄래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "AI 기능 좀 종료해주시죠", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "(STT 노이즈) 전체 모드 중단 하겠읍니다", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 좀 켜줄래?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질 연동 ㄲㄱ", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 공기질 좀 꺼 부렐게", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "전체 모드 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "안녕하쇼 에이아이 켜주소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 끄구라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 둘 다 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 기능 좀 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 켜졌나 확인 좀 하입시더", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기 연동 작동 시켜 줘요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기질 정보 연동 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이모드상태확인해주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 온지 알 수 있을까?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 온 시켜줘.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "꺼라 좀 에이아이 기능", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 공기질 연동 모드 온 해 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 데이터 모드 켜질 수 있을까요?", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 데이터 모드 켜 달라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기질 연동 기능 중단해 주게요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "모드 전체 꺼져야 하오", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 상태 확인해봅시다", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "누적데이터좀꺼줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 꺼 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 좀 꺼줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 좀 멈춰 주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 작동 시작해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 데이터 모드 작동해", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 공기질 데이터 연동 시작 부탁해요.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 기능 좀 꺼 주쇼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "외부 대기질 연동 좀 끄주소", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "지금 AI 모드 상태 보여 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 누적 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 지금 꺼져나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 상태 좀 알려줘봐", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼주라잉", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 복합 모드 좀 작동 시켜줘.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적 자료 켜놔 봐라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "AI 모드 켜졌는지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "복합 모드 켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 작동 상태를 알려주게", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모두 기능 작동해 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 공간별 누적 데이터 활성화 해라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "AI 모드 상태 좀 보여 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 AI 모드 on 되어 있나 확인해줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 에아이 모든거 온 해줄래?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 지금 켜져있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 오니?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 발음 뭉개짐) 에이아이 모드 다 켜놔", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적 데이터 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "기본 에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 작동 중인지 확인해주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기 상태 연동 켜 주라우", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기질 연동기능 켜줘요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 전체 복합 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 이 모드 작동중인지 봐줘라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 기능 오프해 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 공간별 데이터 켜 주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "활성 상태 너무 궁금함 확인 좀", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드를 모두 활성화해 주시겠어요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 기능을 지금 당장 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 꺼져 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 좀 보여주소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄기", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 모두 작동 시켜줘라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "외부 공기질 데이터 연동 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "(STT 노이즈) 에이아이모드 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 확인해 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 모두 중단해 주이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "기본 기능 작동하라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태좀 봐 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드에서 둘 다 작동 중인가요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 누적 연동 기능 좀 중단해 주십시오", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 우리지게 좀 켜 봐라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이모드시작해주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모드 상태 조회 좀 해 줄래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 복합 다 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 다 켜 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 둘다 모드 꺼거라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 다 꺼 주라우", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 공기질 누적 기능 중단 부탁해요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "(STT 발음 뭉개짐) AI 모드 지금 켜져있노?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 켜져 있을까?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 좀 꺼 주쇼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모든 모드 다 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 상태 좀 봐 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 꺼줌서.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이모드 작동 꺼 주세용", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 연동 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 작동해라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 모드 꺼 주시겠어요?", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간별 누적 공기질 정보 꺼줄 수 있나요?", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 꺼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "기본 모드 좀 작동 시켜 줘.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "전체 복합 모드 오프 시켜 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모드 상태 좀 알려 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간 누적 데이터 꺼", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "외부 공기 연동 좀 꺼 주이소", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "복합 모드 꺼", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 누적 데이터 모드 에이아이 기능 꺼 줘요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 데이터 모드 켜 달라 카이", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "전체 모드 좀 끄주이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모기능 좀 꺼 주시오", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "지금 에이아이 모드 상태 알려줄래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기 질 연동 꺼 주세용", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 전체 기능 꺼줘야돼", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 공기질 누적 꺼버려", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 데이터 모드 작동해줘유", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "기본 AI 모드 종료해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "현재 모드 꼭 확인해 보시오", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 전체 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 모두 작동 시켜주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 실외 대기질 모드 온시켜", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "(STT 노이즈) 둘 다 켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기 모드 열어줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "복합 모드 좀 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "외부 대기 질 연동 꺼 주시겠어요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 기능 끄고 싶어", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "복합 모드 활성화시켜 주시겠어요?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "복합 모드 기능 꺼 줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 시작해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 멈춰 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 다 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 연동 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에아이 모드 온 좀 해 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 보입니더.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 바로 끄줘요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 연동기능좀 꺼처주이소", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "전체 모드 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "전체모드 작동시켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 좀 꺼줘 응", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 작동 상태를 알려주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이 모드 좀 켜 줘라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 지금 켜져 있는지 알려 줄래?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기능꺼줄래", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 봐 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 온해 주소.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 꺼", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "모드 다 온해 주시와요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에아이 모드 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 모드 작동 해 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모두 실행되게 해 주쇼", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 모드 작동 시작해주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 켜져 있나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 기능 꺼 줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 다 켜 주시겠어?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 꺼 달라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에아 모드 꺼 줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜줘.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 실외 대기질 기능 꺼주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "이것좀 에이아이 모드 꺼 주라우.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에아이 모드 작동시켜 알겠지?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 모드 꺼도 돼?", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 상태 확인 좀 해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 켜 조", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이모드 온해 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "누적 공기질 연동 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 공기질 정보 동작 시작 해 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 지금 온 궁금해", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 데이터 연동 켜 주소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기 질 누적 끄 줘", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "(STT 발음 뭉개짐) 에모드 온해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 창에서 대기질 모드 둘 다 작동 시켜 줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "아이라이 모드 상태좀 알켜줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 좀 다 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 작동 상태 좀 알려 줘라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 모드 꺼져 있나 보자요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에아이 작동 하게", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 대기질 모드 좀 꺼줘 이봐라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 상태 조사 좀 해봐주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼줄래?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 종료해 버려", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 작동 중이노?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 켜달라고 했는데 얼른 해주게", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 꺼 달라우.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이모드 꺼줘바래", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "복합 모드 꺼", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 데이터 좀 꺼 주이소", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 켜라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드가 지금 켜져 있는지 확인해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 에이아이 모드가 활성화 되어 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기질 꺼라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 다 작동해라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "복합 모드 꺼 달라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 꺼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 모두 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "전체 모드 작동 중이요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공누적 온해줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 기능 상태 좀 확인", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 기능 좀 켜줭", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 끝내줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "둘다 작동해조잉", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 연동 기능 켜줌서.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 확인부터 해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 연동 꺼라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "외부 대기질 꺼 줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공기질모드꺼줘요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에아이 모드 꺼 버려", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 좀 멈춰줌서", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 모드 켜놓아라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공기질 데이터 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 기본으로 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모든 AI 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이모드 시작 좀 해봐요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "기능좀꺼줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "대기질 연동 꺼줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "실외 대기질 모드 작동 좀 해 주이소.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "누적 공기질 모드 꺼 줘봐", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "실외대기질 연동 켜 주이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 꺼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 꺼 달라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 작동 상태 알려 줄래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 켜져 있는지 알려쥬", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기본 모드로 켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 데이터 활성화 시켜주소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 온해 주이소.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외 데이터 연동 모드 끄기", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 기본 모드로 작동시켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 어때요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 노이즈) 실외 대기질 연동 시작해 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "복합 모드 모두 시작해 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 모드 다 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "지금 에이아이 모드가 작동 중인지 봐 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "복합 모드 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "모드 상태 좀 체크해라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 데이터 모드 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 공기질 누적 모드 꺼 주시겠어요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공기 누적 모드 살려주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 상태 좀 보자", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄그라잉", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공기질 누적 데이터 모드 중단 부탁해요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 데이터 모드 시작해 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 작동좀.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 끄고 부탁해요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 켜 잡아라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이알 모드 끄자", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모두 AI 모드 꺼 줘바", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 조회해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "복합 모드 끄기 부탁해요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 둘 다 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모드 상태 좀 봐줘라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 꺼 주라 좀", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 알려주소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 곧 꺼 줄라우.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 둘 다 활성화 부탁해요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 꺼 주라우", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에아이이 모드 시작 좀 해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "복합 모드 꺼 주이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에아이 모드지금켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모드 켜져있나 보자잉", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 기능 멈춰줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "외부 공기질 연동 꺼", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이 모드 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "지금모드상태좀알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간 누적 모드도 같이 켜 주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기질 누적 모드 켜이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 모두 씨작 해주슈", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 켜 주실래요?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외대기질연동기능좀켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "(STT 발음 뭉개짐) 활성 상태 좀 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 에이아이 모드 상태 좀 봐ㅋ", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 지금 켜?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 중단 시켜랏", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모두 다 모드 켜라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "기능 좀 켜랜다", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 모드 좀 켜 줘라잉", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 전체를 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 지금 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 켜 주라우", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 확인해줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아임 마드 켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 종료시켜볼래?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 두개 다 켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이모드 모두꺼", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모두 꺼 줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모두 켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에아이모드 켜 줄래?", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "AI 기능 켜 주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 좀 작동 시켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 공기질 누적 켜 줘요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이모드 모두 온요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 실외 공기질 연동 켜져있나?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "지금 에이아이 온 상태임?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이 모드 켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 다 끄이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "누적 데이터 모드 좀 꺼봐라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 모두 켜놔봐", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에모드 다 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 연동 좀 가동해 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "외부 대기질 데이터 모드 종료해 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "대기질 연동 꺼줘", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 누적 데이터 모드 꺼주시길 바랍니다", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "모든AI모드 작동함 확인해 줘봐", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이모드 상태 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기 상태 연동 기능 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 데이터 모드 시작해 주시겠어요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드를 모두 작동시켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "전체 모드 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 작동 중인지 확인 부탁드립니다", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 공기질 데이터 모드 시작해봐라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 데이터 기능 온 해 줘라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외대기질꺼줘요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에아이 시작해", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "실외기질정보켜줘요", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공기질 누적 데이터 옵션 켜", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 중단좀 해주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 모두 종료해 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공기질 이력 연동 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 기능 중단해줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 끄이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공기질 이력 연동 시작해 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 켜", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "아이고, 에이아이 모드 좀 켜 주이소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "(STT 발음 뭉개짐) 에이아이 모드 작동좀 확인해봐", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 모두 꺼버려주소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에아이 끄뤼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "기본모드 시작해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이모드 전부 꺼줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간 공기질 누적 온 해 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "꺼줘 에이아이모드모두", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 대기질 연동 모드 작동시켜 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "복합 모드 좀 켜 줘라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 정보 연동 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "애이아이 모드 둘 다 켜주이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 연동 좀 켜이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 데이터 켜 주소.", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모든 모드 꺼놔라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "복합 모드 좀 켜 줄래요?", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 ㄲㅇ", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 기본 모드로 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 꺼줘.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모든 AI 모드 꺼달라구", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "실외 연동 모드 켜 달라.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "실외 대기질 연동 기능 활성화해줘라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 실외 대기질 연동 꺼 부룰게", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 상태 켜져 있으면 알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기질 연동 좀 올려라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 활성화해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 공기질 연동 꺼 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 가동 여부 확인해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기질 좀 꺼 줘 볼래?", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "ai 모드 상태 좀 봐", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기질 모드 좀 꺼 줘요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "(STT 발음 뭉개짐) 실외 대기 연동 켜줘바", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "전체 모드 좀 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "그 공간별 누적 자료 좀 꺼놔라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 상태 좀 봐줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이모드종료해줘요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "외부 대기질 모드 꺼", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 전체 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 공기질 모드 켜부러", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "복합 모드 모두 꺼 주이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 데이터 연동 기능 작동해주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 ㄱㅋ", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "복합 모드 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 상태 켜져 있나", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모든 AI 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 상태 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 끄주이소.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 전부 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에아이 모드 꺼 줘라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 상태 보여 달라", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 확인해줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "AI 모드 상태 좀 여쭤볼게요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 발음 뭉개짐) 기능 꺼주라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 상태 없나 알려줘잉", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 좀 보여줭", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 상태 알려주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 꺼버려", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "전체 복합 끄부러라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "전체 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 기능 지금 모두 작동하게 켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 다 켜 주소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 켜져 있는지 함 봐주소.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 에이아이 다 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "공간별 공기질 이력 모드 작동하게 해 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기질 연동 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "(STT 노이즈) ai모드 끄려구 해요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 연동 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에아이 기능 꺼주슈", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜져 있는지 보고 싶어요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "ai 상태 확인해 줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "밖 대기질 연동 꺼부러라", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 기능 시작해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드에서 대기질 연동 좀 켜 개인정보엔", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "켜줘 에이아이 기능 좀", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이모드 켜 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 알려줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 데이터 좀 켜요.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 기능 상태 확인 좀", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 켜 주이소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 좀 켜죠.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 공기질 누적 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 실외 대기질 연동 꺼 주이소", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "열라 에이아이 모드 켜 주소", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모드 상태 좀 보여줄래?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 기능 좀 꺼라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "AI 모드 작동 상태 좀 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "기능 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "대기질 연동 기능 중단해 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "모드 상태 좀 확인해 줘요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 좀 켜줘라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "AI모드 상태확인 해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 중단 부탁해요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 모두 켜 주세요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 공간별 누적 데이터 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "기본 AI 모드 꺼 줘 볼래야", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 상태 좀 봐 주이소", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 데이터 모드 시작 좀 해 주소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모든 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "AI 모드 작동 중이야?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 노이즈) 에이아이 오프 시켜주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 모두 꺼이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 기능 상태 좀 봐줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "대기 상태 모드 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "기본 모드 좀 작동시켜봐라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 전체모드 다 꺼 주이소", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 오프로 해 주쇼", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 중단해 주실 수 있나요?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "기본 AI 모드 작동시켜 주세요.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "현재모드 상태확인해줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "활성 상태 지금 확인 가능 하오", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 둘 다 작동 좀 하는가?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기 누적 모드 끄라", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 끄믄 안 되나", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 모드 켜라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 둘 다 켜주산", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 실외 대기질 연동 좀 켜라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "ai 켜 라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 공간별 누적 정보 켜줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 데이터 연동 기능 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "실외 대기질 연동 좀 켜 보소", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모두기능 켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공기질 데이터 연동 꺼 줄래요?", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "기본 AI 모드 끄도록 해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 온 해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 좀 꺼 주세요.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 모드 다 켜져 있나 보자", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부 대기 상태 연동 켜 줄래요?", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "복합 모드 꺼 주시면 고맙겠습니다", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "(STT 노이즈) 에이아이 모드 상태좀 확인 해 주시겠어요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "복합 모드 끄기 바랍니다", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 모두 종료해 주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 꺼져 있나 확인해 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 모드 좀 켜주라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모두다켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 모두 끄기 원해요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "모드 둘 다 꺼 줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 시작 좀 하라우", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 좀 다 꺼줘라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 켜져 있는지 확인 좀 해줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 좀 꺼 줄래?", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "실외 대기질 기능 활성화 해줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "누적 데이터 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 기능 온 해 줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이 모드 껐으면 좋겠다", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "AI 모드 실외 대기질 연동 킬래이", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 기본으로 열어 주시겠어요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간 누적 데이터 안 되게 꺼 버려", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "누적 데이터 모드 켜 줘봐", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 중지 했으면 해", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 데이터 연동 비활성화할래요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 기본으로 좀 켜 달라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "AI 모드 지금 상태 어찌 됩니까", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 모드 좀 꺼주세요.", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 모드 켜줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이모드모두꺼줘", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 모두 시작 부탁해요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "외부 대기질 모드 좀 꺼주게", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "복합 모드 전부 시작해 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 노이즈) 공간별 공기질 누적 데이터켜워 주지", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 전체 모드 꺼버려라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "기본 AI 모드 켜 줘 보게", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 켜라 아이가.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "모드가켜져있는지확인좀", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 실외 대기질 연동켜줘라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "모드 작동 중인지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 누적 정보 꺼 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "모드 켜 주소.", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에아이모드 실외 대기연동 끄주쇼", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간별 누적 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 공간별 누적 데이터 활성화 부탁해요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 켜유", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질 모드 다 꺼주라.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 기능 좀 꺼 줄래?", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 다 꺼부라.", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "기능 중지해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "모드 꺼라.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 연동 기능 꺼 주세요", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "공간별 누적 데이터 연동 꺼 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 데이터 모드 작동시켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "기능  좀 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 데이터 켜봐", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모드 상태 확인 좀 해줄래?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "AI 모드 상태 보여줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "여기 공기질 모드 꺼줘라.", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "전체 모드 온해 주소.", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 데이터 모드 작동 중지해 주세요", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "공간별 누적 켜", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 상태 알려 다오", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "에이아이 모드 복합으로 켜져 있냐?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "외부공기질 연동켜자", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 기능 지금 당장 꺼 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공기질 누적 모드 꺼부러유", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "에이아이 모드 기본 작동 좀 해줘", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 꺼줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜져 있나요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공기질 누적 모드 켜 주씨", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "둘 다 작동시켜줭", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "기능 좀 켜 달라고", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 모드 상태 확인해 주실래요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "공간별 누적 공기질 데이터 모드 시작해봐라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "기능 끄래", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 중단해 주세요", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드의 켜진 상태 확인해 주세요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모든 AI 모드 좀 꺼 줄래?", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "둘다작동시켜줘요", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에모드 꺼 줘", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 기능 좀 꺼 주이소", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "공간별 누적 기능 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기질 데이터 모드 재가동 시켜주 묘", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모두 켜 줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "공간별 누적 데이터 연동 시작해 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공간별 누적 데이터 작동 시켜", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "공기질 이력 연동 모드 켜 주세요", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 다 켜줘", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "(STT 발음 뭉개짐) 공간별 공기질 모드 작동 해라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 작동 중인가요?", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "(STT 노이즈) 에이아이 모드 취소해 주세여", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "실외 대기질 연동 꺼주소.", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "야 에이아이 모드 켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공기질 연동 꺼 조", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "ai 켜라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "공간별 누적 데이터 올켜주이소", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "모드 작동 상태 확인해 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "전체 복합 모드 좀 켜줘이소", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "실외 대기질 연동 켜라", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 쫌 꺼주라", "function_call": "<function_BP>(enable=1, type=-1)<end>"}
+{"query": "에이아이 모드 켜져 있는지 봐 줘", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "애이아이 모드 켜줘봐라", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "대기질 연동 꺼 달라카이", "function_call": "<function_BP>(enable=1, type=0)<end>"}
+{"query": "에이아이 실외대기 모드 켜줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "에이아이 모드 대기질 모드 좀 켜 줘", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간 연동 꺼줭", "function_call": "<function_BP>(enable=1, type=1)<end>"}
+{"query": "기본 AI 모드 활성화해 주세요", "function_call": "<function_BP>(enable=0, type=-1)<end>"}
+{"query": "에이아이 기능 다 꺼주세요", "function_call": "<function_BP>(enable=1, type=2)<end>"}
+{"query": "에이아이 모드 둘 다 시율라", "function_call": "<function_BP>(enable=0, type=2)<end>"}
+{"query": "에이아이 모드 상태 좀 볼래요.", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "실외 대기질 연동 켜줘.", "function_call": "<function_BP>(enable=0, type=0)<end>"}
+{"query": "공간별 누적 공기질 모드 작동해 달라", "function_call": "<function_BP>(enable=0, type=1)<end>"}
+{"query": "에이아이 모드 작동 중인지 알려 주세요", "function_call": "<function_BP>(get=True)<end>"}
+{"query": "모드 다 꺼라", "function_call": "<function_BP>(enable=1, type=2)<end>"}
