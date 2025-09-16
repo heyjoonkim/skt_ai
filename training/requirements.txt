@@ -285,7 +285,7 @@ orjson==3.10.3
 OSMPythonTools==0.3.5
 outlines==0.1.11
 outlines_core==0.1.26
-packaging==24.1
+packaging==23.2
 pandas==2.1.4
 parso==0.8.4
 partial-json-parser==0.2.1.1.post5
