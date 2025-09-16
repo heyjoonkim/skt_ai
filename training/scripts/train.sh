@@ -8,8 +8,8 @@ model='meta-llama/Llama-3.2-1B-Instruct'
 
 output_dir='/skt_ai/output'
 
-accumulation=1
-batch_size=2
+accumulation=128
+batch_size=1
 
 # num_epochs='1 2 3 5 10'
 # num_epochs='1 2 3 5'
