@@ -11,9 +11,9 @@ from tqdm import tqdm
 from omegaconf import DictConfig
 from datasets import load_dataset
 
-
-from models import load_vllm_model_and_tokenizer, get_vllm_param
 from utils import seed_everything, logger_init, save_pkl, load_pkl
+from models import load_transformers_model_and_tokenizer
+from train.preprocess import make_supervised_data_module
 
 from inference import (
     PROMPT, 
@@ -41,6 +41,11 @@ def main(args: DictConfig) -> None:
     model_name = args.model.name
     model_name_for_dir = model_name.replace('/', '-')
     
+    
+    _, tokenizer = load_transformers_model_and_tokenizer(
+                                            model_name=model_name,
+                                            load_model=False,)      
+    
             
     config_str = f'{model_name_for_dir}-{str(random_seed)}'    
     output_dir = os.path.join(args.path.output, config_str)
@@ -60,7 +65,8 @@ def main(args: DictConfig) -> None:
     ######################################
     
     # 최종 결과가 있으면 실험 X
-    output_filename = os.path.join(output_dir, 'train_data.pkl')
+    # output_filename = os.path.join(output_dir, 'train_data.pkl')
+    output_filename = os.path.join(output_dir, 'train_data_subset.pkl')
     
     logger.info(f'Initial prediction file : {output_filename}')
     if not os.path.isfile(output_filename):
@@ -92,12 +98,12 @@ def main(args: DictConfig) -> None:
                 {"role": "user", "content": inference_str},
             ]
             completion = [
-                {"role": "assistant", "content": function_call},
+                {"role": "assistant", "content": "Function : " + function_call},
             ]
                         
             # TODO : step이 이상하게 잘리는 문제 해결하기
             # Step 3: Substitute the expression for \( n \) from Step 1 into the equation from Step 2:
-            sft_sample = dict(prompt=prompt, completion=completion) 
+            sft_sample = dict(prompt=prompt, completion=completion, label=function_call) 
             sft_sample_list.append(sft_sample)
             
             
@@ -107,6 +113,15 @@ def main(args: DictConfig) -> None:
         # save_pkl(data=dataset, path=output_filename)
         
         save_pkl(data=sft_sample_list, path=output_filename)   
+    
+    logger.info(f'Load : {output_filename}')
+    sft_sample_list = load_pkl(path=output_filename)
+    # output_filename = os.path.join(output_dir, 'final_train_data.pkl')
+    output_filename = os.path.join(output_dir, 'final_train_data_subset.pkl')
+    data_module = make_supervised_data_module(tokenizer=tokenizer, dataset=sft_sample_list)
+    save_pkl(data=data_module, path=output_filename)
+
+                
                 
     logger.info(f'Trian data : {len(sft_sample_list)}')
     logger.info('Done.')
