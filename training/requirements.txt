@@ -20,6 +20,7 @@ python-dotenv>=1.0.0
 # 모니터링 관련 의존성
 psutil>=5.9.0
 GPUtil>=1.4.0
+wandb>=0.15.0
 # 파인튜닝 관련 의존성 (선택사항)
 datasets>=2.14.0
 peft>=0.6.0
