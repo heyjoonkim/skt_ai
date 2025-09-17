@@ -328,7 +328,7 @@ def main():
             ]
         }
         
-        json_output_file = os.path.join('/skt/inference', 'evaluation_results_detailed.json')
+        json_output_file = os.path.join('/skt_ai/inference', 'evaluation_results_detailed.json')
         with open(json_output_file, 'w', encoding='utf-8') as f:
             json.dump(detailed_results, f, ensure_ascii=False, indent=2)
         
