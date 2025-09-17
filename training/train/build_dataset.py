@@ -91,6 +91,12 @@ def main(args: DictConfig) -> None:
             # for sample in dataset:
             query = sample.get('query')
             function_call = sample.get('function_call')
+
+            if query is None:
+                continue
+
+            if function_call is None:
+                continue
                                     
             inference_str = PROMPT.format(query=query)
             
