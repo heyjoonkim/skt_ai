@@ -15,14 +15,10 @@ model:
   name: meta-llama/Llama-3.2-1B-Instruct
 
 path: 
-  output: ../output
+  output: /skt_ai/output
 
 dataset:
-  # train: ../data/train.jsonl
-  train: ../data/train_subset.jsonl
-  # train: ../data/train_subsubset.jsonl
-  test: heyjoonkim/math_500
-  train: ../data_0915_1/data.jsonl
+  train: /skt_ai/data_0915_1/data_half.jsonl
 
 generation:
   template_id: 0

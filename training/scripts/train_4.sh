@@ -1,28 +1,26 @@
 # export CUDA_VISIBLE_DEVICES=6,7
 # num_processes=2
 
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
 num_processes=1
 
 model='meta-llama/Llama-3.2-1B-Instruct'
 
-output_dir='/home/heyjoonkim/data/skt_ai'
+output_dir='/skt_ai/output'
 
-accumulation=8
-batch_size=1
+accumulation=1
+batch_size=8
 
 # num_epochs='1 2 3 5 10'
-num_epochs='1 2 3 5'
-num_epochs='3'
-lrs='5e-4 1e-4 5e-5 1e-5'
+# num_epochs='1 2 3 5'
+# lrs='1e-3 5e-4 1e-4 5e-5 1e-5 5e-6 1e-6 5e-7 1e-7'
 
-
+num_epochs='1'
+lrs='1e-4'
 
 # transformers 4.51.3
-
 for num_epoch in $num_epochs; do
     for lr in $lrs; do 
-
         accelerate launch \
             --main_process_port 29502 \
             --num_processes $num_processes \
