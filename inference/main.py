@@ -214,6 +214,18 @@ class LlamaFunctionCallInference:
     
 
 # HJ add
+def extract_function_name(label: str) -> str:
+    """
+    label에서 함수명만 추출합니다.
+    예: "<function_MO>(timeframe=4, location=\"바레인\")<end>" -> "function_MO"
+    """
+    import re
+    # <function_XX> 패턴을 찾아서 함수명만 추출
+    match = re.search(r'<(function_[A-Z]{2})>', label)
+    if match:
+        return match.group(1)
+    return label  # 매칭되지 않으면 원본 반환
+
 def single_evaluation(query, label, result) -> Dict[str, float]:
     
     if result.strip() == label.strip():
@@ -243,19 +255,22 @@ def main():
         
         for row in tqdm(reader):
             query = row[1]   # 두 번째 컬럼 (Query)
-            label = row[2]  # 세 번째 컬럼 (LLM Output)
+            original_label = row[2]  # 세 번째 컬럼 (LLM Output)
             
-            if ';' in label:
+            if ';' in original_label:
                 # 이 경우 다중함수콜이라서 일단 제외
                 continue
             
+            # 함수명만 추출하여 사용
+            label = extract_function_name(original_label)
+            
             result = inference.predict_function_call(query)
             
-            single_res = single_evaluation(query=query, label=label, result=result)
+            single_res = single_evaluation(query=query, label=original_label, result=result)
             
             is_correct = 'CORRECT' if single_res == 1 else 'INCORRECT'
 
-            # label별 통계 업데이트
+            # label별 통계 업데이트 (추출된 함수명 기준)
             if label not in label_stats:
                 label_stats[label] = {'total': 0, 'correct': 0, 'incorrect': 0}
             
@@ -268,7 +283,7 @@ def main():
             count += 1
             correct_count += single_res
             
-            res.append(dict(query=query, label=label, result=result, correct=single_res))
+            res.append(dict(query=query, original_label=original_label, function_label=label, result=result, correct=single_res))
         
         # label별 정확도 계산
         label_accuracy = {}
