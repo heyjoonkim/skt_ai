@@ -5,7 +5,8 @@ from typing import Optional, List
 from dataclasses import dataclass, field
 
 import torch
-from transformers import HfArgumentParser, Trainer, TrainingArguments, BitsAndBytesConfig
+from training.models.load_model import _load_transformers_model
+from transformers import HfArgumentParser, Trainer, TrainingArguments, BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 # from trl import SFTTrainer, SFTConfig, DataCollatorForCompletionOnlyLM
 # from trl.trainer.sft_trainer import DataCollatorForLanguageModeling
 from datasets import Dataset
@@ -109,7 +110,7 @@ def train():
     PROMPT_INDEX = 3
     
     # selected_data_file = os.path.join(base_path, f'final_train_data_subset_{PROMPT_INDEX}.pkl')
-    selected_data_file = os.path.join(base_path, 'final_train_data_subset.pkl')
+    selected_data_file = os.path.join(base_path, 'final_train_data.pkl')
         
     data_module = load_pkl(path=selected_data_file)
     
@@ -185,12 +186,18 @@ def train():
     
     logger.info(f'Load model : {model_args.model_name_or_path}')
     ## LOAD MODEL and TOKENIZER ##
-    model, tokenizer = load_transformers_model_and_tokenizer(
-                                            model_name=model_args.model_name_or_path,
-                                            cache_path=cache_dir,
-                                            load_model=True,
-                                            quantization_config=quantization_config,
-                                            train=True)       
+
+    model = _load_transformers_model(
+                                    model_name=model_args.model_name_or_path,
+                                    cache_path=cache_dir,
+                                    load_model=True,
+                                    quantization_config=quantization_config,
+                                    train=True)
+
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
+    except:
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
     
 
     model.config.use_cache = False  # Disable cache for DPO training
