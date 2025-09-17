@@ -4,7 +4,7 @@
 export CUDA_VISIBLE_DEVICES=0
 num_processes=1
 
-model='meta-llama/Llama-3.2-1B-Instruct'
+model='Hooooooooooon/Llama-3.2-1B-Instruct-0916-1'
 
 output_dir='/skt_ai/output'
 
