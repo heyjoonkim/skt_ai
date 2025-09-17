@@ -45,6 +45,8 @@ def main(args: DictConfig) -> None:
     except:
         tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
     
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
     
     # _, tokenizer = load_transformers_model_and_tokenizer(
     #                                         model_name=model_name,
