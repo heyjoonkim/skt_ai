@@ -5,7 +5,6 @@ from typing import Optional, List
 from dataclasses import dataclass, field
 
 import torch
-from training.models.load_model import _load_transformers_model
 from transformers import HfArgumentParser, Trainer, TrainingArguments, BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 # from trl import SFTTrainer, SFTConfig, DataCollatorForCompletionOnlyLM
 # from trl.trainer.sft_trainer import DataCollatorForLanguageModeling
@@ -14,7 +13,7 @@ from peft import LoraConfig, TaskType, get_peft_model
 
 
 from utils import seed_everything, logger_init, save_pkl, load_pkl
-from models import load_transformers_model_and_tokenizer
+from models import _load_transformers_model
 
 logger = logging.getLogger(__name__)
 
@@ -190,7 +189,6 @@ def train():
     model = _load_transformers_model(
                                     model_name=model_args.model_name_or_path,
                                     cache_path=cache_dir,
-                                    load_model=True,
                                     quantization_config=quantization_config,
                                     train=True)
 
