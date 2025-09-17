@@ -9,7 +9,8 @@ import torch
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
-from templates import PROMPT, SYSTEM_MESSAGE
+from templates import PROMPTS, SYSTEM_MESSAGE
+from utils import save_pkl
 
 # 로깅 설정
 logging.basicConfig(level=logging.INFO)
@@ -40,7 +41,12 @@ class LlamaFunctionCallInference:
         logger.info(f"Loading model: {self.model_name}")
 
         # 토크나이저 로드
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, trust_remote_code=True, padding_side="right")
+        
+        
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, trust_remote_code=True, padding_side="right")
+        except:
+            self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
 
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
@@ -108,7 +114,7 @@ class LlamaFunctionCallInference:
         messages_list = [
             [
                 {"role": "system", "content": SYSTEM_MESSAGE},
-                {"role": "user", "content": PROMPT.format(query=q)},
+                {"role": "user", "content": PROMPTS[3].format(query=q)},
                 {"role": "assistant", "content": ""},
             ]
             for q in queries
@@ -218,10 +224,16 @@ def single_evaluation(query, label, result) -> Dict[str, float]:
 def main():
     """메인 실행 함수"""
     # 베이스라인 모델로 추론 테스트
-    inference = LlamaFunctionCallInference()
+    # inference = LlamaFunctionCallInference()
+    # model_path = "/home/heyjoonkim/data/skt_ai/meta-llama-Llama-3.2-1B-Instruct-1234/SUBSET_PROMPT-4_epoch-1_batch-16_accumulation-1_lr-5e-05"
+    model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0916-1'
+    inference = LlamaFunctionCallInference(model_name=model_path)
 
     # HJ fix
     test_filename = '../data/test.csv'
+    output_file = os.path.join(model_path, 'test_results.pkl')
+    
+    
     
     with open(test_filename, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -229,21 +241,37 @@ def main():
 
         count = 0
         correct_count = 0
+        res = list()
         for row in tqdm(reader):
             query = row[1]   # 두 번째 컬럼 (Query)
             label = row[2]  # 세 번째 컬럼 (LLM Output)
+            
+            if ';' in label:
+                # 이 경우 다중함수콜이라서 일단 제외
+                continue
             
             result = inference.predict_function_call(query)
             
             single_res = single_evaluation(query=query, label=label, result=result)
             
+            is_correct = 'CORRECT' if single_res == 1 else 'INCORRECT'
+            
+            print(f'Query     : {query}')
+            print(f'Label     : {label}')
+            print(f'Prediction: {result}')
+            print(f'Result    : {is_correct}\n\n\n')
+            
+
             count += 1
             correct_count += single_res
             
-            # 50개만 임의로해봄
-            if count == 50:
-                break
+            res.append(dict(query=query, label=label, result=result, correct=single_res))
             
+            # # 50개만 임의로해봄
+            # if count == 50:
+            #     break
+            
+        # save_pkl(data=res, path=output_file)
         print(f'Accuracy : {round(100*correct_count/count, 2)}% ({correct_count} / {count})')
 
     return

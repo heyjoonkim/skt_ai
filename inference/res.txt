@@ -1,0 +1,357 @@
+[2025-09-17 10:56:52,998] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.5
+[93m [WARNING] [0m using untested triton version (2.1.0), only 1.0.0 is known to be compatible
+Query     : 음성인식 켜져있어
+Label     : <function_QT>(get=True)<end>
+Prediction: <function_QT>(get=True)<end>
+Result    : CORRECT
+
+
+
+Query     : 저는 음악을 듣는 걸 좋아해요
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 화요일 일산 날씨 알려줘
+Label     : <function_MO>(timeframe=4, location="일산")<end>
+Prediction: <function_MO>(timeframe=4, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 지금 에이아이 모드 둘 다 작동시켜 주세요
+Label     : <function_BP>(enable=0, type=2)<end>
+Prediction: <function_BP>(get=True)<end>
+Result    : INCORRECT
+
+
+
+Query     : 화요일 산티아고 날씨 어때
+Label     : <function_MO>(timeframe=4, location="산티아고")<end>
+Prediction: <function_MO>(timeframe=4, location=" Gins원")<end>
+Result    : INCORRECT
+
+
+
+Query     : 이 책 정말 재밌어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 어린이가 주의해야 하는 사항을 알려죠
+Label     : <function_DW>(type=1)<end>
+Prediction: <function_DW>(type=1)<end>
+Result    : CORRECT
+
+
+
+Query     : 유기화합물은 어떤 거야
+Label     : <function_HW>(type=3)<end>
+Prediction: <function_HW>(type=3)<end>
+Result    : CORRECT
+
+
+
+Query     : 다음 달에 있을 콘서트를 기대하고 있어 정말 재밌을 것 같아
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 토요일 세종시 날씨 더울까
+Label     : <function_MO>(timeframe=8, location="세종시")<end>
+Prediction: <function_MO>(timeframe=8, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 온도 단위 화씨로 바꿔줄래
+Label     : <function_EW>(type=1)<end>
+Prediction: <function_EW>(type=0)<end>
+Result    : INCORRECT
+
+
+
+Query     : 제주도 여행 가봤어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 설정이 가능한 언어 종류 뭐야
+Label     : <function_JS>(type=8)<end>
+Prediction: <function_JS>(type=8)<end>
+Result    : CORRECT
+
+
+
+Query     : 감지 감도 보통으로 맞출래
+Label     : <function_QD>(type=1)<end>
+Prediction: <function_QD>(type=1)<end>
+Result    : CORRECT
+
+
+
+Query     : 에이아이 모드에서 실외 대기질 정보 연동 켜주세요
+Label     : <function_BP>(enable=0, type=0)<end>
+Prediction: <function_BP>(enable=0, type=-1)<end>
+Result    : INCORRECT
+
+
+
+Query     : 내일 아부다비 날씨 안내해줘
+Label     : <function_MO>(timeframe=1, location="아부다비")<end>
+Prediction: <function_MO>(timeframe=1, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 앤트워프의 월요일 날씨 전망을 표시해주세요
+Label     : <function_MO>(timeframe=3, location="앤트워프")<end>
+Prediction: <function_MO>(timeframe=3, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 새로 시작한 취미가 너무 재미있어서 시간 가는 줄 모르겠어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 이번 달은 너무 바빠서 친구들 만날 시간이 없었어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 풍량 강풍으로 바꿔줘
+Label     : <function_NK>(speed=3)<end>
+Prediction: <function_NK>(speed=-1)<end>
+Result    : INCORRECT
+
+
+
+Query     : 풍량을 조금 줄여주세요
+Label     : <function_NK>(speed=-1)<end>
+Prediction: <function_NK>(speed=-1)<end>
+Result    : CORRECT
+
+
+
+Query     : 음량을 영으로 설정해줘
+Label     : <function_ZV>(volume=0)<end>
+Prediction: <function_ZV>(volume=-1)<end>
+Result    : INCORRECT
+
+
+
+Query     : 월요일 날씨 전망을 표시해줄 수 있어
+Label     : <function_MO>(timeframe=3, location="0")<end>
+Prediction: <function_MO>(timeframe=3, location="0")<end>
+Result    : CORRECT
+
+
+
+Query     : 오늘 저녁은 뭘 먹을지 고민 중이야 배는 고픈데 딱히 생각나는 게 없어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 웰컴 기능이 뭐야
+Label     : <function_EN>(type=4)<end>
+Prediction: <function_EN>(type=4)<end>
+Result    : CORRECT
+
+
+
+Query     : 요즘 읽고 있는 책이 정말 흥미로워
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 스캐닝 공기청정 종료
+Label     : <function_IH>(scan=False)<end>
+Prediction: <function_IH>(scan=False)<end>
+Result    : CORRECT
+
+
+
+Query     : 상단 화면에 대해 설명해 줘
+Label     : <function_JS>(type=7)<end>
+Prediction: <function_JS>(type=4)<end>
+Result    : INCORRECT
+
+
+
+Query     : 목요일 워르소 날씨에 눈 오니
+Label     : <function_MO>(timeframe=6, location="워르소")<end>
+Prediction: <function_MO>(timeframe=7, location="워크")<end>
+Result    : INCORRECT
+
+
+
+Query     : 새로운 가방을 사고 싶은데 어떤 게 좋을까 고민 중이야
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 월요일 하얼빈 날씨 알려줘
+Label     : <function_MO>(timeframe=3, location="하얼빈")<end>
+Prediction: <function_MO>(timeframe=3, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 요즘 스트레스를 너무 많이 받아서 운동으로 풀려고 해
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 현재 공기질 모니터링 어떤지 알려줘
+Label     : <function_IO>(timeframe=0, location="0")<end>
+Prediction: <function_BP>(get=True)<end>
+Result    : INCORRECT
+
+
+
+Query     : 아지트 청정 모드 가동해봐
+Label     : <function_FF>(position="아지트")<end>
+Prediction: 
+Result    : INCORRECT
+
+
+
+Query     : 이번 주말에는 그냥 집에서 편하게 쉬고 싶어
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 주말 나이로비 날씨 더워
+Label     : <function_MO>(timeframe=2, location="나이로비")<end>
+Prediction: <function_MO>(timeframe=2, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 지금 공기질 모니터링 상태 확인하게 해주세요
+Label     : <function_IO>(timeframe=0, location="0")<end>
+Prediction: <function_ID>(get=True)<end>
+Result    : INCORRECT
+
+
+
+Query     : 화요일 마르세유 날씨 알려주세요
+Label     : <function_MO>(timeframe=4, location="마르세유")<end>
+Prediction: <function_MO>(timeframe=4, location="학주")<end>
+Result    : INCORRECT
+
+
+
+Query     : 설계실에서 청정해보실래요
+Label     : <function_FF>(position="설계실")<end>
+Prediction: <function_FF>(position="설계계실")<end>
+Result    : INCORRECT
+
+
+
+Query     : 릴렉스 모드의 특징에 대해 알려주세요
+Label     : <function_EN>(type=6)<end>
+Prediction: <function_EN>(type=6)<end>
+Result    : CORRECT
+
+
+
+Query     : 이번 주말에는 그냥 집에서 푹 쉬려고 해
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 풍량을 낮춰주세요
+Label     : <function_NK>(speed=-1)<end>
+Prediction: <function_NK>(speed=-1)<end>
+Result    : CORRECT
+
+
+
+Query     : 음성인식 기능 활성화 해줘
+Label     : <function_QT>(enable=True)<end>
+Prediction: <function_QT>(enable=False)<end>
+Result    : INCORRECT
+
+
+
+Query     : 효과음을 이단계로 설정해줘
+Label     : <function_ZV>(volume=2)<end>
+Prediction: <function_ZV>(volume=-1)<end>
+Result    : INCORRECT
+
+
+
+Query     : 엘이디 밝기가 몇프로야
+Label     : <function_WN>(get=True)<end>
+Prediction: <function_WN>(brightness=-1)<end>
+Result    : INCORRECT
+
+
+
+Query     : 선택한 구역 청정 시작해볼게
+Label     : <function_FF>(position=-1)<end>
+Prediction: 
+Result    : INCORRECT
+
+
+
+Query     : 월요일 멜버른 날씨 몇 도일까
+Label     : <function_MO>(timeframe=3, location="멜버른")<end>
+Prediction: <function_MO>(timeframe=3, location="0")<end>
+Result    : INCORRECT
+
+
+
+Query     : 공기질 모니터링 상황 좀 보여줄래
+Label     : <function_IO>(timeframe=0, location="0")<end>
+Prediction: <function_BP>(get=True)<end>
+Result    : INCORRECT
+
+
+
+Query     : 좋아하는 책이 뭐야
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Query     : 오늘은 아무것도 하기 싫어서 그냥 집에 있을래
+Label     : <function_MR>()<end>
+Prediction: <function_MR>()<end>
+Result    : CORRECT
+
+
+
+Accuracy : 50.0% (25 / 50)

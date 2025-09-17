@@ -1,8 +1,4 @@
-from pdb import set_trace
-
-from typing import Dict, List
-
-from vllm import SamplingParams
+from typing import List, Dict
 
 
 # TODO : 우리가 모델한테 넣어줄 시스템 메세지 작성하기
@@ -19,7 +15,7 @@ Rules:
 
 # TODO : 우리가 학습할 때 사용할 prompt 넣어주기
 # 개인적으론 함수 형태로 정의한거 다 예시로 넣어주면 좋긴할듯?
-PROMPT_OLD = """def function_WN(brightness: int = None, get: bool = False):
+PROMPT_OLD_OLD = """def function_WN(brightness: int = None, get: bool = False):
     
     기기의 화면 및 LED 밝기를 조절하거나 현재 밝기 상태를 조회하는 함수.
 
@@ -1462,9 +1458,11 @@ For the following query, you MUST choose exact function calls from the predefine
 Query : {query}"""
 
 
+
+
 # TODO : 우리가 학습할 때 사용할 prompt 넣어주기
 # 개인적으론 함수 형태로 정의한거 다 예시로 넣어주면 좋긴할듯?
-PROMPT = """def function_WN(brightness: int = None, get: bool = False):
+PROMPT_OLD = """def function_WN(brightness: int = None, get: bool = False):
     
     기기의 화면 및 LED 밝기를 조절하거나 현재 밝기 상태를 조회하는 함수.
 
@@ -1495,9 +1493,7 @@ PROMPT = """def function_WN(brightness: int = None, get: bool = False):
                  - '최대', '오', '5단계', '5단계로 해줘', '최대로' 등은 반드시 brightness=5 로 변환 호출해야 하며 -1 호출은 금지.
                  - '중간', '적당히', '3단계(강조)' 등은 반드시 brightness=3 으로 변환 호출해야 하며 -1 호출은 금지.
                  - '최소', '영', '0단계', '끄기' 등은 반드시 brightness=0 으로 변환 호출해야 함.
-
-    반환 값:
-    - get=True 호출 시 현재 밝기에 대한 상태 정보 반환 (구현에 따름).
+                 
 
 
 def function_MV(mute: bool = None, get: bool = False):
@@ -1527,9 +1523,6 @@ def function_MV(mute: bool = None, get: bool = False):
     - get (bool, optional): 현재 음소거 상태 조회 여부 (기본값 False)
         * True  → 현재 음소거 상태 반환
         * False → 상태 조회하지 않음
-
-    반환:
-    - 없음 (동작 수행 혹은 상태 반환)
     
     
 
@@ -1541,9 +1534,6 @@ def function_FR():
     - 사용자가 필터 상태 확인, 필터 기능 실행 등의 요청을 했을 때 호출됨.
     - 별도의 파라미터가 없으며, 필터와 관련된 모든 기본 동작을 처리.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_ID(get: bool = True):
@@ -1559,9 +1549,7 @@ def function_ID(get: bool = True):
         * True → 현재 기기 상태를 반환함
         * False → 상태 조회 기능 비활성화 (기본적으로 사용되지 않음)
 
-    반환값:
-    - 현재 기기의 작동 상태 정보(예: 공기청정 모드 작동 여부, 충전 상태 등)를 포함하는 구조체 또는 문자열 반환 예상.  
-    
+
 
 def function_ZX(enable: bool):
     
@@ -1630,9 +1618,6 @@ def function_JJ():
     - 별도의 파라미터가 없으며, 호출 시 현재 배터리 잔량(%)과 충전 상태 정보를 반환한다.
     - 배터리 관련 동의어(잔량, 충전량, 상태, 남은 양 등)에 모두 대응한다.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_YA(move: int):
@@ -1726,9 +1711,6 @@ def function_UJ():
     - 사용자가 필터 상태, 필터 사용량, 필터 수명 등을 문의할 때 호출됨.
     - 별도의 파라미터가 없으며, 호출 시 현재 필터의 상태와 사용량 정보를 반환.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_GV():
@@ -1741,8 +1723,6 @@ def function_GV():
     - 개별 바이탈 사인 항목만을 선택적으로 측정하는 기능은 현재 제공하지 않음.
     - 따라서 "맥박 수치 측정"과 같은 특정 항목 요청 발화도 전체 바이탈 사인을 측정하는 이 함수 호출로 매핑됨.
 
-    Parameters:
-    - 없음
     
 
 def function_GQ(gender: int = None, get: bool = False):
@@ -1787,9 +1767,6 @@ def function_GN(enable: bool = None, get: bool = False):
         * True  → 현재 프라이버시 모드 상태 반환 (활성화 여부)
         * False → 상태 조회하지 않음
 
-    반환값:
-    - 상태 조회 시 (get=True) 현재 프라이버시 모드 활성화 여부(bool)를 반환
-    - 기능 제어 시 (enable 지정) 성공 여부나 없음(None) 반환 (구현에 따라 다름)
     
 
 def function_PG():
@@ -1804,8 +1781,6 @@ def function_PG():
     - function_PG는 고정 청정 모드 켜기 동작만 수행하며, 별도의 파라미터를 받지 않음.
     - 다른 청정 모드나 세부 설정과 구분하여 고정 청정 모드임을 명확히 함.
 
-    Parameters:
-    - 없음
     
 
 def function_EW(type: int = None, get: bool = False):
@@ -1828,31 +1803,12 @@ def function_EW(type: int = None, get: bool = False):
         * True  → 현재 모드/설정된 온도 단위 조회
         * False → 상태 조회하지 않음 (설정 모드 동작)
 
-    반환:
-    - 상태 조회 시 현재 설정된 온도 단위 정보 반환.
-    - 설정 모드 시 변경 성공 여부 등 처리 결과 반환.
 
 
 def function_BS(enable: bool):
     
     Black Mode(블랙 모드)를 켜거나 끄는 함수.
     - 모드명은 별도 파라미터로 받지 않으며, 발화 속 트리거 단어를 인식해 동일 기능을 수행한다.
-
-    트리거 대상(모드 동의어 확장):
-      - 기본: "블랙", "어두운", "다크", "고스트", "나이트", "야간", "조용한", "정숙"
-      - 확장: "암전", "딥", "다크니스", "차분한", "고요한", "무음", "사일런트", "은신", "스텔스", "쉿"
-      - 복합 표현 예: "블랙 모드", "다크 모드", "고스트 모드", "나이트 모드",
-                    "조용한 모드", "정숙 모드", "사일런트 모드", "스텔스 모드"
-
-    동작 판정(의미 동의어):
-      - 활성화(True): "켜줘", "켜", "시작해줘", "시작", "실행해줘", "실행", "설정해줘", "설정", "활성화"
-      - 비활성화(False): "꺼줘", "꺼", "중지해줘", "중지", "종료해줘", "종료", "해제해줘", "해제", "비활성화"
-
-    판정 규칙:
-      1) 발화에 상기 '트리거 대상' 중 하나라도 포함되면 본 함수를 호출한다.
-      2) 활성/비활성 표현이 혼재할 경우 → 마지막에 등장한 표현을 우선한다.
-      3) 활성/비활성 표현이 전혀 없고 트리거만 있는 경우 → 기본값: 활성화(True).
-      4) 트리거(모드 동의어)가 전혀 없으면 이 함수를 호출하지 않는다.
 
     Parameters:
       - enable (bool): 모드 on/off
@@ -1895,10 +1851,6 @@ def function_QD(type: int = None, get: bool = False):
         * True → 감도 상태 반환 (조회 의도)
         * False → 조회하지 않음
 
-    반환값:
-    - get=True인 경우 현재 감도 상태(0,1,2 중 하나)를 반환
-    - type 지정 시 감도 변경 성공 여부 또는 결과 반환 (구현에 따라 다름)
-    
     
 
 def function_BP(enable: int = None, type: int = None, get: bool = False):
@@ -1920,22 +1872,6 @@ def function_BP(enable: int = None, type: int = None, get: bool = False):
       * True: AI 모드 활성 상태를 조회 (enable 및 type 무시)
       * False: 상태 조회하지 않음
 
-    추가 규칙:
-    - get=True이면 enable, type 값은 무시됨
-    - enable, type 둘 다 None 이면 아무 동작도 하지 않음
-    - enable과 함께 type이 없으면 type은 기본값 -1로 설정됨 (기본 모드 대상)
-    - type 값 중 2 (전체/복합 모드)은 "둘 다", "모두" 등 복수 표현과 매칭됨
-    - 동의어 정리
-      * 켜다 (켜줘, 온, 시작, 작동 등) → enable=0
-      * 끄다 (꺼줘, 꺼, 오프, 중단, 종료, 끄고 제발 등) → enable=1
-      * 실외 대기질 연동, 외부 대기 상태 연동, 외부 공기질 데이터 등은 type=0
-      * 공간별 누적 데이터, 공간별 공기질 누적, 공기질 이력 연동 등은 type=1
-      * 둘 다, 모두, 복합 모드 등은 type=2
-      * 기본 모드(명시 없거나 단순 온/오프 요청)는 type=-1
-    - 호출 시 get=True이면 enable, type은 None으로 설정해야 함 (상태 조회 모드)
-    - enable, type 동시 지정 시 enable과 함께 해당 type 모드만 제어
-    - enable 값 우선순위로, get 가 True 일 때만 조회로 작동
-
     Parameters:
     - enable (int or None): 기능 on/off 제어 값
         * 0 → 기능 활성화 (켜기, 시작 등)
@@ -1950,9 +1886,6 @@ def function_BP(enable: int = None, type: int = None, get: bool = False):
     - get (bool): 현재 모드 상태 조회 여부
         * True → 모드 활성 상태 조회 (enable, type 무시)
         * False → 조회하지 않음 (enable, type에 따라 제어)
-
-    반환값:
-    - 없음 (void). 함수 호출에 따른 AI 모드 제어 또는 상태 조회 트리거.
 
     
 
@@ -1992,9 +1925,6 @@ def function_EN(type: int):
         * 6 → 에너지 최적화 모드 / 릴렉스 모드 관련 요청
         * 7 → 기타 전력 관리 모드 / 바이탈 사인 기능 관련 요청
 
-    반환:
-    - 함수 호출 시 동작은 요청된 모드 설정 또는 기능 정보 제공에 따라 달라질 수 있음. 반환 스키마는 시스템 설계에 따름.
-    
     
 
 def function_SC(enable: bool = None, get: bool = False):
@@ -2026,9 +1956,6 @@ def function_CK():
     - 사용자가 "팔로미", "나 따라와", "내 뒤를 따라와" 등과 같이 사용자를 따라와 달라는 요청을 했을 때 호출됨.
     - 별도의 파라미터가 없으며, 이 함수 호출로 팔로미 모드를 단순히 활성화한다.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_HG(theme: int = -1, get: bool = False):
@@ -2069,12 +1996,7 @@ def function_SV(type: int):
         * 3 → 나이트 모드 상태 조회
         * 4 → 네트워크(Wi-Fi 포함) 연결 상태 조회
         * 5 → 현재 날짜 조회
-
-    반환 스키마:
-    - 상태 조회 시 boolean 또는 상태명 문자열 반환 예상
-    - 시간/날짜 조회는 문자열 또는 표준 포맷 반환
-
-    
+        
     
 
 def function_HS(type: int = -1):
@@ -2112,16 +2034,6 @@ def function_DW(type: int):
         * 3 → 설치 시 주의사항
         * 4 → 사용 시 주의사항 (기기 사용 중 주의할 점 포함)
     
-    기본 동작 규칙:
-    - type=1 은 어린이 관련 안전 주의사항만 제공
-    - type=2 는 충전 및 작동 관련 일반 안전수칙을 주로 포함
-    - type=3 은 설치 단계에서의 주의점 안내
-    - type=4 는 사용 중 주의할 점을 포괄
-    - 중복이나 혼용 문의 시, 사용 의도에 따라 가장 근접한 type을 단일 선택
-
-    반환값:
-    - 요청한 type 에 해당하는 주의사항 텍스트 정보 반환
-
     
 
 def function_UY():
@@ -2133,9 +2045,6 @@ def function_UY():
     - 입력 파라미터 없이 현재 화면에 표시된 에러코드에 대해 의미, 원인 및 대처 방법을 설명.
     - 에러코드를 명시적으로 질문하는 경우 ("F01 에러코드 의미가 뭐야?")에도 동일하게 호출하며, 내부 로직에서 해당 에러코드 정보를 파악한다.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_XO():
@@ -2147,9 +2056,6 @@ def function_XO():
       기기에서 발생한 오류 기록을 확인하려고 할 때 호출됨.
     - 별도의 파라미터 없이 호출 시 기기의 오류 로그 전체 이력을 반환.
 
-    Parameters:
-    - 없음
-    
     
 
 def function_QT(enable: bool = None, get: bool = False):
@@ -2202,10 +2108,6 @@ def function_NK(speed: int = None, get: bool = False):
         * True  → 현재 풍속 상태 반환 (speed 는 None 이어야 함)
         * False → 조회하지 않음
 
-    반환 스키마:
-    - speed 제어 시: 성공 여부 또는 변경된 속도 반환 (구현별).
-    - get=True 시: 현재 풍속 단계 및 모드 정보 반환.
-    
     
 
 def function_IH(scan: bool = None, get: bool = False):
@@ -2231,11 +2133,7 @@ def function_IH(scan: bool = None, get: bool = False):
         * True  → 현재 스캐닝 청정 기능 상태 반환
         * False → 상태 조회하지 않음
 
-    반환값:
-    - 상태 조회 시 (get=True) 현재 스캐닝 청정 기능이 활성화 되어 있으면 `True`, 아니면 `False` 반환.
-    - 기능 제어 시 반환값은 없음 혹은 동작 성공 여부 반환 가능(구현에 따라 다름).
-    
-    
+
     
 def function_KI():
     
@@ -2246,10 +2144,7 @@ def function_KI():
     - "충전하러 복귀", "스테이션 위치로 돌아가", "충전 해줘" 등과 같은 다양한 표현을 포함함.
     - 별도의 파라미터가 없으며, 단순 복귀 동작만 수행함.
 
-    Parameters:
-    - 없음
-    
-    
+
 
 def function_CE():
     
@@ -2259,13 +2154,7 @@ def function_CE():
     - 사용자가 공기청정과 관련된 리포트나 상태, 결과를 조회하고자 할 때 호출함.
     - 별도의 파라미터 없이 항상 동일하게 공기청정 결과 데이터를 반환함.
 
-    Parameters:
-    - 없음
 
-    반환값:
-    - 공기청정 리포트 또는 상태 결과 데이터 (형식 및 상세 데이터 구조는 구현에 따름)
-    
-    
 
 def function_HW(type: int):
     
@@ -2285,8 +2174,6 @@ def function_HW(type: int):
         * 5 → 포름알데히드 (Formaldehyde)
         * 6 → 이산화탄소 (CO₂)
 
-    반환:
-    - 요청한 물질에 대한 상세 설명(문자열)
     
 
 def function_NN(enable: bool = None, get: bool = False):
@@ -2309,9 +2196,6 @@ def function_NN(enable: bool = None, get: bool = False):
         * True  → 현재 UV LED 상태 반환
         * False → 상태 조회하지 않음 (기본값)
         
-    Returns:
-    - 현재 UV 살균 LED 상태 (예: 켜짐 또는 꺼짐) 반환 시 get=True인 경우 반환값 포함.
-
     
 
 def function_FF(position: str or int):
@@ -2335,9 +2219,6 @@ def function_FF(position: str or int):
         * int: -1로 고정하며, 기본 위치 또는 미지정을 의미함
             - 이때 기기는 명시적 위치 지정 없이 현재 사용자 위치나 선택된 공간에서 동작함.
 
-    반환값:
-    - 호출 시 별도의 반환값 없음; 위치 지정 동작 트리거 역할.
-    
     
 
 def function_JS(type: int):
@@ -2363,10 +2244,6 @@ def function_JS(type: int):
         * 10 → AI 모드 (설명, 설정 방법 등)
 
 
-    반환값:
-    - 해당 기능, 모드 혹은 구성 요소에 대한 텍스트 설명을 반환
-    
-    
 
 def function_HI(type: int):
     
@@ -2409,12 +2286,6 @@ def function_MR():
     - 기능 호출과 나누는 대화 중 대화 자체에 집중하여 사용자의 의도 파악 및 감성적인 대응에 초점
     - 다른 기능 함수들과 중첩 호출 가능하며, 이 경우 오직 자유발화 부분만 별도로 처리됨
 
-    Parameters:
-    - 없음
-
-    반환 스키마:
-    - 자유발화에 대한 적절한 자연어 반응 반환 (구체적 구조는 명세 범위 밖)
-    
     
 
 def function_PC(type: int = None):
@@ -2453,10 +2324,7 @@ def function_PC(type: int = None):
         * 8 → 제품 외관 청소/관리
             - 예시 문장: '제품 외관 청소', '외관 관리', '제품 외관 더러움 청소'
 
-    반환:
-    - 해당 관리/청소 방법 안내 텍스트 (구현 별도)
-    
-    
+
 
 def function_IO(timeframe: int = 0, location: str = "0"):
     
@@ -2485,8 +2353,629 @@ def function_IO(timeframe: int = 0, location: str = "0"):
         * 지역명 또는 상세 위치명 (예: "판교", "서울", "뉴델리", "실내")
         * "0" → 위치 미지정 또는 전체/기본 위치 (실내외 통합, 공간별, 또는 기본 모니터링 대상)
 
+For the following query, you MUST choose exact function calls from the predefined set.  
+
+Query : {query}"""
+
+
+# Template index 3
+PROMPT_3 = """def function_WN(brightness: int = None, get: bool = False):
+    
+    기기의 화면 및 LED 밝기를 조절하거나 현재 밝기 상태를 조회하는 함수.
+
+    Parameters:
+    - brightness (int, optional): 밝기 단계 조절 값
+        * 0    → LED/화면 완전 끄기 (최소 밝기)
+        * 1~5  → 밝기 단계 (1: 가장 낮음, 5: 가장 밝음)
+        * -1   → 모호하거나 범위 표현용 내부 해석 값
+                 (모호한 표현: "기본 설정", "디폴트", "초기화", "높여줘", "낮춰줘", "강도 변경", "50%" 등)
+                 단,
+                 - '최대', '오', '5단계', '5단계로 해줘', '최대로' 등은 반드시 brightness=5 로 변환 호출해야 하며 -1 호출은 금지.
+                 - '중간', '적당히', '3단계(강조)' 등은 반드시 brightness=3 으로 변환 호출해야 하며 -1 호출은 금지.
+                 - '최소', '영', '0단계', '끄기' 등은 반드시 brightness=0 으로 변환 호출해야 함.
+
+    반환 값:
+    - get=True 호출 시 현재 밝기에 대한 상태 정보 반환 (구현에 따름).
+
+
+def function_MV(mute: bool = None, get: bool = False):
+    
+    음소거(Mute) 기능을 제어하거나 현재 음소거 상태를 조회하는 함수.
+
+    Parameters:
+    - mute (bool or None, optional): 음소거 모드 설정
+        * True  → 음소거 켜기 (소리 끄기)
+        * False → 음소거 해제 (소리 켜기)
+        * None  → 음소거 상태 변경하지 않음 (기본값)
+    - get (bool, optional): 현재 음소거 상태 조회 여부 (기본값 False)
+        * True  → 현재 음소거 상태 반환
+        * False → 상태 조회하지 않음
+
+    반환:
+    - 없음 (동작 수행 혹은 상태 반환)
+    
+    
+
+def function_FR():
+    
+    필터 관련 동작을 수행하는 함수.
+
+    설명:
+    - 사용자가 필터 상태 확인, 필터 기능 실행 등의 요청을 했을 때 호출됨.
+    - 별도의 파라미터가 없으며, 필터와 관련된 모든 기본 동작을 처리.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_ID(get: bool = True):
+    
+    기기의 현재 작동 상태를 조회하는 함수.
+
+    Parameters:
+    - get (bool): 현재 기기 상태 조회 여부
+        * True → 현재 기기 상태를 반환함
+        * False → 상태 조회 기능 비활성화 (기본적으로 사용되지 않음)
+
+
+
+def function_ZX(enable: bool):
+    
+    매너모드(Manner Mode)를 제어하는 함수.
+
+    Parameters:
+    - enable (bool): 매너모드 켜기/끄기
+        * True  → 매너모드 켜기 (활성화)
+        * False → 매너모드 끄기 (비활성화)
+    
+    
+
+def function_SB(type: int):
+    
+    제품의 구성, 스펙, 인증, 보안 관련 정보를 제공하는 함수.
+
+    파라미터 의미 및 제약:
+    - type (int): 요청 정보 구분 값 (필수 파라미터)
+        * 1 → 인증 정보
+        * 2 → 필터 정보
+        * 3 → 소음 정보 (최대 소음 포함)
+        * 4 → 구성 요소 및 제품 구조
+        * 5 → 개인정보 보호 및 보안 관련 정보
+    
+
+def function_CS(type: int):
+    
+    공기청정기 또는 에어 센서 설치 관련 가이드 요청을 처리하는 함수.
+
+    Parameters:
+    - type (int): 가이드 요청 유형 (상호배타적)
+        * 1 → 기기(공기청정기 포함 전체) 설치 위치 추천
+        * 2 → 공기청정기 권장 대수 추천
+        * 3 → 에어 센서 설치 위치 추천 (공기청정기와 분리하여 명확 구분)
+    
+    
+
+def function_JJ():
+    
+    기기의 배터리 상태(잔량 및 충전량)를 조회하는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_YA(move: int):
+    
+    기기의 이동(운행) 기능을 제어하는 함수.
+
+    Parameters:
+    - move (int): 이동 제어 코드
+        * 0 → 이동 정지 (완전한 멈춤/종료/끝내기 등 중단 행위)
+        * 1 → 이동 일시 정지 (잠깐 멈춤/일시 중단)
+        * 2 → 이동 재개 (멈췄던 이동/운행을 다시 시작)
+    
+    
+
+def function_MO(timeframe: int, location: str = "0"):
+    
+    특정 위치와 시점의 날씨 정보를 조회하는 함수.
+
+    Parameters:
+    - timeframe (int): 시점 구분 값 (0~9 범위의 정수, 상호 배타적)
+        * 0 → 현재 (오늘)
+        * 1 → 내일
+        * 2 → 주말
+        * 3 → 월요일
+        * 4 → 화요일
+        * 5 → 수요일
+        * 6 → 목요일
+        * 7 → 금요일
+        * 8 → 토요일
+        * 9 → 일요일
+    - location (str): 조회할 위치명
+        * 도시명, 구명, 국가명 등 다양한 지명 허용
+        * "0" → 위치 미지정 또는 불명확한 경우 기본값
+        * 의미 없는 단어(조사, 부사, 무의미 단어 등)가 위치로 오인된 경우 반드시 "0"으로 지정
+        * 지시대명사("여기", "여기요" 등)는 위치로 간주하지 않고 "0"으로 지정
+
+
+    
+def function_ZV(volume: int = None, get: bool = False):
+    
+    효과음 및 볼륨 크기를 조절하거나 현재 볼륨 상태를 조회하는 함수.
+
+    Parameters:
+    - volume (int, optional): 볼륨 제어 값
+        * -1   → 볼륨 1단계 낮추기 (상대 조절, 최솟값 0 유지)
+        * 0    → 음소거 (무음)
+        * 1~5  → 절대 볼륨 단계, 1은 최저, 5는 최고
+        * None → 볼륨 조절 없음, 주로 예외 처리 대상 발화에 해당
+    - get (bool): 현재 볼륨 상태 조회 여부 (default: False)
+        * True  → 현재 볼륨 상태 반환, volume 값은 지정하면 안 됨
+        * False → 상태 조회하지 않음
+
+
+def function_UJ():
+    
+    필터의 상태 및 사용량 정보를 조회하는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_GV():
+    
+    바이탈 사인(Vital Sign)을 측정하는 함수.
+
+    Parameters:
+    - 없음
+    
+
+def function_GQ(gender: int = None, get: bool = False):
+    
+    음성 출력(TTS)에서 사용할 목소리의 성별을 설정하거나 현재 성별 상태를 조회하는 함수.
+
+    Parameters:
+    - gender (int, optional): 목소리 성별 코드 (get=False일 때만 사용 가능)
+        * 1 → 여성 목소리
+        * 2 → 남성 목소리
+        * -1 → 기본/기타 또는 명확하지 않은 성별 변경 요청
+        * None → 변경 요청 없음 (기본값)
+    - get (bool): 현재 음성 성별 조회 여부
+        * True  → 현재 목소리 성별 상태를 조회 (gender는 무시됨)
+        * False → 성별 변경 요청 처리 (gender 값에 따름)
+        
+
+def function_GN(enable: bool = None, get: bool = False):
+    
+    프라이버시 모드(Privacy Mode)를 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 프라이버시 모드 활성화/비활성화 제어 파라미터
+        * True  → 프라이버시 모드 켜기 (기능 활성화)
+        * False → 프라이버시 모드 끄기 (기능 비활성화)
+        * None  → 기능 제어 명령 없음
+        ※ enable이 지정되면 get값은 무시함.
+    - get (bool): 프라이버시 모드 상태 조회 여부
+        * True  → 현재 프라이버시 모드 상태 반환 (활성화 여부)
+        * False → 상태 조회하지 않음
+        
+        
+
+def function_PG():
+    
+    고정 청정(Fixed Purification) 모드를 실행하는 함수.
+
+    Parameters:
+    - 없음
+    
+
+def function_EW(type: int = None, get: bool = False):
+    
+    에너지/환경 관련 모드(특히 온도 단위) 설정 또는 상태를 조회하는 함수.
+
+    Parameters:
+    - type (int, optional): 모드 구분 및 온도 단위 설정
+        * -1 → 기본 모드 (명확한 단위 지정 없이 단위 변경 요청 시 기본 처리)
+        * 0  → 섭씨 모드 (Celsius)
+        * 1  → 화씨 모드 (Fahrenheit)
+    - get (bool, optional): 상태 조회 여부
+        * True  → 현재 모드/설정된 온도 단위 조회
+        * False → 상태 조회하지 않음 (설정 모드 동작)
+
+
+
+def function_BS(enable: bool):
+    
+    Black Mode(블랙 모드)를 켜거나 끄는 함수.
+    - 모드명은 별도 파라미터로 받지 않으며, 발화 속 트리거 단어를 인식해 동일 기능을 수행한다.
+
+    Parameters:
+      - enable (bool): 모드 on/off
+          * True  → 켜기 / 시작 / 실행 / 설정 / 활성화
+          * False → 끄기 / 중지 / 종료 / 해제 / 비활성화
+   
+    
+
+def function_QD(type: int = None, get: bool = False):
+    
+    기기의 센서 감도(민감도)를 설정하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - type (int, optional): 센서 감도 설정 값 (get과 상호배제)
+        * 0 → 낮음 (감도 감소 의도 포함, '낮춰주세요' 등 명확한 감도 감소 표현 포함)
+        * 1 → 보통
+        * 2 → 높음/민감 (감도 증가 의도 포함, '강도' 포함 표현 우선 적용)
+        * -1 → 감도 변경 의도 있으나 구체 레벨 불명확한 경우 (강도 제외)
+        * None → 감도 변경 요청 없음
+    - get (bool): 현재 센서 감도 상태 조회 여부 (type과 상호배제)
+        * True → 감도 상태 반환 (조회 의도)
+        * False → 조회하지 않음
+
     반환값:
-    - 대기질 및 공기질 상태 정보(구현에 따라 다름)
+    - get=True인 경우 현재 감도 상태(0,1,2 중 하나)를 반환
+    - type 지정 시 감도 변경 성공 여부 또는 결과 반환 (구현에 따라 다름)
+    
+    
+
+def function_BP(enable: int = None, type: int = None, get: bool = False):
+    
+    에이아이 모드(AI Mode)를 제어하거나 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (int or None): 기능 on/off 제어 값
+        * 0 → 기능 활성화 (켜기, 시작 등)
+        * 1 → 기능 비활성화 (끄기, 종료 등)
+        * None → 조작 없음
+    - type (int or None): 실행 모드 구분 값
+        * -1 → 기본 모드 (명시 없을 때 기본값)
+        * 0 → 실외 대기질 연동
+        * 1 → 공간별 누적 데이터 연동
+        * 2 → 전체/복합 모드 (둘 다)
+        * None → 대상 모드 지정 없음 (enable 있을 때 기본 모드로 간주)
+    - get (bool): 현재 모드 상태 조회 여부
+        * True → 모드 활성 상태 조회 (enable, type 무시)
+        * False → 조회하지 않음 (enable, type에 따라 제어)
+
+    반환값:
+    - 없음 (void). 함수 호출에 따른 AI 모드 제어 또는 상태 조회 트리거.
+
+    
+
+def function_KP(type: int):
+    
+    기기의 충전 상태와 관련된 정보를 제공하거나 충전 문제를 확인하는 함수.
+
+    Parameters:
+    - type (int): 충전 관련 요청 구분
+        * 1 → 충전 시간, 완충 소요 시간 조회 요청
+        * 2 → 충전 문제 확인 및 대응 요청
+    
+    
+
+def function_EN(type: int):
+    
+    에너지 절약 모드 및 전원 관련 설정을 제어하거나 특정 기능 정보를 조회하는 함수.
+
+    Parameters:
+    - type (int): 전력/에너지 모드 및 내장 기능 구분 값
+        * 1 → 일반 절전 모드 / 자기소개, 기본 기능 설명 요청
+        * 2 → 자동 절전 모드 / 기본 기능 관련 설명 요청 (예: "넌 뭘 할 수 있어?")
+        * 3 → 대기 모드 / 청정 기능 관련 요청
+        * 4 → 강력 절전 모드 / 웰컴 기능 관련 요청
+        * 5 → 전원 차단 모드 / 웨이크업 기능 관련 요청
+        * 6 → 에너지 최적화 모드 / 릴렉스 모드 관련 요청
+        * 7 → 기타 전력 관리 모드 / 바이탈 사인 기능 관련 요청
+
+    반환:
+    - 함수 호출 시 동작은 요청된 모드 설정 또는 기능 정보 제공에 따라 달라질 수 있음. 반환 스키마는 시스템 설계에 따름.
+    
+    
+
+def function_SC(enable: bool = None, get: bool = False):
+    
+    공기질 상태 표시 LED 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 공기질 상태 표시 LED on/off 제어
+        * True  → LED 켜기
+        * False → LED 끄기
+        * None  → 기능 제어하지 않음 (기본값)
+    - get (bool): 공기질 상태 표시 LED 상태 조회 여부
+        * True  → 현재 LED 상태 반환
+        * False → 조회하지 않음 (기본값)
+
+    
+
+def function_CK():
+    
+    기기가 사용자를 따라오도록(Follow Me 모드) 설정하는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_HG(theme: int = -1, get: bool = False):
+    
+    대기화면(홈 화면) 테마를 설정하거나 현재 테마 상태를 조회하는 함수.
+
+    Parameters:
+    - theme (int): 대기화면 테마 코드 (get==False일 때만 유효)
+        * 0  → 기본 테마
+        * 2  → 실내/상세 공기질 테마
+        * -1 → 랜덤 테마 변경 (지금 테마가 아닌 다른 테마로 무작위 변경)
+    - get (bool): 현재 테마 상태 조회 여부
+        * True  → 현재 테마 상태 조회 (theme 무시)
+        * False → 테마 변경 요청 (theme 값에 따라 변경)
+    
+    
+
+def function_SV(type: int):
+    
+    기기의 현재 상태(모드, 시간, 날짜, 네트워크)를 조회하는 함수.
+
+    Parameters:
+    - type (int): 조회 대상 코드 (상호 배제)
+        * 1 → 현재 시간 조회
+        * 2 → 매너모드 상태 조회
+        * 3 → 나이트 모드 상태 조회
+        * 4 → 네트워크(Wi-Fi 포함) 연결 상태 조회
+        * 5 → 현재 날짜 조회
+
+    
+
+def function_HS(type: int = -1):
+    
+    기기 언어(Language)를 변경하거나 기본 언어 변경 요청을 처리하는 함수.
+
+    Parameters:
+    - type (int): 언어 코드, 기본값은 -1(기타/미지정)
+        * 1 → 한국어
+        * 2 → 영어
+        * -1 → 기타 또는 언어 미지정 변경 요청
+    
+    
+
+def function_DW(type: int):
+    
+    기기 사용 및 설치 시 주의사항을 안내하는 함수.
+
+    Parameters:
+    - type (int): 주의사항 종류 (필수 파라미터)
+        * 1 → 어린이 안전 관련 주의사항
+        * 2 → 일반 안전 수칙 (예: 충전 중 주의사항, 작동 시 주의사항 등)
+        * 3 → 설치 시 주의사항
+        * 4 → 사용 시 주의사항 (기기 사용 중 주의할 점 포함)
+    
+
+
+def function_UY():
+    
+    기기에 표시된 에러코드의 의미와 원인을 설명하는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_XO():
+    
+    기기의 오류 이력(에러 히스토리)을 조회하는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_QT(enable: bool = None, get: bool = False):
+    
+    음성 인식(Voice Recognition) 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 음성 인식 기능 on/off 제어 (get=True인 경우 None이어야 함)
+        * True  → 음성 인식 기능 켜기
+        * False → 음성 인식 기능 끄기
+        * None  → 제어 동작 없음 (상태 조회인 경우 사용 안 함)
+    - get (bool): 음성 인식 기능 상태 조회 여부 (enable이 None일 때만 True로 설정 가능)
+        * True  → 현재 음성 인식 기능 상태 반환
+        * False → 상태 조회하지 않음
+    
+
+def function_NK(speed: int = None, get: bool = False):
+    
+    기기의 풍량(바람 세기)을 제어하거나 현재 설정 상태를 조회하는 함수.
+
+    Parameters:
+    - speed (int, optional): 풍속 제어 값 (절대 또는 상대 값)
+        * -1  → 풍속 단계 1단계 낮추기 (상대 제어)
+        * 0   → 자동 모드 (절대 값, 기본 속도)
+        * 1   → 약풍 (절대 값)
+        * 2   → 중풍 (절대 값)
+        * 3   → 강풍 (절대 값)
+        * 4   → 터보 (절대 값)
+        * +1  → 풍속 단계 1단계 높이기 (상대 제어)
+        - 기본값 None 은 의미 없으며 speed 또는 get 중 하나는 반드시 지정 필요.
+        - speed 값은 위 도메인 중 하나여야 함.
+        - 명확한 단계 지정 없는 모호한 조절 요청 시 speed=None 유지 권장.
+
+    - get (bool): 현재 풍속 상태 조회 여부
+        * True  → 현재 풍속 상태 반환 (speed 는 None 이어야 함)
+        * False → 조회하지 않음
+
+    
+
+def function_IH(scan: bool = None, get: bool = False):
+    
+    스캐닝 청정(Scanning Air Purification) 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - scan (bool, optional): 스캐닝 청정 기능 on/off 제어
+        * True  → 스캐닝 청정 기능 시작 또는 켬
+        * False → 스캐닝 청정 기능 종료 또는 끔
+        * None  → 기능 제어 없음
+    - get (bool): 스캐닝 청정 상태 조회 여부
+        * True  → 현재 스캐닝 청정 기능 상태 반환
+        * False → 상태 조회하지 않음
+
+    
+    
+def function_KI():
+    
+    기기를 충전 위치(홈 또는 스테이션)으로 복귀시키는 함수.
+
+    Parameters:
+    - 없음
+    
+    
+
+def function_CE():
+    
+    공기청정 관련 보고서나 결과를 조회하는 함수.
+
+    Parameters:
+    - 없음
+
+    반환값:
+    - 공기청정 리포트 또는 상태 결과 데이터 (형식 및 상세 데이터 구조는 구현에 따름)
+    
+    
+
+def function_HW(type: int):
+    
+    대기 오염 물질(환경 유해 물질)에 대한 설명을 제공하는 함수.
+
+    Parameters:
+    - type (int): 대기 오염 물질 코드 (서로 상호 배타적이며 필수값)
+        * 1 → 미세먼지 (PM10)
+        * 2 → 초미세먼지 (PM2.5)
+        * 3 → 유기화합물 (VOCs)
+        * 4 → 질소산화물 (NOx)
+        * 5 → 포름알데히드 (Formaldehyde)
+        * 6 → 이산화탄소 (CO₂)
+
+    
+
+def function_NN(enable: bool = None, get: bool = False):
+    
+    UV 살균 LED 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): UV 살균 LED on/off 제어
+        * True  → UV LED 켜기
+        * False → UV LED 끄기
+        * None  → 제어 명령 없음 (기본값)
+    - get (bool): UV 살균 LED 상태 조회 여부
+        * True  → 현재 UV LED 상태 반환
+        * False → 상태 조회하지 않음 (기본값)
+       
+    
+
+def function_FF(position: str or int):
+    
+    특정 위치(공간, 방, 구역 등)를 지정하는 함수.
+
+    Parameters:
+    - position (str | int): 동작할 위치 또는 공간 이름
+        * str: 정확한 방, 공간, 구역명 (예: "아지트", "설계실", "101호실")
+            - 동의어 및 변형 형태는 모두 문자열로 받아들이며,
+              예: "미디어실", "고급반실", "프로그램실A" 등 다양함.
+        * int: -1로 고정하며, 기본 위치 또는 미지정을 의미함
+            - 이때 기기는 명시적 위치 지정 없이 현재 사용자 위치나 선택된 공간에서 동작함.
+
+    반환값:
+    - 호출 시 별도의 반환값 없음; 위치 지정 동작 트리거 역할.
+    
+    
+
+def function_JS(type: int):
+    
+    기기의 특정 기능, 모드, 구성 요소에 대한 설명을 제공하는 함수.
+
+    Parameters:
+    - type (int): 설명 대상 코드 (상호 배타적)
+        * 1 → 매너모드
+        * 2 → 프라이버시 모드
+        * 3 → 나이트 모드
+        * 4 → 나무 보이스 (음성 관련 기능)
+        * 5 → 온도 단위 변경 및 설정 메뉴
+        * 6 → UV LED 기능
+        * 7 → 디스플레이/LED (상단 화면, 전면부 LED, LED Eye 등 포함)
+        * 8 → 언어 설정 관련 (지원 가능한 언어 종류, 변경 가능한 언어)
+        * 9 → 센서 민감도 (설정 이유, 역할, 조정 방법 등)
+        * 10 → AI 모드 (설명, 설정 방법 등)
+
+    
+    
+def function_HI(type: int):
+    
+    기기의 전력 소비량 또는 예상 전기 요금을 계산하거나 조회하는 함수.
+    
+    Parameters:
+    - type (int): 조회/계산 종류
+        * 1 → 소비 전력 조회 (기기가 현재 소비하는 전력량을 반환)
+        * 2 → 전기 요금 계산 (예상 전기 요금을 반환)
+    
+    
+
+def function_EF(action: int = 1):
+    
+    공기청정 관련 기능을 즉시 실행하는 함수.
+
+    Parameters:
+    - action (int, optional): 수행할 동작 코드
+        * 1 → 기능 실행 (기본값)
+    
+    
+
+def function_MR():
+    
+    사용자의 자유발화(스몰토크, 일상 대화)를 처리하는 함수.
+
+    Parameters:
+    - 없음
+
+    
+
+def function_PC(type: int = None):
+    
+    기기 관리 및 청소 방법을 안내하는 함수.
+
+    Parameters:
+    - type (int, optional): 관리/청소 대상 코드 (한 번에 하나만 지정 가능)
+        * 1 → 필터 교체 주기
+            - 예시 문장: '필터 교체 주기 알려줘', '필터 교체는 얼마마다'
+        * 3 → 필터 관리
+            - 예시 문장: '필터 관리 어떻게 해', 'A1 필터 청소/세척/분리 방법'
+        * 4 → 센서창 청소 (센서창 및 센서 부분 포함)
+            - 예시 문장: '센서창 청소 방법', '센서창 관리', '센서 부분 세척', '센서 청소 방법', '청소할 때 센서를 어떻게 해야 해?'
+        * 5 → 라이다 센서 관리
+            - 예시 문장: '라이다 센서 관리', '라이다 센서 청소 방법'
+        * 6 → 장애물 감지 센서 청소
+            - 예시 문장: '장애물 감지 센서 청소', '장애물 감지 센서 청소 방법'
+        * 7 → 충전 포트 청소
+            - 예시 문장: '충전 포트 청소', '전원 꽂는 곳 세척/청소'
+        * 8 → 제품 외관 청소/관리
+            - 예시 문장: '제품 외관 청소', '외관 관리', '제품 외관 더러움 청소'
+
+    
+
+def function_IO(timeframe: int = 0, location: str = "0"):
+    
+    특정 위치와 시점의 대기질/공기질 정보를 조회하는 함수.
+
+    Parameters:
+    - timeframe (int): 조회 시점 구분 값
+        * 0 → 현재/실시간
+        * 1 → 내일
+        * 2 → 주말
+        * 3~9 → 특정 요일별 예측 (3=월요일, 4=화요일, 5=수요일, 6=목요일, 7=금요일, 8=토요일, 9=일요일)
+    - location (str): 조회할 위치
+        * 지역명 또는 상세 위치명 (예: "판교", "서울", "뉴델리", "실내")
+        * "0" → 위치 미지정 또는 전체/기본 위치 (실내외 통합, 공간별, 또는 기본 모니터링 대상)
+
     
 For the following query, you MUST choose exact function calls from the predefined set.  
 
@@ -2495,37 +2984,615 @@ Query : {query}"""
 
 
 
-
-
-
-
-
-# BAD_WORDS = ['\n', '\t', '\r']
-BAD_WORDS = []
-
-
-def get_vllm_param(num_generations:int, max_new_tokens:int, temperature:float, top_p:float, top_k:int, do_sampling:bool=True) -> Dict:
-    # n, top_p, tok_k, temperature, stop_token_ids, max_tokens, 
-    # greedy_params = SamplingParams(n=1, temperature=1.0, stop=BAD_WORDS, max_tokens=max_new_tokens)
+# Template index 3
+PROMPT = """def function_WN(brightness: int = None, get: bool = False):
     
-    # temperature: Float that controls the randomness of the sampling. Lower
-    #               values make the model more deterministic, while higher values make
-    #               the model more random. Zero means greedy sampling.
-    greedy_params = SamplingParams(n=1, temperature=0.0, stop=BAD_WORDS, max_tokens=max_new_tokens)
-      
-    if do_sampling:
-        sampling_params = SamplingParams(
-                            n=num_generations, 
-                            temperature=temperature, 
-                            # top_p=top_p,
-                            # top_k=top_k,
-                            stop=BAD_WORDS, 
-                            max_tokens=max_new_tokens)
-    else:
-        sampling_params = None
+    기기의 화면 및 LED 밝기를 조절하거나 현재 밝기 상태를 조회하는 함수.
+
+    Parameters:
+    - brightness (int, optional): 밝기 단계 조절 값
+        * 0    → LED/화면 완전 끄기 (최소 밝기)
+        * 1~5  → 밝기 단계 (1: 가장 낮음, 5: 가장 밝음)
+        * -1   → 모호하거나 범위 표현용 내부 해석 값
+
+
+def function_MV(mute: bool = None, get: bool = False):
+
+    음소거(Mute) 기능을 제어하거나 현재 음소거 상태를 조회하는 함수.
+
+    Parameters:
+    - mute (bool or None, optional): 음소거 모드 설정
+        * True  → 음소거 켜기 (소리 끄기)
+        * False → 음소거 해제 (소리 켜기)
+        * None  → 음소거 상태 변경하지 않음 (기본값)
+    - get (bool, optional): 현재 음소거 상태 조회 여부 (기본값 False)
+        * True  → 현재 음소거 상태 반환
+        * False → 상태 조회하지 않음
+
+def function_FR():
     
-    return dict(
-        greedy=greedy_params,
-        sampling=sampling_params
-    )
+    필터 관련 동작을 수행하는 함수.
+
     
+def function_ID(get: bool = True):
+    
+    기기의 현재 작동 상태를 조회하는 함수.
+
+    Parameters:
+    - get (bool): 현재 기기 상태 조회 여부
+        * True → 현재 기기 상태를 반환함
+        * False → 상태 조회 기능 비활성화 (기본적으로 사용되지 않음)
+
+def function_ZX(enable: bool):
+    
+    매너모드(Manner Mode)를 제어하는 함수.
+
+    Parameters:
+    - enable (bool): 매너모드 켜기/끄기
+        * True  → 매너모드 켜기 (활성화)
+        * False → 매너모드 끄기 (비활성화)
+    
+    
+def function_SB(type: int):
+    
+    제품의 구성, 스펙, 인증, 보안 관련 정보를 제공하는 함수.
+
+    파라미터 의미 및 제약:
+    - type (int): 요청 정보 구분 값 (필수 파라미터)
+        * 1 → 인증 정보
+        * 2 → 필터 정보
+        * 3 → 소음 정보 (최대 소음 포함)
+        * 4 → 구성 요소 및 제품 구조
+        * 5 → 개인정보 보호 및 보안 관련 정보
+    
+    
+def function_CS(type: int):
+    
+    공기청정기 또는 에어 센서 설치 관련 가이드 요청을 처리하는 함수.
+
+    Parameters:
+    - type (int): 가이드 요청 유형 (상호배타적)
+        * 1 → 기기(공기청정기 포함 전체) 설치 위치 추천
+        * 2 → 공기청정기 권장 대수 추천
+        * 3 → 에어 센서 설치 위치 추천 (공기청정기와 분리하여 명확 구분)
+    
+    
+def function_JJ():
+    
+    기기의 배터리 상태(잔량 및 충전량)를 조회하는 함수.
+
+    
+def function_YA(move: int):
+    
+    기기의 이동(운행) 기능을 제어하는 함수.
+
+    Parameters:
+    - move (int): 이동 제어 코드
+        * 0 → 이동 정지 (완전한 멈춤/종료/끝내기 등 중단 행위)
+        * 1 → 이동 일시 정지 (잠깐 멈춤/일시 중단)
+        * 2 → 이동 재개 (멈췄던 이동/운행을 다시 시작)
+    
+    
+def function_MO(timeframe: int, location: str = "0"):
+    
+    특정 위치와 시점의 날씨 정보를 조회하는 함수.
+
+    Parameters:
+    - timeframe (int): 시점 구분 값 (0~9 범위의 정수, 상호 배타적)
+        * 0 → 현재 (오늘)
+        * 1 → 내일
+        * 2 → 주말
+        * 3 → 월요일
+        * 4 → 화요일
+        * 5 → 수요일
+        * 6 → 목요일
+        * 7 → 금요일
+        * 8 → 토요일
+        * 9 → 일요일
+    - location (str): 조회할 위치명
+        * 도시명, 구명, 국가명 등 다양한 지명 허용
+        * "0" → 위치 미지정 또는 불명확한 경우 기본값
+
+
+def function_ZV(volume: int = None, get: bool = False):
+    
+    효과음 및 볼륨 크기를 조절하거나 현재 볼륨 상태를 조회하는 함수.
+
+    Parameters:
+    - volume (int, optional): 볼륨 제어 값
+        * -1   → 볼륨 1단계 낮추기 (상대 조절, 최솟값 0 유지)
+        * 0    → 음소거 (무음)
+        * 1~5  → 절대 볼륨 단계, 1은 최저, 5는 최고
+        * None → 볼륨 조절 없음, 주로 예외 처리 대상 발화에 해당
+    - get (bool): 현재 볼륨 상태 조회 여부 (default: False)
+        * True  → 현재 볼륨 상태 반환, volume 값은 지정하면 안 됨
+        * False → 상태 조회하지 않음
+
+def function_UJ():
+    
+    필터의 상태 및 사용량 정보를 조회하는 함수.
+    
+
+def function_GV():
+    
+    바이탈 사인(Vital Sign)을 측정하는 함수.
+
+
+def function_GQ(gender: int = None, get: bool = False):
+    
+    음성 출력(TTS)에서 사용할 목소리의 성별을 설정하거나 현재 성별 상태를 조회하는 함수.
+
+    Parameters:
+    - gender (int, optional): 목소리 성별 코드 (get=False일 때만 사용 가능)
+        * 1 → 여성 목소리
+        * 2 → 남성 목소리
+        * -1 → 기본/기타 또는 명확하지 않은 성별 변경 요청
+        * None → 변경 요청 없음 (기본값)
+    - get (bool): 현재 음성 성별 조회 여부
+        * True  → 현재 목소리 성별 상태를 조회 (gender는 무시됨)
+        * False → 성별 변경 요청 처리 (gender 값에 따름)
+        
+
+def function_GN(enable: bool = None, get: bool = False):
+    
+    프라이버시 모드(Privacy Mode)를 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 프라이버시 모드 활성화/비활성화 제어 파라미터
+        * True  → 프라이버시 모드 켜기 (기능 활성화)
+        * False → 프라이버시 모드 끄기 (기능 비활성화)
+        * None  → 기능 제어 명령 없음
+        ※ enable이 지정되면 get값은 무시함.
+    - get (bool): 프라이버시 모드 상태 조회 여부
+        * True  → 현재 프라이버시 모드 상태 반환 (활성화 여부)
+        * False → 상태 조회하지 않음
+        
+        
+def function_PG():
+    
+    고정 청정(Fixed Purification) 모드를 실행하는 함수.
+
+
+def function_EW(type: int = None, get: bool = False):
+    
+    에너지/환경 관련 모드(특히 온도 단위) 설정 또는 상태를 조회하는 함수.
+
+    Parameters:
+    - type (int, optional): 모드 구분 및 온도 단위 설정
+        * -1 → 기본 모드 (명확한 단위 지정 없이 단위 변경 요청 시 기본 처리)
+        * 0  → 섭씨 모드 (Celsius)
+        * 1  → 화씨 모드 (Fahrenheit)
+    - get (bool, optional): 상태 조회 여부
+        * True  → 현재 모드/설정된 온도 단위 조회
+        * False → 상태 조회하지 않음 (설정 모드 동작)
+
+
+def function_BS(enable: bool):
+    
+    Black Mode(블랙 모드)를 켜거나 끄는 함수.
+    - 모드명은 별도 파라미터로 받지 않으며, 발화 속 트리거 단어를 인식해 동일 기능을 수행한다.
+
+    Parameters:
+      - enable (bool): 모드 on/off
+          * True  → 켜기 / 시작 / 실행 / 설정 / 활성화
+          * False → 끄기 / 중지 / 종료 / 해제 / 비활성화
+   
+    
+def function_QD(type: int = None, get: bool = False):
+    
+    기기의 센서 감도(민감도)를 설정하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - type (int, optional): 센서 감도 설정 값
+        * 0 → 낮음 (감도 감소 의도 포함, '낮춰주세요' 등 명확한 감도 감소 표현 포함)
+        * 1 → 보통
+        * 2 → 높음/민감 (감도 증가 의도 포함, '강도' 포함 표현 우선 적용)
+        * -1 → 감도 변경 의도 있으나 구체 레벨 불명확한 경우 (강도 제외)
+        * None → 감도 변경 요청 없음
+    - get (bool): 현재 센서 감도 상태 조회 여부
+        * True → 감도 상태 반환 (조회 의도)
+        * False → 조회하지 않음
+    
+
+def function_BP(enable: int = None, type: int = None, get: bool = False):
+    
+    에이아이 모드(AI Mode)를 제어하거나 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (int or None): 기능 on/off 제어 값
+        * 0 → 기능 활성화 (켜기, 시작 등)
+        * 1 → 기능 비활성화 (끄기, 종료 등)
+        * None → 조작 없음
+    - type (int or None): 실행 모드 구분 값
+        * -1 → 기본 모드 (명시 없을 때 기본값)
+        * 0 → 실외 대기질 연동
+        * 1 → 공간별 누적 데이터 연동
+        * 2 → 전체/복합 모드 (둘 다)
+        * None → 대상 모드 지정 없음 (enable 있을 때 기본 모드로 간주)
+    - get (bool): 현재 모드 상태 조회 여부
+        * True → 모드 활성 상태 조회 (enable, type 무시)
+        * False → 조회하지 않음 (enable, type에 따라 제어)
+    
+
+def function_KP(type: int):
+    
+    기기의 충전 상태와 관련된 정보를 제공하거나 충전 문제를 확인하는 함수.
+
+    Parameters:
+    - type (int): 충전 관련 요청 구분
+        * 1 → 충전 시간, 완충 소요 시간 조회 요청
+        * 2 → 충전 문제 확인 및 대응 요청
+    
+    
+def function_EN(type: int):
+    
+    에너지 절약 모드 및 전원 관련 설정을 제어하거나 특정 기능 정보를 조회하는 함수.
+
+    Parameters:
+    - type (int): 전력/에너지 모드 및 내장 기능 구분 값
+        * 1 → 일반 절전 모드 / 자기소개, 기본 기능 설명 요청
+        * 2 → 자동 절전 모드 / 기본 기능 관련 설명 요청 (예: "넌 뭘 할 수 있어?")
+        * 3 → 대기 모드 / 청정 기능 관련 요청
+        * 4 → 강력 절전 모드 / 웰컴 기능 관련 요청
+        * 5 → 전원 차단 모드 / 웨이크업 기능 관련 요청
+        * 6 → 에너지 최적화 모드 / 릴렉스 모드 관련 요청
+        * 7 → 기타 전력 관리 모드 / 바이탈 사인 기능 관련 요청
+
+
+def function_SC(enable: bool = None, get: bool = False):
+    
+    공기질 상태 표시 LED 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 공기질 상태 표시 LED on/off 제어
+        * True  → LED 켜기
+        * False → LED 끄기
+        * None  → 기능 제어하지 않음 (기본값)
+    - get (bool): 공기질 상태 표시 LED 상태 조회 여부
+        * True  → 현재 LED 상태 반환
+        * False → 조회하지 않음 (기본값)
+
+    
+def function_CK():
+    
+    기기가 사용자를 따라오도록(Follow Me 모드) 설정하는 함수.
+
+
+def function_HG(theme: int = -1, get: bool = False):
+    
+    대기화면(홈 화면) 테마를 설정하거나 현재 테마 상태를 조회하는 함수.
+
+    Parameters:
+    - theme (int): 대기화면 테마 코드 (get==False일 때만 유효)
+        * 0  → 기본 테마
+        * 2  → 실내/상세 공기질 테마
+        * -1 → 랜덤 테마 변경 (지금 테마가 아닌 다른 테마로 무작위 변경)
+    - get (bool): 현재 테마 상태 조회 여부
+        * True  → 현재 테마 상태 조회 (theme 무시)
+        * False → 테마 변경 요청 (theme 값에 따라 변경)
+    
+    
+def function_SV(type: int):
+    
+    기기의 현재 상태(모드, 시간, 날짜, 네트워크)를 조회하는 함수.
+
+    Parameters:
+    - type (int): 조회 대상 코드 (상호 배제)
+        * 1 → 현재 시간 조회
+        * 2 → 매너모드 상태 조회
+        * 3 → 나이트 모드 상태 조회
+        * 4 → 네트워크(Wi-Fi 포함) 연결 상태 조회
+        * 5 → 현재 날짜 조회
+
+    
+def function_HS(type: int = -1):
+    
+    기기 언어(Language)를 변경하거나 기본 언어 변경 요청을 처리하는 함수.
+
+    Parameters:
+    - type (int): 언어 코드, 기본값은 -1(기타/미지정)
+        * 1 → 한국어
+        * 2 → 영어
+        * -1 → 기타 또는 언어 미지정 변경 요청
+    
+
+def function_DW(type: int):
+    
+    기기 사용 및 설치 시 주의사항을 안내하는 함수.
+
+    Parameters:
+    - type (int): 주의사항 종류 (필수 파라미터)
+        * 1 → 어린이 안전 관련 주의사항
+        * 2 → 일반 안전 수칙 (예: 충전 중 주의사항, 작동 시 주의사항 등)
+        * 3 → 설치 시 주의사항
+        * 4 → 사용 시 주의사항 (기기 사용 중 주의할 점 포함)
+    
+
+def function_UY():
+    
+    기기에 표시된 에러코드의 의미와 원인을 설명하는 함수.
+
+
+def function_XO():
+    
+    기기의 오류 이력(에러 히스토리)을 조회하는 함수.
+
+
+def function_QT(enable: bool = None, get: bool = False):
+    
+    음성 인식(Voice Recognition) 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): 음성 인식 기능 on/off 제어 (get=True인 경우 None이어야 함)
+        * True  → 음성 인식 기능 켜기
+        * False → 음성 인식 기능 끄기
+        * None  → 제어 동작 없음 (상태 조회인 경우 사용 안 함)
+    - get (bool): 음성 인식 기능 상태 조회 여부 (enable이 None일 때만 True로 설정 가능)
+        * True  → 현재 음성 인식 기능 상태 반환
+        * False → 상태 조회하지 않음
+    
+
+def function_NK(speed: int = None, get: bool = False):
+    
+    기기의 풍량(바람 세기)을 제어하거나 현재 설정 상태를 조회하는 함수.
+
+    Parameters:
+    - speed (int, optional): 풍속 제어 값 (절대 또는 상대 값)
+        * -1  → 풍속 단계 1단계 낮추기 (상대 제어)
+        * 0   → 자동 모드 (절대 값, 기본 속도)
+        * 1   → 약풍 (절대 값)
+        * 2   → 중풍 (절대 값)
+        * 3   → 강풍 (절대 값)
+        * 4   → 터보 (절대 값)
+        * +1  → 풍속 단계 1단계 높이기 (상대 제어)
+
+    - get (bool): 현재 풍속 상태 조회 여부
+        * True  → 현재 풍속 상태 반환 (speed 는 None 이어야 함)
+        * False → 조회하지 않음
+    
+
+def function_IH(scan: bool = None, get: bool = False):
+    
+    스캐닝 청정(Scanning Air Purification) 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - scan (bool, optional): 스캐닝 청정 기능 on/off 제어
+        * True  → 스캐닝 청정 기능 시작 또는 켬
+        * False → 스캐닝 청정 기능 종료 또는 끔
+        * None  → 기능 제어 없음
+    - get (bool): 스캐닝 청정 상태 조회 여부
+        * True  → 현재 스캐닝 청정 기능 상태 반환
+        * False → 상태 조회하지 않음
+
+    
+def function_KI():
+    
+    기기를 충전 위치(홈 또는 스테이션)으로 복귀시키는 함수.
+    
+
+def function_CE():
+    
+    공기청정 관련 보고서나 결과를 조회하는 함수.
+
+
+def function_HW(type: int):
+    
+    대기 오염 물질(환경 유해 물질)에 대한 설명을 제공하는 함수.
+
+    Parameters:
+    - type (int): 대기 오염 물질 코드 (서로 상호 배타적이며 필수값)
+        * 1 → 미세먼지 (PM10)
+        * 2 → 초미세먼지 (PM2.5)
+        * 3 → 유기화합물 (VOCs)
+        * 4 → 질소산화물 (NOx)
+        * 5 → 포름알데히드 (Formaldehyde)
+        * 6 → 이산화탄소 (CO₂)
+
+
+def function_NN(enable: bool = None, get: bool = False):
+    
+    UV 살균 LED 기능을 제어하거나 현재 상태를 조회하는 함수.
+
+    Parameters:
+    - enable (bool, optional): UV 살균 LED on/off 제어
+        * True  → UV LED 켜기
+        * False → UV LED 끄기
+        * None  → 제어 명령 없음 (기본값)
+    - get (bool): UV 살균 LED 상태 조회 여부
+        * True  → 현재 UV LED 상태 반환
+        * False → 상태 조회하지 않음 (기본값)
+       
+    
+def function_FF(position: str or int):
+    
+    특정 위치(공간, 방, 구역 등)를 지정하는 함수.
+
+    Parameters:
+    - position (str | int): 동작할 위치 또는 공간 이름
+        * str: 정확한 방, 공간, 구역명 (예: "아지트", "설계실", "101호실")
+            - 동의어 및 변형 형태는 모두 문자열로 받아들임
+        * int: -1로 고정하며, 기본 위치 또는 미지정을 의미함
+    
+
+def function_JS(type: int):
+    
+    기기의 특정 기능, 모드, 구성 요소에 대한 설명을 제공하는 함수.
+
+    Parameters:
+    - type (int): 설명 대상 코드 (상호 배타적)
+        * 1 → 매너모드
+        * 2 → 프라이버시 모드
+        * 3 → 나이트 모드
+        * 4 → 나무 보이스 (음성 관련 기능)
+        * 5 → 온도 단위 변경 및 설정 메뉴
+        * 6 → UV LED 기능
+        * 7 → 디스플레이/LED (상단 화면, 전면부 LED, LED Eye 등 포함)
+        * 8 → 언어 설정 관련 (지원 가능한 언어 종류, 변경 가능한 언어)
+        * 9 → 센서 민감도 (설정 이유, 역할, 조정 방법 등)
+        * 10 → AI 모드 (설명, 설정 방법 등)
+
+    
+def function_HI(type: int):
+    
+    기기의 전력 소비량 또는 예상 전기 요금을 계산하거나 조회하는 함수.
+    
+    Parameters:
+    - type (int): 조회/계산 종류
+        * 1 → 소비 전력 조회 (기기가 현재 소비하는 전력량을 반환)
+        * 2 → 전기 요금 계산 (예상 전기 요금을 반환)
+    
+
+def function_EF(action: int = 1):
+    
+    공기청정 관련 기능을 즉시 실행하는 함수.
+
+    Parameters:
+    - action (int, optional): 수행할 동작 코드
+        * 1 → 기능 실행 (기본값)
+    
+    
+def function_MR():
+    
+    사용자의 자유발화(스몰토크, 일상 대화)를 처리하는 함수.
+
+
+def function_PC(type: int = None):
+    
+    기기 관리 및 청소 방법을 안내하는 함수.
+
+    Parameters:
+    - type (int, optional): 관리/청소 대상 코드 (한 번에 하나만 지정 가능)
+        * 1 → 필터 교체 주기
+        * 3 → 필터 관리
+        * 4 → 센서창 청소 (센서창 및 센서 부분 포함)
+        * 5 → 라이다 센서 관리
+        * 6 → 장애물 감지 센서 청소
+        * 7 → 충전 포트 청소
+        * 8 → 제품 외관 청소/관리
+
+    
+def function_IO(timeframe: int = 0, location: str = "0"):
+    
+    특정 위치와 시점의 대기질/공기질 정보를 조회하는 함수.
+
+    Parameters:
+    - timeframe (int): 조회 시점 구분 값
+        * 0 → 현재/실시간
+        * 1 → 내일
+        * 2 → 주말
+        * 3~9 → 특정 요일별 예측 (3=월요일, 4=화요일, 5=수요일, 6=목요일, 7=금요일, 8=토요일, 9=일요일)
+    - location (str): 조회할 위치
+        * 지역명 또는 상세 위치명 (예: "판교", "서울", "뉴델리", "실내")
+        * "0" → 위치 미지정 또는 전체/기본 위치 (실내외 통합, 공간별, 또는 기본 모니터링 대상)
+
+    
+For the following query, you MUST choose exact function calls from the predefined set.  
+
+Query : {query}"""
+
+
+
+
+# Template index 3
+PROMPT_4 = """def function_WN(brightness: int = None, get: bool = False):
+    
+def function_MV(mute: bool = None, get: bool = False):
+
+def function_FR():
+
+def function_ID(get: bool = True):
+
+def function_ZX(enable: bool):
+
+def function_SB(type: int):
+
+def function_CS(type: int):
+
+def function_JJ():
+
+def function_YA(move: int):
+
+def function_MO(timeframe: int, location: str = "0"):
+
+def function_ZV(volume: int = None, get: bool = False):
+
+def function_GV():
+
+def function_GQ(gender: int = None, get: bool = False):
+
+def function_GN(enable: bool = None, get: bool = False):
+
+def function_PG():
+
+def function_EW(type: int = None, get: bool = False):
+
+def function_BS(enable: bool):
+
+def function_QD(type: int = None, get: bool = False):
+
+def function_BP(enable: int = None, type: int = None, get: bool = False):
+
+def function_KP(type: int):
+
+def function_EN(type: int):
+
+def function_SC(enable: bool = None, get: bool = False):
+
+def function_CK():
+
+def function_HG(theme: int = -1, get: bool = False):
+
+def function_SV(type: int):
+
+def function_HS(type: int = -1):
+
+def function_DW(type: int):
+
+def function_UY():
+
+def function_XO():
+
+def function_QT(enable: bool = None, get: bool = False):
+
+def function_NK(speed: int = None, get: bool = False):
+
+def function_IH(scan: bool = None, get: bool = False):
+
+def function_KI():
+    
+def function_CE():
+
+def function_HW(type: int):
+
+def function_NN(enable: bool = None, get: bool = False): 
+    
+def function_FF(position: str or int):
+    
+def function_JS(type: int):
+    
+def function_HI(type: int):
+    
+def function_EF(action: int = 1):
+    
+def function_MR():
+
+def function_PC(type: int = None):
+     
+def function_IO(timeframe: int = 0, location: str = "0"):
+
+For the following query, you MUST choose exact function calls from the predefined set.  
+
+Query : {query}"""
+## system message
+# You are a helpful assistant. Always follow the user’s instructions precisely, without making assumptions or adding extra information.
+# You are a helpful assistant. Your top priority is to fulfill the user’s request exactly as written.
+# You are a helpful assistant. Respond only within the scope of the user’s request. 
+
+
+
+PROMPTS = {
+    # 1 : PROMPT_1,
+    # 2 : PROMPT_2,
+    3 : PROMPT_3,
+    4 : PROMPT_4,
+}
