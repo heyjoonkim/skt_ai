@@ -13,7 +13,7 @@ from peft import LoraConfig, TaskType, get_peft_model
 
 
 from utils import seed_everything, logger_init, save_pkl, load_pkl
-from models import _load_transformers_model
+from models import _load_transformers_model, load_transformers_model_and_tokenizer
 
 logger = logging.getLogger(__name__)
 
@@ -186,16 +186,23 @@ def train():
     logger.info(f'Load model : {model_args.model_name_or_path}')
     ## LOAD MODEL and TOKENIZER ##
 
-    model = _load_transformers_model(
-                                    model_name=model_args.model_name_or_path,
-                                    cache_path=cache_dir,
-                                    quantization_config=quantization_config,
-                                    train=True)
+    # model = _load_transformers_model(
+    #                                 model_name=model_args.model_name_or_path,
+    #                                 cache_path=cache_dir,
+    #                                 quantization_config=quantization_config,
+    #                                 train=True)
+    #
+    # try:
+    #     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
+    # except:
+    #     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
 
-    try:
-        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
-    except:
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
+    model, tokenizer = load_transformers_model_and_tokenizer(
+        model_name=model_args.model_name_or_path,
+        cache_path=cache_dir,
+        load_model=True,
+        quantization_config=quantization_config,
+        train=True)
     
 
     model.config.use_cache = False  # Disable cache for DPO training
