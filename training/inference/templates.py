@@ -3,13 +3,10 @@ from typing import List, Dict
 
 # TODO : 우리가 모델한테 넣어줄 시스템 메세지 작성하기
 SYSTEM_MESSAGE = """You are a system that converts **Korean user inputs** into function calls.  
-Even though the input will always be in Korean, your output must strictly follow the function call format.  
 
 Rules:
-- Always output only the function call.
 - Format: <functionName>(parameters)<end>
 - If multiple functions are needed, separate them with a semicolon (;).
-- Parameter values must follow the input meaning and be written as key="value".
 - Do not add translations, explanations, or extra text."""
 
 
