@@ -12,6 +12,7 @@ from omegaconf import DictConfig
 from datasets import load_dataset
 
 from utils import seed_everything, logger_init, save_pkl, load_pkl
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from models import load_transformers_model_and_tokenizer
 from train.preprocess import make_supervised_data_module
 
@@ -38,13 +39,19 @@ def main(args: DictConfig) -> None:
 
     model_name = args.model.name
     model_name_for_dir = model_name.replace('/', '-')
-    
+
+    # try:
+    #     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
+    # except:
+    #     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
+    #
+    # if tokenizer.pad_token is None:
+    #     tokenizer.pad_token = tokenizer.eos_token
     
     _, tokenizer = load_transformers_model_and_tokenizer(
                                             model_name=model_name,
-                                            load_model=False,)      
+                                            load_model=False,)
     
-            
     config_str = f'{model_name_for_dir}-{str(random_seed)}'    
     output_dir = os.path.join(args.path.output, config_str)
     if not os.path.isdir(output_dir):
@@ -62,8 +69,7 @@ def main(args: DictConfig) -> None:
     ######################################
     
     # 최종 결과가 있으면 실험 X
-    # output_filename = os.path.join(output_dir, 'train_data.pkl')
-    output_filename = os.path.join(output_dir, 'train_data_subset.pkl')
+    output_filename = os.path.join(output_dir, 'train_data.pkl')
     
     logger.info(f'Initial prediction file : {output_filename}')
     if not os.path.isfile(output_filename):
@@ -87,6 +93,12 @@ def main(args: DictConfig) -> None:
             # for sample in dataset:
             query = sample.get('query')
             function_call = sample.get('function_call')
+
+            if query is None:
+                continue
+
+            if function_call is None:
+                continue
                                     
             inference_str = PROMPT.format(query=query)
             
@@ -113,7 +125,7 @@ def main(args: DictConfig) -> None:
     
     logger.info(f'Load : {output_filename}')
     sft_sample_list = load_pkl(path=output_filename)
-    output_filename = os.path.join(output_dir, 'final_train_data_subset.pkl')
+    output_filename = os.path.join(output_dir, 'final_train_data.pkl')
     data_module = make_supervised_data_module(tokenizer=tokenizer, dataset=sft_sample_list)
     save_pkl(data=data_module, path=output_filename)
 

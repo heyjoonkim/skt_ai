@@ -214,6 +214,18 @@ class LlamaFunctionCallInference:
     
 
 # HJ add
+def extract_function_name(label: str) -> str:
+    """
+    label에서 함수명만 추출합니다.
+    예: "<function_MO>(timeframe=4, location=\"바레인\")<end>" -> "function_MO"
+    """
+    import re
+    # <function_XX> 패턴을 찾아서 함수명만 추출
+    match = re.search(r'<(function_[A-Z]{2})>', label)
+    if match:
+        return match.group(1)
+    return label  # 매칭되지 않으면 원본 반환
+
 def single_evaluation(query, label, result) -> Dict[str, float]:
     
     if result.strip() == label.strip():
@@ -226,14 +238,11 @@ def main():
     # 베이스라인 모델로 추론 테스트
     # inference = LlamaFunctionCallInference()
     # model_path = "/home/heyjoonkim/data/skt_ai/meta-llama-Llama-3.2-1B-Instruct-1234/SUBSET_PROMPT-4_epoch-1_batch-16_accumulation-1_lr-5e-05"
-    model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0916-1'
+    model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0918-1e3-1'
     inference = LlamaFunctionCallInference(model_name=model_path)
 
-    # HJ fix
-    test_filename = '../data/test.csv'
-    output_file = os.path.join(model_path, 'test_results.pkl')
-    
-    
+    test_filename = '/skt_ai/inference/test.csv'
+    # output_file = os.path.join(model_path, 'test_results.pkl')
     
     with open(test_filename, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -242,60 +251,105 @@ def main():
         count = 0
         correct_count = 0
         res = list()
+        label_stats = {}  # label별 통계를 저장할 딕셔너리
+        
         for row in tqdm(reader):
             query = row[1]   # 두 번째 컬럼 (Query)
-            label = row[2]  # 세 번째 컬럼 (LLM Output)
+            original_label = row[2]  # 세 번째 컬럼 (LLM Output)
             
-            if ';' in label:
+            if ';' in original_label:
                 # 이 경우 다중함수콜이라서 일단 제외
                 continue
             
+            # 함수명만 추출하여 사용
+            label = extract_function_name(original_label)
+            
             result = inference.predict_function_call(query)
             
-            single_res = single_evaluation(query=query, label=label, result=result)
+            single_res = single_evaluation(query=query, label=original_label, result=result)
             
             is_correct = 'CORRECT' if single_res == 1 else 'INCORRECT'
+
+            # label별 통계 업데이트 (추출된 함수명 기준)
+            if label not in label_stats:
+                label_stats[label] = {'total': 0, 'correct': 0, 'incorrect': 0}
             
-            print(f'Query     : {query}')
-            print(f'Label     : {label}')
-            print(f'Prediction: {result}')
-            print(f'Result    : {is_correct}\n\n\n')
-            
+            label_stats[label]['total'] += 1
+            if single_res == 1:
+                label_stats[label]['correct'] += 1
+            else:
+                label_stats[label]['incorrect'] += 1
 
             count += 1
             correct_count += single_res
             
-            res.append(dict(query=query, label=label, result=result, correct=single_res))
-            
-            # # 50개만 임의로해봄
-            # if count == 50:
-            #     break
-            
-        # save_pkl(data=res, path=output_file)
-        print(f'Accuracy : {round(100*correct_count/count, 2)}% ({correct_count} / {count})')
-
+            res.append(dict(query=query, original_label=original_label, function_label=label, result=result, correct=single_res))
+        
+        # label별 정확도 계산
+        label_accuracy = {}
+        for label, stats in label_stats.items():
+            accuracy = round(100 * stats['correct'] / stats['total'], 2) if stats['total'] > 0 else 0
+            label_accuracy[label] = accuracy
+        
+        final_results = {
+            'total_samples': count,
+            'correct_predictions': correct_count,
+            'incorrect_predictions': count - correct_count,
+            'accuracy_percentage': round(100 * correct_count / count, 2),
+            'accuracy_fraction': f"{correct_count}/{count}",
+            'label_statistics': label_stats,
+            'label_accuracy': label_accuracy
+        }
+        
+        print("\n" + "=" * 80)
+        print("FINAL EVALUATION RESULTS")
+        print("=" * 80)
+        
+        # 전체 통계만 print로 출력
+        print("OVERALL STATISTICS:")
+        print("-" * 40)
+        print(f"{'total_samples':<25}: {final_results['total_samples']}")
+        print(f"{'correct_predictions':<25}: {final_results['correct_predictions']}")
+        print(f"{'incorrect_predictions':<25}: {final_results['incorrect_predictions']}")
+        print(f"{'accuracy_percentage':<25}: {final_results['accuracy_percentage']}%")
+        print(f"{'accuracy_fraction':<25}: {final_results['accuracy_fraction']}")
+        print("=" * 80)
+        
+        # label별 상세 통계를 JSON 파일로 저장
+        detailed_results = {
+            'label_statistics': label_stats,
+            'label_accuracy': label_accuracy,
+            'sorted_by_accuracy': [
+                {
+                    'label': label,
+                    'total': stats['total'],
+                    'correct': stats['correct'],
+                    'incorrect': stats['incorrect'],
+                    'accuracy': label_accuracy[label]
+                }
+                for label, stats in sorted(label_stats.items(), key=lambda x: label_accuracy[x[0]], reverse=True)
+            ],
+            'low_performance_functions': [
+                {
+                    'label': label,
+                    'accuracy': accuracy,
+                    'total': label_stats[label]['total'],
+                    'correct': label_stats[label]['correct']
+                }
+                for label, accuracy in sorted(
+                    [(label, acc) for label, acc in label_accuracy.items() if acc < 70 and label_stats[label]['total'] >= 3],
+                    key=lambda x: x[1]
+                )
+            ]
+        }
+        
+        json_output_file = os.path.join('/skt_ai/inference', 'evaluation_results_detailed.json')
+        with open(json_output_file, 'w', encoding='utf-8') as f:
+            json.dump(detailed_results, f, ensure_ascii=False, indent=2)
+        
+        print(f"Detailed label statistics saved to: {json_output_file}")
+        
     return
-
-    # old code
-
-    # 테스트 쿼리
-    test_queries = [
-        "공기 청정기 켜줘",
-        "스테이션으로 돌아가",
-        "풍량 강풍으로 바꿔줘",
-        "청정 기능 켜줘",
-        "터보로 바꿔줘",
-        "충전 해줘",
-    ]
-
-    # 개별 예측
-    logger.info("=== 개별 예측 테스트 ===")
-    for query in test_queries:
-        result = inference.predict_function_call(query)
-        logger.info(f"Query: {query}")
-        logger.info(f"Prediction: {result}")
-        logger.info("-" * 50)
-
 
 if __name__ == "__main__":
     main()
