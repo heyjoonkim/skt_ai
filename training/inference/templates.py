@@ -2985,6 +2985,10 @@ PROMPT_4 = """For the following query, you MUST choose exact function calls from
 
 Query : {query}"""
 
+PROMPT = """For the following query, you MUST choose exact function calls from the predefined set.  
+
+Query : {query}"""
+
 
 PROMPTS = {
     # 1 : PROMPT_1,
