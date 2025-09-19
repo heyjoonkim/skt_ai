@@ -12,13 +12,13 @@ environ:
   dummy_api_key: DUMMY_API_KEY
 
 model:
-  name: Hooooooooooon/Llama-3.2-1B-Instruct-0919-1e3-1
+  name: meta-llama/Llama-3.2-1B-Instruct
 
 path: 
   output: /skt_ai/output
 
 dataset:
-  train: /skt_ai/data_0920/data.jsonl
+  train: /skt_ai/data_0921/data.jsonl
 
 generation:
   template_id: 0

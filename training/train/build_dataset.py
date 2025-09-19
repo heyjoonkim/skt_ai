@@ -40,17 +40,17 @@ def main(args: DictConfig) -> None:
     model_name = args.model.name
     model_name_for_dir = model_name.replace('/', '-')
 
-    try:
-        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
-    except:
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
-
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+    # try:
+    #     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, padding_side="right")
+    # except:
+    #     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct", trust_remote_code=True, padding_side="right")
+    #
+    # if tokenizer.pad_token is None:
+    #     tokenizer.pad_token = tokenizer.eos_token
     
-    # _, tokenizer = load_transformers_model_and_tokenizer(
-    #                                         model_name=model_name,
-    #                                         load_model=False,)
+    _, tokenizer = load_transformers_model_and_tokenizer(
+                                            model_name=model_name,
+                                            load_model=False,)
     
     config_str = f'{model_name_for_dir}-{str(random_seed)}'    
     output_dir = os.path.join(args.path.output, config_str)
