@@ -114,7 +114,7 @@ class LlamaFunctionCallInference:
         messages_list = [
             [
                 {"role": "system", "content": SYSTEM_MESSAGE},
-                {"role": "user", "content": PROMPTS[3].format(query=q)},
+                {"role": "user", "content": PROMPTS[4].format(query=q)},
                 {"role": "assistant", "content": ""},
             ]
             for q in queries
@@ -238,10 +238,12 @@ def main():
     # 베이스라인 모델로 추론 테스트
     # inference = LlamaFunctionCallInference()
     # model_path = "/home/heyjoonkim/data/skt_ai/meta-llama-Llama-3.2-1B-Instruct-1234/SUBSET_PROMPT-4_epoch-1_batch-16_accumulation-1_lr-5e-05"
-    model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0918-1e3-1'
+    # model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0918-1e3-1'
+    model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0919-1e3-1'
     inference = LlamaFunctionCallInference(model_name=model_path)
 
-    test_filename = '/skt_ai/inference/test.csv'
+    # test_filename = '/skt_ai/inference/test.csv'
+    test_filename = '/home/heyjoonkim/sk_ai/data/test.csv'
     # output_file = os.path.join(model_path, 'test_results.pkl')
     
     with open(test_filename, "r", encoding="utf-8") as f:
