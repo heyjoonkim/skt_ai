@@ -106,7 +106,7 @@ def train():
     #                          #
     ############################
     
-    PROMPT_INDEX = 3
+    PROMPT_INDEX = 4
     
     # selected_data_file = os.path.join(base_path, f'final_train_data_subset_{PROMPT_INDEX}.pkl')
     selected_data_file = os.path.join(base_path, 'final_train_data_subset.pkl')
