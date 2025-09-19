@@ -2,8 +2,8 @@ from huggingface_hub import HfApi, HfFolder, Repository
 import os
 
 # 사용자 입력값
-model_checkpoint_path = "/skt_ai/output/Hooooooooooon-Llama-3.2-1B-Instruct-0916-1-1234/PROMPT-3_epoch-1_batch-8_accumulation-1_lr-0.001"   # 저장된 로컬 모델 경로
-repo_id = "Hooooooooooon/Llama-3.2-1B-Instruct-0917-1e3-2"                # 업로드할 repo 이름
+model_checkpoint_path = "/skt_ai/output/meta-llama-Llama-3.2-1B-Instruct-1234/PROMPT-3_epoch-1_batch-8_accumulation-1_lr-0.001"   # 저장된 로컬 모델 경로
+repo_id = "Hooooooooooon/Llama-3.2-1B-Instruct-0918-1e3-1"                # 업로드할 repo 이름
 
 # HuggingFace 로그인 (토큰은 환경변수에 저장)
 hf_token = os.environ.get("HF_TOKEN")
