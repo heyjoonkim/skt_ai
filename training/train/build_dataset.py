@@ -48,9 +48,9 @@ def main(args: DictConfig) -> None:
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
-    _, tokenizer = load_transformers_model_and_tokenizer(
-                                            model_name=model_name,
-                                            load_model=False,)
+    # _, tokenizer = load_transformers_model_and_tokenizer(
+    #                                         model_name=model_name,
+    #                                         load_model=False,)
     
     config_str = f'{model_name_for_dir}-{str(random_seed)}'    
     output_dir = os.path.join(args.path.output, config_str)
