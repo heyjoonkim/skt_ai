@@ -241,8 +241,8 @@ def main():
     model_path='Hooooooooooon/Llama-3.2-1B-Instruct-0919-1e3-2'
     inference = LlamaFunctionCallInference(model_name=model_path)
 
-    # test_filename = '/skt_ai/inference/test.csv'
-    test_filename = '/home/heyjoonkim/sk_ai/data/test.csv'
+    test_filename = '/skt_ai/inference/test.csv'
+    # test_filename = '/home/heyjoonkim/sk_ai/data/test.csv'
     # output_file = os.path.join(model_path, 'test_results.pkl')
     
     with open(test_filename, "r", encoding="utf-8") as f:
