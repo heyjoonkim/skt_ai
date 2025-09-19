@@ -266,6 +266,8 @@ def main():
             label = extract_function_name(original_label)
             
             result = inference.predict_function_call(query)
+
+            print(result)
             
             single_res = single_evaluation(query=query, label=original_label, result=result)
             
